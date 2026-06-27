@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# N2 日文學習系統
 
-## Getting Started
+JLPT N2 対策のための総合学習 PWA。
 
-First, run the development server:
+## 機能
+
+- **初回診断** — 45分のプラスメントテストで弱点を分析
+- **26週カリキュラム** — N3→N2 の6ヶ月学習計画
+- **SRS復習** — FSRS アルゴリズムによる単語・漢字の間隔反復
+- **文法** — 200ポイント + 4種類の練習問題
+- **読解** — 計時モード付き長文読解（60篇）
+- **聴解** — 試験/練習モードの聴解問題（120問）
+- **模擬試験** — JLPT N2 形式の模擬試験 + 合格予測
+- **インポート** — CSV / Anki (.apkg) 対応
+- **クラウド同期** — オプションのログイン同期
+- **オフライン** — PWA + Service Worker
+
+## セットアップ
 
 ```bash
+npm install
+npx tsx scripts/generate-content.ts
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## スクリプト
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- `npm run dev` — 開発サーバー
+- `npm run build` — プロダクションビルド
+- `npm run test` — Vitest ユニットテスト
+- `npm run test:e2e` — Playwright E2E テスト
+- `npm run content:generate` — コンテンツ JSON 再生成
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 技術スタック
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Next.js 16 · TypeScript · Tailwind CSS · Dexie (IndexedDB) · ts-fsrs · NextAuth

@@ -6,21 +6,53 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "content:generate": "tsx scripts/fetch-vocab.ts && tsx scripts/fetch-kanji.ts && tsx scripts/generate-grammar-seeds.ts && tsx scripts/generate-content.ts && tsx scripts/build-jmdict-subset.ts && tsx scripts/generate-listening-audio.ts && tsx scripts/shard-content.ts",
+    "content:shard": "tsx scripts/shard-content.ts",
+    "content:fetch": "tsx scripts/fetch-vocab.ts",
+    "content:audio": "tsx scripts/generate-listening-audio.ts",
+    "content:check-audio": "tsx scripts/check-audio.ts",
+    "content:check-bundle": "tsx scripts/check-bundle-budget.ts",
+    "db:push": "drizzle-kit push"
   },
   "dependencies": {
+    "@auth/drizzle-adapter": "^1.11.2",
+    "@tanstack/react-virtual": "^3.14.4",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.4.0",
+    "dexie": "^4.4.4",
+    "drizzle-orm": "^0.45.2",
+    "fflate": "^0.8.3",
+    "lucide-react": "^1.21.0",
     "next": "16.2.9",
+    "next-auth": "^4.24.14",
+    "papaparse": "^5.5.4",
+    "postgres": "^3.4.9",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "sql.js": "^1.14.1",
+    "tailwind-merge": "^3.6.0",
+    "ts-fsrs": "^5.4.1",
+    "zod": "^4.4.3"
   },
   "devDependencies": {
+    "@playwright/test": "^1.61.1",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
+    "@types/papaparse": "^5.5.2",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@vitejs/plugin-react": "^6.0.3",
+    "drizzle-kit": "^0.31.10",
     "eslint": "^9",
     "eslint-config-next": "16.2.9",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "tsx": "^4.22.4",
+    "typescript": "^5",
+    "vitest": "^4.1.9"
   }
 }

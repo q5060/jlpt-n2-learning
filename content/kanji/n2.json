@@ -1,0 +1,8455 @@
+[
+  {
+    "id": "k001",
+    "character": "維",
+    "onyomi": [
+      "い"
+    ],
+    "kunyomi": [],
+    "meaning": "保つ",
+    "examples": [
+      {
+        "word": "維持",
+        "reading": "いじ",
+        "meaning": "保ち続ける"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k002",
+    "character": "傾",
+    "onyomi": [
+      "けい"
+    ],
+    "kunyomi": [
+      "かたむ"
+    ],
+    "meaning": "傾く",
+    "examples": [
+      {
+        "word": "傾向",
+        "reading": "けいこう",
+        "meaning": "傾き"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k003",
+    "character": "握",
+    "onyomi": [
+      "あく"
+    ],
+    "kunyomi": [
+      "にぎ"
+    ],
+    "meaning": "握る",
+    "examples": [
+      {
+        "word": "把握",
+        "reading": "はあく",
+        "meaning": "理解する"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k004",
+    "character": "響",
+    "onyomi": [
+      "きょう"
+    ],
+    "kunyomi": [
+      "ひび"
+    ],
+    "meaning": "響く",
+    "examples": [
+      {
+        "word": "影響",
+        "reading": "えいきょう",
+        "meaning": "作用"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k005",
+    "character": "施",
+    "onyomi": [
+      "し"
+    ],
+    "kunyomi": [
+      "ほどこ"
+    ],
+    "meaning": "施す",
+    "examples": [
+      {
+        "word": "実施",
+        "reading": "じっし",
+        "meaning": "実行"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k006",
+    "character": "認",
+    "onyomi": [
+      "にん"
+    ],
+    "kunyomi": [
+      "みと"
+    ],
+    "meaning": "認める",
+    "examples": [
+      {
+        "word": "確認",
+        "reading": "かくにん",
+        "meaning": "確かめる"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k007",
+    "character": "討",
+    "onyomi": [
+      "とう"
+    ],
+    "kunyomi": [
+      "う"
+    ],
+    "meaning": "討つ",
+    "examples": [
+      {
+        "word": "検討",
+        "reading": "けんとう",
+        "meaning": "考える"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k008",
+    "character": "促",
+    "onyomi": [
+      "そく"
+    ],
+    "kunyomi": [
+      "うなが"
+    ],
+    "meaning": "促す",
+    "examples": [
+      {
+        "word": "促進",
+        "reading": "そくしん",
+        "meaning": "後押し"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k009",
+    "character": "抑",
+    "onyomi": [
+      "よく"
+    ],
+    "kunyomi": [
+      "おさ"
+    ],
+    "meaning": "抑える",
+    "examples": [
+      {
+        "word": "抑制",
+        "reading": "よくせい",
+        "meaning": "抑える"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k010",
+    "character": "拡",
+    "onyomi": [
+      "かく"
+    ],
+    "kunyomi": [
+      "ひろ"
+    ],
+    "meaning": "拡がる",
+    "examples": [
+      {
+        "word": "拡大",
+        "reading": "かくだい",
+        "meaning": "広げる"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k011",
+    "character": "就",
+    "onyomi": [
+      "しゅうに"
+    ],
+    "kunyomi": [],
+    "meaning": "就任（inauguration",
+    "examples": [
+      {
+        "word": "就任",
+        "reading": "しゅうにん",
+        "meaning": "就任（inauguration, assumption of office）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k012",
+    "character": "任",
+    "onyomi": [
+      "しゅうに"
+    ],
+    "kunyomi": [],
+    "meaning": "就任（inauguration",
+    "examples": [
+      {
+        "word": "就任",
+        "reading": "しゅうにん",
+        "meaning": "就任（inauguration, assumption of office）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k013",
+    "character": "周",
+    "onyomi": [
+      "しゅうへ"
+    ],
+    "kunyomi": [],
+    "meaning": "周辺（circumference",
+    "examples": [
+      {
+        "word": "周辺",
+        "reading": "しゅうへん",
+        "meaning": "周辺（circumference, peripheral）"
+      },
+      {
+        "word": "円周",
+        "reading": "えんしゅう",
+        "meaning": "円周（circumference）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k014",
+    "character": "辺",
+    "onyomi": [
+      "しゅうへ"
+    ],
+    "kunyomi": [],
+    "meaning": "周辺（circumference",
+    "examples": [
+      {
+        "word": "周辺",
+        "reading": "しゅうへん",
+        "meaning": "周辺（circumference, peripheral）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k015",
+    "character": "重",
+    "onyomi": [
+      "じゅうや"
+    ],
+    "kunyomi": [],
+    "meaning": "重役（director",
+    "examples": [
+      {
+        "word": "重役",
+        "reading": "じゅうやく",
+        "meaning": "重役（director, high executive）"
+      },
+      {
+        "word": "重量",
+        "reading": "じゅうりょう",
+        "meaning": "重量（heavyweight）"
+      },
+      {
+        "word": "重力",
+        "reading": "じゅうりょく",
+        "meaning": "重力（gravity）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k016",
+    "character": "役",
+    "onyomi": [
+      "じゅうや"
+    ],
+    "kunyomi": [],
+    "meaning": "重役（director",
+    "examples": [
+      {
+        "word": "重役",
+        "reading": "じゅうやく",
+        "meaning": "重役（director, high executive）"
+      },
+      {
+        "word": "主役",
+        "reading": "しゅやく",
+        "meaning": "主役（leading part）"
+      },
+      {
+        "word": "役者",
+        "reading": "やくしゃ",
+        "meaning": "役者（actor）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k017",
+    "character": "終",
+    "onyomi": [
+      "しゅうり"
+    ],
+    "kunyomi": [],
+    "meaning": "終了（end",
+    "examples": [
+      {
+        "word": "終了",
+        "reading": "しゅうりょう",
+        "meaning": "終了（end, close, termination）"
+      },
+      {
+        "word": "始終",
+        "reading": "しじゅう",
+        "meaning": "始終（continuously, always, constantly）"
+      },
+      {
+        "word": "終点",
+        "reading": "しゅうてん",
+        "meaning": "終点（terminus, last stop (e.g train)）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k018",
+    "character": "了",
+    "onyomi": [
+      "しゅうり"
+    ],
+    "kunyomi": [],
+    "meaning": "終了（end",
+    "examples": [
+      {
+        "word": "終了",
+        "reading": "しゅうりょう",
+        "meaning": "終了（end, close, termination）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k019",
+    "character": "量",
+    "onyomi": [
+      "じゅうり"
+    ],
+    "kunyomi": [],
+    "meaning": "重量（heavyweight）",
+    "examples": [
+      {
+        "word": "重量",
+        "reading": "じゅうりょう",
+        "meaning": "重量（heavyweight）"
+      },
+      {
+        "word": "測量",
+        "reading": "そくりょう",
+        "meaning": "測量（measurement, surveying）"
+      },
+      {
+        "word": "分量",
+        "reading": "ぶんりょう",
+        "meaning": "分量（amount, quantity）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k020",
+    "character": "力",
+    "onyomi": [
+      "じゅうり"
+    ],
+    "kunyomi": [],
+    "meaning": "重力（gravity）",
+    "examples": [
+      {
+        "word": "重力",
+        "reading": "じゅうりょく",
+        "meaning": "重力（gravity）"
+      },
+      {
+        "word": "全力",
+        "reading": "ぜんりょく",
+        "meaning": "全力（all one's power, whole energy）"
+      },
+      {
+        "word": "速力",
+        "reading": "そくりょく",
+        "meaning": "速力（speed）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k021",
+    "character": "熟",
+    "onyomi": [
+      "じゅ"
+    ],
+    "kunyomi": [],
+    "meaning": "熟語（idiom",
+    "examples": [
+      {
+        "word": "熟語",
+        "reading": "じゅくご",
+        "meaning": "熟語（idiom, kanji compound）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k022",
+    "character": "語",
+    "onyomi": [
+      "じゅ"
+    ],
+    "kunyomi": [],
+    "meaning": "熟語（idiom",
+    "examples": [
+      {
+        "word": "熟語",
+        "reading": "じゅくご",
+        "meaning": "熟語（idiom, kanji compound）"
+      },
+      {
+        "word": "主語",
+        "reading": "しゅご",
+        "meaning": "主語（(gram) subject）"
+      },
+      {
+        "word": "述語",
+        "reading": "じゅつご",
+        "meaning": "述語（predicate）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k023",
+    "character": "祝",
+    "onyomi": [
+      "しゅくじ"
+    ],
+    "kunyomi": [],
+    "meaning": "祝日（national holiday）",
+    "examples": [
+      {
+        "word": "祝日",
+        "reading": "しゅくじつ",
+        "meaning": "祝日（national holiday）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k024",
+    "character": "日",
+    "onyomi": [
+      "しゅくじ"
+    ],
+    "kunyomi": [],
+    "meaning": "祝日（national holiday）",
+    "examples": [
+      {
+        "word": "祝日",
+        "reading": "しゅくじつ",
+        "meaning": "祝日（national holiday）"
+      },
+      {
+        "word": "～日",
+        "reading": "～か",
+        "meaning": "～日（counter for days）"
+      },
+      {
+        "word": "元日",
+        "reading": "がんじつ",
+        "meaning": "元日（New Year's Day）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k025",
+    "character": "縮",
+    "onyomi": [
+      "しゅくし"
+    ],
+    "kunyomi": [],
+    "meaning": "縮小（reduction",
+    "examples": [
+      {
+        "word": "縮小",
+        "reading": "しゅくしょう",
+        "meaning": "縮小（reduction, curtailment）"
+      },
+      {
+        "word": "恐縮",
+        "reading": "きょうしゅく",
+        "meaning": "恐縮（sorry to trouble）"
+      },
+      {
+        "word": "圧縮",
+        "reading": "あっしゅく",
+        "meaning": "圧縮（compression, condensation, pressure）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k026",
+    "character": "小",
+    "onyomi": [
+      "しゅくし"
+    ],
+    "kunyomi": [],
+    "meaning": "縮小（reduction",
+    "examples": [
+      {
+        "word": "縮小",
+        "reading": "しゅくしょう",
+        "meaning": "縮小（reduction, curtailment）"
+      },
+      {
+        "word": "小学生",
+        "reading": "しょうがくせい",
+        "meaning": "小学生（elementary school pupil）"
+      },
+      {
+        "word": "小数",
+        "reading": "しょうすう",
+        "meaning": "小数（fraction (part of), decimal）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k027",
+    "character": "受",
+    "onyomi": [
+      "じゅ"
+    ],
+    "kunyomi": [],
+    "meaning": "受験（taking an examination）",
+    "examples": [
+      {
+        "word": "受験",
+        "reading": "じゅけん",
+        "meaning": "受験（taking an examination）"
+      },
+      {
+        "word": "受話器",
+        "reading": "じゅわき",
+        "meaning": "受話器（(telephone) receiver）"
+      },
+      {
+        "word": "受取",
+        "reading": "うけとり",
+        "meaning": "受取（receipt）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k028",
+    "character": "験",
+    "onyomi": [
+      "じゅ"
+    ],
+    "kunyomi": [],
+    "meaning": "受験（taking an examination）",
+    "examples": [
+      {
+        "word": "受験",
+        "reading": "じゅけん",
+        "meaning": "受験（taking an examination）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k029",
+    "character": "主",
+    "onyomi": [
+      "しゅ"
+    ],
+    "kunyomi": [],
+    "meaning": "主語（(gram) subject）",
+    "examples": [
+      {
+        "word": "主語",
+        "reading": "しゅご",
+        "meaning": "主語（(gram) subject）"
+      },
+      {
+        "word": "主人",
+        "reading": "しゅじん",
+        "meaning": "主人（(one's own) husband）"
+      },
+      {
+        "word": "主役",
+        "reading": "しゅやく",
+        "meaning": "主役（leading part）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k030",
+    "character": "人",
+    "onyomi": [
+      "しゅ"
+    ],
+    "kunyomi": [],
+    "meaning": "主人（(one's own) husband）",
+    "examples": [
+      {
+        "word": "主人",
+        "reading": "しゅじん",
+        "meaning": "主人（(one's own) husband）"
+      },
+      {
+        "word": "職人",
+        "reading": "しょくにん",
+        "meaning": "職人（artisan, craftsman）"
+      },
+      {
+        "word": "素人",
+        "reading": "しろうと",
+        "meaning": "素人（layman, amateur, novice）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k031",
+    "character": "出",
+    "onyomi": [
+      "しゅっき"
+    ],
+    "kunyomi": [],
+    "meaning": "出勤（going to work",
+    "examples": [
+      {
+        "word": "出勤",
+        "reading": "しゅっきん",
+        "meaning": "出勤（going to work, at work）"
+      },
+      {
+        "word": "出張",
+        "reading": "しゅっちょう",
+        "meaning": "出張（official tour, business trip）"
+      },
+      {
+        "word": "お出掛け",
+        "reading": "おでかけ",
+        "meaning": "お出掛け（outing）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k032",
+    "character": "勤",
+    "onyomi": [
+      "しゅっき"
+    ],
+    "kunyomi": [],
+    "meaning": "出勤（going to work",
+    "examples": [
+      {
+        "word": "出勤",
+        "reading": "しゅっきん",
+        "meaning": "出勤（going to work, at work）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k033",
+    "character": "述",
+    "onyomi": [
+      "じゅ"
+    ],
+    "kunyomi": [],
+    "meaning": "述語（predicate）",
+    "examples": [
+      {
+        "word": "述語",
+        "reading": "じゅつご",
+        "meaning": "述語（predicate）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k034",
+    "character": "張",
+    "onyomi": [
+      "しゅっち"
+    ],
+    "kunyomi": [],
+    "meaning": "出張（official tour",
+    "examples": [
+      {
+        "word": "出張",
+        "reading": "しゅっちょう",
+        "meaning": "出張（official tour, business trip）"
+      },
+      {
+        "word": "拡張",
+        "reading": "かくちょう",
+        "meaning": "拡張（expansion, extension）"
+      },
+      {
+        "word": "威張る",
+        "reading": "いばる",
+        "meaning": "威張る（to be proud, to swagger）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k035",
+    "character": "寿",
+    "onyomi": [
+      "じゅみょ"
+    ],
+    "kunyomi": [],
+    "meaning": "寿命（life span）",
+    "examples": [
+      {
+        "word": "寿命",
+        "reading": "じゅみょう",
+        "meaning": "寿命（life span）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k036",
+    "character": "命",
+    "onyomi": [
+      "じゅみょ"
+    ],
+    "kunyomi": [],
+    "meaning": "寿命（life span）",
+    "examples": [
+      {
+        "word": "寿命",
+        "reading": "じゅみょう",
+        "meaning": "寿命（life span）"
+      },
+      {
+        "word": "人命",
+        "reading": "じんめい",
+        "meaning": "人命（(human) life）"
+      },
+      {
+        "word": "懸命",
+        "reading": "けんめい",
+        "meaning": "懸命（eagerness, strenuous）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k037",
+    "character": "話",
+    "onyomi": [
+      "じゅ"
+    ],
+    "kunyomi": [],
+    "meaning": "受話器（(telephone) receiver）",
+    "examples": [
+      {
+        "word": "受話器",
+        "reading": "じゅわき",
+        "meaning": "受話器（(telephone) receiver）"
+      },
+      {
+        "word": "神話",
+        "reading": "しんわ",
+        "meaning": "神話（myth, legend）"
+      },
+      {
+        "word": "お世話になりました",
+        "reading": "おせわになりました",
+        "meaning": "お世話になりました（I've been in your care）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k038",
+    "character": "器",
+    "onyomi": [
+      "じゅ"
+    ],
+    "kunyomi": [],
+    "meaning": "受話器（(telephone) receiver）",
+    "examples": [
+      {
+        "word": "受話器",
+        "reading": "じゅわき",
+        "meaning": "受話器（(telephone) receiver）"
+      },
+      {
+        "word": "食器",
+        "reading": "しょっき",
+        "meaning": "食器（tableware）"
+      },
+      {
+        "word": "～器",
+        "reading": "～き",
+        "meaning": "～器（device, equipment）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k039",
+    "character": "循",
+    "onyomi": [
+      "じゅんか"
+    ],
+    "kunyomi": [],
+    "meaning": "循環（circulation",
+    "examples": [
+      {
+        "word": "循環",
+        "reading": "じゅんかん",
+        "meaning": "循環（circulation, rotation, cycle）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k040",
+    "character": "環",
+    "onyomi": [
+      "じゅんか"
+    ],
+    "kunyomi": [],
+    "meaning": "循環（circulation",
+    "examples": [
+      {
+        "word": "循環",
+        "reading": "じゅんかん",
+        "meaning": "循環（circulation, rotation, cycle）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k041",
+    "character": "巡",
+    "onyomi": [
+      "じゅ"
+    ],
+    "kunyomi": [],
+    "meaning": "巡査（policeman）",
+    "examples": [
+      {
+        "word": "巡査",
+        "reading": "じゅんさ",
+        "meaning": "巡査（policeman）"
+      },
+      {
+        "word": "巡る",
+        "reading": "めぐる",
+        "meaning": "巡る（to go around）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k042",
+    "character": "査",
+    "onyomi": [
+      "じゅ"
+    ],
+    "kunyomi": [],
+    "meaning": "巡査（policeman）",
+    "examples": [
+      {
+        "word": "巡査",
+        "reading": "じゅんさ",
+        "meaning": "巡査（policeman）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k043",
+    "character": "順",
+    "onyomi": [
+      "じゅんじ"
+    ],
+    "kunyomi": [],
+    "meaning": "順々（in order",
+    "examples": [
+      {
+        "word": "順々",
+        "reading": "じゅんじゅん",
+        "meaning": "順々（in order, in turn）"
+      },
+      {
+        "word": "順序",
+        "reading": "じゅんじょ",
+        "meaning": "順序（order, sequence, procedure）"
+      },
+      {
+        "word": "道順",
+        "reading": "みちじゅん",
+        "meaning": "道順（itinerary, route）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k044",
+    "character": "序",
+    "onyomi": [
+      "じゅんじ"
+    ],
+    "kunyomi": [],
+    "meaning": "順序（order",
+    "examples": [
+      {
+        "word": "順序",
+        "reading": "じゅんじょ",
+        "meaning": "順序（order, sequence, procedure）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k045",
+    "character": "純",
+    "onyomi": [
+      "じゅんじ"
+    ],
+    "kunyomi": [],
+    "meaning": "純情（pure heart）",
+    "examples": [
+      {
+        "word": "純情",
+        "reading": "じゅんじょう",
+        "meaning": "純情（pure heart）"
+      },
+      {
+        "word": "純粋",
+        "reading": "じゅんすい",
+        "meaning": "純粋（pure, genuine, unmixed）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k046",
+    "character": "情",
+    "onyomi": [
+      "じゅんじ"
+    ],
+    "kunyomi": [],
+    "meaning": "純情（pure heart）",
+    "examples": [
+      {
+        "word": "純情",
+        "reading": "じゅんじょう",
+        "meaning": "純情（pure heart）"
+      },
+      {
+        "word": "苦情",
+        "reading": "くじょう",
+        "meaning": "苦情（complaint, grievance, grumble）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k047",
+    "character": "粋",
+    "onyomi": [
+      "じゅんす"
+    ],
+    "kunyomi": [],
+    "meaning": "純粋（pure",
+    "examples": [
+      {
+        "word": "純粋",
+        "reading": "じゅんすい",
+        "meaning": "純粋（pure, genuine, unmixed）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k048",
+    "character": "初",
+    "onyomi": [
+      "しょ"
+    ],
+    "kunyomi": [],
+    "meaning": "初～（first ~）",
+    "examples": [
+      {
+        "word": "初～",
+        "reading": "しょ～",
+        "meaning": "初～（first ~）"
+      },
+      {
+        "word": "初級",
+        "reading": "しょきゅう",
+        "meaning": "初級（elementary level）"
+      },
+      {
+        "word": "初旬",
+        "reading": "しょじゅん",
+        "meaning": "初旬（first 10 days of the month）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k049",
+    "character": "諸",
+    "onyomi": [
+      "しょ"
+    ],
+    "kunyomi": [],
+    "meaning": "諸～（various ~）",
+    "examples": [
+      {
+        "word": "諸～",
+        "reading": "しょ～",
+        "meaning": "諸～（various ~）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k050",
+    "character": "所",
+    "onyomi": [
+      "～し"
+    ],
+    "kunyomi": [],
+    "meaning": "～所（place）",
+    "examples": [
+      {
+        "word": "～所",
+        "reading": "～しょ",
+        "meaning": "～所（place）"
+      },
+      {
+        "word": "箇所",
+        "reading": "かしょ",
+        "meaning": "箇所（place, point, part）"
+      },
+      {
+        "word": "所々",
+        "reading": "ところどころ",
+        "meaning": "所々（here and there, some parts (of something)）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k051",
+    "character": "女",
+    "onyomi": [
+      "じょ"
+    ],
+    "kunyomi": [],
+    "meaning": "女～（things done by women）",
+    "examples": [
+      {
+        "word": "女～",
+        "reading": "じょ～",
+        "meaning": "女～（things done by women）"
+      },
+      {
+        "word": "～女",
+        "reading": "～じょ",
+        "meaning": "～女（count for sisters）"
+      },
+      {
+        "word": "女の人",
+        "reading": "おんなのひと",
+        "meaning": "女の人（woman）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k052",
+    "character": "省",
+    "onyomi": [
+      "しょ"
+    ],
+    "kunyomi": [],
+    "meaning": "省～（economizing ~）",
+    "examples": [
+      {
+        "word": "省～",
+        "reading": "しょう～",
+        "meaning": "省～（economizing ~）"
+      },
+      {
+        "word": "～省",
+        "reading": "～しょう",
+        "meaning": "～省（kind of ministry）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k053",
+    "character": "商",
+    "onyomi": [
+      "～し"
+    ],
+    "kunyomi": [],
+    "meaning": "～商（merchant",
+    "examples": [
+      {
+        "word": "～商",
+        "reading": "～しょう",
+        "meaning": "～商（merchant, business）"
+      },
+      {
+        "word": "商業",
+        "reading": "しょうぎょう",
+        "meaning": "商業（commerce, trade, business）"
+      },
+      {
+        "word": "商社",
+        "reading": "しょうしゃ",
+        "meaning": "商社（trading company）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k054",
+    "character": "勝",
+    "onyomi": [
+      "～し"
+    ],
+    "kunyomi": [],
+    "meaning": "～勝（count for victory）",
+    "examples": [
+      {
+        "word": "～勝",
+        "reading": "～しょう",
+        "meaning": "～勝（count for victory）"
+      },
+      {
+        "word": "勝敗",
+        "reading": "しょうはい",
+        "meaning": "勝敗（victory or defeat, issue (of battle)）"
+      },
+      {
+        "word": "勝負",
+        "reading": "しょうぶ",
+        "meaning": "勝負（victory or defeat, game）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k055",
+    "character": "条",
+    "onyomi": [
+      "～じ"
+    ],
+    "kunyomi": [],
+    "meaning": "～条（counter for article）",
+    "examples": [
+      {
+        "word": "～条",
+        "reading": "～じょう",
+        "meaning": "～条（counter for article）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k056",
+    "character": "場",
+    "onyomi": [
+      "～じ"
+    ],
+    "kunyomi": [],
+    "meaning": "～場（kind of field",
+    "examples": [
+      {
+        "word": "～場",
+        "reading": "～じょう",
+        "meaning": "～場（kind of field, ground）"
+      },
+      {
+        "word": "職場",
+        "reading": "しょくば",
+        "meaning": "職場（workplace）"
+      },
+      {
+        "word": "酒場",
+        "reading": "さかば",
+        "meaning": "酒場（bar, bar-room）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k057",
+    "character": "畳",
+    "onyomi": [
+      "～じ"
+    ],
+    "kunyomi": [],
+    "meaning": "～畳（count for tatami",
+    "examples": [
+      {
+        "word": "～畳",
+        "reading": "～じょう",
+        "meaning": "～畳（count for tatami, mat）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k058",
+    "character": "消",
+    "onyomi": [
+      "しょ"
+    ],
+    "kunyomi": [],
+    "meaning": "消化（digestion）",
+    "examples": [
+      {
+        "word": "消化",
+        "reading": "しょうか",
+        "meaning": "消化（digestion）"
+      },
+      {
+        "word": "消極的",
+        "reading": "しょうきょくてき",
+        "meaning": "消極的（passive）"
+      },
+      {
+        "word": "消毒",
+        "reading": "しょうどく",
+        "meaning": "消毒（disinfection）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k059",
+    "character": "化",
+    "onyomi": [
+      "しょ"
+    ],
+    "kunyomi": [],
+    "meaning": "消化（digestion）",
+    "examples": [
+      {
+        "word": "消化",
+        "reading": "しょうか",
+        "meaning": "消化（digestion）"
+      },
+      {
+        "word": "～化",
+        "reading": "～か",
+        "meaning": "～化（action of making something）"
+      },
+      {
+        "word": "強化",
+        "reading": "きょうか",
+        "meaning": "強化（strengthen, intensify, reinforce）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k060",
+    "character": "学",
+    "onyomi": [
+      "しょうが"
+    ],
+    "kunyomi": [],
+    "meaning": "小学生（elementary school pupil）",
+    "examples": [
+      {
+        "word": "小学生",
+        "reading": "しょうがくせい",
+        "meaning": "小学生（elementary school pupil）"
+      },
+      {
+        "word": "人文科学",
+        "reading": "じんぶんかがく",
+        "meaning": "人文科学（social sciences, humanities）"
+      },
+      {
+        "word": "大学院",
+        "reading": "だいがくいん",
+        "meaning": "大学院（graduate school）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k061",
+    "character": "生",
+    "onyomi": [
+      "しょうが"
+    ],
+    "kunyomi": [],
+    "meaning": "小学生（elementary school pupil）",
+    "examples": [
+      {
+        "word": "小学生",
+        "reading": "しょうがくせい",
+        "meaning": "小学生（elementary school pupil）"
+      },
+      {
+        "word": "生ずる",
+        "reading": "しょうずる",
+        "meaning": "生ずる（to cause, to arise, to be generated）"
+      },
+      {
+        "word": "生存",
+        "reading": "せいぞん",
+        "meaning": "生存（existence, being, survival）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k062",
+    "character": "将",
+    "onyomi": [
+      "しょ"
+    ],
+    "kunyomi": [],
+    "meaning": "将棋（Japanese chess）",
+    "examples": [
+      {
+        "word": "将棋",
+        "reading": "しょうぎ",
+        "meaning": "将棋（Japanese chess）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k063",
+    "character": "棋",
+    "onyomi": [
+      "しょ"
+    ],
+    "kunyomi": [],
+    "meaning": "将棋（Japanese chess）",
+    "examples": [
+      {
+        "word": "将棋",
+        "reading": "しょうぎ",
+        "meaning": "将棋（Japanese chess）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k064",
+    "character": "蒸",
+    "onyomi": [
+      "じょ"
+    ],
+    "kunyomi": [],
+    "meaning": "蒸気（steam",
+    "examples": [
+      {
+        "word": "蒸気",
+        "reading": "じょうき",
+        "meaning": "蒸気（steam, vapor）"
+      },
+      {
+        "word": "蒸発",
+        "reading": "じょうはつ",
+        "meaning": "蒸発（evaporation; unexplained disappearance）"
+      },
+      {
+        "word": "水蒸気",
+        "reading": "すいじょうき",
+        "meaning": "水蒸気（water vapor, steam）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k065",
+    "character": "気",
+    "onyomi": [
+      "じょ"
+    ],
+    "kunyomi": [],
+    "meaning": "蒸気（steam",
+    "examples": [
+      {
+        "word": "蒸気",
+        "reading": "じょうき",
+        "meaning": "蒸気（steam, vapor）"
+      },
+      {
+        "word": "水蒸気",
+        "reading": "すいじょうき",
+        "meaning": "水蒸気（water vapor, steam）"
+      },
+      {
+        "word": "お気の毒に",
+        "reading": "おきのどくに",
+        "meaning": "お気の毒に（I'm sorry to hear that…）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k066",
+    "character": "定",
+    "onyomi": [
+      "じょ"
+    ],
+    "kunyomi": [],
+    "meaning": "定規（(measuring) ruler）",
+    "examples": [
+      {
+        "word": "定規",
+        "reading": "じょうぎ",
+        "meaning": "定規（(measuring) ruler）"
+      },
+      {
+        "word": "推定",
+        "reading": "すいてい",
+        "meaning": "推定（presumption, assumption, estimation）"
+      },
+      {
+        "word": "測定",
+        "reading": "そくてい",
+        "meaning": "測定（measurement）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k067",
+    "character": "規",
+    "onyomi": [
+      "じょ"
+    ],
+    "kunyomi": [],
+    "meaning": "定規（(measuring) ruler）",
+    "examples": [
+      {
+        "word": "定規",
+        "reading": "じょうぎ",
+        "meaning": "定規（(measuring) ruler）"
+      },
+      {
+        "word": "規準",
+        "reading": "きじゅん",
+        "meaning": "規準（standard, basis, criteria）"
+      },
+      {
+        "word": "規律",
+        "reading": "きりつ",
+        "meaning": "規律（order, rules, law）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k068",
+    "character": "上",
+    "onyomi": [
+      "じょうき"
+    ],
+    "kunyomi": [],
+    "meaning": "上級（advanced level",
+    "examples": [
+      {
+        "word": "上級",
+        "reading": "じょうきゅう",
+        "meaning": "上級（advanced level, high grade, senior）"
+      },
+      {
+        "word": "上下",
+        "reading": "じょうげ",
+        "meaning": "上下（high and low, up and down）"
+      },
+      {
+        "word": "上旬",
+        "reading": "じょうじゅん",
+        "meaning": "上旬（first 10 days of month）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k069",
+    "character": "級",
+    "onyomi": [
+      "じょうき"
+    ],
+    "kunyomi": [],
+    "meaning": "上級（advanced level",
+    "examples": [
+      {
+        "word": "上級",
+        "reading": "じょうきゅう",
+        "meaning": "上級（advanced level, high grade, senior）"
+      },
+      {
+        "word": "初級",
+        "reading": "しょきゅう",
+        "meaning": "初級（elementary level）"
+      },
+      {
+        "word": "学級",
+        "reading": "がっきゅう",
+        "meaning": "学級（class）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k070",
+    "character": "業",
+    "onyomi": [
+      "しょうぎ"
+    ],
+    "kunyomi": [],
+    "meaning": "商業（commerce",
+    "examples": [
+      {
+        "word": "商業",
+        "reading": "しょうぎょう",
+        "meaning": "商業（commerce, trade, business）"
+      },
+      {
+        "word": "休業",
+        "reading": "きゅうぎょう",
+        "meaning": "休業（closure, shutdown, holiday）"
+      },
+      {
+        "word": "～業",
+        "reading": "～ぎょう",
+        "meaning": "～業（type of business）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k071",
+    "character": "極",
+    "onyomi": [
+      "しょうき"
+    ],
+    "kunyomi": [],
+    "meaning": "消極的（passive）",
+    "examples": [
+      {
+        "word": "消極的",
+        "reading": "しょうきょくてき",
+        "meaning": "消極的（passive）"
+      },
+      {
+        "word": "南極",
+        "reading": "なんきょく",
+        "meaning": "南極（south pole, Antarctic）"
+      },
+      {
+        "word": "北極",
+        "reading": "ほっきょく",
+        "meaning": "北極（North Pole）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k072",
+    "character": "的",
+    "onyomi": [
+      "しょうき"
+    ],
+    "kunyomi": [],
+    "meaning": "消極的（passive）",
+    "examples": [
+      {
+        "word": "消極的",
+        "reading": "しょうきょくてき",
+        "meaning": "消極的（passive）"
+      },
+      {
+        "word": "比較的",
+        "reading": "ひかくてき",
+        "meaning": "比較的（comparatively; relatively）"
+      },
+      {
+        "word": "的確",
+        "reading": "てきかく",
+        "meaning": "的確（precise, accurate）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k073",
+    "character": "賞",
+    "onyomi": [
+      "しょうき"
+    ],
+    "kunyomi": [],
+    "meaning": "賞金（prize",
+    "examples": [
+      {
+        "word": "賞金",
+        "reading": "しょうきん",
+        "meaning": "賞金（prize, monetary award）"
+      },
+      {
+        "word": "鑑賞",
+        "reading": "かんしょう",
+        "meaning": "鑑賞（appreciation）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k074",
+    "character": "金",
+    "onyomi": [
+      "しょうき"
+    ],
+    "kunyomi": [],
+    "meaning": "賞金（prize",
+    "examples": [
+      {
+        "word": "賞金",
+        "reading": "しょうきん",
+        "meaning": "賞金（prize, monetary award）"
+      },
+      {
+        "word": "金魚",
+        "reading": "きんぎょ",
+        "meaning": "金魚（goldfish）"
+      },
+      {
+        "word": "集金",
+        "reading": "しゅうきん",
+        "meaning": "集金（money collection）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k075",
+    "character": "下",
+    "onyomi": [
+      "じょ"
+    ],
+    "kunyomi": [],
+    "meaning": "上下（high and low",
+    "examples": [
+      {
+        "word": "上下",
+        "reading": "じょうげ",
+        "meaning": "上下（high and low, up and down）"
+      },
+      {
+        "word": "～下",
+        "reading": "～か",
+        "meaning": "～下（under ~）"
+      },
+      {
+        "word": "下降",
+        "reading": "かこう",
+        "meaning": "下降（decline, descent, fall）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k076",
+    "character": "障",
+    "onyomi": [
+      "しょ"
+    ],
+    "kunyomi": [],
+    "meaning": "障子（paper sliding door）",
+    "examples": [
+      {
+        "word": "障子",
+        "reading": "しょうじ",
+        "meaning": "障子（paper sliding door）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k077",
+    "character": "子",
+    "onyomi": [
+      "しょ"
+    ],
+    "kunyomi": [],
+    "meaning": "障子（paper sliding door）",
+    "examples": [
+      {
+        "word": "障子",
+        "reading": "しょうじ",
+        "meaning": "障子（paper sliding door）"
+      },
+      {
+        "word": "末っ子",
+        "reading": "すえっこ",
+        "meaning": "末っ子（youngest child）"
+      },
+      {
+        "word": "扇子",
+        "reading": "せんす",
+        "meaning": "扇子（folding fan）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k078",
+    "character": "社",
+    "onyomi": [
+      "しょうし"
+    ],
+    "kunyomi": [],
+    "meaning": "商社（trading company）",
+    "examples": [
+      {
+        "word": "商社",
+        "reading": "しょうしゃ",
+        "meaning": "商社（trading company）"
+      },
+      {
+        "word": "～社",
+        "reading": "～しゃ",
+        "meaning": "～社（counter for company）"
+      },
+      {
+        "word": "社会科学",
+        "reading": "しゃかいかがく",
+        "meaning": "社会科学（social science）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k079",
+    "character": "乗",
+    "onyomi": [
+      "じょうし"
+    ],
+    "kunyomi": [],
+    "meaning": "乗車（taking a train",
+    "examples": [
+      {
+        "word": "乗車",
+        "reading": "じょうしゃ",
+        "meaning": "乗車（taking a train, entraining）"
+      },
+      {
+        "word": "乗換",
+        "reading": "のりかえ",
+        "meaning": "乗換（a transfer (e.g., trains, buses)）"
+      },
+      {
+        "word": "乗り越し",
+        "reading": "のりこし",
+        "meaning": "乗り越し（riding past (one's station)）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k080",
+    "character": "車",
+    "onyomi": [
+      "じょうし"
+    ],
+    "kunyomi": [],
+    "meaning": "乗車（taking a train",
+    "examples": [
+      {
+        "word": "乗車",
+        "reading": "じょうしゃ",
+        "meaning": "乗車（taking a train, entraining）"
+      },
+      {
+        "word": "機関車",
+        "reading": "きかんしゃ",
+        "meaning": "機関車（locomotive, engine）"
+      },
+      {
+        "word": "下車",
+        "reading": "げしゃ",
+        "meaning": "下車（alighting, getting off）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k081",
+    "character": "旬",
+    "onyomi": [
+      "じょうじ"
+    ],
+    "kunyomi": [],
+    "meaning": "上旬（first 10 days of month）",
+    "examples": [
+      {
+        "word": "上旬",
+        "reading": "じょうじゅん",
+        "meaning": "上旬（first 10 days of month）"
+      },
+      {
+        "word": "初旬",
+        "reading": "しょじゅん",
+        "meaning": "初旬（first 10 days of the month）"
+      },
+      {
+        "word": "下旬",
+        "reading": "げじゅん",
+        "meaning": "下旬（month (last third of)）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k082",
+    "character": "数",
+    "onyomi": [
+      "しょうす"
+    ],
+    "kunyomi": [],
+    "meaning": "小数（fraction (part of)",
+    "examples": [
+      {
+        "word": "小数",
+        "reading": "しょうすう",
+        "meaning": "小数（fraction (part of), decimal）"
+      },
+      {
+        "word": "整数",
+        "reading": "せいすう",
+        "meaning": "整数（integer）"
+      },
+      {
+        "word": "回数",
+        "reading": "かいすう",
+        "meaning": "回数（number of times, frequency）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k083",
+    "character": "店",
+    "onyomi": [
+      "しょうて"
+    ],
+    "kunyomi": [],
+    "meaning": "商店（shop",
+    "examples": [
+      {
+        "word": "商店",
+        "reading": "しょうてん",
+        "meaning": "商店（shop, business firm）"
+      },
+      {
+        "word": "書店",
+        "reading": "しょてん",
+        "meaning": "書店（bookshop）"
+      },
+      {
+        "word": "売店",
+        "reading": "ばいてん",
+        "meaning": "売店（shop, stand）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k084",
+    "character": "焦",
+    "onyomi": [
+      "しょうて"
+    ],
+    "kunyomi": [],
+    "meaning": "焦点（focus",
+    "examples": [
+      {
+        "word": "焦点",
+        "reading": "しょうてん",
+        "meaning": "焦点（focus, point）"
+      },
+      {
+        "word": "焦がす",
+        "reading": "こがす",
+        "meaning": "焦がす（to burn, to scorch）"
+      },
+      {
+        "word": "焦げる",
+        "reading": "こげる",
+        "meaning": "焦げる（to burn, to be burned）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k085",
+    "character": "点",
+    "onyomi": [
+      "しょうて"
+    ],
+    "kunyomi": [],
+    "meaning": "焦点（focus",
+    "examples": [
+      {
+        "word": "焦点",
+        "reading": "しょうてん",
+        "meaning": "焦点（focus, point）"
+      },
+      {
+        "word": "句読点",
+        "reading": "くとうてん",
+        "meaning": "句読点（punctuation marks）"
+      },
+      {
+        "word": "採点",
+        "reading": "さいてん",
+        "meaning": "採点（marking, grading）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k086",
+    "character": "毒",
+    "onyomi": [
+      "しょうど"
+    ],
+    "kunyomi": [],
+    "meaning": "消毒（disinfection）",
+    "examples": [
+      {
+        "word": "消毒",
+        "reading": "しょうどく",
+        "meaning": "消毒（disinfection）"
+      },
+      {
+        "word": "お気の毒に",
+        "reading": "おきのどくに",
+        "meaning": "お気の毒に（I'm sorry to hear that…）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k087",
+    "character": "敗",
+    "onyomi": [
+      "しょうは"
+    ],
+    "kunyomi": [],
+    "meaning": "勝敗（victory or defeat",
+    "examples": [
+      {
+        "word": "勝敗",
+        "reading": "しょうはい",
+        "meaning": "勝敗（victory or defeat, issue (of battle)）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k088",
+    "character": "発",
+    "onyomi": [
+      "じょうは"
+    ],
+    "kunyomi": [],
+    "meaning": "蒸発（evaporation",
+    "examples": [
+      {
+        "word": "蒸発",
+        "reading": "じょうはつ",
+        "meaning": "蒸発（evaporation; unexplained disappearance）"
+      },
+      {
+        "word": "～発",
+        "reading": "～はつ",
+        "meaning": "～発（counter for bullets）"
+      },
+      {
+        "word": "発揮",
+        "reading": "はっき",
+        "meaning": "発揮（exhibition, demonstration, display）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k089",
+    "character": "品",
+    "onyomi": [
+      "じょうひ"
+    ],
+    "kunyomi": [],
+    "meaning": "上品（refined",
+    "examples": [
+      {
+        "word": "上品",
+        "reading": "じょうひん",
+        "meaning": "上品（refined, elegant, well-mannered）"
+      },
+      {
+        "word": "下品",
+        "reading": "げひん",
+        "meaning": "下品（vulgar, indecent, coarse）"
+      },
+      {
+        "word": "日用品",
+        "reading": "にちようひん",
+        "meaning": "日用品（daily necessities）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k090",
+    "character": "負",
+    "onyomi": [
+      "しょ"
+    ],
+    "kunyomi": [],
+    "meaning": "勝負（victory or defeat",
+    "examples": [
+      {
+        "word": "勝負",
+        "reading": "しょうぶ",
+        "meaning": "勝負（victory or defeat, game）"
+      },
+      {
+        "word": "背負う",
+        "reading": "せおう",
+        "meaning": "to be burdened with; to carry on (one's) back or shoulder(s)"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k091",
+    "character": "便",
+    "onyomi": [
+      "しょうべ"
+    ],
+    "kunyomi": [],
+    "meaning": "小便（(col) urine",
+    "examples": [
+      {
+        "word": "小便",
+        "reading": "しょうべん",
+        "meaning": "小便（(col) urine, piss）"
+      },
+      {
+        "word": "便箋",
+        "reading": "びんせん",
+        "meaning": "便箋（writing paper, stationery）"
+      },
+      {
+        "word": "船便",
+        "reading": "ふなびん",
+        "meaning": "船便（surface mail (ship)）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k092",
+    "character": "防",
+    "onyomi": [
+      "しょうぼ"
+    ],
+    "kunyomi": [],
+    "meaning": "消防署（fire station）",
+    "examples": [
+      {
+        "word": "消防署",
+        "reading": "しょうぼうしょ",
+        "meaning": "消防署（fire station）"
+      },
+      {
+        "word": "防～",
+        "reading": "ぼう～",
+        "meaning": "防～（~ prevention）"
+      },
+      {
+        "word": "防止",
+        "reading": "ぼうし",
+        "meaning": "防止（prevention, check）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k093",
+    "character": "署",
+    "onyomi": [
+      "しょうぼ"
+    ],
+    "kunyomi": [],
+    "meaning": "消防署（fire station）",
+    "examples": [
+      {
+        "word": "消防署",
+        "reading": "しょうぼうしょ",
+        "meaning": "消防署（fire station）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k094",
+    "character": "正",
+    "onyomi": [
+      "しょ"
+    ],
+    "kunyomi": [],
+    "meaning": "正味（net (weight)）",
+    "examples": [
+      {
+        "word": "正味",
+        "reading": "しょうみ",
+        "meaning": "正味（net (weight)）"
+      },
+      {
+        "word": "正面",
+        "reading": "しょうめん",
+        "meaning": "正面（front）"
+      },
+      {
+        "word": "正方形",
+        "reading": "せいほうけい",
+        "meaning": "正方形（square）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k095",
+    "character": "味",
+    "onyomi": [
+      "しょ"
+    ],
+    "kunyomi": [],
+    "meaning": "正味（net (weight)）",
+    "examples": [
+      {
+        "word": "正味",
+        "reading": "しょうみ",
+        "meaning": "正味（net (weight)）"
+      },
+      {
+        "word": "～気味",
+        "reading": "～ぎみ",
+        "meaning": "～気味（slightly ~）"
+      },
+      {
+        "word": "味わう",
+        "reading": "あじわう",
+        "meaning": "味わう（to taste, to savor）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k096",
+    "character": "面",
+    "onyomi": [
+      "しょうめ"
+    ],
+    "kunyomi": [],
+    "meaning": "正面（front）",
+    "examples": [
+      {
+        "word": "正面",
+        "reading": "しょうめん",
+        "meaning": "正面（front）"
+      },
+      {
+        "word": "水面",
+        "reading": "すいめん",
+        "meaning": "水面（water's surface）"
+      },
+      {
+        "word": "洗面",
+        "reading": "せんめん",
+        "meaning": "洗面（wash up (one's face), have a wash）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k097",
+    "character": "耗",
+    "onyomi": [
+      "しょうも"
+    ],
+    "kunyomi": [],
+    "meaning": "消耗（exhaustion",
+    "examples": [
+      {
+        "word": "消耗",
+        "reading": "しょうもう",
+        "meaning": "消耗（exhaustion, consumption）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k098",
+    "character": "助",
+    "onyomi": [
+      "じょきょ"
+    ],
+    "kunyomi": [],
+    "meaning": "助教授（assistant professor）",
+    "examples": [
+      {
+        "word": "助教授",
+        "reading": "じょきょうじゅ",
+        "meaning": "助教授（assistant professor）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k099",
+    "character": "教",
+    "onyomi": [
+      "じょきょ"
+    ],
+    "kunyomi": [],
+    "meaning": "助教授（assistant professor）",
+    "examples": [
+      {
+        "word": "助教授",
+        "reading": "じょきょうじゅ",
+        "meaning": "助教授（assistant professor）"
+      },
+      {
+        "word": "～教",
+        "reading": "～きょう",
+        "meaning": "～教（religion）"
+      },
+      {
+        "word": "教養",
+        "reading": "きょうよう",
+        "meaning": "教養（culture, education, sophistication）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k100",
+    "character": "授",
+    "onyomi": [
+      "じょきょ"
+    ],
+    "kunyomi": [],
+    "meaning": "助教授（assistant professor）",
+    "examples": [
+      {
+        "word": "助教授",
+        "reading": "じょきょうじゅ",
+        "meaning": "助教授（assistant professor）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k101",
+    "character": "色",
+    "onyomi": [
+      "～し"
+    ],
+    "kunyomi": [],
+    "meaning": "～色（kind of color）",
+    "examples": [
+      {
+        "word": "～色",
+        "reading": "～しょく",
+        "meaning": "～色（kind of color）"
+      },
+      {
+        "word": "特色",
+        "reading": "とくしょく",
+        "meaning": "特色（characteristic, feature）"
+      },
+      {
+        "word": "灰色",
+        "reading": "はいいろ",
+        "meaning": "灰色（grey, ashen）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k102",
+    "character": "食",
+    "onyomi": [
+      "しょくえ"
+    ],
+    "kunyomi": [],
+    "meaning": "食塩（table salt）",
+    "examples": [
+      {
+        "word": "食塩",
+        "reading": "しょくえん",
+        "meaning": "食塩（table salt）"
+      },
+      {
+        "word": "食器",
+        "reading": "しょっき",
+        "meaning": "食器（tableware）"
+      },
+      {
+        "word": "衣食住",
+        "reading": "いしょくじゅう",
+        "meaning": "衣食住（food, clothing and shelter）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k103",
+    "character": "塩",
+    "onyomi": [
+      "しょくえ"
+    ],
+    "kunyomi": [],
+    "meaning": "食塩（table salt）",
+    "examples": [
+      {
+        "word": "食塩",
+        "reading": "しょくえん",
+        "meaning": "食塩（table salt）"
+      },
+      {
+        "word": "塩辛い",
+        "reading": "しおからい",
+        "meaning": "塩辛い（salty (taste)）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k104",
+    "character": "職",
+    "onyomi": [
+      "しょくに"
+    ],
+    "kunyomi": [],
+    "meaning": "職人（artisan",
+    "examples": [
+      {
+        "word": "職人",
+        "reading": "しょくにん",
+        "meaning": "職人（artisan, craftsman）"
+      },
+      {
+        "word": "職場",
+        "reading": "しょくば",
+        "meaning": "職場（workplace）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k105",
+    "character": "書",
+    "onyomi": [
+      "しょ"
+    ],
+    "kunyomi": [],
+    "meaning": "書籍（book",
+    "examples": [
+      {
+        "word": "書籍",
+        "reading": "しょせき",
+        "meaning": "書籍（book, publication）"
+      },
+      {
+        "word": "書店",
+        "reading": "しょてん",
+        "meaning": "書店（bookshop）"
+      },
+      {
+        "word": "書道",
+        "reading": "しょどう",
+        "meaning": "書道（calligraphy）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k106",
+    "character": "籍",
+    "onyomi": [
+      "しょ"
+    ],
+    "kunyomi": [],
+    "meaning": "書籍（book",
+    "examples": [
+      {
+        "word": "書籍",
+        "reading": "しょせき",
+        "meaning": "書籍（book, publication）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k107",
+    "character": "道",
+    "onyomi": [
+      "しょ"
+    ],
+    "kunyomi": [],
+    "meaning": "書道（calligraphy）",
+    "examples": [
+      {
+        "word": "書道",
+        "reading": "しょどう",
+        "meaning": "書道（calligraphy）"
+      },
+      {
+        "word": "赤道",
+        "reading": "せきどう",
+        "meaning": "赤道（equator）"
+      },
+      {
+        "word": "片道",
+        "reading": "かたみち",
+        "meaning": "片道（one-way (trip)）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k108",
+    "character": "歩",
+    "onyomi": [
+      "しょ"
+    ],
+    "kunyomi": [],
+    "meaning": "初歩（elements",
+    "examples": [
+      {
+        "word": "初歩",
+        "reading": "しょほ",
+        "meaning": "初歩（elements, rudiments）"
+      },
+      {
+        "word": "～歩",
+        "reading": "～ほ",
+        "meaning": "～歩（step, pace）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k109",
+    "character": "白",
+    "onyomi": [
+      "しら"
+    ],
+    "kunyomi": [],
+    "meaning": "white or grey hair",
+    "examples": [
+      {
+        "word": "白髪",
+        "reading": "しらが",
+        "meaning": "white or grey hair, trendy hair bleaching"
+      },
+      {
+        "word": "青白い",
+        "reading": "あおじろい",
+        "meaning": "青白い（pale）"
+      },
+      {
+        "word": "真っ白",
+        "reading": "まっしろ",
+        "meaning": "真っ白（pure white）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k110",
+    "character": "髪",
+    "onyomi": [
+      "しら"
+    ],
+    "kunyomi": [],
+    "meaning": "white or grey hair",
+    "examples": [
+      {
+        "word": "白髪",
+        "reading": "しらが",
+        "meaning": "white or grey hair, trendy hair bleaching"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k111",
+    "character": "私",
+    "onyomi": [
+      "しり"
+    ],
+    "kunyomi": [],
+    "meaning": "私立（private (establishment)）",
+    "examples": [
+      {
+        "word": "私立",
+        "reading": "しりつ",
+        "meaning": "私立（private (establishment)）"
+      },
+      {
+        "word": "私鉄",
+        "reading": "してつ",
+        "meaning": "私鉄（private railway）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k112",
+    "character": "立",
+    "onyomi": [
+      "しり"
+    ],
+    "kunyomi": [],
+    "meaning": "私立（private (establishment)）",
+    "examples": [
+      {
+        "word": "私立",
+        "reading": "しりつ",
+        "meaning": "私立（private (establishment)）"
+      },
+      {
+        "word": "成立",
+        "reading": "せいりつ",
+        "meaning": "成立（formation, establishment, completion）"
+      },
+      {
+        "word": "対立",
+        "reading": "たいりつ",
+        "meaning": "対立（confrontation, opposition, antagonism）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k113",
+    "character": "資",
+    "onyomi": [
+      "しり"
+    ],
+    "kunyomi": [],
+    "meaning": "資料（materials",
+    "examples": [
+      {
+        "word": "資料",
+        "reading": "しりょう",
+        "meaning": "資料（materials, data）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k114",
+    "character": "料",
+    "onyomi": [
+      "しり"
+    ],
+    "kunyomi": [],
+    "meaning": "資料（materials",
+    "examples": [
+      {
+        "word": "資料",
+        "reading": "しりょう",
+        "meaning": "資料（materials, data）"
+      },
+      {
+        "word": "送料",
+        "reading": "そうりょう",
+        "meaning": "送料（postage, carriage）"
+      },
+      {
+        "word": "原料",
+        "reading": "げんりょう",
+        "meaning": "原料（raw materials）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k115",
+    "character": "汁",
+    "onyomi": [],
+    "kunyomi": [
+      "しる"
+    ],
+    "meaning": "汁（juice",
+    "examples": [
+      {
+        "word": "汁",
+        "reading": "しる",
+        "meaning": "汁（juice, soup）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k116",
+    "character": "素",
+    "onyomi": [
+      "しろ"
+    ],
+    "kunyomi": [],
+    "meaning": "素人（layman",
+    "examples": [
+      {
+        "word": "素人",
+        "reading": "しろうと",
+        "meaning": "素人（layman, amateur, novice）"
+      },
+      {
+        "word": "水素",
+        "reading": "すいそ",
+        "meaning": "水素（hydrogen）"
+      },
+      {
+        "word": "素直",
+        "reading": "すなお",
+        "meaning": "素直（obedient, meek, docile）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k117",
+    "character": "芯",
+    "onyomi": [],
+    "kunyomi": [
+      "しん"
+    ],
+    "meaning": "芯（core",
+    "examples": [
+      {
+        "word": "芯",
+        "reading": "しん",
+        "meaning": "芯（core, heart, wick）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k118",
+    "character": "新",
+    "onyomi": [
+      "しんかん"
+    ],
+    "kunyomi": [],
+    "meaning": "新幹線（Shinkansen",
+    "examples": [
+      {
+        "word": "新幹線",
+        "reading": "しんかんせん",
+        "meaning": "新幹線（Shinkansen, \"Bullet Train\"）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k119",
+    "character": "幹",
+    "onyomi": [
+      "しんかん"
+    ],
+    "kunyomi": [],
+    "meaning": "新幹線（Shinkansen",
+    "examples": [
+      {
+        "word": "新幹線",
+        "reading": "しんかんせん",
+        "meaning": "新幹線（Shinkansen, \"Bullet Train\"）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k120",
+    "character": "線",
+    "onyomi": [
+      "しんかん"
+    ],
+    "kunyomi": [],
+    "meaning": "新幹線（Shinkansen",
+    "examples": [
+      {
+        "word": "新幹線",
+        "reading": "しんかんせん",
+        "meaning": "新幹線（Shinkansen, \"Bullet Train\"）"
+      },
+      {
+        "word": "水平線",
+        "reading": "すいへいせん",
+        "meaning": "水平線（horizon）"
+      },
+      {
+        "word": "線路",
+        "reading": "せんろ",
+        "meaning": "線路（line, track, roadbed）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k121",
+    "character": "真",
+    "onyomi": [
+      "しん"
+    ],
+    "kunyomi": [],
+    "meaning": "真空（vacuum）",
+    "examples": [
+      {
+        "word": "真空",
+        "reading": "しんくう",
+        "meaning": "真空（vacuum）"
+      },
+      {
+        "word": "真っ暗",
+        "reading": "まっくら",
+        "meaning": "真っ暗（total darkness）"
+      },
+      {
+        "word": "真っ黒",
+        "reading": "まっくろ",
+        "meaning": "真っ黒（pitch black）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k122",
+    "character": "空",
+    "onyomi": [
+      "しん"
+    ],
+    "kunyomi": [],
+    "meaning": "真空（vacuum）",
+    "examples": [
+      {
+        "word": "真空",
+        "reading": "しんくう",
+        "meaning": "真空（vacuum）"
+      },
+      {
+        "word": "架空",
+        "reading": "かくう",
+        "meaning": "架空（imaginary, fiction, fanciful）"
+      },
+      {
+        "word": "空っぽ",
+        "reading": "からっぽ",
+        "meaning": "空っぽ（empty, vacant, hollow）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k123",
+    "character": "事",
+    "onyomi": [
+      "じん"
+    ],
+    "kunyomi": [],
+    "meaning": "人事（human resources",
+    "examples": [
+      {
+        "word": "人事",
+        "reading": "じんじ",
+        "meaning": "人事（human resources, personnel management）"
+      },
+      {
+        "word": "炊事",
+        "reading": "すいじ",
+        "meaning": "炊事（cooking）"
+      },
+      {
+        "word": "お大事に",
+        "reading": "おだいじに",
+        "meaning": "Take care of yourself, Take care!, Get well soon"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k124",
+    "character": "信",
+    "onyomi": [
+      "しん"
+    ],
+    "kunyomi": [],
+    "meaning": "信ずる（to believe）",
+    "examples": [
+      {
+        "word": "信ずる",
+        "reading": "しんずる",
+        "meaning": "信ずる（to believe）"
+      },
+      {
+        "word": "迷信",
+        "reading": "めいしん",
+        "meaning": "迷信（superstition）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k125",
+    "character": "心",
+    "onyomi": [
+      "しん"
+    ],
+    "kunyomi": [],
+    "meaning": "心身（mind and body）",
+    "examples": [
+      {
+        "word": "心身",
+        "reading": "しんしん",
+        "meaning": "心身（mind and body）"
+      },
+      {
+        "word": "苦心",
+        "reading": "くしん",
+        "meaning": "苦心（pain, trouble）"
+      },
+      {
+        "word": "心当たり",
+        "reading": "こころあたり",
+        "meaning": "having some knowledge of, happening to know"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k126",
+    "character": "身",
+    "onyomi": [
+      "しん"
+    ],
+    "kunyomi": [],
+    "meaning": "心身（mind and body）",
+    "examples": [
+      {
+        "word": "心身",
+        "reading": "しんしん",
+        "meaning": "心身（mind and body）"
+      },
+      {
+        "word": "刺身",
+        "reading": "さしみ",
+        "meaning": "刺身（sliced raw fish）"
+      },
+      {
+        "word": "身分",
+        "reading": "みぶん",
+        "meaning": "身分（position, status）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k127",
+    "character": "申",
+    "onyomi": [
+      "しん"
+    ],
+    "kunyomi": [],
+    "meaning": "申請（application",
+    "examples": [
+      {
+        "word": "申請",
+        "reading": "しんせい",
+        "meaning": "申請（application, request, petition）"
+      },
+      {
+        "word": "申し訳ない",
+        "reading": "もうしわけない",
+        "meaning": "申し訳ない（inexcusable, I am sorry）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k128",
+    "character": "請",
+    "onyomi": [
+      "しん"
+    ],
+    "kunyomi": [],
+    "meaning": "申請（application",
+    "examples": [
+      {
+        "word": "申請",
+        "reading": "しんせい",
+        "meaning": "申請（application, request, petition）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k129",
+    "character": "造",
+    "onyomi": [
+      "じん"
+    ],
+    "kunyomi": [],
+    "meaning": "人造（man-made",
+    "examples": [
+      {
+        "word": "人造",
+        "reading": "じんぞう",
+        "meaning": "人造（man-made, synthetic, artificial）"
+      },
+      {
+        "word": "造船",
+        "reading": "ぞうせん",
+        "meaning": "造船（shipbuilding）"
+      },
+      {
+        "word": "改造",
+        "reading": "かいぞう",
+        "meaning": "改造（remodeling）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k130",
+    "character": "寝",
+    "onyomi": [
+      "しん"
+    ],
+    "kunyomi": [],
+    "meaning": "寝台（bed）",
+    "examples": [
+      {
+        "word": "寝台",
+        "reading": "しんだい",
+        "meaning": "寝台（bed）"
+      },
+      {
+        "word": "朝寝坊",
+        "reading": "あさねぼう",
+        "meaning": "朝寝坊（oversleeping, late riser）"
+      },
+      {
+        "word": "寝間着",
+        "reading": "ねまき",
+        "meaning": "寝間着（sleep-wear, pajamas）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k131",
+    "character": "台",
+    "onyomi": [
+      "しん"
+    ],
+    "kunyomi": [],
+    "meaning": "寝台（bed）",
+    "examples": [
+      {
+        "word": "寝台",
+        "reading": "しんだい",
+        "meaning": "寝台（bed）"
+      },
+      {
+        "word": "台詞",
+        "reading": "せりふ",
+        "meaning": "台詞（speech, words, one's lines, remarks）"
+      },
+      {
+        "word": "灯台",
+        "reading": "とうだい",
+        "meaning": "灯台（lighthouse）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k132",
+    "character": "診",
+    "onyomi": [
+      "しん"
+    ],
+    "kunyomi": [],
+    "meaning": "診断（diagnosis）",
+    "examples": [
+      {
+        "word": "診断",
+        "reading": "しんだん",
+        "meaning": "診断（diagnosis）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k133",
+    "character": "断",
+    "onyomi": [
+      "しん"
+    ],
+    "kunyomi": [],
+    "meaning": "診断（diagnosis）",
+    "examples": [
+      {
+        "word": "診断",
+        "reading": "しんだん",
+        "meaning": "診断（diagnosis）"
+      },
+      {
+        "word": "油断",
+        "reading": "ゆだん",
+        "meaning": "油断（negligence, unpreparedness）"
+      },
+      {
+        "word": "断水",
+        "reading": "だんすい",
+        "meaning": "断水（water outage）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k134",
+    "character": "侵",
+    "onyomi": [
+      "しんにゅ"
+    ],
+    "kunyomi": [],
+    "meaning": "侵入（invasion",
+    "examples": [
+      {
+        "word": "侵入",
+        "reading": "しんにゅう",
+        "meaning": "侵入（invasion, raid, trespass）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k135",
+    "character": "入",
+    "onyomi": [
+      "しんにゅ"
+    ],
+    "kunyomi": [],
+    "meaning": "侵入（invasion",
+    "examples": [
+      {
+        "word": "侵入",
+        "reading": "しんにゅう",
+        "meaning": "侵入（invasion, raid, trespass）"
+      },
+      {
+        "word": "四捨五入",
+        "reading": "ししゃごにゅう",
+        "meaning": "四捨五入（rounding up (fractions)）"
+      },
+      {
+        "word": "入れ物",
+        "reading": "いれもの",
+        "meaning": "入れ物（container, case）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k136",
+    "character": "文",
+    "onyomi": [
+      "じんぶん"
+    ],
+    "kunyomi": [],
+    "meaning": "人文科学（social sciences",
+    "examples": [
+      {
+        "word": "人文科学",
+        "reading": "じんぶんかがく",
+        "meaning": "人文科学（social sciences, humanities）"
+      },
+      {
+        "word": "英文",
+        "reading": "えいぶん",
+        "meaning": "英文（sentence in English）"
+      },
+      {
+        "word": "文芸",
+        "reading": "ぶんげい",
+        "meaning": "文芸（literature, art and literature）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k137",
+    "character": "科",
+    "onyomi": [
+      "じんぶん"
+    ],
+    "kunyomi": [],
+    "meaning": "人文科学（social sciences",
+    "examples": [
+      {
+        "word": "人文科学",
+        "reading": "じんぶんかがく",
+        "meaning": "人文科学（social sciences, humanities）"
+      },
+      {
+        "word": "～科",
+        "reading": "～か",
+        "meaning": "～科（family, group, course）"
+      },
+      {
+        "word": "学科",
+        "reading": "がっか",
+        "meaning": "学科（study subject, course of study）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k138",
+    "character": "深",
+    "onyomi": [
+      "しん"
+    ],
+    "kunyomi": [],
+    "meaning": "深夜（late at night）",
+    "examples": [
+      {
+        "word": "深夜",
+        "reading": "しんや",
+        "meaning": "深夜（late at night）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k139",
+    "character": "夜",
+    "onyomi": [
+      "しん"
+    ],
+    "kunyomi": [],
+    "meaning": "深夜（late at night）",
+    "examples": [
+      {
+        "word": "深夜",
+        "reading": "しんや",
+        "meaning": "深夜（late at night）"
+      },
+      {
+        "word": "～夜",
+        "reading": "～や",
+        "meaning": "～夜（counter for nights）"
+      },
+      {
+        "word": "夜間",
+        "reading": "やかん",
+        "meaning": "夜間（at night, nighttime）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k140",
+    "character": "森",
+    "onyomi": [
+      "しん"
+    ],
+    "kunyomi": [],
+    "meaning": "森林（forest",
+    "examples": [
+      {
+        "word": "森林",
+        "reading": "しんりん",
+        "meaning": "森林（forest, woods）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k141",
+    "character": "林",
+    "onyomi": [
+      "しん"
+    ],
+    "kunyomi": [],
+    "meaning": "森林（forest",
+    "examples": [
+      {
+        "word": "森林",
+        "reading": "しんりん",
+        "meaning": "森林（forest, woods）"
+      },
+      {
+        "word": "山林",
+        "reading": "さんりん",
+        "meaning": "山林（mountain forest）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k142",
+    "character": "親",
+    "onyomi": [
+      "しん"
+    ],
+    "kunyomi": [],
+    "meaning": "relative(s) (same as 親戚 (しんせき)",
+    "examples": [
+      {
+        "word": "親類",
+        "reading": "しんるい",
+        "meaning": "relative(s) (same as 親戚 (しんせき))"
+      },
+      {
+        "word": "親指",
+        "reading": "おやゆび",
+        "meaning": "親指（thumb）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k143",
+    "character": "類",
+    "onyomi": [
+      "しん"
+    ],
+    "kunyomi": [],
+    "meaning": "relative(s) (same as 親戚 (しんせき)",
+    "examples": [
+      {
+        "word": "親類",
+        "reading": "しんるい",
+        "meaning": "relative(s) (same as 親戚 (しんせき))"
+      },
+      {
+        "word": "分類",
+        "reading": "ぶんるい",
+        "meaning": "分類（classification）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k144",
+    "character": "針",
+    "onyomi": [
+      "しん"
+    ],
+    "kunyomi": [],
+    "meaning": "針路（course",
+    "examples": [
+      {
+        "word": "針路",
+        "reading": "しんろ",
+        "meaning": "針路（course, direction）"
+      },
+      {
+        "word": "針金",
+        "reading": "はりがね",
+        "meaning": "針金（wire）"
+      },
+      {
+        "word": "方針",
+        "reading": "ほうしん",
+        "meaning": "方針（objective, plan, policy）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k145",
+    "character": "路",
+    "onyomi": [
+      "しん"
+    ],
+    "kunyomi": [],
+    "meaning": "針路（course",
+    "examples": [
+      {
+        "word": "針路",
+        "reading": "しんろ",
+        "meaning": "針路（course, direction）"
+      },
+      {
+        "word": "線路",
+        "reading": "せんろ",
+        "meaning": "線路（line, track, roadbed）"
+      },
+      {
+        "word": "通路",
+        "reading": "つうろ",
+        "meaning": "通路（passage, pathway）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k146",
+    "character": "神",
+    "onyomi": [
+      "しん"
+    ],
+    "kunyomi": [],
+    "meaning": "神話（myth",
+    "examples": [
+      {
+        "word": "神話",
+        "reading": "しんわ",
+        "meaning": "神話（myth, legend）"
+      },
+      {
+        "word": "神様",
+        "reading": "かみさま",
+        "meaning": "神様（god）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k147",
+    "character": "水",
+    "onyomi": [
+      "すい"
+    ],
+    "kunyomi": [],
+    "meaning": "水産（marine products",
+    "examples": [
+      {
+        "word": "水産",
+        "reading": "すいさん",
+        "meaning": "水産（marine products, fisheries）"
+      },
+      {
+        "word": "水蒸気",
+        "reading": "すいじょうき",
+        "meaning": "水蒸気（water vapor, steam）"
+      },
+      {
+        "word": "水素",
+        "reading": "すいそ",
+        "meaning": "水素（hydrogen）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k148",
+    "character": "産",
+    "onyomi": [
+      "すい"
+    ],
+    "kunyomi": [],
+    "meaning": "水産（marine products",
+    "examples": [
+      {
+        "word": "水産",
+        "reading": "すいさん",
+        "meaning": "水産（marine products, fisheries）"
+      },
+      {
+        "word": "共産～",
+        "reading": "きょうさん～",
+        "meaning": "共産～（communist ~）"
+      },
+      {
+        "word": "原産",
+        "reading": "げんさん",
+        "meaning": "原産（place of origin）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k149",
+    "character": "炊",
+    "onyomi": [
+      "すい"
+    ],
+    "kunyomi": [],
+    "meaning": "炊事（cooking）",
+    "examples": [
+      {
+        "word": "炊事",
+        "reading": "すいじ",
+        "meaning": "炊事（cooking）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k150",
+    "character": "垂",
+    "onyomi": [
+      "すいちょ"
+    ],
+    "kunyomi": [],
+    "meaning": "垂直（vertical",
+    "examples": [
+      {
+        "word": "垂直",
+        "reading": "すいちょく",
+        "meaning": "垂直（vertical, perpendicular）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k151",
+    "character": "直",
+    "onyomi": [
+      "すいちょ"
+    ],
+    "kunyomi": [],
+    "meaning": "垂直（vertical",
+    "examples": [
+      {
+        "word": "垂直",
+        "reading": "すいちょく",
+        "meaning": "垂直（vertical, perpendicular）"
+      },
+      {
+        "word": "素直",
+        "reading": "すなお",
+        "meaning": "素直（obedient, meek, docile）"
+      },
+      {
+        "word": "卒直",
+        "reading": "そっちょく",
+        "meaning": "卒直（frank, candid, honest）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k152",
+    "character": "推",
+    "onyomi": [
+      "すい"
+    ],
+    "kunyomi": [],
+    "meaning": "推定（presumption",
+    "examples": [
+      {
+        "word": "推定",
+        "reading": "すいてい",
+        "meaning": "推定（presumption, assumption, estimation）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k153",
+    "character": "滴",
+    "onyomi": [
+      "すい"
+    ],
+    "kunyomi": [],
+    "meaning": "水滴（drop of water）",
+    "examples": [
+      {
+        "word": "水滴",
+        "reading": "すいてき",
+        "meaning": "水滴（drop of water）"
+      },
+      {
+        "word": "～滴",
+        "reading": "～てき",
+        "meaning": "～滴（drop）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k154",
+    "character": "筒",
+    "onyomi": [
+      "すい"
+    ],
+    "kunyomi": [],
+    "meaning": "水筒（canteen",
+    "examples": [
+      {
+        "word": "水筒",
+        "reading": "すいとう",
+        "meaning": "水筒（canteen, flask, water bottle）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k155",
+    "character": "随",
+    "onyomi": [
+      "ずい"
+    ],
+    "kunyomi": [],
+    "meaning": "随筆（essays",
+    "examples": [
+      {
+        "word": "随筆",
+        "reading": "ずいひつ",
+        "meaning": "随筆（essays, miscellaneous writings）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k156",
+    "character": "筆",
+    "onyomi": [
+      "ずい"
+    ],
+    "kunyomi": [],
+    "meaning": "随筆（essays",
+    "examples": [
+      {
+        "word": "随筆",
+        "reading": "ずいひつ",
+        "meaning": "随筆（essays, miscellaneous writings）"
+      },
+      {
+        "word": "執筆",
+        "reading": "しっぴつ",
+        "meaning": "執筆（writing）"
+      },
+      {
+        "word": "筆記",
+        "reading": "ひっき",
+        "meaning": "筆記（note taking, writing）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k157",
+    "character": "分",
+    "onyomi": [
+      "すい"
+    ],
+    "kunyomi": [],
+    "meaning": "水分（moisture）",
+    "examples": [
+      {
+        "word": "水分",
+        "reading": "すいぶん",
+        "meaning": "水分（moisture）"
+      },
+      {
+        "word": "成分",
+        "reading": "せいぶん",
+        "meaning": "成分（ingredient, component, composition）"
+      },
+      {
+        "word": "大分",
+        "reading": "だいぶん",
+        "meaning": "大分（considerably, greatly, a lot）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k158",
+    "character": "平",
+    "onyomi": [
+      "すい"
+    ],
+    "kunyomi": [],
+    "meaning": "水平（level",
+    "examples": [
+      {
+        "word": "水平",
+        "reading": "すいへい",
+        "meaning": "水平（level, horizontal）"
+      },
+      {
+        "word": "水平線",
+        "reading": "すいへいせん",
+        "meaning": "水平線（horizon）"
+      },
+      {
+        "word": "平気",
+        "reading": "へいき",
+        "meaning": "平気（coolness, calmness, unconcern）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k159",
+    "character": "図",
+    "onyomi": [
+      "ずうずう"
+    ],
+    "kunyomi": [],
+    "meaning": "図々しい（impudent",
+    "examples": [
+      {
+        "word": "図々しい",
+        "reading": "ずうずうしい",
+        "meaning": "図々しい（impudent, shameless）"
+      },
+      {
+        "word": "図鑑",
+        "reading": "ずかん",
+        "meaning": "図鑑（picture book）"
+      },
+      {
+        "word": "図形",
+        "reading": "ずけい",
+        "meaning": "図形（figure）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k160",
+    "character": "末",
+    "onyomi": [
+      "すえ"
+    ],
+    "kunyomi": [],
+    "meaning": "末っ子（youngest child）",
+    "examples": [
+      {
+        "word": "末っ子",
+        "reading": "すえっこ",
+        "meaning": "末っ子（youngest child）"
+      },
+      {
+        "word": "月末",
+        "reading": "げつまつ",
+        "meaning": "月末（end of the month）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k161",
+    "character": "鑑",
+    "onyomi": [
+      "ずか"
+    ],
+    "kunyomi": [],
+    "meaning": "図鑑（picture book）",
+    "examples": [
+      {
+        "word": "図鑑",
+        "reading": "ずかん",
+        "meaning": "図鑑（picture book）"
+      },
+      {
+        "word": "鑑賞",
+        "reading": "かんしょう",
+        "meaning": "鑑賞（appreciation）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k162",
+    "character": "隙",
+    "onyomi": [],
+    "kunyomi": [
+      "すき"
+    ],
+    "meaning": "隙（unguarded moment",
+    "examples": [
+      {
+        "word": "隙",
+        "reading": "すき",
+        "meaning": "隙（unguarded moment, chance）"
+      },
+      {
+        "word": "隙間",
+        "reading": "すきま",
+        "meaning": "隙間（crack, gap, opening）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k163",
+    "character": "杉",
+    "onyomi": [],
+    "kunyomi": [
+      "すぎ"
+    ],
+    "meaning": "杉（Japanese cedar）",
+    "examples": [
+      {
+        "word": "杉",
+        "reading": "すぎ",
+        "meaning": "杉（Japanese cedar）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k164",
+    "character": "好",
+    "onyomi": [
+      "すききら"
+    ],
+    "kunyomi": [],
+    "meaning": "好き嫌い（likes and dislikes",
+    "examples": [
+      {
+        "word": "好き嫌い",
+        "reading": "すききらい",
+        "meaning": "好き嫌い（likes and dislikes, taste）"
+      },
+      {
+        "word": "好き好き",
+        "reading": "すきずき",
+        "meaning": "好き好き（matter of taste）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k165",
+    "character": "嫌",
+    "onyomi": [
+      "すききら"
+    ],
+    "kunyomi": [],
+    "meaning": "好き嫌い（likes and dislikes",
+    "examples": [
+      {
+        "word": "好き嫌い",
+        "reading": "すききらい",
+        "meaning": "好き嫌い（likes and dislikes, taste）"
+      },
+      {
+        "word": "嫌がる",
+        "reading": "いやがる",
+        "meaning": "嫌がる（reluctant, to dislike）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k166",
+    "character": "透",
+    "onyomi": [
+      "すきとお"
+    ],
+    "kunyomi": [],
+    "meaning": "透き通る（to be(come) transparent）",
+    "examples": [
+      {
+        "word": "透き通る",
+        "reading": "すきとおる",
+        "meaning": "透き通る（to be(come) transparent）"
+      },
+      {
+        "word": "透明",
+        "reading": "とうめい",
+        "meaning": "透明（transparency, cleanness）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k167",
+    "character": "通",
+    "onyomi": [
+      "すきとお"
+    ],
+    "kunyomi": [],
+    "meaning": "透き通る（to be(come) transparent）",
+    "examples": [
+      {
+        "word": "透き通る",
+        "reading": "すきとおる",
+        "meaning": "透き通る（to be(come) transparent）"
+      },
+      {
+        "word": "大通り",
+        "reading": "おおどおり",
+        "meaning": "大通り（main street）"
+      },
+      {
+        "word": "開通",
+        "reading": "かいつう",
+        "meaning": "開通（opening, open）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k168",
+    "character": "間",
+    "onyomi": [
+      "すき"
+    ],
+    "kunyomi": [],
+    "meaning": "隙間（crack",
+    "examples": [
+      {
+        "word": "隙間",
+        "reading": "すきま",
+        "meaning": "隙間（crack, gap, opening）"
+      },
+      {
+        "word": "貸間",
+        "reading": "かしま",
+        "meaning": "貸間（room to let）"
+      },
+      {
+        "word": "～間",
+        "reading": "～かん",
+        "meaning": "～間（between, during）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k169",
+    "character": "過",
+    "onyomi": [
+      "～す"
+    ],
+    "kunyomi": [],
+    "meaning": "～過ぎる（too much ~）",
+    "examples": [
+      {
+        "word": "～過ぎる",
+        "reading": "～すぎる",
+        "meaning": "～過ぎる（too much ~）"
+      },
+      {
+        "word": "過失",
+        "reading": "かしつ",
+        "meaning": "過失（error, mistake, negligence）"
+      },
+      {
+        "word": "過剰",
+        "reading": "かじょう",
+        "meaning": "過剰（excess, over-）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k170",
+    "character": "形",
+    "onyomi": [
+      "ずけ"
+    ],
+    "kunyomi": [],
+    "meaning": "図形（figure）",
+    "examples": [
+      {
+        "word": "図形",
+        "reading": "ずけい",
+        "meaning": "図形（figure）"
+      },
+      {
+        "word": "正方形",
+        "reading": "せいほうけい",
+        "meaning": "正方形（square）"
+      },
+      {
+        "word": "～形",
+        "reading": "～けい",
+        "meaning": "～形（shape of ~）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k171",
+    "character": "鈴",
+    "onyomi": [],
+    "kunyomi": [
+      "すず"
+    ],
+    "meaning": "鈴（bell）",
+    "examples": [
+      {
+        "word": "鈴",
+        "reading": "すず",
+        "meaning": "鈴（bell）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k172",
+    "character": "涼",
+    "onyomi": [
+      "すず"
+    ],
+    "kunyomi": [],
+    "meaning": "涼む（to cool oneself",
+    "examples": [
+      {
+        "word": "涼む",
+        "reading": "すずむ",
+        "meaning": "涼む（to cool oneself, to cool off）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k173",
+    "character": "頭",
+    "onyomi": [
+      "ずの"
+    ],
+    "kunyomi": [],
+    "meaning": "頭脳（head",
+    "examples": [
+      {
+        "word": "頭脳",
+        "reading": "ずのう",
+        "meaning": "頭脳（head, brains, intellect）"
+      },
+      {
+        "word": "先頭",
+        "reading": "せんとう",
+        "meaning": "先頭（head, lead, vanguard）"
+      },
+      {
+        "word": "～頭",
+        "reading": "～とう",
+        "meaning": "～頭（counter for animals）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k174",
+    "character": "脳",
+    "onyomi": [
+      "ずの"
+    ],
+    "kunyomi": [],
+    "meaning": "頭脳（head",
+    "examples": [
+      {
+        "word": "頭脳",
+        "reading": "ずのう",
+        "meaning": "頭脳（head, brains, intellect）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k175",
+    "character": "表",
+    "onyomi": [
+      "ずひ"
+    ],
+    "kunyomi": [],
+    "meaning": "図表（chart",
+    "examples": [
+      {
+        "word": "図表",
+        "reading": "ずひょう",
+        "meaning": "図表（chart, diagram, graph）"
+      },
+      {
+        "word": "公表",
+        "reading": "こうひょう",
+        "meaning": "公表（official announcement, proclamation）"
+      },
+      {
+        "word": "表紙",
+        "reading": "ひょうし",
+        "meaning": "表紙（front cover, binding）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k176",
+    "character": "住",
+    "onyomi": [
+      "すま"
+    ],
+    "kunyomi": [],
+    "meaning": "住まい（dwelling",
+    "examples": [
+      {
+        "word": "住まい",
+        "reading": "すまい",
+        "meaning": "住まい（dwelling, house）"
+      },
+      {
+        "word": "衣食住",
+        "reading": "いしょくじゅう",
+        "meaning": "衣食住（food, clothing and shelter）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k177",
+    "character": "済",
+    "onyomi": [
+      "～ず"
+    ],
+    "kunyomi": [],
+    "meaning": "～済（finished）",
+    "examples": [
+      {
+        "word": "～済",
+        "reading": "～ずみ",
+        "meaning": "～済（finished）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k178",
+    "character": "相",
+    "onyomi": [
+      "すも"
+    ],
+    "kunyomi": [],
+    "meaning": "相撲（sumo wrestling）",
+    "examples": [
+      {
+        "word": "相撲",
+        "reading": "すもう",
+        "meaning": "相撲（sumo wrestling）"
+      },
+      {
+        "word": "相違",
+        "reading": "そうい",
+        "meaning": "相違（difference, discrepancy, variation）"
+      },
+      {
+        "word": "相互",
+        "reading": "そうご",
+        "meaning": "相互（mutual, reciprocal）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k179",
+    "character": "撲",
+    "onyomi": [
+      "すも"
+    ],
+    "kunyomi": [],
+    "meaning": "相撲（sumo wrestling）",
+    "examples": [
+      {
+        "word": "相撲",
+        "reading": "すもう",
+        "meaning": "相撲（sumo wrestling）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k180",
+    "character": "狡",
+    "onyomi": [
+      "ずる"
+    ],
+    "kunyomi": [],
+    "meaning": "狡い（sly",
+    "examples": [
+      {
+        "word": "狡い",
+        "reading": "ずるい",
+        "meaning": "狡い（sly, cunning）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k181",
+    "character": "寸",
+    "onyomi": [
+      "すん"
+    ],
+    "kunyomi": [],
+    "meaning": "寸法（measurement",
+    "examples": [
+      {
+        "word": "寸法",
+        "reading": "すんぽう",
+        "meaning": "寸法（measurement, size, dimension）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k182",
+    "character": "法",
+    "onyomi": [
+      "すん"
+    ],
+    "kunyomi": [],
+    "meaning": "寸法（measurement",
+    "examples": [
+      {
+        "word": "寸法",
+        "reading": "すんぽう",
+        "meaning": "寸法（measurement, size, dimension）"
+      },
+      {
+        "word": "法則",
+        "reading": "ほうそく",
+        "meaning": "法則（law, rule）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k183",
+    "character": "税",
+    "onyomi": [
+      "ぜい"
+    ],
+    "kunyomi": [],
+    "meaning": "税関（customs）",
+    "examples": [
+      {
+        "word": "税関",
+        "reading": "ぜいかん",
+        "meaning": "税関（customs）"
+      },
+      {
+        "word": "課税",
+        "reading": "かぜい",
+        "meaning": "課税（taxation）"
+      },
+      {
+        "word": "免税",
+        "reading": "めんぜい",
+        "meaning": "免税（tax exemption）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k184",
+    "character": "関",
+    "onyomi": [
+      "ぜい"
+    ],
+    "kunyomi": [],
+    "meaning": "税関（customs）",
+    "examples": [
+      {
+        "word": "税関",
+        "reading": "ぜいかん",
+        "meaning": "税関（customs）"
+      },
+      {
+        "word": "関西",
+        "reading": "かんさい",
+        "meaning": "south-western half of Japan, including Osaka"
+      },
+      {
+        "word": "関東",
+        "reading": "かんとう",
+        "meaning": "関東（eastern half of Japan, including Tokyo）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k185",
+    "character": "製",
+    "onyomi": [
+      "せい"
+    ],
+    "kunyomi": [],
+    "meaning": "製作（manufacture",
+    "examples": [
+      {
+        "word": "製作",
+        "reading": "せいさく",
+        "meaning": "製作（manufacture, production）"
+      },
+      {
+        "word": "作製",
+        "reading": "さくせい",
+        "meaning": "作製（manufacture, production）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k186",
+    "character": "作",
+    "onyomi": [
+      "せい"
+    ],
+    "kunyomi": [],
+    "meaning": "製作（manufacture",
+    "examples": [
+      {
+        "word": "製作",
+        "reading": "せいさく",
+        "meaning": "製作（manufacture, production）"
+      },
+      {
+        "word": "制作",
+        "reading": "せいさく",
+        "meaning": "制作（work (e.g., film, book)）"
+      },
+      {
+        "word": "創作",
+        "reading": "そうさく",
+        "meaning": "創作（production, creation, work）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k187",
+    "character": "制",
+    "onyomi": [
+      "せい"
+    ],
+    "kunyomi": [],
+    "meaning": "制作（work (e.g.",
+    "examples": [
+      {
+        "word": "制作",
+        "reading": "せいさく",
+        "meaning": "制作（work (e.g., film, book)）"
+      },
+      {
+        "word": "専制",
+        "reading": "せんせい",
+        "meaning": "専制（despotism, autocracy）"
+      },
+      {
+        "word": "体制",
+        "reading": "たいせい",
+        "meaning": "体制（order, system, structure）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k188",
+    "character": "清",
+    "onyomi": [
+      "せい"
+    ],
+    "kunyomi": [],
+    "meaning": "清書（clean copy）",
+    "examples": [
+      {
+        "word": "清書",
+        "reading": "せいしょ",
+        "meaning": "清書（clean copy）"
+      },
+      {
+        "word": "清掃",
+        "reading": "せいそう",
+        "meaning": "清掃（cleaning）"
+      },
+      {
+        "word": "清い",
+        "reading": "きよい",
+        "meaning": "清い（clear, pure, noble）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k189",
+    "character": "青",
+    "onyomi": [
+      "せいしょ"
+    ],
+    "kunyomi": [],
+    "meaning": "青少年（youth",
+    "examples": [
+      {
+        "word": "青少年",
+        "reading": "せいしょうねん",
+        "meaning": "青少年（youth, young person）"
+      },
+      {
+        "word": "青白い",
+        "reading": "あおじろい",
+        "meaning": "青白い（pale）"
+      },
+      {
+        "word": "真っ青",
+        "reading": "まっさお",
+        "meaning": "真っ青（deep blue, ghastly pale）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k190",
+    "character": "少",
+    "onyomi": [
+      "せいしょ"
+    ],
+    "kunyomi": [],
+    "meaning": "青少年（youth",
+    "examples": [
+      {
+        "word": "青少年",
+        "reading": "せいしょうねん",
+        "meaning": "青少年（youth, young person）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k191",
+    "character": "年",
+    "onyomi": [
+      "せいしょ"
+    ],
+    "kunyomi": [],
+    "meaning": "青少年（youth",
+    "examples": [
+      {
+        "word": "青少年",
+        "reading": "せいしょうねん",
+        "meaning": "青少年（youth, young person）"
+      },
+      {
+        "word": "学年",
+        "reading": "がくねん",
+        "meaning": "学年（year in school, grade in school）"
+      },
+      {
+        "word": "一昨年",
+        "reading": "いっさくねん",
+        "meaning": "一昨年（year before last）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k192",
+    "character": "整",
+    "onyomi": [
+      "せい"
+    ],
+    "kunyomi": [],
+    "meaning": "整数（integer）",
+    "examples": [
+      {
+        "word": "整数",
+        "reading": "せいすう",
+        "meaning": "整数（integer）"
+      },
+      {
+        "word": "整備",
+        "reading": "せいび",
+        "meaning": "整備（maintenance, overhaul）"
+      },
+      {
+        "word": "整う",
+        "reading": "ととのう",
+        "meaning": "to be prepared, to be in order, to be arranged"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k193",
+    "character": "掃",
+    "onyomi": [
+      "せい"
+    ],
+    "kunyomi": [],
+    "meaning": "清掃（cleaning）",
+    "examples": [
+      {
+        "word": "清掃",
+        "reading": "せいそう",
+        "meaning": "清掃（cleaning）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k194",
+    "character": "存",
+    "onyomi": [
+      "せい"
+    ],
+    "kunyomi": [],
+    "meaning": "生存（existence",
+    "examples": [
+      {
+        "word": "生存",
+        "reading": "せいぞん",
+        "meaning": "生存（existence, being, survival）"
+      },
+      {
+        "word": "存じる",
+        "reading": "ぞんじる",
+        "meaning": "存じる（(humble) to know）"
+      },
+      {
+        "word": "存ずる",
+        "reading": "ぞんずる",
+        "meaning": "存ずる（(humble) to know）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k195",
+    "character": "政",
+    "onyomi": [
+      "せい"
+    ],
+    "kunyomi": [],
+    "meaning": "政党（(member of) political party",
+    "examples": [
+      {
+        "word": "政党",
+        "reading": "せいとう",
+        "meaning": "政党（(member of) political party）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k196",
+    "character": "党",
+    "onyomi": [
+      "せい"
+    ],
+    "kunyomi": [],
+    "meaning": "政党（(member of) political party",
+    "examples": [
+      {
+        "word": "政党",
+        "reading": "せいとう",
+        "meaning": "政党（(member of) political party）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k197",
+    "character": "性",
+    "onyomi": [
+      "せい"
+    ],
+    "kunyomi": [],
+    "meaning": "性能（ability",
+    "examples": [
+      {
+        "word": "性能",
+        "reading": "せいのう",
+        "meaning": "性能（ability, capability）"
+      },
+      {
+        "word": "性別",
+        "reading": "せいべつ",
+        "meaning": "性別（sex, gender）"
+      },
+      {
+        "word": "中性",
+        "reading": "ちゅうせい",
+        "meaning": "中性（neuter gender, neutral）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k198",
+    "character": "能",
+    "onyomi": [
+      "せい"
+    ],
+    "kunyomi": [],
+    "meaning": "性能（ability",
+    "examples": [
+      {
+        "word": "性能",
+        "reading": "せいのう",
+        "meaning": "性能（ability, capability）"
+      },
+      {
+        "word": "芸能",
+        "reading": "げいのう",
+        "meaning": "芸能（public entertainment, performing arts）"
+      },
+      {
+        "word": "能率",
+        "reading": "のうりつ",
+        "meaning": "能率（efficiency）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k199",
+    "character": "備",
+    "onyomi": [
+      "せい"
+    ],
+    "kunyomi": [],
+    "meaning": "整備（maintenance",
+    "examples": [
+      {
+        "word": "整備",
+        "reading": "せいび",
+        "meaning": "整備（maintenance, overhaul）"
+      },
+      {
+        "word": "警備",
+        "reading": "けいび",
+        "meaning": "警備（defense, guard, policing, security）"
+      },
+      {
+        "word": "予備",
+        "reading": "よび",
+        "meaning": "予備（preparation, spare）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k200",
+    "character": "成",
+    "onyomi": [
+      "せい"
+    ],
+    "kunyomi": [],
+    "meaning": "成分（ingredient",
+    "examples": [
+      {
+        "word": "成分",
+        "reading": "せいぶん",
+        "meaning": "成分（ingredient, component, composition）"
+      },
+      {
+        "word": "成立",
+        "reading": "せいりつ",
+        "meaning": "成立（formation, establishment, completion）"
+      },
+      {
+        "word": "作成",
+        "reading": "さくせい",
+        "meaning": "作成（creation, preparation, to make）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k201",
+    "character": "別",
+    "onyomi": [
+      "せい"
+    ],
+    "kunyomi": [],
+    "meaning": "性別（sex",
+    "examples": [
+      {
+        "word": "性別",
+        "reading": "せいべつ",
+        "meaning": "性別（sex, gender）"
+      },
+      {
+        "word": "送別",
+        "reading": "そうべつ",
+        "meaning": "送別（farewell, send-off）"
+      },
+      {
+        "word": "格別",
+        "reading": "かくべつ",
+        "meaning": "格別（exceptional）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k202",
+    "character": "方",
+    "onyomi": [
+      "せいほう"
+    ],
+    "kunyomi": [],
+    "meaning": "正方形（square）",
+    "examples": [
+      {
+        "word": "正方形",
+        "reading": "せいほうけい",
+        "meaning": "正方形（square）"
+      },
+      {
+        "word": "仕方がない",
+        "reading": "しかたがない",
+        "meaning": "仕方がない（it can't be helped, it's inevitable）"
+      },
+      {
+        "word": "明け方",
+        "reading": "あけがた",
+        "meaning": "明け方（dawn）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k203",
+    "character": "門",
+    "onyomi": [
+      "せい"
+    ],
+    "kunyomi": [],
+    "meaning": "正門（main gate",
+    "examples": [
+      {
+        "word": "正門",
+        "reading": "せいもん",
+        "meaning": "正門（main gate, main entrance）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k204",
+    "character": "西",
+    "onyomi": [
+      "せい"
+    ],
+    "kunyomi": [],
+    "meaning": "Christian Era",
+    "examples": [
+      {
+        "word": "西暦",
+        "reading": "せいれき",
+        "meaning": "Christian Era, after (Christ’s) death (A.D.)"
+      },
+      {
+        "word": "関西",
+        "reading": "かんさい",
+        "meaning": "south-western half of Japan, including Osaka"
+      },
+      {
+        "word": "東西",
+        "reading": "とうざい",
+        "meaning": "東西（East and West, whole country）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k205",
+    "character": "暦",
+    "onyomi": [
+      "せい"
+    ],
+    "kunyomi": [],
+    "meaning": "Christian Era",
+    "examples": [
+      {
+        "word": "西暦",
+        "reading": "せいれき",
+        "meaning": "Christian Era, after (Christ’s) death (A.D.)"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k206",
+    "character": "背",
+    "onyomi": [
+      "せお"
+    ],
+    "kunyomi": [],
+    "meaning": "to be burdened with",
+    "examples": [
+      {
+        "word": "背負う",
+        "reading": "せおう",
+        "meaning": "to be burdened with; to carry on (one's) back or shoulder(s)"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k207",
+    "character": "席",
+    "onyomi": [
+      "～せ"
+    ],
+    "kunyomi": [],
+    "meaning": "～席（counter for seats）",
+    "examples": [
+      {
+        "word": "～席",
+        "reading": "～せき",
+        "meaning": "～席（counter for seats）"
+      },
+      {
+        "word": "客席",
+        "reading": "きゃくせき",
+        "meaning": "客席（guest seating）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k208",
+    "character": "赤",
+    "onyomi": [
+      "せき"
+    ],
+    "kunyomi": [],
+    "meaning": "赤道（equator）",
+    "examples": [
+      {
+        "word": "赤道",
+        "reading": "せきどう",
+        "meaning": "赤道（equator）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k209",
+    "character": "折",
+    "onyomi": [
+      "せっ"
+    ],
+    "kunyomi": [],
+    "meaning": "with trouble",
+    "examples": [
+      {
+        "word": "折角",
+        "reading": "せっかく",
+        "meaning": "with trouble, at great pains, long-awaited"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k210",
+    "character": "角",
+    "onyomi": [
+      "せっ"
+    ],
+    "kunyomi": [],
+    "meaning": "with trouble",
+    "examples": [
+      {
+        "word": "折角",
+        "reading": "せっかく",
+        "meaning": "with trouble, at great pains, long-awaited"
+      },
+      {
+        "word": "角度",
+        "reading": "かくど",
+        "meaning": "角度（angle）"
+      },
+      {
+        "word": "三角",
+        "reading": "さんかく",
+        "meaning": "三角（triangle, triangular）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k211",
+    "character": "接",
+    "onyomi": [
+      "せっ"
+    ],
+    "kunyomi": [],
+    "meaning": "getting closer",
+    "examples": [
+      {
+        "word": "接近",
+        "reading": "せっきん",
+        "meaning": "getting closer, drawing nearer, approaching"
+      },
+      {
+        "word": "接する",
+        "reading": "せっする",
+        "meaning": "接する（to attend to (someone); to associate with）"
+      },
+      {
+        "word": "接続",
+        "reading": "せつぞく",
+        "meaning": "connection, union, join, link; changing trains"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k212",
+    "character": "近",
+    "onyomi": [
+      "せっ"
+    ],
+    "kunyomi": [],
+    "meaning": "getting closer",
+    "examples": [
+      {
+        "word": "接近",
+        "reading": "せっきん",
+        "meaning": "getting closer, drawing nearer, approaching"
+      },
+      {
+        "word": "付近",
+        "reading": "ふきん",
+        "meaning": "付近（neighborhood, vicinity）"
+      },
+      {
+        "word": "近々",
+        "reading": "ちかぢか",
+        "meaning": "近々（soon, before long）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k213",
+    "character": "続",
+    "onyomi": [
+      "せつ"
+    ],
+    "kunyomi": [],
+    "meaning": "connection",
+    "examples": [
+      {
+        "word": "接続",
+        "reading": "せつぞく",
+        "meaning": "connection, union, join, link; changing trains"
+      },
+      {
+        "word": "続々",
+        "reading": "ぞくぞく",
+        "meaning": "続々（successively, one after another）"
+      },
+      {
+        "word": "継続",
+        "reading": "けいぞく",
+        "meaning": "継続（continuation）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k214",
+    "character": "瀬",
+    "onyomi": [
+      "せと"
+    ],
+    "kunyomi": [],
+    "meaning": "瀬戸物（earthenware",
+    "examples": [
+      {
+        "word": "瀬戸物",
+        "reading": "せともの",
+        "meaning": "瀬戸物（earthenware, crockery, china）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k215",
+    "character": "戸",
+    "onyomi": [
+      "せと"
+    ],
+    "kunyomi": [],
+    "meaning": "瀬戸物（earthenware",
+    "examples": [
+      {
+        "word": "瀬戸物",
+        "reading": "せともの",
+        "meaning": "瀬戸物（earthenware, crockery, china）"
+      },
+      {
+        "word": "雨戸",
+        "reading": "あまど",
+        "meaning": "雨戸（sliding storm door）"
+      },
+      {
+        "word": "井戸",
+        "reading": "いど",
+        "meaning": "井戸（water well）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k216",
+    "character": "物",
+    "onyomi": [
+      "せと"
+    ],
+    "kunyomi": [],
+    "meaning": "瀬戸物（earthenware",
+    "examples": [
+      {
+        "word": "瀬戸物",
+        "reading": "せともの",
+        "meaning": "瀬戸物（earthenware, crockery, china）"
+      },
+      {
+        "word": "落し物",
+        "reading": "おとしもの",
+        "meaning": "落し物（lost property）"
+      },
+      {
+        "word": "貨物",
+        "reading": "かもつ",
+        "meaning": "貨物（cargo, freight）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k217",
+    "character": "迫",
+    "onyomi": [
+      "せま"
+    ],
+    "kunyomi": [],
+    "meaning": "迫る（to draw near",
+    "examples": [
+      {
+        "word": "迫る",
+        "reading": "せまる",
+        "meaning": "迫る（to draw near, to press）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k218",
+    "character": "詞",
+    "onyomi": [
+      "せり"
+    ],
+    "kunyomi": [],
+    "meaning": "台詞（speech",
+    "examples": [
+      {
+        "word": "台詞",
+        "reading": "せりふ",
+        "meaning": "台詞（speech, words, one's lines, remarks）"
+      },
+      {
+        "word": "代名詞",
+        "reading": "だいめいし",
+        "meaning": "代名詞（pronoun）"
+      },
+      {
+        "word": "形容詞",
+        "reading": "けいようし",
+        "meaning": "形容詞（adjective）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k219",
+    "character": "栓",
+    "onyomi": [],
+    "kunyomi": [
+      "せん"
+    ],
+    "meaning": "栓（stopper",
+    "examples": [
+      {
+        "word": "栓",
+        "reading": "せん",
+        "meaning": "栓（stopper, cork, stopcock）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k220",
+    "character": "船",
+    "onyomi": [
+      "～せ"
+    ],
+    "kunyomi": [],
+    "meaning": "～船（counter for ships）",
+    "examples": [
+      {
+        "word": "～船",
+        "reading": "～せん",
+        "meaning": "～船（counter for ships）"
+      },
+      {
+        "word": "造船",
+        "reading": "ぞうせん",
+        "meaning": "造船（shipbuilding）"
+      },
+      {
+        "word": "風船",
+        "reading": "ふうせん",
+        "meaning": "風船（balloon）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k221",
+    "character": "戦",
+    "onyomi": [
+      "～せ"
+    ],
+    "kunyomi": [],
+    "meaning": "～戦（counter for games",
+    "examples": [
+      {
+        "word": "～戦",
+        "reading": "～せん",
+        "meaning": "～戦（counter for games, matches）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k222",
+    "character": "前",
+    "onyomi": [
+      "ぜん"
+    ],
+    "kunyomi": [],
+    "meaning": "前～（former",
+    "examples": [
+      {
+        "word": "前～",
+        "reading": "ぜん～",
+        "meaning": "前～（former, late ~, past ~）"
+      },
+      {
+        "word": "～前",
+        "reading": "～ぜん",
+        "meaning": "～前（before ~）"
+      },
+      {
+        "word": "前後",
+        "reading": "ぜんご",
+        "meaning": "前後（front and back, before and after）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k223",
+    "character": "後",
+    "onyomi": [
+      "ぜん"
+    ],
+    "kunyomi": [],
+    "meaning": "前後（front and back",
+    "examples": [
+      {
+        "word": "前後",
+        "reading": "ぜんご",
+        "meaning": "前後（front and back, before and after）"
+      },
+      {
+        "word": "明明後日",
+        "reading": "しあさって",
+        "meaning": "明明後日（two days after tomorrow）"
+      },
+      {
+        "word": "以後",
+        "reading": "いご",
+        "meaning": "以後（after this; from now on; hereafter）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k224",
+    "character": "全",
+    "onyomi": [
+      "ぜんしゅ"
+    ],
+    "kunyomi": [],
+    "meaning": "全集（complete works）",
+    "examples": [
+      {
+        "word": "全集",
+        "reading": "ぜんしゅう",
+        "meaning": "全集（complete works）"
+      },
+      {
+        "word": "全般",
+        "reading": "ぜんぱん",
+        "meaning": "全般（(the) whole, general）"
+      },
+      {
+        "word": "全力",
+        "reading": "ぜんりょく",
+        "meaning": "全力（all one's power, whole energy）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k225",
+    "character": "集",
+    "onyomi": [
+      "ぜんしゅ"
+    ],
+    "kunyomi": [],
+    "meaning": "全集（complete works）",
+    "examples": [
+      {
+        "word": "全集",
+        "reading": "ぜんしゅう",
+        "meaning": "全集（complete works）"
+      },
+      {
+        "word": "～集",
+        "reading": "～しゅう",
+        "meaning": "～集（collection of ~）"
+      },
+      {
+        "word": "集会",
+        "reading": "しゅうかい",
+        "meaning": "集会（meeting, assembly）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k226",
+    "character": "扇",
+    "onyomi": [
+      "せん"
+    ],
+    "kunyomi": [],
+    "meaning": "扇子（folding fan）",
+    "examples": [
+      {
+        "word": "扇子",
+        "reading": "せんす",
+        "meaning": "扇子（folding fan）"
+      },
+      {
+        "word": "扇風機",
+        "reading": "せんぷうき",
+        "meaning": "扇風機（electric fan）"
+      },
+      {
+        "word": "扇ぐ",
+        "reading": "あおぐ",
+        "meaning": "扇ぐ（to fan, to flap）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k227",
+    "character": "専",
+    "onyomi": [
+      "せん"
+    ],
+    "kunyomi": [],
+    "meaning": "専制（despotism",
+    "examples": [
+      {
+        "word": "専制",
+        "reading": "せんせい",
+        "meaning": "専制（despotism, autocracy）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k228",
+    "character": "先",
+    "onyomi": [
+      "せんせん"
+    ],
+    "kunyomi": [],
+    "meaning": "先々月（month before last）",
+    "examples": [
+      {
+        "word": "先々月",
+        "reading": "せんせんげつ",
+        "meaning": "先々月（month before last）"
+      },
+      {
+        "word": "先々週",
+        "reading": "せんせんしゅう",
+        "meaning": "先々週（2 weeks before）"
+      },
+      {
+        "word": "先祖",
+        "reading": "せんぞ",
+        "meaning": "先祖（ancestor）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k229",
+    "character": "月",
+    "onyomi": [
+      "せんせん"
+    ],
+    "kunyomi": [],
+    "meaning": "先々月（month before last）",
+    "examples": [
+      {
+        "word": "先々月",
+        "reading": "せんせんげつ",
+        "meaning": "先々月（month before last）"
+      },
+      {
+        "word": "月給",
+        "reading": "げっきゅう",
+        "meaning": "月給（monthly salary）"
+      },
+      {
+        "word": "月末",
+        "reading": "げつまつ",
+        "meaning": "月末（end of the month）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k230",
+    "character": "週",
+    "onyomi": [
+      "せんせん"
+    ],
+    "kunyomi": [],
+    "meaning": "先々週（2 weeks before）",
+    "examples": [
+      {
+        "word": "先々週",
+        "reading": "せんせんしゅう",
+        "meaning": "先々週（2 weeks before）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k231",
+    "character": "祖",
+    "onyomi": [
+      "せん"
+    ],
+    "kunyomi": [],
+    "meaning": "先祖（ancestor）",
+    "examples": [
+      {
+        "word": "先祖",
+        "reading": "せんぞ",
+        "meaning": "先祖（ancestor）"
+      },
+      {
+        "word": "祖先",
+        "reading": "そせん",
+        "meaning": "祖先（ancestor(s)）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k232",
+    "character": "端",
+    "onyomi": [
+      "せん"
+    ],
+    "kunyomi": [],
+    "meaning": "先端（pointed end",
+    "examples": [
+      {
+        "word": "先端",
+        "reading": "せんたん",
+        "meaning": "先端（pointed end, tip）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k233",
+    "character": "般",
+    "onyomi": [
+      "ぜん"
+    ],
+    "kunyomi": [],
+    "meaning": "全般（(the) whole",
+    "examples": [
+      {
+        "word": "全般",
+        "reading": "ぜんぱん",
+        "meaning": "全般（(the) whole, general）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k234",
+    "character": "風",
+    "onyomi": [
+      "せんぷう"
+    ],
+    "kunyomi": [],
+    "meaning": "扇風機（electric fan）",
+    "examples": [
+      {
+        "word": "扇風機",
+        "reading": "せんぷうき",
+        "meaning": "扇風機（electric fan）"
+      },
+      {
+        "word": "～風",
+        "reading": "～ふう",
+        "meaning": "～風（~ style）"
+      },
+      {
+        "word": "風船",
+        "reading": "ふうせん",
+        "meaning": "風船（balloon）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k235",
+    "character": "機",
+    "onyomi": [
+      "せんぷう"
+    ],
+    "kunyomi": [],
+    "meaning": "扇風機（electric fan）",
+    "examples": [
+      {
+        "word": "扇風機",
+        "reading": "せんぷうき",
+        "meaning": "扇風機（electric fan）"
+      },
+      {
+        "word": "～機",
+        "reading": "～き",
+        "meaning": "～機（machine）"
+      },
+      {
+        "word": "機関車",
+        "reading": "きかんしゃ",
+        "meaning": "機関車（locomotive, engine）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k236",
+    "character": "洗",
+    "onyomi": [
+      "せん"
+    ],
+    "kunyomi": [],
+    "meaning": "洗面（wash up (one's face)",
+    "examples": [
+      {
+        "word": "洗面",
+        "reading": "せんめん",
+        "meaning": "洗面（wash up (one's face), have a wash）"
+      },
+      {
+        "word": "手洗い",
+        "reading": "てあらい",
+        "meaning": "手洗い（restroom, lavatory）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k237",
+    "character": "沿",
+    "onyomi": [
+      "～そ"
+    ],
+    "kunyomi": [],
+    "meaning": "～沿い（along）",
+    "examples": [
+      {
+        "word": "～沿い",
+        "reading": "～そい",
+        "meaning": "～沿い（along）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k238",
+    "character": "総",
+    "onyomi": [
+      "そう"
+    ],
+    "kunyomi": [],
+    "meaning": "総～（gross",
+    "examples": [
+      {
+        "word": "総～",
+        "reading": "そう～",
+        "meaning": "総～（gross, general, entire）"
+      },
+      {
+        "word": "総理大臣",
+        "reading": "そうりだいじん",
+        "meaning": "総理大臣（Prime Minister）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k239",
+    "character": "艘",
+    "onyomi": [
+      "～そ"
+    ],
+    "kunyomi": [],
+    "meaning": "～艘（counter for ships）",
+    "examples": [
+      {
+        "word": "～艘",
+        "reading": "～そう",
+        "meaning": "～艘（counter for ships）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k240",
+    "character": "違",
+    "onyomi": [
+      "そう"
+    ],
+    "kunyomi": [],
+    "meaning": "相違（difference",
+    "examples": [
+      {
+        "word": "相違",
+        "reading": "そうい",
+        "meaning": "相違（difference, discrepancy, variation）"
+      },
+      {
+        "word": "勘違い",
+        "reading": "かんちがい",
+        "meaning": "勘違い（misunderstanding, wrong guess）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k241",
+    "character": "雑",
+    "onyomi": [
+      "ぞう"
+    ],
+    "kunyomi": [],
+    "meaning": "雑巾（house-cloth",
+    "examples": [
+      {
+        "word": "雑巾",
+        "reading": "ぞうきん",
+        "meaning": "雑巾（house-cloth, dust cloth）"
+      },
+      {
+        "word": "雑音",
+        "reading": "ざつおん",
+        "meaning": "雑音（noise (jarring, grating)）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k242",
+    "character": "巾",
+    "onyomi": [
+      "ぞう"
+    ],
+    "kunyomi": [],
+    "meaning": "雑巾（house-cloth",
+    "examples": [
+      {
+        "word": "雑巾",
+        "reading": "ぞうきん",
+        "meaning": "雑巾（house-cloth, dust cloth）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k243",
+    "character": "増",
+    "onyomi": [
+      "ぞう"
+    ],
+    "kunyomi": [],
+    "meaning": "増減（increase and decrease",
+    "examples": [
+      {
+        "word": "増減",
+        "reading": "ぞうげん",
+        "meaning": "増減（increase and decrease, fluctuation）"
+      },
+      {
+        "word": "増大",
+        "reading": "ぞうだい",
+        "meaning": "増大（increase, growth）"
+      },
+      {
+        "word": "激増",
+        "reading": "げきぞう",
+        "meaning": "激増（sudden increase）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k244",
+    "character": "減",
+    "onyomi": [
+      "ぞう"
+    ],
+    "kunyomi": [],
+    "meaning": "増減（increase and decrease",
+    "examples": [
+      {
+        "word": "増減",
+        "reading": "ぞうげん",
+        "meaning": "増減（increase and decrease, fluctuation）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k245",
+    "character": "倉",
+    "onyomi": [
+      "そう"
+    ],
+    "kunyomi": [],
+    "meaning": "倉庫（storehouse",
+    "examples": [
+      {
+        "word": "倉庫",
+        "reading": "そうこ",
+        "meaning": "倉庫（storehouse, warehouse）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k246",
+    "character": "庫",
+    "onyomi": [
+      "そう"
+    ],
+    "kunyomi": [],
+    "meaning": "倉庫（storehouse",
+    "examples": [
+      {
+        "word": "倉庫",
+        "reading": "そうこ",
+        "meaning": "倉庫（storehouse, warehouse）"
+      },
+      {
+        "word": "車庫",
+        "reading": "しゃこ",
+        "meaning": "車庫（garage, car shed）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k247",
+    "character": "互",
+    "onyomi": [
+      "そう"
+    ],
+    "kunyomi": [],
+    "meaning": "相互（mutual",
+    "examples": [
+      {
+        "word": "相互",
+        "reading": "そうご",
+        "meaning": "相互（mutual, reciprocal）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k248",
+    "character": "創",
+    "onyomi": [
+      "そう"
+    ],
+    "kunyomi": [],
+    "meaning": "創作（production",
+    "examples": [
+      {
+        "word": "創作",
+        "reading": "そうさく",
+        "meaning": "創作（production, creation, work）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k249",
+    "character": "葬",
+    "onyomi": [
+      "そう"
+    ],
+    "kunyomi": [],
+    "meaning": "葬式（funeral）",
+    "examples": [
+      {
+        "word": "葬式",
+        "reading": "そうしき",
+        "meaning": "葬式（funeral）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k250",
+    "character": "式",
+    "onyomi": [
+      "そう"
+    ],
+    "kunyomi": [],
+    "meaning": "葬式（funeral）",
+    "examples": [
+      {
+        "word": "葬式",
+        "reading": "そうしき",
+        "meaning": "葬式（funeral）"
+      },
+      {
+        "word": "儀式",
+        "reading": "ぎしき",
+        "meaning": "儀式（ceremony, rite, ritual）"
+      },
+      {
+        "word": "形式",
+        "reading": "けいしき",
+        "meaning": "形式（form, formality, format）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k251",
+    "character": "騒",
+    "onyomi": [
+      "そうぞう"
+    ],
+    "kunyomi": [],
+    "meaning": "騒々しい（noisy",
+    "examples": [
+      {
+        "word": "騒々しい",
+        "reading": "そうぞうしい",
+        "meaning": "騒々しい（noisy, boisterous）"
+      },
+      {
+        "word": "騒がしい",
+        "reading": "さわがしい",
+        "meaning": "騒がしい（noisy）"
+      },
+      {
+        "word": "物騒",
+        "reading": "ぶっそう",
+        "meaning": "物騒（dangerous, disturbed, insecure）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k252",
+    "character": "大",
+    "onyomi": [
+      "ぞう"
+    ],
+    "kunyomi": [],
+    "meaning": "増大（increase",
+    "examples": [
+      {
+        "word": "増大",
+        "reading": "ぞうだい",
+        "meaning": "増大（increase, growth）"
+      },
+      {
+        "word": "総理大臣",
+        "reading": "そうりだいじん",
+        "meaning": "総理大臣（Prime Minister）"
+      },
+      {
+        "word": "大学院",
+        "reading": "だいがくいん",
+        "meaning": "大学院（graduate school）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k253",
+    "character": "送",
+    "onyomi": [
+      "そう"
+    ],
+    "kunyomi": [],
+    "meaning": "送別（farewell",
+    "examples": [
+      {
+        "word": "送別",
+        "reading": "そうべつ",
+        "meaning": "送別（farewell, send-off）"
+      },
+      {
+        "word": "送料",
+        "reading": "そうりょう",
+        "meaning": "送料（postage, carriage）"
+      },
+      {
+        "word": "送り仮名",
+        "reading": "おくりがな",
+        "meaning": "送り仮名（part of word written in kana）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k254",
+    "character": "草",
+    "onyomi": [
+      "ぞう"
+    ],
+    "kunyomi": [],
+    "meaning": "草履（Japanese sandals (footwear)",
+    "examples": [
+      {
+        "word": "草履",
+        "reading": "ぞうり",
+        "meaning": "草履（Japanese sandals (footwear)）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k255",
+    "character": "履",
+    "onyomi": [
+      "ぞう"
+    ],
+    "kunyomi": [],
+    "meaning": "草履（Japanese sandals (footwear)",
+    "examples": [
+      {
+        "word": "草履",
+        "reading": "ぞうり",
+        "meaning": "草履（Japanese sandals (footwear)）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k256",
+    "character": "理",
+    "onyomi": [
+      "そうりだ"
+    ],
+    "kunyomi": [],
+    "meaning": "総理大臣（Prime Minister）",
+    "examples": [
+      {
+        "word": "総理大臣",
+        "reading": "そうりだいじん",
+        "meaning": "総理大臣（Prime Minister）"
+      },
+      {
+        "word": "原理",
+        "reading": "げんり",
+        "meaning": "原理（principle, theory, fundamental truth）"
+      },
+      {
+        "word": "合理",
+        "reading": "ごうり",
+        "meaning": "合理（rational）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k257",
+    "character": "臣",
+    "onyomi": [
+      "そうりだ"
+    ],
+    "kunyomi": [],
+    "meaning": "総理大臣（Prime Minister）",
+    "examples": [
+      {
+        "word": "総理大臣",
+        "reading": "そうりだいじん",
+        "meaning": "総理大臣（Prime Minister）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k258",
+    "character": "足",
+    "onyomi": [
+      "～そ"
+    ],
+    "kunyomi": [],
+    "meaning": "～足（counter for shoes）",
+    "examples": [
+      {
+        "word": "～足",
+        "reading": "～そく",
+        "meaning": "～足（counter for shoes）"
+      },
+      {
+        "word": "足る",
+        "reading": "たる",
+        "meaning": "足る（to be sufficient, to be enough）"
+      },
+      {
+        "word": "足跡",
+        "reading": "あしあと",
+        "meaning": "足跡（footprint）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k259",
+    "character": "属",
+    "onyomi": [
+      "ぞく"
+    ],
+    "kunyomi": [],
+    "meaning": "属する（to belong to",
+    "examples": [
+      {
+        "word": "属する",
+        "reading": "ぞくする",
+        "meaning": "属する（to belong to, to come under）"
+      },
+      {
+        "word": "附属",
+        "reading": "ふぞく",
+        "meaning": "附属（attached, belonging, affiliated）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k260",
+    "character": "速",
+    "onyomi": [
+      "そく"
+    ],
+    "kunyomi": [],
+    "meaning": "速達（express",
+    "examples": [
+      {
+        "word": "速達",
+        "reading": "そくたつ",
+        "meaning": "速達（express, special delivery）"
+      },
+      {
+        "word": "速力",
+        "reading": "そくりょく",
+        "meaning": "速力（speed）"
+      },
+      {
+        "word": "加速",
+        "reading": "かそく",
+        "meaning": "加速（acceleration）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k261",
+    "character": "達",
+    "onyomi": [
+      "そく"
+    ],
+    "kunyomi": [],
+    "meaning": "速達（express",
+    "examples": [
+      {
+        "word": "速達",
+        "reading": "そくたつ",
+        "meaning": "速達（express, special delivery）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k262",
+    "character": "測",
+    "onyomi": [
+      "そく"
+    ],
+    "kunyomi": [],
+    "meaning": "測定（measurement）",
+    "examples": [
+      {
+        "word": "測定",
+        "reading": "そくてい",
+        "meaning": "測定（measurement）"
+      },
+      {
+        "word": "測量",
+        "reading": "そくりょう",
+        "meaning": "測量（measurement, surveying）"
+      },
+      {
+        "word": "観測",
+        "reading": "かんそく",
+        "meaning": "観測（observation）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k263",
+    "character": "質",
+    "onyomi": [
+      "そし"
+    ],
+    "kunyomi": [],
+    "meaning": "素質（talent",
+    "examples": [
+      {
+        "word": "素質",
+        "reading": "そしつ",
+        "meaning": "素質（talent, capability）"
+      },
+      {
+        "word": "地質",
+        "reading": "ちしつ",
+        "meaning": "地質（geological features）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k264",
+    "character": "卒",
+    "onyomi": [
+      "そっちょ"
+    ],
+    "kunyomi": [],
+    "meaning": "卒直（frank",
+    "examples": [
+      {
+        "word": "卒直",
+        "reading": "そっちょく",
+        "meaning": "卒直（frank, candid, honest）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k265",
+    "character": "他",
+    "onyomi": [
+      "その"
+    ],
+    "kunyomi": [],
+    "meaning": "その他（besides）",
+    "examples": [
+      {
+        "word": "その他",
+        "reading": "そのほか",
+        "meaning": "その他（besides）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k266",
+    "character": "剃",
+    "onyomi": [
+      "そる"
+    ],
+    "kunyomi": [],
+    "meaning": "剃る（to shave）",
+    "examples": [
+      {
+        "word": "剃る",
+        "reading": "そる",
+        "meaning": "剃る（to shave）"
+      },
+      {
+        "word": "剃刀",
+        "reading": "かみそり",
+        "meaning": "剃刀（razor）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k267",
+    "character": "逸",
+    "onyomi": [
+      "それ"
+    ],
+    "kunyomi": [],
+    "meaning": "to stray (turn) from subject",
+    "examples": [
+      {
+        "word": "逸れる",
+        "reading": "それる",
+        "meaning": "to stray (turn) from subject, to go astray"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k268",
+    "character": "算",
+    "onyomi": [
+      "そろ"
+    ],
+    "kunyomi": [],
+    "meaning": "算盤（abacus）",
+    "examples": [
+      {
+        "word": "算盤",
+        "reading": "そろばん",
+        "meaning": "算盤（abacus）"
+      },
+      {
+        "word": "掛け算",
+        "reading": "かけざん",
+        "meaning": "掛け算（multiplication）"
+      },
+      {
+        "word": "算数",
+        "reading": "さんすう",
+        "meaning": "算数（arithmetic）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k269",
+    "character": "盤",
+    "onyomi": [
+      "そろ"
+    ],
+    "kunyomi": [],
+    "meaning": "算盤（abacus）",
+    "examples": [
+      {
+        "word": "算盤",
+        "reading": "そろばん",
+        "meaning": "算盤（abacus）"
+      },
+      {
+        "word": "基盤",
+        "reading": "きばん",
+        "meaning": "基盤（foundation, basis）"
+      },
+      {
+        "word": "地盤",
+        "reading": "じばん",
+        "meaning": "地盤（(the) ground）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k270",
+    "character": "損",
+    "onyomi": [
+      "そん"
+    ],
+    "kunyomi": [],
+    "meaning": "loss and gain",
+    "examples": [
+      {
+        "word": "損得",
+        "reading": "そんとく",
+        "meaning": "loss and gain, advantage and disadvantage"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k271",
+    "character": "得",
+    "onyomi": [
+      "そん"
+    ],
+    "kunyomi": [],
+    "meaning": "loss and gain",
+    "examples": [
+      {
+        "word": "損得",
+        "reading": "そんとく",
+        "meaning": "loss and gain, advantage and disadvantage"
+      },
+      {
+        "word": "心得る",
+        "reading": "こころえる",
+        "meaning": "to understand, to have thorough knowledge"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k272",
+    "character": "田",
+    "onyomi": [
+      "たん"
+    ],
+    "kunyomi": [],
+    "meaning": "田ぼ（paddy field",
+    "examples": [
+      {
+        "word": "田ぼ",
+        "reading": "たんぼ",
+        "meaning": "田ぼ（paddy field, farm）"
+      },
+      {
+        "word": "田植え",
+        "reading": "たうえ",
+        "meaning": "田植え（rice planting）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k273",
+    "character": "第",
+    "onyomi": [
+      "だい"
+    ],
+    "kunyomi": [],
+    "meaning": "第～（~th）",
+    "examples": [
+      {
+        "word": "第～",
+        "reading": "だい～",
+        "meaning": "第～（~th）"
+      },
+      {
+        "word": "落第",
+        "reading": "らくだい",
+        "meaning": "落第（failure, dropping out of a class）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k274",
+    "character": "院",
+    "onyomi": [
+      "だいがく"
+    ],
+    "kunyomi": [],
+    "meaning": "大学院（graduate school）",
+    "examples": [
+      {
+        "word": "大学院",
+        "reading": "だいがくいん",
+        "meaning": "大学院（graduate school）"
+      },
+      {
+        "word": "寺院",
+        "reading": "じいん",
+        "meaning": "寺院（temple）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k275",
+    "character": "工",
+    "onyomi": [
+      "だい"
+    ],
+    "kunyomi": [],
+    "meaning": "大工（carpenter）",
+    "examples": [
+      {
+        "word": "大工",
+        "reading": "だいく",
+        "meaning": "大工（carpenter）"
+      },
+      {
+        "word": "工夫",
+        "reading": "くふう",
+        "meaning": "工夫（device, artifice, ingenuity）"
+      },
+      {
+        "word": "工員",
+        "reading": "こういん",
+        "meaning": "工員（factory worker）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k276",
+    "character": "体",
+    "onyomi": [
+      "たい"
+    ],
+    "kunyomi": [],
+    "meaning": "体系（system",
+    "examples": [
+      {
+        "word": "体系",
+        "reading": "たいけい",
+        "meaning": "体系（system, organization）"
+      },
+      {
+        "word": "体制",
+        "reading": "たいせい",
+        "meaning": "体制（order, system, structure）"
+      },
+      {
+        "word": "体積",
+        "reading": "たいせき",
+        "meaning": "体積（capacity, volume）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k277",
+    "character": "系",
+    "onyomi": [
+      "たい"
+    ],
+    "kunyomi": [],
+    "meaning": "体系（system",
+    "examples": [
+      {
+        "word": "体系",
+        "reading": "たいけい",
+        "meaning": "体系（system, organization）"
+      },
+      {
+        "word": "～系",
+        "reading": "～けい",
+        "meaning": "～系（~ system, ~ lineage, ~ group）"
+      },
+      {
+        "word": "系統",
+        "reading": "けいとう",
+        "meaning": "系統（system, genealogy）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k278",
+    "character": "太",
+    "onyomi": [
+      "たい"
+    ],
+    "kunyomi": [],
+    "meaning": "太鼓（drum",
+    "examples": [
+      {
+        "word": "太鼓",
+        "reading": "たいこ",
+        "meaning": "太鼓（drum, tambourine）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k279",
+    "character": "鼓",
+    "onyomi": [
+      "たい"
+    ],
+    "kunyomi": [],
+    "meaning": "太鼓（drum",
+    "examples": [
+      {
+        "word": "太鼓",
+        "reading": "たいこ",
+        "meaning": "太鼓（drum, tambourine）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k280",
+    "character": "対",
+    "onyomi": [
+      "たい"
+    ],
+    "kunyomi": [],
+    "meaning": "対策（counter-plan",
+    "examples": [
+      {
+        "word": "対策",
+        "reading": "たいさく",
+        "meaning": "対策（counter-plan, counter-measure）"
+      },
+      {
+        "word": "対立",
+        "reading": "たいりつ",
+        "meaning": "対立（confrontation, opposition, antagonism）"
+      },
+      {
+        "word": "応対",
+        "reading": "おうたい",
+        "meaning": "応対（receiving, dealing with）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k281",
+    "character": "策",
+    "onyomi": [
+      "たい"
+    ],
+    "kunyomi": [],
+    "meaning": "対策（counter-plan",
+    "examples": [
+      {
+        "word": "対策",
+        "reading": "たいさく",
+        "meaning": "対策（counter-plan, counter-measure）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k282",
+    "character": "積",
+    "onyomi": [
+      "たい"
+    ],
+    "kunyomi": [],
+    "meaning": "体積（capacity",
+    "examples": [
+      {
+        "word": "体積",
+        "reading": "たいせき",
+        "meaning": "体積（capacity, volume）"
+      },
+      {
+        "word": "面積",
+        "reading": "めんせき",
+        "meaning": "面積（area）"
+      },
+      {
+        "word": "容積",
+        "reading": "ようせき",
+        "meaning": "容積（capacity, volume）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k283",
+    "character": "層",
+    "onyomi": [
+      "たい"
+    ],
+    "kunyomi": [],
+    "meaning": "大層（very much",
+    "examples": [
+      {
+        "word": "大層",
+        "reading": "たいそう",
+        "meaning": "大層（very much, greatly）"
+      },
+      {
+        "word": "高層",
+        "reading": "こうそう",
+        "meaning": "高層（tall, high rise）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k284",
+    "character": "操",
+    "onyomi": [
+      "たい"
+    ],
+    "kunyomi": [],
+    "meaning": "gymnastics",
+    "examples": [
+      {
+        "word": "体操",
+        "reading": "たいそう",
+        "meaning": "gymnastics, physical exercises, calisthenics"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k285",
+    "character": "木",
+    "onyomi": [
+      "たい"
+    ],
+    "kunyomi": [],
+    "meaning": "大木（large tree）",
+    "examples": [
+      {
+        "word": "大木",
+        "reading": "たいぼく",
+        "meaning": "大木（large tree）"
+      },
+      {
+        "word": "材木",
+        "reading": "ざいもく",
+        "meaning": "材木（lumber, timber）"
+      },
+      {
+        "word": "植木",
+        "reading": "うえき",
+        "meaning": "植木（garden shrubs, trees, potted plant）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k286",
+    "character": "代",
+    "onyomi": [
+      "だいめい"
+    ],
+    "kunyomi": [],
+    "meaning": "代名詞（pronoun）",
+    "examples": [
+      {
+        "word": "代名詞",
+        "reading": "だいめいし",
+        "meaning": "代名詞（pronoun）"
+      },
+      {
+        "word": "お代わり",
+        "reading": "おかわり",
+        "meaning": "お代わり（second helping, another cup）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k287",
+    "character": "名",
+    "onyomi": [
+      "だいめい"
+    ],
+    "kunyomi": [],
+    "meaning": "代名詞（pronoun）",
+    "examples": [
+      {
+        "word": "代名詞",
+        "reading": "だいめいし",
+        "meaning": "代名詞（pronoun）"
+      },
+      {
+        "word": "送り仮名",
+        "reading": "おくりがな",
+        "meaning": "送り仮名（part of word written in kana）"
+      },
+      {
+        "word": "仮名",
+        "reading": "かな",
+        "meaning": "仮名（kana）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k288",
+    "character": "植",
+    "onyomi": [
+      "たう"
+    ],
+    "kunyomi": [],
+    "meaning": "田植え（rice planting）",
+    "examples": [
+      {
+        "word": "田植え",
+        "reading": "たうえ",
+        "meaning": "田植え（rice planting）"
+      },
+      {
+        "word": "植木",
+        "reading": "うえき",
+        "meaning": "植木（garden shrubs, trees, potted plant）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k289",
+    "character": "絶",
+    "onyomi": [
+      "たえ"
+    ],
+    "kunyomi": [],
+    "meaning": "絶えず（constantly）",
+    "examples": [
+      {
+        "word": "絶えず",
+        "reading": "たえず",
+        "meaning": "絶えず（constantly）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k290",
+    "character": "楕",
+    "onyomi": [
+      "だえ"
+    ],
+    "kunyomi": [],
+    "meaning": "楕円（ellipse）",
+    "examples": [
+      {
+        "word": "楕円",
+        "reading": "だえん",
+        "meaning": "楕円（ellipse）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k291",
+    "character": "円",
+    "onyomi": [
+      "だえ"
+    ],
+    "kunyomi": [],
+    "meaning": "楕円（ellipse）",
+    "examples": [
+      {
+        "word": "楕円",
+        "reading": "だえん",
+        "meaning": "楕円（ellipse）"
+      },
+      {
+        "word": "円周",
+        "reading": "えんしゅう",
+        "meaning": "円周（circumference）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k292",
+    "character": "耕",
+    "onyomi": [
+      "たが"
+    ],
+    "kunyomi": [],
+    "meaning": "耕す（to till",
+    "examples": [
+      {
+        "word": "耕す",
+        "reading": "たがやす",
+        "meaning": "耕す（to till, to plow, to cultivate）"
+      },
+      {
+        "word": "耕地",
+        "reading": "こうち",
+        "meaning": "耕地（arable land）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k293",
+    "character": "滝",
+    "onyomi": [],
+    "kunyomi": [
+      "たき"
+    ],
+    "meaning": "滝（waterfall）",
+    "examples": [
+      {
+        "word": "滝",
+        "reading": "たき",
+        "meaning": "滝（waterfall）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k294",
+    "character": "蓄",
+    "onyomi": [
+      "たくわえ"
+    ],
+    "kunyomi": [],
+    "meaning": "蓄える（to save",
+    "examples": [
+      {
+        "word": "蓄える",
+        "reading": "たくわえる",
+        "meaning": "蓄える（to save, to store, to lay in stock）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k295",
+    "character": "竹",
+    "onyomi": [],
+    "kunyomi": [
+      "たけ"
+    ],
+    "meaning": "竹（bamboo）",
+    "examples": [
+      {
+        "word": "竹",
+        "reading": "たけ",
+        "meaning": "竹（bamboo）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k296",
+    "character": "但",
+    "onyomi": [
+      "ただ"
+    ],
+    "kunyomi": [],
+    "meaning": "但し（but",
+    "examples": [
+      {
+        "word": "但し",
+        "reading": "ただし",
+        "meaning": "但し（but, however, provided that）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k297",
+    "character": "止",
+    "onyomi": [
+      "たちどま"
+    ],
+    "kunyomi": [],
+    "meaning": "立ち止まる（to stop",
+    "examples": [
+      {
+        "word": "立ち止まる",
+        "reading": "たちどまる",
+        "meaning": "立ち止まる（to stop, to halt, to stand still）"
+      },
+      {
+        "word": "引き止める",
+        "reading": "ひきとめる",
+        "meaning": "引き止める（to keep back, to prevent, to hold back）"
+      },
+      {
+        "word": "防止",
+        "reading": "ぼうし",
+        "meaning": "防止（prevention, check）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k298",
+    "character": "脱",
+    "onyomi": [
+      "だっ"
+    ],
+    "kunyomi": [],
+    "meaning": "脱線（derailment",
+    "examples": [
+      {
+        "word": "脱線",
+        "reading": "だっせん",
+        "meaning": "脱線（derailment, digression）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k299",
+    "character": "妥",
+    "onyomi": [
+      "だと"
+    ],
+    "kunyomi": [],
+    "meaning": "妥当（proper",
+    "examples": [
+      {
+        "word": "妥当",
+        "reading": "だとう",
+        "meaning": "妥当（proper, appropriate）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k300",
+    "character": "当",
+    "onyomi": [
+      "だと"
+    ],
+    "kunyomi": [],
+    "meaning": "妥当（proper",
+    "examples": [
+      {
+        "word": "妥当",
+        "reading": "だとう",
+        "meaning": "妥当（proper, appropriate）"
+      },
+      {
+        "word": "心当たり",
+        "reading": "こころあたり",
+        "meaning": "having some knowledge of, happening to know"
+      },
+      {
+        "word": "当てはまる",
+        "reading": "あてはまる",
+        "meaning": "to be applicable, to come under (a category)"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k301",
+    "character": "例",
+    "onyomi": [
+      "たと"
+    ],
+    "kunyomi": [],
+    "meaning": "例える（to compare",
+    "examples": [
+      {
+        "word": "例える",
+        "reading": "たとえる",
+        "meaning": "例える（to compare, to liken）"
+      },
+      {
+        "word": "実例",
+        "reading": "じつれい",
+        "meaning": "実例（example, instance）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k302",
+    "character": "頼",
+    "onyomi": [
+      "たのもし"
+    ],
+    "kunyomi": [],
+    "meaning": "頼もしい（reliable",
+    "examples": [
+      {
+        "word": "頼もしい",
+        "reading": "たのもしい",
+        "meaning": "頼もしい（reliable, promising）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k303",
+    "character": "溜",
+    "onyomi": [
+      "ため"
+    ],
+    "kunyomi": [],
+    "meaning": "溜息（a sigh）",
+    "examples": [
+      {
+        "word": "溜息",
+        "reading": "ためいき",
+        "meaning": "溜息（a sigh）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k304",
+    "character": "息",
+    "onyomi": [
+      "ため"
+    ],
+    "kunyomi": [],
+    "meaning": "溜息（a sigh）",
+    "examples": [
+      {
+        "word": "溜息",
+        "reading": "ためいき",
+        "meaning": "溜息（a sigh）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k305",
+    "character": "短",
+    "onyomi": [
+      "たん"
+    ],
+    "kunyomi": [],
+    "meaning": "短～（short ~）",
+    "examples": [
+      {
+        "word": "短～",
+        "reading": "たん～",
+        "meaning": "短～（short ~）"
+      },
+      {
+        "word": "短期",
+        "reading": "たんき",
+        "meaning": "短期（short term）"
+      },
+      {
+        "word": "短所",
+        "reading": "たんしょ",
+        "meaning": "短所（defect, weak point; disadvantage）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k306",
+    "character": "団",
+    "onyomi": [
+      "～だ"
+    ],
+    "kunyomi": [],
+    "meaning": "～団（group",
+    "examples": [
+      {
+        "word": "～団",
+        "reading": "～だん",
+        "meaning": "～団（group, corps, party）"
+      },
+      {
+        "word": "座布団",
+        "reading": "ざぶとん",
+        "meaning": "座布団（cushion (Japanese)）"
+      },
+      {
+        "word": "団地",
+        "reading": "だんち",
+        "meaning": "団地（housing complex）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k307",
+    "character": "凡",
+    "onyomi": [
+      "おお"
+    ],
+    "kunyomi": [],
+    "meaning": "大凡（about",
+    "examples": [
+      {
+        "word": "大凡",
+        "reading": "おおよそ",
+        "meaning": "大凡（about, approximately）"
+      },
+      {
+        "word": "平凡",
+        "reading": "へいぼん",
+        "meaning": "平凡（common, ordinary）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k308",
+    "character": "帰",
+    "onyomi": [
+      "おか"
+    ],
+    "kunyomi": [],
+    "meaning": "お帰り（return",
+    "examples": [
+      {
+        "word": "お帰り",
+        "reading": "おかえり",
+        "meaning": "お帰り（return, welcome）"
+      },
+      {
+        "word": "日帰り",
+        "reading": "ひがえり",
+        "meaning": "日帰り（day trip）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k309",
+    "character": "拝",
+    "onyomi": [
+      "おが"
+    ],
+    "kunyomi": [],
+    "meaning": "拝む（to worship",
+    "examples": [
+      {
+        "word": "拝む",
+        "reading": "おがむ",
+        "meaning": "拝む（to worship, to pray）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k310",
+    "character": "補",
+    "onyomi": [
+      "おぎ"
+    ],
+    "kunyomi": [],
+    "meaning": "補う（to compensate for）",
+    "examples": [
+      {
+        "word": "補う",
+        "reading": "おぎなう",
+        "meaning": "補う（to compensate for）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k311",
+    "character": "屋",
+    "onyomi": [
+      "おく"
+    ],
+    "kunyomi": [],
+    "meaning": "屋外（outdoors）",
+    "examples": [
+      {
+        "word": "屋外",
+        "reading": "おくがい",
+        "meaning": "屋外（outdoors）"
+      },
+      {
+        "word": "家屋",
+        "reading": "かおく",
+        "meaning": "家屋（house, building）"
+      },
+      {
+        "word": "店屋",
+        "reading": "みせや",
+        "meaning": "店屋（store, shop）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k312",
+    "character": "外",
+    "onyomi": [
+      "おく"
+    ],
+    "kunyomi": [],
+    "meaning": "屋外（outdoors）",
+    "examples": [
+      {
+        "word": "屋外",
+        "reading": "おくがい",
+        "meaning": "屋外（outdoors）"
+      },
+      {
+        "word": "外～",
+        "reading": "がい～",
+        "meaning": "外～（foreign ~, outside ~）"
+      },
+      {
+        "word": "～外",
+        "reading": "～がい",
+        "meaning": "～外（out of ~）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k313",
+    "character": "仮",
+    "onyomi": [
+      "おくりが"
+    ],
+    "kunyomi": [],
+    "meaning": "送り仮名（part of word written in k",
+    "examples": [
+      {
+        "word": "送り仮名",
+        "reading": "おくりがな",
+        "meaning": "送り仮名（part of word written in kana）"
+      },
+      {
+        "word": "仮名",
+        "reading": "かな",
+        "meaning": "仮名（kana）"
+      },
+      {
+        "word": "仮名遣い",
+        "reading": "かなづかい",
+        "meaning": "仮名遣い（kana orthography, syllabary spelling）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k314",
+    "character": "元",
+    "onyomi": [
+      "おげんき"
+    ],
+    "kunyomi": [],
+    "meaning": "お元気で（Take care'）",
+    "examples": [
+      {
+        "word": "お元気で",
+        "reading": "おげんきで",
+        "meaning": "お元気で（Take care'）"
+      },
+      {
+        "word": "元日",
+        "reading": "がんじつ",
+        "meaning": "元日（New Year's Day）"
+      },
+      {
+        "word": "足元",
+        "reading": "あしもと",
+        "meaning": "足元（at one's feet）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k315",
+    "character": "怠",
+    "onyomi": [
+      "おこ"
+    ],
+    "kunyomi": [],
+    "meaning": "怠る（to neglect",
+    "examples": [
+      {
+        "word": "怠る",
+        "reading": "おこたる",
+        "meaning": "怠る（to neglect, to fail）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k316",
+    "character": "伯",
+    "onyomi": [
+      "おじ"
+    ],
+    "kunyomi": [],
+    "meaning": "伯父（(humble) uncle (older than ",
+    "examples": [
+      {
+        "word": "伯父",
+        "reading": "おじ",
+        "meaning": "伯父（(humble) uncle (older than one's parent)）"
+      },
+      {
+        "word": "伯父さん",
+        "reading": "おじさん",
+        "meaning": "伯父さん（(hon.) middle-aged gentleman, uncle）"
+      },
+      {
+        "word": "伯母",
+        "reading": "おば",
+        "meaning": "伯母（(humble) aunt (older than one's parent)）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k317",
+    "character": "父",
+    "onyomi": [
+      "おじ"
+    ],
+    "kunyomi": [],
+    "meaning": "伯父（(humble) uncle (older than ",
+    "examples": [
+      {
+        "word": "伯父",
+        "reading": "おじ",
+        "meaning": "伯父（(humble) uncle (older than one's parent)）"
+      },
+      {
+        "word": "叔父",
+        "reading": "おじ",
+        "meaning": "叔父（uncle (younger than one's parent)）"
+      },
+      {
+        "word": "伯父さん",
+        "reading": "おじさん",
+        "meaning": "伯父さん（(hon.) middle-aged gentleman, uncle）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k318",
+    "character": "叔",
+    "onyomi": [
+      "おじ"
+    ],
+    "kunyomi": [],
+    "meaning": "叔父（uncle (younger than one's p",
+    "examples": [
+      {
+        "word": "叔父",
+        "reading": "おじ",
+        "meaning": "叔父（uncle (younger than one's parent)）"
+      },
+      {
+        "word": "叔父さん",
+        "reading": "おじさん",
+        "meaning": "叔父さん（(hon.) middle-aged gentleman, uncle）"
+      },
+      {
+        "word": "叔母",
+        "reading": "おば",
+        "meaning": "叔母（aunt (younger than one's parent)）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k319",
+    "character": "惜",
+    "onyomi": [
+      "おし"
+    ],
+    "kunyomi": [],
+    "meaning": "惜しい（regrettable",
+    "examples": [
+      {
+        "word": "惜しい",
+        "reading": "おしい",
+        "meaning": "惜しい（regrettable, disappointing）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k320",
+    "character": "邪",
+    "onyomi": [
+      "おじゃま"
+    ],
+    "kunyomi": [],
+    "meaning": "お邪魔します（Excuse me for disturbin",
+    "examples": [
+      {
+        "word": "お邪魔します",
+        "reading": "おじゃまします",
+        "meaning": "お邪魔します（Excuse me for disturbing you）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k321",
+    "character": "魔",
+    "onyomi": [
+      "おじゃま"
+    ],
+    "kunyomi": [],
+    "meaning": "お邪魔します（Excuse me for disturbin",
+    "examples": [
+      {
+        "word": "お邪魔します",
+        "reading": "おじゃまします",
+        "meaning": "お邪魔します（Excuse me for disturbing you）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k322",
+    "character": "世",
+    "onyomi": [
+      "おせわに"
+    ],
+    "kunyomi": [],
+    "meaning": "お世話になりました（I've been in your ca",
+    "examples": [
+      {
+        "word": "お世話になりました",
+        "reading": "おせわになりました",
+        "meaning": "お世話になりました（I've been in your care）"
+      },
+      {
+        "word": "中世",
+        "reading": "ちゅうせい",
+        "meaning": "中世（Middle Ages, medieval times）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k323",
+    "character": "落",
+    "onyomi": [
+      "おち"
+    ],
+    "kunyomi": [],
+    "meaning": "落着く（to calm down",
+    "examples": [
+      {
+        "word": "落着く",
+        "reading": "おちつく",
+        "meaning": "落着く（to calm down, to settle down）"
+      },
+      {
+        "word": "落し物",
+        "reading": "おとしもの",
+        "meaning": "落し物（lost property）"
+      },
+      {
+        "word": "洒落",
+        "reading": "しゃれ",
+        "meaning": "洒落（joke, pun, witticism）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k324",
+    "character": "着",
+    "onyomi": [
+      "おち"
+    ],
+    "kunyomi": [],
+    "meaning": "落着く（to calm down",
+    "examples": [
+      {
+        "word": "落着く",
+        "reading": "おちつく",
+        "meaning": "落着く（to calm down, to settle down）"
+      },
+      {
+        "word": "着替え",
+        "reading": "きがえ",
+        "meaning": "着替え（changing clothes, change of clothes）"
+      },
+      {
+        "word": "着替える",
+        "reading": "きがえる",
+        "meaning": "着替える（to change (one's) clothes）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k325",
+    "character": "掛",
+    "onyomi": [
+      "おで"
+    ],
+    "kunyomi": [],
+    "meaning": "お出掛け（outing）",
+    "examples": [
+      {
+        "word": "お出掛け",
+        "reading": "おでかけ",
+        "meaning": "お出掛け（outing）"
+      },
+      {
+        "word": "思い掛けない",
+        "reading": "おもいがけない",
+        "meaning": "思い掛けない（unexpected, casual）"
+      },
+      {
+        "word": "掛け算",
+        "reading": "かけざん",
+        "meaning": "掛け算（multiplication）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k326",
+    "character": "手",
+    "onyomi": [
+      "おてつだ"
+    ],
+    "kunyomi": [],
+    "meaning": "お手伝いさん（maid）",
+    "examples": [
+      {
+        "word": "お手伝いさん",
+        "reading": "おてつだいさん",
+        "meaning": "お手伝いさん（maid）"
+      },
+      {
+        "word": "勝手に",
+        "reading": "かってに",
+        "meaning": "勝手に（arbitrarily,）"
+      },
+      {
+        "word": "～手",
+        "reading": "～しゅ",
+        "meaning": "～手（~ player, person who does ~）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k327",
+    "character": "伝",
+    "onyomi": [
+      "おてつだ"
+    ],
+    "kunyomi": [],
+    "meaning": "お手伝いさん（maid）",
+    "examples": [
+      {
+        "word": "お手伝いさん",
+        "reading": "おてつだいさん",
+        "meaning": "お手伝いさん（maid）"
+      },
+      {
+        "word": "伝記",
+        "reading": "でんき",
+        "meaning": "伝記（biography, life story）"
+      },
+      {
+        "word": "伝染",
+        "reading": "でんせん",
+        "meaning": "伝染（contagion）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k328",
+    "character": "脅",
+    "onyomi": [
+      "おど"
+    ],
+    "kunyomi": [],
+    "meaning": "脅かす（to threaten",
+    "examples": [
+      {
+        "word": "脅かす",
+        "reading": "おどかす",
+        "meaning": "脅かす（to threaten, to coerce）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k329",
+    "character": "驚",
+    "onyomi": [
+      "おどろか"
+    ],
+    "kunyomi": [],
+    "meaning": "驚かす（to surprise",
+    "examples": [
+      {
+        "word": "驚かす",
+        "reading": "おどろかす",
+        "meaning": "驚かす（to surprise, to frighten）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k330",
+    "character": "願",
+    "onyomi": [
+      "おねがい"
+    ],
+    "kunyomi": [],
+    "meaning": "お願いします（Please (lit.",
+    "examples": [
+      {
+        "word": "お願いします",
+        "reading": "おねがいします",
+        "meaning": "お願いします（Please (lit., I request)）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k331",
+    "character": "各",
+    "onyomi": [
+      "おの"
+    ],
+    "kunyomi": [],
+    "meaning": "各々（each",
+    "examples": [
+      {
+        "word": "各々",
+        "reading": "おのおの",
+        "meaning": "各々（each, every, either）"
+      },
+      {
+        "word": "各～",
+        "reading": "かく～",
+        "meaning": "各～（every ~, each ~）"
+      },
+      {
+        "word": "各自",
+        "reading": "かくじ",
+        "meaning": "各自（individual, each）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k332",
+    "character": "母",
+    "onyomi": [
+      "おば"
+    ],
+    "kunyomi": [],
+    "meaning": "伯母（(humble) aunt (older than o",
+    "examples": [
+      {
+        "word": "伯母",
+        "reading": "おば",
+        "meaning": "伯母（(humble) aunt (older than one's parent)）"
+      },
+      {
+        "word": "叔母",
+        "reading": "おば",
+        "meaning": "叔母（aunt (younger than one's parent)）"
+      },
+      {
+        "word": "小母さん",
+        "reading": "おばさん",
+        "meaning": "小母さん（lady, woman, ma'am）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k333",
+    "character": "参",
+    "onyomi": [
+      "おま"
+    ],
+    "kunyomi": [],
+    "meaning": "お参り（worship",
+    "examples": [
+      {
+        "word": "お参り",
+        "reading": "おまいり",
+        "meaning": "お参り（worship, shrine visit）"
+      },
+      {
+        "word": "持参",
+        "reading": "じさん",
+        "meaning": "持参（bringing, taking, carrying）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k334",
+    "character": "待",
+    "onyomi": [
+      "おまたせ"
+    ],
+    "kunyomi": [],
+    "meaning": "お待たせしました（Sorry to have kept yo",
+    "examples": [
+      {
+        "word": "お待たせしました",
+        "reading": "おまたせしました",
+        "meaning": "お待たせしました（Sorry to have kept you waiting）"
+      },
+      {
+        "word": "お待ちください",
+        "reading": "おまちください",
+        "meaning": "お待ちください（Please wait a moment）"
+      },
+      {
+        "word": "待合室",
+        "reading": "まちあいしつ",
+        "meaning": "待合室（waiting room）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k335",
+    "character": "思",
+    "onyomi": [
+      "おもいが"
+    ],
+    "kunyomi": [],
+    "meaning": "思い掛けない（unexpected",
+    "examples": [
+      {
+        "word": "思い掛けない",
+        "reading": "おもいがけない",
+        "meaning": "思い掛けない（unexpected, casual）"
+      },
+      {
+        "word": "思い切り",
+        "reading": "おもいきり",
+        "meaning": "with all one's strength (heart), resignation, resolution"
+      },
+      {
+        "word": "思い込む",
+        "reading": "おもいこむ",
+        "meaning": "to be under impression that, to be convinced that"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k336",
+    "character": "切",
+    "onyomi": [
+      "おもいき"
+    ],
+    "kunyomi": [],
+    "meaning": "with all one's strength (heart",
+    "examples": [
+      {
+        "word": "思い切り",
+        "reading": "おもいきり",
+        "meaning": "with all one's strength (heart), resignation, resolution"
+      },
+      {
+        "word": "思いっ切り",
+        "reading": "おもいっきり",
+        "meaning": "思いっ切り（very, much, fully）"
+      },
+      {
+        "word": "～切れ",
+        "reading": "～きれ",
+        "meaning": "～切れ（out of ~）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k337",
+    "character": "込",
+    "onyomi": [
+      "おもいこ"
+    ],
+    "kunyomi": [],
+    "meaning": "to be under impression that",
+    "examples": [
+      {
+        "word": "思い込む",
+        "reading": "おもいこむ",
+        "meaning": "to be under impression that, to be convinced that"
+      },
+      {
+        "word": "溶け込む",
+        "reading": "とけこむ",
+        "meaning": "溶け込む（to melt into; to become a part of）"
+      },
+      {
+        "word": "飛び込む",
+        "reading": "とびこむ",
+        "meaning": "飛び込む（to jump in, to leap in, to plunge into）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k338",
+    "character": "休",
+    "onyomi": [
+      "おや"
+    ],
+    "kunyomi": [],
+    "meaning": "お休み（holiday",
+    "examples": [
+      {
+        "word": "お休み",
+        "reading": "おやすみ",
+        "meaning": "お休み（holiday, absence; (exp.) Good night）"
+      },
+      {
+        "word": "休業",
+        "reading": "きゅうぎょう",
+        "meaning": "休業（closure, shutdown, holiday）"
+      },
+      {
+        "word": "休講",
+        "reading": "きゅうこう",
+        "meaning": "休講（lecture canceled）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k339",
+    "character": "指",
+    "onyomi": [
+      "おや"
+    ],
+    "kunyomi": [],
+    "meaning": "親指（thumb）",
+    "examples": [
+      {
+        "word": "親指",
+        "reading": "おやゆび",
+        "meaning": "親指（thumb）"
+      },
+      {
+        "word": "薬指",
+        "reading": "くすりゆび",
+        "meaning": "薬指（ring finger）"
+      },
+      {
+        "word": "小指",
+        "reading": "こゆび",
+        "meaning": "小指（little finger）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k340",
+    "character": "恩",
+    "onyomi": [
+      "おん"
+    ],
+    "kunyomi": [],
+    "meaning": "恩恵（blessing",
+    "examples": [
+      {
+        "word": "恩恵",
+        "reading": "おんけい",
+        "meaning": "恩恵（blessing, benefit）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k341",
+    "character": "恵",
+    "onyomi": [
+      "おん"
+    ],
+    "kunyomi": [],
+    "meaning": "恩恵（blessing",
+    "examples": [
+      {
+        "word": "恩恵",
+        "reading": "おんけい",
+        "meaning": "恩恵（blessing, benefit）"
+      },
+      {
+        "word": "恵まれる",
+        "reading": "めぐまれる",
+        "meaning": "恵まれる（to be blessed with, to be rich in）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k342",
+    "character": "温",
+    "onyomi": [
+      "おん"
+    ],
+    "kunyomi": [],
+    "meaning": "温室（greenhouse）",
+    "examples": [
+      {
+        "word": "温室",
+        "reading": "おんしつ",
+        "meaning": "温室（greenhouse）"
+      },
+      {
+        "word": "温泉",
+        "reading": "おんせん",
+        "meaning": "温泉（spa, hot spring）"
+      },
+      {
+        "word": "温帯",
+        "reading": "おんたい",
+        "meaning": "温帯（temperate zone）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k343",
+    "character": "室",
+    "onyomi": [
+      "おん"
+    ],
+    "kunyomi": [],
+    "meaning": "温室（greenhouse）",
+    "examples": [
+      {
+        "word": "温室",
+        "reading": "おんしつ",
+        "meaning": "温室（greenhouse）"
+      },
+      {
+        "word": "室～",
+        "reading": "しつ～",
+        "meaning": "室～（room）"
+      },
+      {
+        "word": "～室",
+        "reading": "～しつ",
+        "meaning": "～室（counter for room）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k344",
+    "character": "泉",
+    "onyomi": [
+      "おん"
+    ],
+    "kunyomi": [],
+    "meaning": "温泉（spa",
+    "examples": [
+      {
+        "word": "温泉",
+        "reading": "おんせん",
+        "meaning": "温泉（spa, hot spring）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k345",
+    "character": "帯",
+    "onyomi": [
+      "おん"
+    ],
+    "kunyomi": [],
+    "meaning": "温帯（temperate zone）",
+    "examples": [
+      {
+        "word": "温帯",
+        "reading": "おんたい",
+        "meaning": "温帯（temperate zone）"
+      },
+      {
+        "word": "寒帯",
+        "reading": "かんたい",
+        "meaning": "寒帯（frigid zone）"
+      },
+      {
+        "word": "包帯",
+        "reading": "ほうたい",
+        "meaning": "包帯（bandage）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k346",
+    "character": "御",
+    "onyomi": [
+      "おんちゅ"
+    ],
+    "kunyomi": [],
+    "meaning": "御中（Messrs.）",
+    "examples": [
+      {
+        "word": "御中",
+        "reading": "おんちゅう",
+        "meaning": "御中（Messrs.）"
+      },
+      {
+        "word": "御無沙汰",
+        "reading": "ごぶさた",
+        "meaning": "御無沙汰（not writing or contacting for a while）"
+      },
+      {
+        "word": "御免",
+        "reading": "ごめん",
+        "meaning": "御免（declining (something); pardon, sorry）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k347",
+    "character": "中",
+    "onyomi": [
+      "おんちゅ"
+    ],
+    "kunyomi": [],
+    "meaning": "御中（Messrs.）",
+    "examples": [
+      {
+        "word": "御中",
+        "reading": "おんちゅう",
+        "meaning": "御中（Messrs.）"
+      },
+      {
+        "word": "空中",
+        "reading": "くうちゅう",
+        "meaning": "空中（sky, air）"
+      },
+      {
+        "word": "中指",
+        "reading": "なかゆび",
+        "meaning": "中指（middle finger）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k348",
+    "character": "歌",
+    "onyomi": [
+      "～か"
+    ],
+    "kunyomi": [],
+    "meaning": "～歌（song of ~）",
+    "examples": [
+      {
+        "word": "～歌",
+        "reading": "～か",
+        "meaning": "～歌（song of ~）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k349",
+    "character": "画",
+    "onyomi": [
+      "～が"
+    ],
+    "kunyomi": [],
+    "meaning": "～画（picture",
+    "examples": [
+      {
+        "word": "～画",
+        "reading": "～が",
+        "meaning": "～画（picture, painting）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k350",
+    "character": "開",
+    "onyomi": [
+      "かい"
+    ],
+    "kunyomi": [],
+    "meaning": "開会（opening of a meeting）",
+    "examples": [
+      {
+        "word": "開会",
+        "reading": "かいかい",
+        "meaning": "開会（opening of a meeting）"
+      },
+      {
+        "word": "開通",
+        "reading": "かいつう",
+        "meaning": "開通（opening, open）"
+      },
+      {
+        "word": "開放",
+        "reading": "かいほう",
+        "meaning": "開放（open, throw open, liberalization）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k351",
+    "character": "会",
+    "onyomi": [
+      "かい"
+    ],
+    "kunyomi": [],
+    "meaning": "開会（opening of a meeting）",
+    "examples": [
+      {
+        "word": "開会",
+        "reading": "かいかい",
+        "meaning": "開会（opening of a meeting）"
+      },
+      {
+        "word": "会館",
+        "reading": "かいかん",
+        "meaning": "会館（meeting hall, assembly hall）"
+      },
+      {
+        "word": "学会",
+        "reading": "がっかい",
+        "meaning": "学会（academic conference）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k352",
+    "character": "館",
+    "onyomi": [
+      "かい"
+    ],
+    "kunyomi": [],
+    "meaning": "会館（meeting hall",
+    "examples": [
+      {
+        "word": "会館",
+        "reading": "かいかん",
+        "meaning": "会館（meeting hall, assembly hall）"
+      },
+      {
+        "word": "～館",
+        "reading": "～かん",
+        "meaning": "～館（~ hall, ~ building）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k353",
+    "character": "改",
+    "onyomi": [
+      "かい"
+    ],
+    "kunyomi": [],
+    "meaning": "改札（examination of tickets）",
+    "examples": [
+      {
+        "word": "改札",
+        "reading": "かいさつ",
+        "meaning": "改札（examination of tickets）"
+      },
+      {
+        "word": "改正",
+        "reading": "かいせい",
+        "meaning": "改正（revision, amendment, alteration）"
+      },
+      {
+        "word": "改造",
+        "reading": "かいぞう",
+        "meaning": "改造（remodeling）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k354",
+    "character": "札",
+    "onyomi": [
+      "かい"
+    ],
+    "kunyomi": [],
+    "meaning": "改札（examination of tickets）",
+    "examples": [
+      {
+        "word": "改札",
+        "reading": "かいさつ",
+        "meaning": "改札（examination of tickets）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k355",
+    "character": "解",
+    "onyomi": [
+      "かい"
+    ],
+    "kunyomi": [],
+    "meaning": "解散（breakup",
+    "examples": [
+      {
+        "word": "解散",
+        "reading": "かいさん",
+        "meaning": "解散（breakup, dissolution）"
+      },
+      {
+        "word": "解説",
+        "reading": "かいせつ",
+        "meaning": "解説（explanation, commentary）"
+      },
+      {
+        "word": "解答",
+        "reading": "かいとう",
+        "meaning": "解答（answer, solution）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k356",
+    "character": "散",
+    "onyomi": [
+      "かい"
+    ],
+    "kunyomi": [],
+    "meaning": "解散（breakup",
+    "examples": [
+      {
+        "word": "解散",
+        "reading": "かいさん",
+        "meaning": "解散（breakup, dissolution）"
+      },
+      {
+        "word": "散らかす",
+        "reading": "ちらかす",
+        "meaning": "散らかす（to scatter around, to leave untidy）"
+      },
+      {
+        "word": "散らかる",
+        "reading": "ちらかる",
+        "meaning": "散らかる（to be in disorder）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k357",
+    "character": "海",
+    "onyomi": [
+      "かいすい"
+    ],
+    "kunyomi": [],
+    "meaning": "海水浴（sea bathing",
+    "examples": [
+      {
+        "word": "海水浴",
+        "reading": "かいすいよく",
+        "meaning": "海水浴（sea bathing, seawater bath）"
+      },
+      {
+        "word": "海洋",
+        "reading": "かいよう",
+        "meaning": "海洋（ocean）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k358",
+    "character": "浴",
+    "onyomi": [
+      "かいすい"
+    ],
+    "kunyomi": [],
+    "meaning": "海水浴（sea bathing",
+    "examples": [
+      {
+        "word": "海水浴",
+        "reading": "かいすいよく",
+        "meaning": "海水浴（sea bathing, seawater bath）"
+      },
+      {
+        "word": "浴衣",
+        "reading": "ゆかた",
+        "meaning": "浴衣（bathrobe, informal summer kimono）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k359",
+    "character": "回",
+    "onyomi": [
+      "かい"
+    ],
+    "kunyomi": [],
+    "meaning": "回数（number of times",
+    "examples": [
+      {
+        "word": "回数",
+        "reading": "かいすう",
+        "meaning": "回数（number of times, frequency）"
+      },
+      {
+        "word": "回数券",
+        "reading": "かいすうけん",
+        "meaning": "回数券（book of tickets）"
+      },
+      {
+        "word": "回転",
+        "reading": "かいてん",
+        "meaning": "回転（rotation, turning）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k360",
+    "character": "券",
+    "onyomi": [
+      "かいすう"
+    ],
+    "kunyomi": [],
+    "meaning": "回数券（book of tickets）",
+    "examples": [
+      {
+        "word": "回数券",
+        "reading": "かいすうけん",
+        "meaning": "回数券（book of tickets）"
+      },
+      {
+        "word": "定期券",
+        "reading": "ていきけん",
+        "meaning": "定期券（commuter pass, season ticket）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k361",
+    "character": "快",
+    "onyomi": [
+      "かい"
+    ],
+    "kunyomi": [],
+    "meaning": "快晴（good weather）",
+    "examples": [
+      {
+        "word": "快晴",
+        "reading": "かいせい",
+        "meaning": "快晴（good weather）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k362",
+    "character": "晴",
+    "onyomi": [
+      "かい"
+    ],
+    "kunyomi": [],
+    "meaning": "快晴（good weather）",
+    "examples": [
+      {
+        "word": "快晴",
+        "reading": "かいせい",
+        "meaning": "快晴（good weather）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k363",
+    "character": "説",
+    "onyomi": [
+      "かい"
+    ],
+    "kunyomi": [],
+    "meaning": "解説（explanation",
+    "examples": [
+      {
+        "word": "解説",
+        "reading": "かいせつ",
+        "meaning": "解説（explanation, commentary）"
+      },
+      {
+        "word": "社説",
+        "reading": "しゃせつ",
+        "meaning": "社説（editorial）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k364",
+    "character": "転",
+    "onyomi": [
+      "かい"
+    ],
+    "kunyomi": [],
+    "meaning": "回転（rotation",
+    "examples": [
+      {
+        "word": "回転",
+        "reading": "かいてん",
+        "meaning": "回転（rotation, turning）"
+      },
+      {
+        "word": "転がす",
+        "reading": "ころがす",
+        "meaning": "転がす（to roll）"
+      },
+      {
+        "word": "転がる",
+        "reading": "ころがる",
+        "meaning": "転がる（to roll, to tumble）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k365",
+    "character": "答",
+    "onyomi": [
+      "かい"
+    ],
+    "kunyomi": [],
+    "meaning": "解答（answer",
+    "examples": [
+      {
+        "word": "解答",
+        "reading": "かいとう",
+        "meaning": "解答（answer, solution）"
+      },
+      {
+        "word": "回答",
+        "reading": "かいとう",
+        "meaning": "回答（reply, answer）"
+      },
+      {
+        "word": "問答",
+        "reading": "もんどう",
+        "meaning": "問答（questions and answers, dialogue）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k366",
+    "character": "部",
+    "onyomi": [
+      "がい"
+    ],
+    "kunyomi": [],
+    "meaning": "外部（the outside",
+    "examples": [
+      {
+        "word": "外部",
+        "reading": "がいぶ",
+        "meaning": "外部（the outside, external）"
+      },
+      {
+        "word": "～部",
+        "reading": "～ぶ",
+        "meaning": "～部（~ part）"
+      },
+      {
+        "word": "部首",
+        "reading": "ぶしゅ",
+        "meaning": "部首（radical (of a kanji character)）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k367",
+    "character": "放",
+    "onyomi": [
+      "かい"
+    ],
+    "kunyomi": [],
+    "meaning": "解放（release",
+    "examples": [
+      {
+        "word": "解放",
+        "reading": "かいほう",
+        "meaning": "解放（release, liberation, emancipation）"
+      },
+      {
+        "word": "開放",
+        "reading": "かいほう",
+        "meaning": "開放（open, throw open, liberalization）"
+      },
+      {
+        "word": "放る",
+        "reading": "ほうる",
+        "meaning": "放る（to let go）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k368",
+    "character": "洋",
+    "onyomi": [
+      "かい"
+    ],
+    "kunyomi": [],
+    "meaning": "海洋（ocean）",
+    "examples": [
+      {
+        "word": "海洋",
+        "reading": "かいよう",
+        "meaning": "海洋（ocean）"
+      },
+      {
+        "word": "洋品店",
+        "reading": "ようひんてん",
+        "meaning": "洋品店（clothes store）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k369",
+    "character": "概",
+    "onyomi": [
+      "がい"
+    ],
+    "kunyomi": [],
+    "meaning": "概論（introduction",
+    "examples": [
+      {
+        "word": "概論",
+        "reading": "がいろん",
+        "meaning": "概論（introduction, general remark）"
+      }
+    ],
+    "jlptLevel": "N2"
+  },
+  {
+    "id": "k370",
+    "character": "論",
+    "onyomi": [
+      "がい"
+    ],
+    "kunyomi": [],
+    "meaning": "概論（introduction",
+    "examples": [
+      {
+        "word": "概論",
+        "reading": "がいろん",
+        "meaning": "概論（introduction, general remark）"
+      },
+      {
+        "word": "～論",
+        "reading": "～ろん",
+        "meaning": "～論（theory）"
+      },
+      {
+        "word": "論ずる",
+        "reading": "ろんずる",
+        "meaning": "論ずる（to argue, to discuss）"
+      }
+    ],
+    "jlptLevel": "N2"
+  }
+]

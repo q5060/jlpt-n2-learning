@@ -1,0 +1,1212 @@
+[
+  {
+    "id": "eq001",
+    "section": "language",
+    "skill": "vocab",
+    "prompt": "「就任」の読み方は？",
+    "options": [
+      "ちらかる",
+      "しゅうにん",
+      "きしょう",
+      "～けい"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解は「しゅうにん」です。"
+  },
+  {
+    "id": "eq002",
+    "section": "language",
+    "skill": "kanji",
+    "prompt": "「傾」の意味は？",
+    "options": [
+      "形容詞",
+      "傾く",
+      "名詞",
+      "動詞"
+    ],
+    "correctIndex": 1,
+    "explanation": "「傾」は「傾く」の意味です。"
+  },
+  {
+    "id": "eq003",
+    "section": "language",
+    "skill": "grammar",
+    "prompt": "正しいものを選びなさい：彼は日本語___英語も話せる。",
+    "options": [
+      "はもちろん",
+      "だけ",
+      "ばかり",
+      "しか"
+    ],
+    "correctIndex": 0,
+    "explanation": "「はもちろん〜も」の使い方を確認しましょう。"
+  },
+  {
+    "id": "eq004",
+    "section": "language",
+    "skill": "vocab",
+    "prompt": "「終了」の読み方は？",
+    "options": [
+      "かぜい",
+      "チップ",
+      "てつづき",
+      "しゅうりょう"
+    ],
+    "correctIndex": 3,
+    "explanation": "正解は「しゅうりょう」です。"
+  },
+  {
+    "id": "eq005",
+    "section": "language",
+    "skill": "kanji",
+    "prompt": "「施」の意味は？",
+    "options": [
+      "形容詞",
+      "動詞",
+      "施す",
+      "名詞"
+    ],
+    "correctIndex": 2,
+    "explanation": "「施」は「施す」の意味です。"
+  },
+  {
+    "id": "eq006",
+    "section": "language",
+    "skill": "grammar",
+    "prompt": "正しいものを選びなさい：彼は日本語___英語も話せる。",
+    "options": [
+      "をはじめ",
+      "だけ",
+      "ばかり",
+      "しか"
+    ],
+    "correctIndex": 0,
+    "explanation": "「をはじめ」の使い方を確認しましょう。"
+  },
+  {
+    "id": "eq007",
+    "section": "language",
+    "skill": "vocab",
+    "prompt": "「熟語」の読み方は？",
+    "options": [
+      "すいそ",
+      "じゅくご",
+      "かじつ",
+      "プログラム"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解は「じゅくご」です。"
+  },
+  {
+    "id": "eq008",
+    "section": "language",
+    "skill": "kanji",
+    "prompt": "「促」の意味は？",
+    "options": [
+      "名詞",
+      "動詞",
+      "形容詞",
+      "促す"
+    ],
+    "correctIndex": 3,
+    "explanation": "「促」は「促す」の意味です。"
+  },
+  {
+    "id": "eq009",
+    "section": "language",
+    "skill": "grammar",
+    "prompt": "正しいものを選びなさい：彼は日本語___英語も話せる。",
+    "options": [
+      "に応じて",
+      "だけ",
+      "ばかり",
+      "しか"
+    ],
+    "correctIndex": 0,
+    "explanation": "「に応じて」の使い方を確認しましょう。"
+  },
+  {
+    "id": "eq010",
+    "section": "language",
+    "skill": "vocab",
+    "prompt": "「受験」の読み方は？",
+    "options": [
+      "マンション",
+      "じゅけん",
+      "しゅうへん",
+      "てきかく"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解は「じゅけん」です。"
+  },
+  {
+    "id": "eq011",
+    "section": "language",
+    "skill": "kanji",
+    "prompt": "「就」の意味は？",
+    "options": [
+      "動詞",
+      "就任（inauguration",
+      "名詞",
+      "形容詞"
+    ],
+    "correctIndex": 1,
+    "explanation": "「就」は「就任（inauguration」の意味です。"
+  },
+  {
+    "id": "eq012",
+    "section": "language",
+    "skill": "grammar",
+    "prompt": "正しいものを選びなさい：彼は日本語___英語も話せる。",
+    "options": [
+      "ものの",
+      "だけ",
+      "ばかり",
+      "しか"
+    ],
+    "correctIndex": 0,
+    "explanation": "「ものの」の使い方を確認しましょう。"
+  },
+  {
+    "id": "eq013",
+    "section": "language",
+    "skill": "vocab",
+    "prompt": "「出勤」の読み方は？",
+    "options": [
+      "すっきり",
+      "しゅっきん",
+      "ばね",
+      "ウール"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解は「しゅっきん」です。"
+  },
+  {
+    "id": "eq014",
+    "section": "language",
+    "skill": "kanji",
+    "prompt": "「辺」の意味は？",
+    "options": [
+      "名詞",
+      "形容詞",
+      "周辺（circumference",
+      "動詞"
+    ],
+    "correctIndex": 2,
+    "explanation": "「辺」は「周辺（circumference」の意味です。"
+  },
+  {
+    "id": "eq015",
+    "section": "language",
+    "skill": "grammar",
+    "prompt": "正しいものを選びなさい：彼は日本語___英語も話せる。",
+    "options": [
+      "ばかりだ",
+      "だけ",
+      "ばかり",
+      "しか"
+    ],
+    "correctIndex": 0,
+    "explanation": "「ばかりだ」の使い方を確認しましょう。"
+  },
+  {
+    "id": "eq016",
+    "section": "language",
+    "skill": "vocab",
+    "prompt": "「寿命」の読み方は？",
+    "options": [
+      "ほす",
+      "すいとう",
+      "みまう",
+      "じゅみょう"
+    ],
+    "correctIndex": 3,
+    "explanation": "正解は「じゅみょう」です。"
+  },
+  {
+    "id": "eq017",
+    "section": "language",
+    "skill": "kanji",
+    "prompt": "「終」の意味は？",
+    "options": [
+      "形容詞",
+      "終了（end",
+      "動詞",
+      "名詞"
+    ],
+    "correctIndex": 1,
+    "explanation": "「終」は「終了（end」の意味です。"
+  },
+  {
+    "id": "eq018",
+    "section": "language",
+    "skill": "grammar",
+    "prompt": "正しいものを選びなさい：彼は日本語___英語も話せる。",
+    "options": [
+      "以上は",
+      "だけ",
+      "ばかり",
+      "しか"
+    ],
+    "correctIndex": 0,
+    "explanation": "「以上は」の使い方を確認しましょう。"
+  },
+  {
+    "id": "eq019",
+    "section": "language",
+    "skill": "vocab",
+    "prompt": "「循環」の読み方は？",
+    "options": [
+      "たんこう",
+      "じゅんかん",
+      "つな",
+      "ひとまず"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解は「じゅんかん」です。"
+  },
+  {
+    "id": "eq020",
+    "section": "language",
+    "skill": "kanji",
+    "prompt": "「力」の意味は？",
+    "options": [
+      "名詞",
+      "形容詞",
+      "動詞",
+      "重力（gravity）"
+    ],
+    "correctIndex": 3,
+    "explanation": "「力」は「重力（gravity）」の意味です。"
+  },
+  {
+    "id": "eq021",
+    "section": "language",
+    "skill": "grammar",
+    "prompt": "正しいものを選びなさい：彼は日本語___英語も話せる。",
+    "options": [
+      "に先立って",
+      "だけ",
+      "ばかり",
+      "しか"
+    ],
+    "correctIndex": 0,
+    "explanation": "「に先立って」の使い方を確認しましょう。"
+  },
+  {
+    "id": "eq022",
+    "section": "language",
+    "skill": "vocab",
+    "prompt": "「順序」の読み方は？",
+    "options": [
+      "コーラス",
+      "きざむ",
+      "じゅんじょ",
+      "おかまいなく"
+    ],
+    "correctIndex": 2,
+    "explanation": "正解は「じゅんじょ」です。"
+  },
+  {
+    "id": "eq023",
+    "section": "language",
+    "skill": "kanji",
+    "prompt": "「祝」の意味は？",
+    "options": [
+      "動詞",
+      "祝日（national holiday）",
+      "名詞",
+      "形容詞"
+    ],
+    "correctIndex": 1,
+    "explanation": "「祝」は「祝日（national holiday）」の意味です。"
+  },
+  {
+    "id": "eq024",
+    "section": "language",
+    "skill": "grammar",
+    "prompt": "正しいものを選びなさい：彼は日本語___英語も話せる。",
+    "options": [
+      "を通じて",
+      "だけ",
+      "ばかり",
+      "しか"
+    ],
+    "correctIndex": 0,
+    "explanation": "「を通じて」の使い方を確認しましょう。"
+  },
+  {
+    "id": "eq025",
+    "section": "language",
+    "skill": "vocab",
+    "prompt": "「初～」の読み方は？",
+    "options": [
+      "はんとう",
+      "しゅうりょう",
+      "しょ～",
+      "じゅうりょく"
+    ],
+    "correctIndex": 2,
+    "explanation": "正解は「しょ～」です。"
+  },
+  {
+    "id": "eq026",
+    "section": "language",
+    "skill": "kanji",
+    "prompt": "「小」の意味は？",
+    "options": [
+      "名詞",
+      "縮小（reduction",
+      "形容詞",
+      "動詞"
+    ],
+    "correctIndex": 1,
+    "explanation": "「小」は「縮小（reduction」の意味です。"
+  },
+  {
+    "id": "eq027",
+    "section": "language",
+    "skill": "grammar",
+    "prompt": "正しいものを選びなさい：彼は日本語___英語も話せる。",
+    "options": [
+      "にわたり",
+      "だけ",
+      "ばかり",
+      "しか"
+    ],
+    "correctIndex": 0,
+    "explanation": "「にわたり」の使い方を確認しましょう。"
+  },
+  {
+    "id": "eq028",
+    "section": "language",
+    "skill": "vocab",
+    "prompt": "「女～」の読み方は？",
+    "options": [
+      "したまち",
+      "しゅうへん",
+      "しゅうりょう",
+      "じょ～"
+    ],
+    "correctIndex": 3,
+    "explanation": "正解は「じょ～」です。"
+  },
+  {
+    "id": "eq029",
+    "section": "language",
+    "skill": "kanji",
+    "prompt": "「主」の意味は？",
+    "options": [
+      "形容詞",
+      "主語（(gram) subject）",
+      "動詞",
+      "名詞"
+    ],
+    "correctIndex": 1,
+    "explanation": "「主」は「主語（(gram) subject）」の意味です。"
+  },
+  {
+    "id": "eq030",
+    "section": "language",
+    "skill": "grammar",
+    "prompt": "正しいものを選びなさい：彼は日本語___英語も話せる。",
+    "options": [
+      "に代わって",
+      "だけ",
+      "ばかり",
+      "しか"
+    ],
+    "correctIndex": 0,
+    "explanation": "「に代わって」の使い方を確認しましょう。"
+  },
+  {
+    "id": "eq031",
+    "section": "language",
+    "skill": "vocab",
+    "prompt": "「～省」の読み方は？",
+    "options": [
+      "かざん",
+      "～しょう",
+      "ダイヤモンド",
+      "コンクール"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解は「～しょう」です。"
+  },
+  {
+    "id": "eq032",
+    "section": "language",
+    "skill": "kanji",
+    "prompt": "「勤」の意味は？",
+    "options": [
+      "動詞",
+      "形容詞",
+      "名詞",
+      "出勤（going to work"
+    ],
+    "correctIndex": 3,
+    "explanation": "「勤」は「出勤（going to work」の意味です。"
+  },
+  {
+    "id": "eq033",
+    "section": "language",
+    "skill": "grammar",
+    "prompt": "正しいものを選びなさい：彼は日本語___英語も話せる。",
+    "options": [
+      "について",
+      "だけ",
+      "ばかり",
+      "しか"
+    ],
+    "correctIndex": 0,
+    "explanation": "「について」の使い方を確認しましょう。"
+  },
+  {
+    "id": "eq034",
+    "section": "language",
+    "skill": "vocab",
+    "prompt": "「～条」の読み方は？",
+    "options": [
+      "ひょうし",
+      "～じょう",
+      "おかず",
+      "かざん"
+    ],
+    "correctIndex": 1,
+    "explanation": "正解は「～じょう」です。"
+  },
+  {
+    "id": "eq035",
+    "section": "language",
+    "skill": "kanji",
+    "prompt": "「寿」の意味は？",
+    "options": [
+      "動詞",
+      "寿命（life span）",
+      "名詞",
+      "形容詞"
+    ],
+    "correctIndex": 1,
+    "explanation": "「寿」は「寿命（life span）」の意味です。"
+  },
+  {
+    "id": "eq036",
+    "section": "reading",
+    "skill": "reading",
+    "prompt": "この文章の主旨は何か。",
+    "options": [
+      "環境問題への取り組みの重要性",
+      "環境問題の歴史",
+      "環境問題の技術詳細",
+      "環境問題の否定"
+    ],
+    "correctIndex": 0,
+    "passageId": "r001",
+    "explanation": "文章全体が問題への取り組みの必要性を述べている。"
+  },
+  {
+    "id": "eq037",
+    "section": "reading",
+    "skill": "reading",
+    "prompt": "専門家の意見について正しいのはどれか。",
+    "options": [
+      "意見が分かれており簡単な解決策はない",
+      "全員が一致している",
+      "解決策は既に見つかった",
+      "議論は行われていない"
+    ],
+    "correctIndex": 0,
+    "passageId": "r002",
+    "explanation": "専門家間で意見が分かれていると述べられている。"
+  },
+  {
+    "id": "eq038",
+    "section": "reading",
+    "skill": "reading",
+    "prompt": "筆者が言いたいことは何か。",
+    "options": [
+      "個人と社会の両方の努力が必要",
+      "政府だけが対応すべき",
+      "個人の努力は無意味",
+      "国際協力は不要"
+    ],
+    "correctIndex": 0,
+    "passageId": "r003",
+    "explanation": "個人の意識と国際協力の両方に言及している。"
+  },
+  {
+    "id": "eq039",
+    "section": "reading",
+    "skill": "reading",
+    "prompt": "この文章の結論として最も適切なのはどれか。",
+    "options": [
+      "健康管理は継続的な取り組みが必要",
+      "健康管理は解決済み",
+      "健康管理は無視してよい",
+      "健康管理は専門家だけの問題"
+    ],
+    "correctIndex": 0,
+    "passageId": "r004",
+    "explanation": "最終段落で社会全体の課題と結んでいる。"
+  },
+  {
+    "id": "eq040",
+    "section": "reading",
+    "skill": "reading",
+    "prompt": "この文章の主旨は何か。",
+    "options": [
+      "経済動向への取り組みの重要性",
+      "経済動向の歴史",
+      "経済動向の技術詳細",
+      "経済動向の否定"
+    ],
+    "correctIndex": 0,
+    "passageId": "r005",
+    "explanation": "文章全体が問題への取り組みの必要性を述べている。"
+  },
+  {
+    "id": "eq041",
+    "section": "reading",
+    "skill": "reading",
+    "prompt": "専門家の意見について正しいのはどれか。",
+    "options": [
+      "意見が分かれており簡単な解決策はない",
+      "全員が一致している",
+      "解決策は既に見つかった",
+      "議論は行われていない"
+    ],
+    "correctIndex": 0,
+    "passageId": "r006",
+    "explanation": "専門家間で意見が分かれていると述べられている。"
+  },
+  {
+    "id": "eq042",
+    "section": "reading",
+    "skill": "reading",
+    "prompt": "筆者が言いたいことは何か。",
+    "options": [
+      "個人と社会の両方の努力が必要",
+      "政府だけが対応すべき",
+      "個人の努力は無意味",
+      "国際協力は不要"
+    ],
+    "correctIndex": 0,
+    "passageId": "r007",
+    "explanation": "個人の意識と国際協力の両方に言及している。"
+  },
+  {
+    "id": "eq043",
+    "section": "reading",
+    "skill": "reading",
+    "prompt": "この文章の結論として最も適切なのはどれか。",
+    "options": [
+      "科学発見は継続的な取り組みが必要",
+      "科学発見は解決済み",
+      "科学発見は無視してよい",
+      "科学発見は専門家だけの問題"
+    ],
+    "correctIndex": 0,
+    "passageId": "r008",
+    "explanation": "最終段落で社会全体の課題と結んでいる。"
+  },
+  {
+    "id": "eq044",
+    "section": "reading",
+    "skill": "reading",
+    "prompt": "この文章の主旨は何か。",
+    "options": [
+      "都市開発への取り組みの重要性",
+      "都市開発の歴史",
+      "都市開発の技術詳細",
+      "都市開発の否定"
+    ],
+    "correctIndex": 0,
+    "passageId": "r009",
+    "explanation": "文章全体が問題への取り組みの必要性を述べている。"
+  },
+  {
+    "id": "eq045",
+    "section": "reading",
+    "skill": "reading",
+    "prompt": "専門家の意見について正しいのはどれか。",
+    "options": [
+      "意見が分かれており簡単な解決策はない",
+      "全員が一致している",
+      "解決策は既に見つかった",
+      "議論は行われていない"
+    ],
+    "correctIndex": 0,
+    "passageId": "r010",
+    "explanation": "専門家間で意見が分かれていると述べられている。"
+  },
+  {
+    "id": "eq046",
+    "section": "reading",
+    "skill": "reading",
+    "prompt": "筆者が言いたいことは何か。",
+    "options": [
+      "個人と社会の両方の努力が必要",
+      "政府だけが対応すべき",
+      "個人の努力は無意味",
+      "国際協力は不要"
+    ],
+    "correctIndex": 0,
+    "passageId": "r011",
+    "explanation": "個人の意識と国際協力の両方に言及している。"
+  },
+  {
+    "id": "eq047",
+    "section": "reading",
+    "skill": "reading",
+    "prompt": "この文章の結論として最も適切なのはどれか。",
+    "options": [
+      "消費行動は継続的な取り組みが必要",
+      "消費行動は解決済み",
+      "消費行動は無視してよい",
+      "消費行動は専門家だけの問題"
+    ],
+    "correctIndex": 0,
+    "passageId": "r012",
+    "explanation": "最終段落で社会全体の課題と結んでいる。"
+  },
+  {
+    "id": "eq048",
+    "section": "reading",
+    "skill": "reading",
+    "prompt": "この文章の主旨は何か。",
+    "options": [
+      "交通政策への取り組みの重要性",
+      "交通政策の歴史",
+      "交通政策の技術詳細",
+      "交通政策の否定"
+    ],
+    "correctIndex": 0,
+    "passageId": "r013",
+    "explanation": "文章全体が問題への取り組みの必要性を述べている。"
+  },
+  {
+    "id": "eq049",
+    "section": "reading",
+    "skill": "reading",
+    "prompt": "専門家の意見について正しいのはどれか。",
+    "options": [
+      "意見が分かれており簡単な解決策はない",
+      "全員が一致している",
+      "解決策は既に見つかった",
+      "議論は行われていない"
+    ],
+    "correctIndex": 0,
+    "passageId": "r014",
+    "explanation": "専門家間で意見が分かれていると述べられている。"
+  },
+  {
+    "id": "eq050",
+    "section": "reading",
+    "skill": "reading",
+    "prompt": "筆者が言いたいことは何か。",
+    "options": [
+      "個人と社会の両方の努力が必要",
+      "政府だけが対応すべき",
+      "個人の努力は無意味",
+      "国際協力は不要"
+    ],
+    "correctIndex": 0,
+    "passageId": "r015",
+    "explanation": "個人の意識と国際協力の両方に言及している。"
+  },
+  {
+    "id": "eq051",
+    "section": "reading",
+    "skill": "reading",
+    "prompt": "この文章の結論として最も適切なのはどれか。",
+    "options": [
+      "少子化は継続的な取り組みが必要",
+      "少子化は解決済み",
+      "少子化は無視してよい",
+      "少子化は専門家だけの問題"
+    ],
+    "correctIndex": 0,
+    "passageId": "r016",
+    "explanation": "最終段落で社会全体の課題と結んでいる。"
+  },
+  {
+    "id": "eq052",
+    "section": "reading",
+    "skill": "reading",
+    "prompt": "この文章の主旨は何か。",
+    "options": [
+      "観光産業への取り組みの重要性",
+      "観光産業の歴史",
+      "観光産業の技術詳細",
+      "観光産業の否定"
+    ],
+    "correctIndex": 0,
+    "passageId": "r017",
+    "explanation": "文章全体が問題への取り組みの必要性を述べている。"
+  },
+  {
+    "id": "eq053",
+    "section": "reading",
+    "skill": "reading",
+    "prompt": "専門家の意見について正しいのはどれか。",
+    "options": [
+      "意見が分かれており簡単な解決策はない",
+      "全員が一致している",
+      "解決策は既に見つかった",
+      "議論は行われていない"
+    ],
+    "correctIndex": 0,
+    "passageId": "r018",
+    "explanation": "専門家間で意見が分かれていると述べられている。"
+  },
+  {
+    "id": "eq054",
+    "section": "reading",
+    "skill": "reading",
+    "prompt": "筆者が言いたいことは何か。",
+    "options": [
+      "個人と社会の両方の努力が必要",
+      "政府だけが対応すべき",
+      "個人の努力は無意味",
+      "国際協力は不要"
+    ],
+    "correctIndex": 0,
+    "passageId": "r019",
+    "explanation": "個人の意識と国際協力の両方に言及している。"
+  },
+  {
+    "id": "eq055",
+    "section": "reading",
+    "skill": "reading",
+    "prompt": "この文章の結論として最も適切なのはどれか。",
+    "options": [
+      "法律改正は継続的な取り組みが必要",
+      "法律改正は解決済み",
+      "法律改正は無視してよい",
+      "法律改正は専門家だけの問題"
+    ],
+    "correctIndex": 0,
+    "passageId": "r020",
+    "explanation": "最終段落で社会全体の課題と結んでいる。"
+  },
+  {
+    "id": "eq056",
+    "section": "listening",
+    "skill": "listening",
+    "prompt": "会話の内容として正しいのはどれか。",
+    "options": [
+      "「就任」（しゅうにん）— inaugurationという意味の語",
+      "内容B",
+      "内容C",
+      "内容D"
+    ],
+    "correctIndex": 0,
+    "audioUrl": "/audio/listening/l001.mp3",
+    "explanation": "課題理解のポイントを確認しましょう。"
+  },
+  {
+    "id": "eq057",
+    "section": "listening",
+    "skill": "listening",
+    "prompt": "会話の内容として正しいのはどれか。",
+    "options": [
+      "「周辺」— circumference",
+      "内容B",
+      "内容C",
+      "内容D"
+    ],
+    "correctIndex": 0,
+    "audioUrl": "/audio/listening/l002.mp3",
+    "explanation": "ポイント理解のポイントを確認しましょう。"
+  },
+  {
+    "id": "eq058",
+    "section": "listening",
+    "skill": "listening",
+    "prompt": "会話の内容として正しいのはどれか。",
+    "options": [
+      "「重役」（じゅうやく）— directorという意味の語",
+      "内容B",
+      "内容C",
+      "内容D"
+    ],
+    "correctIndex": 0,
+    "audioUrl": "/audio/listening/l003.mp3",
+    "explanation": "概要理解のポイントを確認しましょう。"
+  },
+  {
+    "id": "eq059",
+    "section": "listening",
+    "skill": "listening",
+    "prompt": "最も適切な応答は？",
+    "options": [
+      "そうですね。",
+      "わかりません。",
+      "お疲れ様です。",
+      "結構です。"
+    ],
+    "correctIndex": 0,
+    "audioUrl": "/audio/listening/l004.mp3",
+    "explanation": "即時応答のポイントを確認しましょう。"
+  },
+  {
+    "id": "eq060",
+    "section": "listening",
+    "skill": "listening",
+    "prompt": "会話の内容として正しいのはどれか。",
+    "options": [
+      "「重量」（じゅうりょう）— heavyweightという意味の語",
+      "内容B",
+      "内容C",
+      "内容D"
+    ],
+    "correctIndex": 0,
+    "audioUrl": "/audio/listening/l005.mp3",
+    "explanation": "課題理解のポイントを確認しましょう。"
+  },
+  {
+    "id": "eq061",
+    "section": "listening",
+    "skill": "listening",
+    "prompt": "会話の内容として正しいのはどれか。",
+    "options": [
+      "「重力」（じゅうりょく）— gravityという意味の語",
+      "内容B",
+      "内容C",
+      "内容D"
+    ],
+    "correctIndex": 0,
+    "audioUrl": "/audio/listening/l006.mp3",
+    "explanation": "ポイント理解のポイントを確認しましょう。"
+  },
+  {
+    "id": "eq062",
+    "section": "listening",
+    "skill": "listening",
+    "prompt": "会話の内容として正しいのはどれか。",
+    "options": [
+      "「熟語」（じゅくご）— idiomという意味の語",
+      "内容B",
+      "内容C",
+      "内容D"
+    ],
+    "correctIndex": 0,
+    "audioUrl": "/audio/listening/l007.mp3",
+    "explanation": "概要理解のポイントを確認しましょう。"
+  },
+  {
+    "id": "eq063",
+    "section": "listening",
+    "skill": "listening",
+    "prompt": "最も適切な応答は？",
+    "options": [
+      "そうですね。",
+      "わかりません。",
+      "お疲れ様です。",
+      "結構です。"
+    ],
+    "correctIndex": 0,
+    "audioUrl": "/audio/listening/l008.mp3",
+    "explanation": "即時応答のポイントを確認しましょう。"
+  },
+  {
+    "id": "eq064",
+    "section": "listening",
+    "skill": "listening",
+    "prompt": "会話の内容として正しいのはどれか。",
+    "options": [
+      "「縮小」（しゅくしょう）— reductionという意味の語",
+      "内容B",
+      "内容C",
+      "内容D"
+    ],
+    "correctIndex": 0,
+    "audioUrl": "/audio/listening/l009.mp3",
+    "explanation": "課題理解のポイントを確認しましょう。"
+  },
+  {
+    "id": "eq065",
+    "section": "listening",
+    "skill": "listening",
+    "prompt": "会話の内容として正しいのはどれか。",
+    "options": [
+      "「受験」— taking an examination",
+      "内容B",
+      "内容C",
+      "内容D"
+    ],
+    "correctIndex": 0,
+    "audioUrl": "/audio/listening/l010.mp3",
+    "explanation": "ポイント理解のポイントを確認しましょう。"
+  },
+  {
+    "id": "eq066",
+    "section": "listening",
+    "skill": "listening",
+    "prompt": "会話の内容として正しいのはどれか。",
+    "options": [
+      "「主語」（しゅご）— gram subjectという意味の語",
+      "内容B",
+      "内容C",
+      "内容D"
+    ],
+    "correctIndex": 0,
+    "audioUrl": "/audio/listening/l011.mp3",
+    "explanation": "概要理解のポイントを確認しましょう。"
+  },
+  {
+    "id": "eq067",
+    "section": "listening",
+    "skill": "listening",
+    "prompt": "最も適切な応答は？",
+    "options": [
+      "そうですね。",
+      "わかりません。",
+      "お疲れ様です。",
+      "結構です。"
+    ],
+    "correctIndex": 0,
+    "audioUrl": "/audio/listening/l012.mp3",
+    "explanation": "即時応答のポイントを確認しましょう。"
+  },
+  {
+    "id": "eq068",
+    "section": "listening",
+    "skill": "listening",
+    "prompt": "会話の内容として正しいのはどれか。",
+    "options": [
+      "「出勤」— going to work",
+      "内容B",
+      "内容C",
+      "内容D"
+    ],
+    "correctIndex": 0,
+    "audioUrl": "/audio/listening/l013.mp3",
+    "explanation": "課題理解のポイントを確認しましょう。"
+  },
+  {
+    "id": "eq069",
+    "section": "listening",
+    "skill": "listening",
+    "prompt": "会話の内容として正しいのはどれか。",
+    "options": [
+      "「述語」（じゅつご）— predicateという意味の語",
+      "内容B",
+      "内容C",
+      "内容D"
+    ],
+    "correctIndex": 0,
+    "audioUrl": "/audio/listening/l014.mp3",
+    "explanation": "ポイント理解のポイントを確認しましょう。"
+  },
+  {
+    "id": "eq070",
+    "section": "listening",
+    "skill": "listening",
+    "prompt": "会話の内容として正しいのはどれか。",
+    "options": [
+      "「出張」— official tour",
+      "内容B",
+      "内容C",
+      "内容D"
+    ],
+    "correctIndex": 0,
+    "audioUrl": "/audio/listening/l015.mp3",
+    "explanation": "概要理解のポイントを確認しましょう。"
+  },
+  {
+    "id": "eq071",
+    "section": "listening",
+    "skill": "listening",
+    "prompt": "最も適切な応答は？",
+    "options": [
+      "そうですね。",
+      "わかりません。",
+      "お疲れ様です。",
+      "結構です。"
+    ],
+    "correctIndex": 0,
+    "audioUrl": "/audio/listening/l016.mp3",
+    "explanation": "即時応答のポイントを確認しましょう。"
+  },
+  {
+    "id": "eq072",
+    "section": "listening",
+    "skill": "listening",
+    "prompt": "会話の内容として正しいのはどれか。",
+    "options": [
+      "「主役」（しゅやく）— leading partという意味の語",
+      "内容B",
+      "内容C",
+      "内容D"
+    ],
+    "correctIndex": 0,
+    "audioUrl": "/audio/listening/l017.mp3",
+    "explanation": "課題理解のポイントを確認しましょう。"
+  },
+  {
+    "id": "eq073",
+    "section": "listening",
+    "skill": "listening",
+    "prompt": "会話の内容として正しいのはどれか。",
+    "options": [
+      "「受話器」— telephone receiver",
+      "内容B",
+      "内容C",
+      "内容D"
+    ],
+    "correctIndex": 0,
+    "audioUrl": "/audio/listening/l018.mp3",
+    "explanation": "ポイント理解のポイントを確認しましょう。"
+  },
+  {
+    "id": "eq074",
+    "section": "listening",
+    "skill": "listening",
+    "prompt": "会話の内容として正しいのはどれか。",
+    "options": [
+      "「循環」（じゅんかん）— circulationという意味の語",
+      "内容B",
+      "内容C",
+      "内容D"
+    ],
+    "correctIndex": 0,
+    "audioUrl": "/audio/listening/l019.mp3",
+    "explanation": "概要理解のポイントを確認しましょう。"
+  },
+  {
+    "id": "eq075",
+    "section": "listening",
+    "skill": "listening",
+    "prompt": "最も適切な応答は？",
+    "options": [
+      "そうですね。",
+      "わかりません。",
+      "お疲れ様です。",
+      "結構です。"
+    ],
+    "correctIndex": 0,
+    "audioUrl": "/audio/listening/l020.mp3",
+    "explanation": "即時応答のポイントを確認しましょう。"
+  },
+  {
+    "id": "eq076",
+    "section": "listening",
+    "skill": "listening",
+    "prompt": "会話の内容として正しいのはどれか。",
+    "options": [
+      "「順々」（じゅんじゅん）— in orderという意味の語",
+      "内容B",
+      "内容C",
+      "内容D"
+    ],
+    "correctIndex": 0,
+    "audioUrl": "/audio/listening/l021.mp3",
+    "explanation": "課題理解のポイントを確認しましょう。"
+  },
+  {
+    "id": "eq077",
+    "section": "listening",
+    "skill": "listening",
+    "prompt": "会話の内容として正しいのはどれか。",
+    "options": [
+      "「順序」（じゅんじょ）— orderという意味の語",
+      "内容B",
+      "内容C",
+      "内容D"
+    ],
+    "correctIndex": 0,
+    "audioUrl": "/audio/listening/l022.mp3",
+    "explanation": "ポイント理解のポイントを確認しましょう。"
+  },
+  {
+    "id": "eq078",
+    "section": "listening",
+    "skill": "listening",
+    "prompt": "会話の内容として正しいのはどれか。",
+    "options": [
+      "「純情」（じゅんじょう）— pure heartという意味の語",
+      "内容B",
+      "内容C",
+      "内容D"
+    ],
+    "correctIndex": 0,
+    "audioUrl": "/audio/listening/l023.mp3",
+    "explanation": "概要理解のポイントを確認しましょう。"
+  },
+  {
+    "id": "eq079",
+    "section": "listening",
+    "skill": "listening",
+    "prompt": "最も適切な応答は？",
+    "options": [
+      "そうですね。",
+      "わかりません。",
+      "お疲れ様です。",
+      "結構です。"
+    ],
+    "correctIndex": 0,
+    "audioUrl": "/audio/listening/l024.mp3",
+    "explanation": "即時応答のポイントを確認しましょう。"
+  },
+  {
+    "id": "eq080",
+    "section": "listening",
+    "skill": "listening",
+    "prompt": "会話の内容として正しいのはどれか。",
+    "options": [
+      "「初～」（しょ～）— first ~という意味の語",
+      "内容B",
+      "内容C",
+      "内容D"
+    ],
+    "correctIndex": 0,
+    "audioUrl": "/audio/listening/l025.mp3",
+    "explanation": "課題理解のポイントを確認しましょう。"
+  },
+  {
+    "id": "eq081",
+    "section": "listening",
+    "skill": "listening",
+    "prompt": "会話の内容として正しいのはどれか。",
+    "options": [
+      "「諸～」（しょ～）— various ~という意味の語",
+      "内容B",
+      "内容C",
+      "内容D"
+    ],
+    "correctIndex": 0,
+    "audioUrl": "/audio/listening/l026.mp3",
+    "explanation": "ポイント理解のポイントを確認しましょう。"
+  },
+  {
+    "id": "eq082",
+    "section": "listening",
+    "skill": "listening",
+    "prompt": "会話の内容として正しいのはどれか。",
+    "options": [
+      "「～所」（～しょ）— placeという意味の語",
+      "内容B",
+      "内容C",
+      "内容D"
+    ],
+    "correctIndex": 0,
+    "audioUrl": "/audio/listening/l027.mp3",
+    "explanation": "概要理解のポイントを確認しましょう。"
+  },
+  {
+    "id": "eq083",
+    "section": "listening",
+    "skill": "listening",
+    "prompt": "最も適切な応答は？",
+    "options": [
+      "そうですね。",
+      "わかりません。",
+      "お疲れ様です。",
+      "結構です。"
+    ],
+    "correctIndex": 0,
+    "audioUrl": "/audio/listening/l028.mp3",
+    "explanation": "即時応答のポイントを確認しましょう。"
+  }
+]

@@ -1,0 +1,1108 @@
+[
+  {
+    "id": "p001",
+    "skill": "vocab",
+    "level": "N3",
+    "prompt": "「就任」の読み方は？",
+    "options": [
+      "げん～",
+      "しゅうにん",
+      "テンポ",
+      "おうふく"
+    ],
+    "correctIndex": 1,
+    "contentId": "v0001"
+  },
+  {
+    "id": "p002",
+    "skill": "vocab",
+    "level": "N3",
+    "prompt": "「周辺」の読み方は？",
+    "options": [
+      "えらい",
+      "しゅうへん",
+      "アクセント",
+      "きりつ"
+    ],
+    "correctIndex": 1,
+    "contentId": "v0002"
+  },
+  {
+    "id": "p003",
+    "skill": "vocab",
+    "level": "N3",
+    "prompt": "「重役」の読み方は？",
+    "options": [
+      "てつづき",
+      "じゅうやく",
+      "かぜい",
+      "チップ"
+    ],
+    "correctIndex": 1,
+    "contentId": "v0003"
+  },
+  {
+    "id": "p004",
+    "skill": "vocab",
+    "level": "N3",
+    "prompt": "「終了」の読み方は？",
+    "options": [
+      "おぎなう",
+      "じゅうりょう",
+      "サンプル",
+      "しゅうりょう"
+    ],
+    "correctIndex": 3,
+    "contentId": "v0004"
+  },
+  {
+    "id": "p005",
+    "skill": "vocab",
+    "level": "N3",
+    "prompt": "「重量」の読み方は？",
+    "options": [
+      "まいど",
+      "そっちょく",
+      "じゅうりょう",
+      "たくわえる"
+    ],
+    "correctIndex": 2,
+    "contentId": "v0005"
+  },
+  {
+    "id": "p006",
+    "skill": "vocab",
+    "level": "N3",
+    "prompt": "「重力」の読み方は？",
+    "options": [
+      "かじつ",
+      "じゅうりょく",
+      "プログラム",
+      "すいそ"
+    ],
+    "correctIndex": 1,
+    "contentId": "v0006"
+  },
+  {
+    "id": "p007",
+    "skill": "vocab",
+    "level": "N3",
+    "prompt": "「熟語」の読み方は？",
+    "options": [
+      "ちょくご",
+      "じゅくご",
+      "しゅうへん",
+      "すいじ"
+    ],
+    "correctIndex": 1,
+    "contentId": "v0007"
+  },
+  {
+    "id": "p008",
+    "skill": "vocab",
+    "level": "N3",
+    "prompt": "「祝日」の読み方は？",
+    "options": [
+      "センチ",
+      "しゅっきん",
+      "じゅうりょく",
+      "しゅくじつ"
+    ],
+    "correctIndex": 3,
+    "contentId": "v0008"
+  },
+  {
+    "id": "p009",
+    "skill": "vocab",
+    "level": "N3",
+    "prompt": "「縮小」の読み方は？",
+    "options": [
+      "てきかく",
+      "しゅくしょう",
+      "マンション",
+      "しゅうへん"
+    ],
+    "correctIndex": 1,
+    "contentId": "v0009"
+  },
+  {
+    "id": "p010",
+    "skill": "vocab",
+    "level": "N3",
+    "prompt": "「受験」の読み方は？",
+    "options": [
+      "ぶさた",
+      "じゅけん",
+      "ひとどおり",
+      "ぐうすう"
+    ],
+    "correctIndex": 1,
+    "contentId": "v0010"
+  },
+  {
+    "id": "p011",
+    "skill": "vocab",
+    "level": "N2",
+    "prompt": "「主語」の読み方は？",
+    "options": [
+      "やっぱり",
+      "しゅご",
+      "じゅけん",
+      "かんき"
+    ],
+    "correctIndex": 1,
+    "contentId": "v0011"
+  },
+  {
+    "id": "p012",
+    "skill": "vocab",
+    "level": "N2",
+    "prompt": "「主人」の読み方は？",
+    "options": [
+      "ウール",
+      "すっきり",
+      "ばね",
+      "しゅじん"
+    ],
+    "correctIndex": 3,
+    "contentId": "v0012"
+  },
+  {
+    "id": "p013",
+    "skill": "vocab",
+    "level": "N2",
+    "prompt": "「出勤」の読み方は？",
+    "options": [
+      "いくじ",
+      "しゅっきん",
+      "きあつ",
+      "しょせき"
+    ],
+    "correctIndex": 1,
+    "contentId": "v0013"
+  },
+  {
+    "id": "p014",
+    "skill": "vocab",
+    "level": "N2",
+    "prompt": "「述語」の読み方は？",
+    "options": [
+      "しりつ",
+      "しんかんせん",
+      "じゅつご",
+      "せいび"
+    ],
+    "correctIndex": 2,
+    "contentId": "v0014"
+  },
+  {
+    "id": "p015",
+    "skill": "vocab",
+    "level": "N2",
+    "prompt": "「出張」の読み方は？",
+    "options": [
+      "ほす",
+      "しゅっちょう",
+      "すいとう",
+      "みまう"
+    ],
+    "correctIndex": 1,
+    "contentId": "v0015"
+  },
+  {
+    "id": "p016",
+    "skill": "vocab",
+    "level": "N2",
+    "prompt": "「寿命」の読み方は？",
+    "options": [
+      "すず",
+      "おどろかす",
+      "たとえる",
+      "じゅみょう"
+    ],
+    "correctIndex": 3,
+    "contentId": "v0016"
+  },
+  {
+    "id": "p017",
+    "skill": "vocab",
+    "level": "N2",
+    "prompt": "「主役」の読み方は？",
+    "options": [
+      "じょうげ",
+      "しゅやく",
+      "ひのいり",
+      "～てん"
+    ],
+    "correctIndex": 1,
+    "contentId": "v0017"
+  },
+  {
+    "id": "p018",
+    "skill": "vocab",
+    "level": "N2",
+    "prompt": "「受話器」の読み方は？",
+    "options": [
+      "ひとまず",
+      "じゅわき",
+      "たんこう",
+      "つな"
+    ],
+    "correctIndex": 1,
+    "contentId": "v0018"
+  },
+  {
+    "id": "p019",
+    "skill": "vocab",
+    "level": "N2",
+    "prompt": "「循環」の読み方は？",
+    "options": [
+      "しょうはい",
+      "じゅんかん",
+      "かじつ",
+      "こうとうがっこう"
+    ],
+    "correctIndex": 1,
+    "contentId": "v0019"
+  },
+  {
+    "id": "p020",
+    "skill": "vocab",
+    "level": "N2",
+    "prompt": "「巡査」の読み方は？",
+    "options": [
+      "なす",
+      "しわ (かおの～)",
+      "しょうべん",
+      "じゅんさ"
+    ],
+    "correctIndex": 3,
+    "contentId": "v0020"
+  },
+  {
+    "id": "p021",
+    "skill": "vocab",
+    "level": "N2",
+    "prompt": "「順々」の読み方は？",
+    "options": [
+      "きざむ",
+      "おかまいなく",
+      "じゅんじゅん",
+      "コーラス"
+    ],
+    "correctIndex": 2,
+    "contentId": "v0021"
+  },
+  {
+    "id": "p022",
+    "skill": "vocab",
+    "level": "N2",
+    "prompt": "「順序」の読み方は？",
+    "options": [
+      "せんぞ",
+      "しょうがない",
+      "じゅんじょ",
+      "たん～"
+    ],
+    "correctIndex": 2,
+    "contentId": "v0022"
+  },
+  {
+    "id": "p023",
+    "skill": "vocab",
+    "level": "N2",
+    "prompt": "「純情」の読み方は？",
+    "options": [
+      "じょうき",
+      "じゅんじょう",
+      "しかい",
+      "たいけい"
+    ],
+    "correctIndex": 1,
+    "contentId": "v0023"
+  },
+  {
+    "id": "p024",
+    "skill": "vocab",
+    "level": "N2",
+    "prompt": "「純粋」の読み方は？",
+    "options": [
+      "しゅうりょう",
+      "はんとう",
+      "じゅうりょく",
+      "じゅんすい"
+    ],
+    "correctIndex": 3,
+    "contentId": "v0024"
+  },
+  {
+    "id": "p025",
+    "skill": "vocab",
+    "level": "N2",
+    "prompt": "「初～」の読み方は？",
+    "options": [
+      "じゅうりょく",
+      "すいちょく",
+      "しょ～",
+      "しんだん"
+    ],
+    "correctIndex": 2,
+    "contentId": "v0025"
+  },
+  {
+    "id": "p026",
+    "skill": "vocab",
+    "level": "N2",
+    "prompt": "「諸～」の読み方は？",
+    "options": [
+      "とうゆ",
+      "しょ～",
+      "ふきゅう",
+      "くし"
+    ],
+    "correctIndex": 1,
+    "contentId": "v0026"
+  },
+  {
+    "id": "p027",
+    "skill": "vocab",
+    "level": "N2",
+    "prompt": "「～所」の読み方は？",
+    "options": [
+      "しゅうりょう",
+      "～しょ",
+      "したまち",
+      "しゅうへん"
+    ],
+    "correctIndex": 1,
+    "contentId": "v0027"
+  },
+  {
+    "id": "p028",
+    "skill": "vocab",
+    "level": "N2",
+    "prompt": "「女～」の読み方は？",
+    "options": [
+      "しる",
+      "じゅけん",
+      "にくい",
+      "じょ～"
+    ],
+    "correctIndex": 3,
+    "contentId": "v0028"
+  },
+  {
+    "id": "p029",
+    "skill": "vocab",
+    "level": "N2",
+    "prompt": "「～女」の読み方は？",
+    "options": [
+      "まつる",
+      "～じょ",
+      "たいけい",
+      "～か"
+    ],
+    "correctIndex": 1,
+    "contentId": "v0029"
+  },
+  {
+    "id": "p030",
+    "skill": "vocab",
+    "level": "N2",
+    "prompt": "「省～」の読み方は？",
+    "options": [
+      "ダイヤモンド",
+      "コンクール",
+      "しょう～",
+      "かざん"
+    ],
+    "correctIndex": 2,
+    "contentId": "v0030"
+  },
+  {
+    "id": "p031",
+    "skill": "kanji",
+    "level": "N2",
+    "prompt": "「維」の意味は？",
+    "options": [
+      "形容詞",
+      "保つ",
+      "副詞",
+      "動詞"
+    ],
+    "correctIndex": 1,
+    "contentId": "k001"
+  },
+  {
+    "id": "p032",
+    "skill": "kanji",
+    "level": "N2",
+    "prompt": "「傾」の意味は？",
+    "options": [
+      "副詞",
+      "傾く",
+      "動詞",
+      "形容詞"
+    ],
+    "correctIndex": 1,
+    "contentId": "k002"
+  },
+  {
+    "id": "p033",
+    "skill": "kanji",
+    "level": "N2",
+    "prompt": "「握」の意味は？",
+    "options": [
+      "形容詞",
+      "握る",
+      "動詞",
+      "副詞"
+    ],
+    "correctIndex": 1,
+    "contentId": "k003"
+  },
+  {
+    "id": "p034",
+    "skill": "kanji",
+    "level": "N2",
+    "prompt": "「響」の意味は？",
+    "options": [
+      "動詞",
+      "副詞",
+      "形容詞",
+      "響く"
+    ],
+    "correctIndex": 3,
+    "contentId": "k004"
+  },
+  {
+    "id": "p035",
+    "skill": "kanji",
+    "level": "N2",
+    "prompt": "「施」の意味は？",
+    "options": [
+      "副詞",
+      "形容詞",
+      "施す",
+      "動詞"
+    ],
+    "correctIndex": 2,
+    "contentId": "k005"
+  },
+  {
+    "id": "p036",
+    "skill": "kanji",
+    "level": "N2",
+    "prompt": "「認」の意味は？",
+    "options": [
+      "動詞",
+      "認める",
+      "副詞",
+      "形容詞"
+    ],
+    "correctIndex": 1,
+    "contentId": "k006"
+  },
+  {
+    "id": "p037",
+    "skill": "kanji",
+    "level": "N2",
+    "prompt": "「討」の意味は？",
+    "options": [
+      "形容詞",
+      "討つ",
+      "動詞",
+      "副詞"
+    ],
+    "correctIndex": 1,
+    "contentId": "k007"
+  },
+  {
+    "id": "p038",
+    "skill": "kanji",
+    "level": "N2",
+    "prompt": "「促」の意味は？",
+    "options": [
+      "動詞",
+      "形容詞",
+      "副詞",
+      "促す"
+    ],
+    "correctIndex": 3,
+    "contentId": "k008"
+  },
+  {
+    "id": "p039",
+    "skill": "kanji",
+    "level": "N2",
+    "prompt": "「抑」の意味は？",
+    "options": [
+      "形容詞",
+      "抑える",
+      "副詞",
+      "動詞"
+    ],
+    "correctIndex": 1,
+    "contentId": "k009"
+  },
+  {
+    "id": "p040",
+    "skill": "kanji",
+    "level": "N2",
+    "prompt": "「拡」の意味は？",
+    "options": [
+      "副詞",
+      "拡がる",
+      "動詞",
+      "形容詞"
+    ],
+    "correctIndex": 1,
+    "contentId": "k010"
+  },
+  {
+    "id": "p041",
+    "skill": "kanji",
+    "level": "N2",
+    "prompt": "「就」の意味は？",
+    "options": [
+      "形容詞",
+      "就任（inauguration",
+      "動詞",
+      "副詞"
+    ],
+    "correctIndex": 1,
+    "contentId": "k011"
+  },
+  {
+    "id": "p042",
+    "skill": "kanji",
+    "level": "N2",
+    "prompt": "「任」の意味は？",
+    "options": [
+      "動詞",
+      "副詞",
+      "形容詞",
+      "就任（inauguration"
+    ],
+    "correctIndex": 3,
+    "contentId": "k012"
+  },
+  {
+    "id": "p043",
+    "skill": "kanji",
+    "level": "N2",
+    "prompt": "「周」の意味は？",
+    "options": [
+      "副詞",
+      "周辺（circumference",
+      "形容詞",
+      "動詞"
+    ],
+    "correctIndex": 1,
+    "contentId": "k013"
+  },
+  {
+    "id": "p044",
+    "skill": "kanji",
+    "level": "N2",
+    "prompt": "「辺」の意味は？",
+    "options": [
+      "動詞",
+      "副詞",
+      "周辺（circumference",
+      "形容詞"
+    ],
+    "correctIndex": 2,
+    "contentId": "k014"
+  },
+  {
+    "id": "p045",
+    "skill": "kanji",
+    "level": "N2",
+    "prompt": "「重」の意味は？",
+    "options": [
+      "動詞",
+      "重役（director",
+      "形容詞",
+      "副詞"
+    ],
+    "correctIndex": 1,
+    "contentId": "k015"
+  },
+  {
+    "id": "p046",
+    "skill": "kanji",
+    "level": "N2",
+    "prompt": "「役」の意味は？",
+    "options": [
+      "動詞",
+      "形容詞",
+      "副詞",
+      "重役（director"
+    ],
+    "correctIndex": 3,
+    "contentId": "k016"
+  },
+  {
+    "id": "p047",
+    "skill": "kanji",
+    "level": "N2",
+    "prompt": "「終」の意味は？",
+    "options": [
+      "副詞",
+      "終了（end",
+      "形容詞",
+      "動詞"
+    ],
+    "correctIndex": 1,
+    "contentId": "k017"
+  },
+  {
+    "id": "p048",
+    "skill": "kanji",
+    "level": "N2",
+    "prompt": "「了」の意味は？",
+    "options": [
+      "副詞",
+      "終了（end",
+      "動詞",
+      "形容詞"
+    ],
+    "correctIndex": 1,
+    "contentId": "k018"
+  },
+  {
+    "id": "p049",
+    "skill": "kanji",
+    "level": "N2",
+    "prompt": "「量」の意味は？",
+    "options": [
+      "動詞",
+      "重量（heavyweight）",
+      "形容詞",
+      "副詞"
+    ],
+    "correctIndex": 1,
+    "contentId": "k019"
+  },
+  {
+    "id": "p050",
+    "skill": "kanji",
+    "level": "N2",
+    "prompt": "「力」の意味は？",
+    "options": [
+      "動詞",
+      "副詞",
+      "形容詞",
+      "重力（gravity）"
+    ],
+    "correctIndex": 3,
+    "contentId": "k020"
+  },
+  {
+    "id": "p051",
+    "skill": "grammar",
+    "level": "N2",
+    "prompt": "「ばかりか〜も」の意味は？",
+    "options": [
+      "〜した結果",
+      "〜だけでなく、さらに〜も",
+      "〜するなら",
+      "〜するために"
+    ],
+    "correctIndex": 1,
+    "contentId": "g001"
+  },
+  {
+    "id": "p052",
+    "skill": "grammar",
+    "level": "N2",
+    "prompt": "「だけでなく〜も」の意味は？",
+    "options": [
+      "〜するなら",
+      "〜だけではなく、〜も",
+      "〜するために",
+      "〜した結果"
+    ],
+    "correctIndex": 1,
+    "contentId": "g002"
+  },
+  {
+    "id": "p053",
+    "skill": "grammar",
+    "level": "N2",
+    "prompt": "「はもちろん〜も」の意味は？",
+    "options": [
+      "〜した結果",
+      "〜は当然として、〜も",
+      "〜するために",
+      "〜するなら"
+    ],
+    "correctIndex": 1,
+    "contentId": "g003"
+  },
+  {
+    "id": "p054",
+    "skill": "grammar",
+    "level": "N2",
+    "prompt": "「に限らず」の意味は？",
+    "options": [
+      "〜するために",
+      "〜するなら",
+      "〜した結果",
+      "〜だけではなく、広く"
+    ],
+    "correctIndex": 3,
+    "contentId": "g004"
+  },
+  {
+    "id": "p055",
+    "skill": "grammar",
+    "level": "N2",
+    "prompt": "「に加えて」の意味は？",
+    "options": [
+      "〜するなら",
+      "〜した結果",
+      "〜に加えて、さらに",
+      "〜するために"
+    ],
+    "correctIndex": 2,
+    "contentId": "g005"
+  },
+  {
+    "id": "p056",
+    "skill": "grammar",
+    "level": "N2",
+    "prompt": "「をはじめ」の意味は？",
+    "options": [
+      "〜するために",
+      "〜を始めとして",
+      "〜するなら",
+      "〜した結果"
+    ],
+    "correctIndex": 1,
+    "contentId": "g006"
+  },
+  {
+    "id": "p057",
+    "skill": "grammar",
+    "level": "N2",
+    "prompt": "「を中心に」の意味は？",
+    "options": [
+      "〜した結果",
+      "〜を中心として",
+      "〜するために",
+      "〜するなら"
+    ],
+    "correctIndex": 1,
+    "contentId": "g007"
+  },
+  {
+    "id": "p058",
+    "skill": "grammar",
+    "level": "N2",
+    "prompt": "「に伴って」の意味は？",
+    "options": [
+      "〜するために",
+      "〜した結果",
+      "〜するなら",
+      "〜とともに"
+    ],
+    "correctIndex": 3,
+    "contentId": "g008"
+  },
+  {
+    "id": "p059",
+    "skill": "grammar",
+    "level": "N2",
+    "prompt": "「に応じて」の意味は？",
+    "options": [
+      "〜した結果",
+      "〜に合わせて",
+      "〜するなら",
+      "〜するために"
+    ],
+    "correctIndex": 1,
+    "contentId": "g009"
+  },
+  {
+    "id": "p060",
+    "skill": "grammar",
+    "level": "N2",
+    "prompt": "「に基づいて」の意味は？",
+    "options": [
+      "〜するなら",
+      "〜を基準として",
+      "〜するために",
+      "〜した結果"
+    ],
+    "correctIndex": 1,
+    "contentId": "g010"
+  },
+  {
+    "id": "p061",
+    "skill": "grammar",
+    "level": "N2",
+    "prompt": "「わけではない」の意味は？",
+    "options": [
+      "〜した結果",
+      "〜というわけではない",
+      "〜するために",
+      "〜するなら"
+    ],
+    "correctIndex": 1,
+    "contentId": "g011"
+  },
+  {
+    "id": "p062",
+    "skill": "grammar",
+    "level": "N2",
+    "prompt": "「ものの」の意味は？",
+    "options": [
+      "〜するために",
+      "〜するなら",
+      "〜した結果",
+      "〜だけれども"
+    ],
+    "correctIndex": 3,
+    "contentId": "g012"
+  },
+  {
+    "id": "p063",
+    "skill": "grammar",
+    "level": "N2",
+    "prompt": "「おそれがある」の意味は？",
+    "options": [
+      "〜するなら",
+      "〜の心配がある",
+      "〜した結果",
+      "〜するために"
+    ],
+    "correctIndex": 1,
+    "contentId": "g013"
+  },
+  {
+    "id": "p064",
+    "skill": "grammar",
+    "level": "N2",
+    "prompt": "「に違いない」の意味は？",
+    "options": [
+      "〜するために",
+      "〜するなら",
+      "きっと〜だ",
+      "〜した結果"
+    ],
+    "correctIndex": 2,
+    "contentId": "g014"
+  },
+  {
+    "id": "p065",
+    "skill": "grammar",
+    "level": "N2",
+    "prompt": "「ばかりだ」の意味は？",
+    "options": [
+      "〜するために",
+      "ますます〜する",
+      "〜した結果",
+      "〜するなら"
+    ],
+    "correctIndex": 1,
+    "contentId": "g015"
+  },
+  {
+    "id": "p066",
+    "skill": "grammar",
+    "level": "N2",
+    "prompt": "「にすぎない」の意味は？",
+    "options": [
+      "〜するために",
+      "〜した結果",
+      "〜するなら",
+      "〜だけ"
+    ],
+    "correctIndex": 3,
+    "contentId": "g016"
+  },
+  {
+    "id": "p067",
+    "skill": "grammar",
+    "level": "N2",
+    "prompt": "「からには」の意味は？",
+    "options": [
+      "〜するなら",
+      "〜なら",
+      "〜した結果",
+      "〜するために"
+    ],
+    "correctIndex": 1,
+    "contentId": "g017"
+  },
+  {
+    "id": "p068",
+    "skill": "grammar",
+    "level": "N2",
+    "prompt": "「以上は」の意味は？",
+    "options": [
+      "〜するなら",
+      "〜だから",
+      "〜するために",
+      "〜した結果"
+    ],
+    "correctIndex": 1,
+    "contentId": "g018"
+  },
+  {
+    "id": "p069",
+    "skill": "grammar",
+    "level": "N2",
+    "prompt": "「に際して」の意味は？",
+    "options": [
+      "〜するために",
+      "〜の時に",
+      "〜した結果",
+      "〜するなら"
+    ],
+    "correctIndex": 1,
+    "contentId": "g019"
+  },
+  {
+    "id": "p070",
+    "skill": "grammar",
+    "level": "N2",
+    "prompt": "「をめぐって」の意味は？",
+    "options": [
+      "〜するために",
+      "〜するなら",
+      "〜した結果",
+      "〜を巡って"
+    ],
+    "correctIndex": 3,
+    "contentId": "g020"
+  },
+  {
+    "id": "p071",
+    "skill": "grammar",
+    "level": "N2",
+    "prompt": "「に先立って」の意味は？",
+    "options": [
+      "〜するなら",
+      "〜した結果",
+      "「に先立って」の文法意味",
+      "〜するために"
+    ],
+    "correctIndex": 2,
+    "contentId": "g021"
+  },
+  {
+    "id": "p072",
+    "skill": "grammar",
+    "level": "N2",
+    "prompt": "「を契機に」の意味は？",
+    "options": [
+      "〜するために",
+      "〜するなら",
+      "「を契機に」の文法意味",
+      "〜した結果"
+    ],
+    "correctIndex": 2,
+    "contentId": "g022"
+  },
+  {
+    "id": "p073",
+    "skill": "grammar",
+    "level": "N2",
+    "prompt": "「をきっかけに」の意味は？",
+    "options": [
+      "〜した結果",
+      "「をきっかけに」の文法意味",
+      "〜するために",
+      "〜するなら"
+    ],
+    "correctIndex": 1,
+    "contentId": "g023"
+  },
+  {
+    "id": "p074",
+    "skill": "grammar",
+    "level": "N2",
+    "prompt": "「を通じて」の意味は？",
+    "options": [
+      "〜した結果",
+      "〜するなら",
+      "〜するために",
+      "「を通じて」の文法意味"
+    ],
+    "correctIndex": 3,
+    "contentId": "g024"
+  },
+  {
+    "id": "p075",
+    "skill": "grammar",
+    "level": "N2",
+    "prompt": "「を通して」の意味は？",
+    "options": [
+      "〜するなら",
+      "〜した結果",
+      "「を通して」の文法意味",
+      "〜するために"
+    ],
+    "correctIndex": 2,
+    "contentId": "g025"
+  },
+  {
+    "id": "p076",
+    "skill": "reading",
+    "level": "N2",
+    "prompt": "この文章の主旨は何か。",
+    "options": [
+      "環境問題への取り組みの重要性",
+      "環境問題の歴史",
+      "環境問題の技術詳細",
+      "環境問題の否定"
+    ],
+    "correctIndex": 0,
+    "contentId": "r001"
+  },
+  {
+    "id": "p077",
+    "skill": "reading",
+    "level": "N2",
+    "prompt": "この文章の主旨は何か。",
+    "options": [
+      "技術革新への取り組みの重要性",
+      "技術革新の歴史",
+      "技術革新の技術詳細",
+      "技術革新の否定"
+    ],
+    "correctIndex": 0,
+    "contentId": "r002"
+  },
+  {
+    "id": "p078",
+    "skill": "listening",
+    "level": "N2",
+    "prompt": "会話の内容として正しいのはどれか。",
+    "options": [
+      "「就任」（しゅうにん）— inaugurationという意味の語",
+      "内容B",
+      "内容C",
+      "内容D"
+    ],
+    "correctIndex": 0,
+    "contentId": "l001"
+  },
+  {
+    "id": "p079",
+    "skill": "listening",
+    "level": "N2",
+    "prompt": "会話の内容として正しいのはどれか。",
+    "options": [
+      "「周辺」— circumference",
+      "内容B",
+      "内容C",
+      "内容D"
+    ],
+    "correctIndex": 0,
+    "contentId": "l002"
+  }
+]

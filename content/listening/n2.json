@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "l001",
+    "title": "課題理解 問題 1",
+    "type": "task",
+    "audioUrl": "/audio/listening/l001.mp3",
+    "transcript": "男：就任についてどう思いますか。女：「就任」（しゅうにん）— inaugurationという意味の語と思います。",
+    "tags": [
+      "n2",
+      "task"
+    ],
+    "questions": [
+      {
+        "id": "l001-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「就任」（しゅうにん）— inaugurationという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "課題理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l002",
+    "title": "ポイント理解 問題 2",
+    "type": "point",
+    "audioUrl": "/audio/listening/l002.mp3",
+    "transcript": "男：周辺についてどう思いますか。女：「周辺」— circumferenceと思います。",
+    "tags": [
+      "n2",
+      "point"
+    ],
+    "questions": [
+      {
+        "id": "l002-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「周辺」— circumference",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "ポイント理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l003",
+    "title": "概要理解 問題 3",
+    "type": "overview",
+    "audioUrl": "/audio/listening/l003.mp3",
+    "transcript": "男：重役についてどう思いますか。女：「重役」（じゅうやく）— directorという意味の語と思います。",
+    "tags": [
+      "n2",
+      "overview"
+    ],
+    "questions": [
+      {
+        "id": "l003-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「重役」（じゅうやく）— directorという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "概要理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l004",
+    "title": "即時応答 問題 4",
+    "type": "instant",
+    "audioUrl": "/audio/listening/l004.mp3",
+    "transcript": "男：終了についてどう思いますか。女：そうですね。と思います。",
+    "tags": [
+      "n2",
+      "instant"
+    ],
+    "questions": [
+      {
+        "id": "l004-q1",
+        "question": "最も適切な応答は？",
+        "options": [
+          "そうですね。",
+          "わかりません。",
+          "お疲れ様です。",
+          "結構です。"
+        ],
+        "correctIndex": 0,
+        "explanation": "即時応答のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l005",
+    "title": "課題理解 問題 5",
+    "type": "task",
+    "audioUrl": "/audio/listening/l005.mp3",
+    "transcript": "男：重量についてどう思いますか。女：「重量」（じゅうりょう）— heavyweightという意味の語と思います。",
+    "tags": [
+      "n2",
+      "task"
+    ],
+    "questions": [
+      {
+        "id": "l005-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「重量」（じゅうりょう）— heavyweightという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "課題理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l006",
+    "title": "ポイント理解 問題 6",
+    "type": "point",
+    "audioUrl": "/audio/listening/l006.mp3",
+    "transcript": "男：重力についてどう思いますか。女：「重力」（じゅうりょく）— gravityという意味の語と思います。",
+    "tags": [
+      "n2",
+      "point"
+    ],
+    "questions": [
+      {
+        "id": "l006-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「重力」（じゅうりょく）— gravityという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "ポイント理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l007",
+    "title": "概要理解 問題 7",
+    "type": "overview",
+    "audioUrl": "/audio/listening/l007.mp3",
+    "transcript": "男：熟語についてどう思いますか。女：「熟語」（じゅくご）— idiomという意味の語と思います。",
+    "tags": [
+      "n2",
+      "overview"
+    ],
+    "questions": [
+      {
+        "id": "l007-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「熟語」（じゅくご）— idiomという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "概要理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l008",
+    "title": "即時応答 問題 8",
+    "type": "instant",
+    "audioUrl": "/audio/listening/l008.mp3",
+    "transcript": "男：祝日についてどう思いますか。女：そうですね。と思います。",
+    "tags": [
+      "n2",
+      "instant"
+    ],
+    "questions": [
+      {
+        "id": "l008-q1",
+        "question": "最も適切な応答は？",
+        "options": [
+          "そうですね。",
+          "わかりません。",
+          "お疲れ様です。",
+          "結構です。"
+        ],
+        "correctIndex": 0,
+        "explanation": "即時応答のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l009",
+    "title": "課題理解 問題 9",
+    "type": "task",
+    "audioUrl": "/audio/listening/l009.mp3",
+    "transcript": "男：縮小についてどう思いますか。女：「縮小」（しゅくしょう）— reductionという意味の語と思います。",
+    "tags": [
+      "n2",
+      "task"
+    ],
+    "questions": [
+      {
+        "id": "l009-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「縮小」（しゅくしょう）— reductionという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "課題理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l010",
+    "title": "ポイント理解 問題 10",
+    "type": "point",
+    "audioUrl": "/audio/listening/l010.mp3",
+    "transcript": "男：受験についてどう思いますか。女：「受験」— taking an examinationと思います。",
+    "tags": [
+      "n2",
+      "point"
+    ],
+    "questions": [
+      {
+        "id": "l010-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「受験」— taking an examination",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "ポイント理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l011",
+    "title": "概要理解 問題 11",
+    "type": "overview",
+    "audioUrl": "/audio/listening/l011.mp3",
+    "transcript": "男：主語についてどう思いますか。女：「主語」（しゅご）— gram subjectという意味の語と思います。",
+    "tags": [
+      "n2",
+      "overview"
+    ],
+    "questions": [
+      {
+        "id": "l011-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「主語」（しゅご）— gram subjectという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "概要理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l012",
+    "title": "即時応答 問題 12",
+    "type": "instant",
+    "audioUrl": "/audio/listening/l012.mp3",
+    "transcript": "男：主人についてどう思いますか。女：そうですね。と思います。",
+    "tags": [
+      "n2",
+      "instant"
+    ],
+    "questions": [
+      {
+        "id": "l012-q1",
+        "question": "最も適切な応答は？",
+        "options": [
+          "そうですね。",
+          "わかりません。",
+          "お疲れ様です。",
+          "結構です。"
+        ],
+        "correctIndex": 0,
+        "explanation": "即時応答のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l013",
+    "title": "課題理解 問題 13",
+    "type": "task",
+    "audioUrl": "/audio/listening/l013.mp3",
+    "transcript": "男：出勤についてどう思いますか。女：「出勤」— going to workと思います。",
+    "tags": [
+      "n2",
+      "task"
+    ],
+    "questions": [
+      {
+        "id": "l013-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「出勤」— going to work",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "課題理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l014",
+    "title": "ポイント理解 問題 14",
+    "type": "point",
+    "audioUrl": "/audio/listening/l014.mp3",
+    "transcript": "男：述語についてどう思いますか。女：「述語」（じゅつご）— predicateという意味の語と思います。",
+    "tags": [
+      "n2",
+      "point"
+    ],
+    "questions": [
+      {
+        "id": "l014-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「述語」（じゅつご）— predicateという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "ポイント理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l015",
+    "title": "概要理解 問題 15",
+    "type": "overview",
+    "audioUrl": "/audio/listening/l015.mp3",
+    "transcript": "男：出張についてどう思いますか。女：「出張」— official tourと思います。",
+    "tags": [
+      "n2",
+      "overview"
+    ],
+    "questions": [
+      {
+        "id": "l015-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「出張」— official tour",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "概要理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l016",
+    "title": "即時応答 問題 16",
+    "type": "instant",
+    "audioUrl": "/audio/listening/l016.mp3",
+    "transcript": "男：寿命についてどう思いますか。女：そうですね。と思います。",
+    "tags": [
+      "n2",
+      "instant"
+    ],
+    "questions": [
+      {
+        "id": "l016-q1",
+        "question": "最も適切な応答は？",
+        "options": [
+          "そうですね。",
+          "わかりません。",
+          "お疲れ様です。",
+          "結構です。"
+        ],
+        "correctIndex": 0,
+        "explanation": "即時応答のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l017",
+    "title": "課題理解 問題 17",
+    "type": "task",
+    "audioUrl": "/audio/listening/l017.mp3",
+    "transcript": "男：主役についてどう思いますか。女：「主役」（しゅやく）— leading partという意味の語と思います。",
+    "tags": [
+      "n2",
+      "task"
+    ],
+    "questions": [
+      {
+        "id": "l017-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「主役」（しゅやく）— leading partという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "課題理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l018",
+    "title": "ポイント理解 問題 18",
+    "type": "point",
+    "audioUrl": "/audio/listening/l018.mp3",
+    "transcript": "男：受話器についてどう思いますか。女：「受話器」— telephone receiverと思います。",
+    "tags": [
+      "n2",
+      "point"
+    ],
+    "questions": [
+      {
+        "id": "l018-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「受話器」— telephone receiver",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "ポイント理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l019",
+    "title": "概要理解 問題 19",
+    "type": "overview",
+    "audioUrl": "/audio/listening/l019.mp3",
+    "transcript": "男：循環についてどう思いますか。女：「循環」（じゅんかん）— circulationという意味の語と思います。",
+    "tags": [
+      "n2",
+      "overview"
+    ],
+    "questions": [
+      {
+        "id": "l019-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「循環」（じゅんかん）— circulationという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "概要理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l020",
+    "title": "即時応答 問題 20",
+    "type": "instant",
+    "audioUrl": "/audio/listening/l020.mp3",
+    "transcript": "男：巡査についてどう思いますか。女：そうですね。と思います。",
+    "tags": [
+      "n2",
+      "instant"
+    ],
+    "questions": [
+      {
+        "id": "l020-q1",
+        "question": "最も適切な応答は？",
+        "options": [
+          "そうですね。",
+          "わかりません。",
+          "お疲れ様です。",
+          "結構です。"
+        ],
+        "correctIndex": 0,
+        "explanation": "即時応答のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l021",
+    "title": "課題理解 問題 21",
+    "type": "task",
+    "audioUrl": "/audio/listening/l021.mp3",
+    "transcript": "男：順々についてどう思いますか。女：「順々」（じゅんじゅん）— in orderという意味の語と思います。",
+    "tags": [
+      "n2",
+      "task"
+    ],
+    "questions": [
+      {
+        "id": "l021-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「順々」（じゅんじゅん）— in orderという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "課題理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l022",
+    "title": "ポイント理解 問題 22",
+    "type": "point",
+    "audioUrl": "/audio/listening/l022.mp3",
+    "transcript": "男：順序についてどう思いますか。女：「順序」（じゅんじょ）— orderという意味の語と思います。",
+    "tags": [
+      "n2",
+      "point"
+    ],
+    "questions": [
+      {
+        "id": "l022-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「順序」（じゅんじょ）— orderという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "ポイント理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l023",
+    "title": "概要理解 問題 23",
+    "type": "overview",
+    "audioUrl": "/audio/listening/l023.mp3",
+    "transcript": "男：純情についてどう思いますか。女：「純情」（じゅんじょう）— pure heartという意味の語と思います。",
+    "tags": [
+      "n2",
+      "overview"
+    ],
+    "questions": [
+      {
+        "id": "l023-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「純情」（じゅんじょう）— pure heartという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "概要理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l024",
+    "title": "即時応答 問題 24",
+    "type": "instant",
+    "audioUrl": "/audio/listening/l024.mp3",
+    "transcript": "男：純粋についてどう思いますか。女：そうですね。と思います。",
+    "tags": [
+      "n2",
+      "instant"
+    ],
+    "questions": [
+      {
+        "id": "l024-q1",
+        "question": "最も適切な応答は？",
+        "options": [
+          "そうですね。",
+          "わかりません。",
+          "お疲れ様です。",
+          "結構です。"
+        ],
+        "correctIndex": 0,
+        "explanation": "即時応答のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l025",
+    "title": "課題理解 問題 25",
+    "type": "task",
+    "audioUrl": "/audio/listening/l025.mp3",
+    "transcript": "男：初～についてどう思いますか。女：「初～」（しょ～）— first ~という意味の語と思います。",
+    "tags": [
+      "n2",
+      "task"
+    ],
+    "questions": [
+      {
+        "id": "l025-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「初～」（しょ～）— first ~という意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "課題理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l026",
+    "title": "ポイント理解 問題 26",
+    "type": "point",
+    "audioUrl": "/audio/listening/l026.mp3",
+    "transcript": "男：諸～についてどう思いますか。女：「諸～」（しょ～）— various ~という意味の語と思います。",
+    "tags": [
+      "n2",
+      "point"
+    ],
+    "questions": [
+      {
+        "id": "l026-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「諸～」（しょ～）— various ~という意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "ポイント理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l027",
+    "title": "概要理解 問題 27",
+    "type": "overview",
+    "audioUrl": "/audio/listening/l027.mp3",
+    "transcript": "男：～所についてどう思いますか。女：「～所」（～しょ）— placeという意味の語と思います。",
+    "tags": [
+      "n2",
+      "overview"
+    ],
+    "questions": [
+      {
+        "id": "l027-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「～所」（～しょ）— placeという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "概要理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l028",
+    "title": "即時応答 問題 28",
+    "type": "instant",
+    "audioUrl": "/audio/listening/l028.mp3",
+    "transcript": "男：女～についてどう思いますか。女：そうですね。と思います。",
+    "tags": [
+      "n2",
+      "instant"
+    ],
+    "questions": [
+      {
+        "id": "l028-q1",
+        "question": "最も適切な応答は？",
+        "options": [
+          "そうですね。",
+          "わかりません。",
+          "お疲れ様です。",
+          "結構です。"
+        ],
+        "correctIndex": 0,
+        "explanation": "即時応答のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l029",
+    "title": "課題理解 問題 29",
+    "type": "task",
+    "audioUrl": "/audio/listening/l029.mp3",
+    "transcript": "男：～女についてどう思いますか。女：「～女」— count for sistersと思います。",
+    "tags": [
+      "n2",
+      "task"
+    ],
+    "questions": [
+      {
+        "id": "l029-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「～女」— count for sisters",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "課題理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l030",
+    "title": "ポイント理解 問題 30",
+    "type": "point",
+    "audioUrl": "/audio/listening/l030.mp3",
+    "transcript": "男：省～についてどう思いますか。女：「省～」— economizing ~と思います。",
+    "tags": [
+      "n2",
+      "point"
+    ],
+    "questions": [
+      {
+        "id": "l030-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「省～」— economizing ~",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "ポイント理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l031",
+    "title": "概要理解 問題 31",
+    "type": "overview",
+    "audioUrl": "/audio/listening/l031.mp3",
+    "transcript": "男：～省についてどう思いますか。女：「～省」— kind of ministryと思います。",
+    "tags": [
+      "n2",
+      "overview"
+    ],
+    "questions": [
+      {
+        "id": "l031-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「～省」— kind of ministry",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "概要理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l032",
+    "title": "即時応答 問題 32",
+    "type": "instant",
+    "audioUrl": "/audio/listening/l032.mp3",
+    "transcript": "男：～商についてどう思いますか。女：そうですね。と思います。",
+    "tags": [
+      "n2",
+      "instant"
+    ],
+    "questions": [
+      {
+        "id": "l032-q1",
+        "question": "最も適切な応答は？",
+        "options": [
+          "そうですね。",
+          "わかりません。",
+          "お疲れ様です。",
+          "結構です。"
+        ],
+        "correctIndex": 0,
+        "explanation": "即時応答のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l033",
+    "title": "課題理解 問題 33",
+    "type": "task",
+    "audioUrl": "/audio/listening/l033.mp3",
+    "transcript": "男：～勝についてどう思いますか。女：「～勝」— count for victoryと思います。",
+    "tags": [
+      "n2",
+      "task"
+    ],
+    "questions": [
+      {
+        "id": "l033-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「～勝」— count for victory",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "課題理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l034",
+    "title": "ポイント理解 問題 34",
+    "type": "point",
+    "audioUrl": "/audio/listening/l034.mp3",
+    "transcript": "男：～条についてどう思いますか。女：「～条」— counter for articleと思います。",
+    "tags": [
+      "n2",
+      "point"
+    ],
+    "questions": [
+      {
+        "id": "l034-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「～条」— counter for article",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "ポイント理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l035",
+    "title": "概要理解 問題 35",
+    "type": "overview",
+    "audioUrl": "/audio/listening/l035.mp3",
+    "transcript": "男：～場についてどう思いますか。女：「～場」— kind of fieldと思います。",
+    "tags": [
+      "n2",
+      "overview"
+    ],
+    "questions": [
+      {
+        "id": "l035-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「～場」— kind of field",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "概要理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l036",
+    "title": "即時応答 問題 36",
+    "type": "instant",
+    "audioUrl": "/audio/listening/l036.mp3",
+    "transcript": "男：～畳についてどう思いますか。女：そうですね。と思います。",
+    "tags": [
+      "n2",
+      "instant"
+    ],
+    "questions": [
+      {
+        "id": "l036-q1",
+        "question": "最も適切な応答は？",
+        "options": [
+          "そうですね。",
+          "わかりません。",
+          "お疲れ様です。",
+          "結構です。"
+        ],
+        "correctIndex": 0,
+        "explanation": "即時応答のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l037",
+    "title": "課題理解 問題 37",
+    "type": "task",
+    "audioUrl": "/audio/listening/l037.mp3",
+    "transcript": "男：消化についてどう思いますか。女：「消化」（しょうか）— digestionという意味の語と思います。",
+    "tags": [
+      "n2",
+      "task"
+    ],
+    "questions": [
+      {
+        "id": "l037-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「消化」（しょうか）— digestionという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "課題理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l038",
+    "title": "ポイント理解 問題 38",
+    "type": "point",
+    "audioUrl": "/audio/listening/l038.mp3",
+    "transcript": "男：小学生についてどう思いますか。女：「小学生」— elementary school pupilと思います。",
+    "tags": [
+      "n2",
+      "point"
+    ],
+    "questions": [
+      {
+        "id": "l038-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「小学生」— elementary school pupil",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "ポイント理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l039",
+    "title": "概要理解 問題 39",
+    "type": "overview",
+    "audioUrl": "/audio/listening/l039.mp3",
+    "transcript": "男：しょうがないについてどう思いますか。女：「しょうがない」— It is not worth ~と思います。",
+    "tags": [
+      "n2",
+      "overview"
+    ],
+    "questions": [
+      {
+        "id": "l039-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「しょうがない」— It is not worth ~",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "概要理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l040",
+    "title": "即時応答 問題 40",
+    "type": "instant",
+    "audioUrl": "/audio/listening/l040.mp3",
+    "transcript": "男：将棋についてどう思いますか。女：そうですね。と思います。",
+    "tags": [
+      "n2",
+      "instant"
+    ],
+    "questions": [
+      {
+        "id": "l040-q1",
+        "question": "最も適切な応答は？",
+        "options": [
+          "そうですね。",
+          "わかりません。",
+          "お疲れ様です。",
+          "結構です。"
+        ],
+        "correctIndex": 0,
+        "explanation": "即時応答のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l041",
+    "title": "課題理解 問題 41",
+    "type": "task",
+    "audioUrl": "/audio/listening/l041.mp3",
+    "transcript": "男：蒸気についてどう思いますか。女：「蒸気」（じょうき）— steamという意味の語と思います。",
+    "tags": [
+      "n2",
+      "task"
+    ],
+    "questions": [
+      {
+        "id": "l041-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「蒸気」（じょうき）— steamという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "課題理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l042",
+    "title": "ポイント理解 問題 42",
+    "type": "point",
+    "audioUrl": "/audio/listening/l042.mp3",
+    "transcript": "男：定規についてどう思いますか。女：「定規」— measuring rulerと思います。",
+    "tags": [
+      "n2",
+      "point"
+    ],
+    "questions": [
+      {
+        "id": "l042-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「定規」— measuring ruler",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "ポイント理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l043",
+    "title": "概要理解 問題 43",
+    "type": "overview",
+    "audioUrl": "/audio/listening/l043.mp3",
+    "transcript": "男：上級についてどう思いますか。女：「上級」— advanced levelと思います。",
+    "tags": [
+      "n2",
+      "overview"
+    ],
+    "questions": [
+      {
+        "id": "l043-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「上級」— advanced level",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "概要理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l044",
+    "title": "即時応答 問題 44",
+    "type": "instant",
+    "audioUrl": "/audio/listening/l044.mp3",
+    "transcript": "男：商業についてどう思いますか。女：そうですね。と思います。",
+    "tags": [
+      "n2",
+      "instant"
+    ],
+    "questions": [
+      {
+        "id": "l044-q1",
+        "question": "最も適切な応答は？",
+        "options": [
+          "そうですね。",
+          "わかりません。",
+          "お疲れ様です。",
+          "結構です。"
+        ],
+        "correctIndex": 0,
+        "explanation": "即時応答のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l045",
+    "title": "課題理解 問題 45",
+    "type": "task",
+    "audioUrl": "/audio/listening/l045.mp3",
+    "transcript": "男：消極的についてどう思いますか。女：「消極的」（しょうきょくてき）— passiveという意味の語と思います。",
+    "tags": [
+      "n2",
+      "task"
+    ],
+    "questions": [
+      {
+        "id": "l045-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「消極的」（しょうきょくてき）— passiveという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "課題理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l046",
+    "title": "ポイント理解 問題 46",
+    "type": "point",
+    "audioUrl": "/audio/listening/l046.mp3",
+    "transcript": "男：賞金についてどう思いますか。女：「賞金」（しょうきん）— prizeという意味の語と思います。",
+    "tags": [
+      "n2",
+      "point"
+    ],
+    "questions": [
+      {
+        "id": "l046-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「賞金」（しょうきん）— prizeという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "ポイント理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l047",
+    "title": "概要理解 問題 47",
+    "type": "overview",
+    "audioUrl": "/audio/listening/l047.mp3",
+    "transcript": "男：上下についてどう思いますか。女：「上下」（じょうげ）— high and lowという意味の語と思います。",
+    "tags": [
+      "n2",
+      "overview"
+    ],
+    "questions": [
+      {
+        "id": "l047-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「上下」（じょうげ）— high and lowという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "概要理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l048",
+    "title": "即時応答 問題 48",
+    "type": "instant",
+    "audioUrl": "/audio/listening/l048.mp3",
+    "transcript": "男：障子についてどう思いますか。女：そうですね。と思います。",
+    "tags": [
+      "n2",
+      "instant"
+    ],
+    "questions": [
+      {
+        "id": "l048-q1",
+        "question": "最も適切な応答は？",
+        "options": [
+          "そうですね。",
+          "わかりません。",
+          "お疲れ様です。",
+          "結構です。"
+        ],
+        "correctIndex": 0,
+        "explanation": "即時応答のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l049",
+    "title": "課題理解 問題 49",
+    "type": "task",
+    "audioUrl": "/audio/listening/l049.mp3",
+    "transcript": "男：商社についてどう思いますか。女：「商社」— trading companyと思います。",
+    "tags": [
+      "n2",
+      "task"
+    ],
+    "questions": [
+      {
+        "id": "l049-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「商社」— trading company",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "課題理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l050",
+    "title": "ポイント理解 問題 50",
+    "type": "point",
+    "audioUrl": "/audio/listening/l050.mp3",
+    "transcript": "男：乗車についてどう思いますか。女：「乗車」— taking a trainと思います。",
+    "tags": [
+      "n2",
+      "point"
+    ],
+    "questions": [
+      {
+        "id": "l050-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「乗車」— taking a train",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "ポイント理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l051",
+    "title": "概要理解 問題 51",
+    "type": "overview",
+    "audioUrl": "/audio/listening/l051.mp3",
+    "transcript": "男：上旬についてどう思いますか。女：「上旬」— first 10 days of monthと思います。",
+    "tags": [
+      "n2",
+      "overview"
+    ],
+    "questions": [
+      {
+        "id": "l051-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「上旬」— first 10 days of month",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "概要理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l052",
+    "title": "即時応答 問題 52",
+    "type": "instant",
+    "audioUrl": "/audio/listening/l052.mp3",
+    "transcript": "男：生ずるについてどう思いますか。女：そうですね。と思います。",
+    "tags": [
+      "n2",
+      "instant"
+    ],
+    "questions": [
+      {
+        "id": "l052-q1",
+        "question": "最も適切な応答は？",
+        "options": [
+          "そうですね。",
+          "わかりません。",
+          "お疲れ様です。",
+          "結構です。"
+        ],
+        "correctIndex": 0,
+        "explanation": "即時応答のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l053",
+    "title": "課題理解 問題 53",
+    "type": "task",
+    "audioUrl": "/audio/listening/l053.mp3",
+    "transcript": "男：小数についてどう思いますか。女：「小数」— fraction part ofと思います。",
+    "tags": [
+      "n2",
+      "task"
+    ],
+    "questions": [
+      {
+        "id": "l053-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「小数」— fraction part of",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "課題理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l054",
+    "title": "ポイント理解 問題 54",
+    "type": "point",
+    "audioUrl": "/audio/listening/l054.mp3",
+    "transcript": "男：商店についてどう思いますか。女：「商店」（しょうてん）— shopという意味の語と思います。",
+    "tags": [
+      "n2",
+      "point"
+    ],
+    "questions": [
+      {
+        "id": "l054-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「商店」（しょうてん）— shopという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "ポイント理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l055",
+    "title": "概要理解 問題 55",
+    "type": "overview",
+    "audioUrl": "/audio/listening/l055.mp3",
+    "transcript": "男：焦点についてどう思いますか。女：「焦点」（しょうてん）— focusという意味の語と思います。",
+    "tags": [
+      "n2",
+      "overview"
+    ],
+    "questions": [
+      {
+        "id": "l055-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「焦点」（しょうてん）— focusという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "概要理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l056",
+    "title": "即時応答 問題 56",
+    "type": "instant",
+    "audioUrl": "/audio/listening/l056.mp3",
+    "transcript": "男：消毒についてどう思いますか。女：そうですね。と思います。",
+    "tags": [
+      "n2",
+      "instant"
+    ],
+    "questions": [
+      {
+        "id": "l056-q1",
+        "question": "最も適切な応答は？",
+        "options": [
+          "そうですね。",
+          "わかりません。",
+          "お疲れ様です。",
+          "結構です。"
+        ],
+        "correctIndex": 0,
+        "explanation": "即時応答のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l057",
+    "title": "課題理解 問題 57",
+    "type": "task",
+    "audioUrl": "/audio/listening/l057.mp3",
+    "transcript": "男：勝敗についてどう思いますか。女：「勝敗」— victory or defeatと思います。",
+    "tags": [
+      "n2",
+      "task"
+    ],
+    "questions": [
+      {
+        "id": "l057-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「勝敗」— victory or defeat",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "課題理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l058",
+    "title": "ポイント理解 問題 58",
+    "type": "point",
+    "audioUrl": "/audio/listening/l058.mp3",
+    "transcript": "男：蒸発についてどう思いますか。女：「蒸発」（じょうはつ）— evaporationという意味の語と思います。",
+    "tags": [
+      "n2",
+      "point"
+    ],
+    "questions": [
+      {
+        "id": "l058-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「蒸発」（じょうはつ）— evaporationという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "ポイント理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l059",
+    "title": "概要理解 問題 59",
+    "type": "overview",
+    "audioUrl": "/audio/listening/l059.mp3",
+    "transcript": "男：上品についてどう思いますか。女：「上品」（じょうひん）— refinedという意味の語と思います。",
+    "tags": [
+      "n2",
+      "overview"
+    ],
+    "questions": [
+      {
+        "id": "l059-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「上品」（じょうひん）— refinedという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "概要理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l060",
+    "title": "即時応答 問題 60",
+    "type": "instant",
+    "audioUrl": "/audio/listening/l060.mp3",
+    "transcript": "男：勝負についてどう思いますか。女：そうですね。と思います。",
+    "tags": [
+      "n2",
+      "instant"
+    ],
+    "questions": [
+      {
+        "id": "l060-q1",
+        "question": "最も適切な応答は？",
+        "options": [
+          "そうですね。",
+          "わかりません。",
+          "お疲れ様です。",
+          "結構です。"
+        ],
+        "correctIndex": 0,
+        "explanation": "即時応答のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l061",
+    "title": "課題理解 問題 61",
+    "type": "task",
+    "audioUrl": "/audio/listening/l061.mp3",
+    "transcript": "男：小便についてどう思いますか。女：「小便」（しょうべん）— col urineという意味の語と思います。",
+    "tags": [
+      "n2",
+      "task"
+    ],
+    "questions": [
+      {
+        "id": "l061-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「小便」（しょうべん）— col urineという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "課題理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l062",
+    "title": "ポイント理解 問題 62",
+    "type": "point",
+    "audioUrl": "/audio/listening/l062.mp3",
+    "transcript": "男：消防署についてどう思いますか。女：「消防署」（しょうぼうしょ）— fire stationという意味の語と思います。",
+    "tags": [
+      "n2",
+      "point"
+    ],
+    "questions": [
+      {
+        "id": "l062-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「消防署」（しょうぼうしょ）— fire stationという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "ポイント理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l063",
+    "title": "概要理解 問題 63",
+    "type": "overview",
+    "audioUrl": "/audio/listening/l063.mp3",
+    "transcript": "男：正味についてどう思いますか。女：「正味」（しょうみ）— net weightという意味の語と思います。",
+    "tags": [
+      "n2",
+      "overview"
+    ],
+    "questions": [
+      {
+        "id": "l063-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「正味」（しょうみ）— net weightという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "概要理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l064",
+    "title": "即時応答 問題 64",
+    "type": "instant",
+    "audioUrl": "/audio/listening/l064.mp3",
+    "transcript": "男：正面についてどう思いますか。女：そうですね。と思います。",
+    "tags": [
+      "n2",
+      "instant"
+    ],
+    "questions": [
+      {
+        "id": "l064-q1",
+        "question": "最も適切な応答は？",
+        "options": [
+          "そうですね。",
+          "わかりません。",
+          "お疲れ様です。",
+          "結構です。"
+        ],
+        "correctIndex": 0,
+        "explanation": "即時応答のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l065",
+    "title": "課題理解 問題 65",
+    "type": "task",
+    "audioUrl": "/audio/listening/l065.mp3",
+    "transcript": "男：消耗についてどう思いますか。女：「消耗」（しょうもう）— exhaustionという意味の語と思います。",
+    "tags": [
+      "n2",
+      "task"
+    ],
+    "questions": [
+      {
+        "id": "l065-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「消耗」（しょうもう）— exhaustionという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "課題理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l066",
+    "title": "ポイント理解 問題 66",
+    "type": "point",
+    "audioUrl": "/audio/listening/l066.mp3",
+    "transcript": "男：初級についてどう思いますか。女：「初級」— elementary levelと思います。",
+    "tags": [
+      "n2",
+      "point"
+    ],
+    "questions": [
+      {
+        "id": "l066-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「初級」— elementary level",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "ポイント理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l067",
+    "title": "概要理解 問題 67",
+    "type": "overview",
+    "audioUrl": "/audio/listening/l067.mp3",
+    "transcript": "男：助教授についてどう思いますか。女：「助教授」— assistant professorと思います。",
+    "tags": [
+      "n2",
+      "overview"
+    ],
+    "questions": [
+      {
+        "id": "l067-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「助教授」— assistant professor",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "概要理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l068",
+    "title": "即時応答 問題 68",
+    "type": "instant",
+    "audioUrl": "/audio/listening/l068.mp3",
+    "transcript": "男：～色についてどう思いますか。女：そうですね。と思います。",
+    "tags": [
+      "n2",
+      "instant"
+    ],
+    "questions": [
+      {
+        "id": "l068-q1",
+        "question": "最も適切な応答は？",
+        "options": [
+          "そうですね。",
+          "わかりません。",
+          "お疲れ様です。",
+          "結構です。"
+        ],
+        "correctIndex": 0,
+        "explanation": "即時応答のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l069",
+    "title": "課題理解 問題 69",
+    "type": "task",
+    "audioUrl": "/audio/listening/l069.mp3",
+    "transcript": "男：食塩についてどう思いますか。女：「食塩」（しょくえん）— table saltという意味の語と思います。",
+    "tags": [
+      "n2",
+      "task"
+    ],
+    "questions": [
+      {
+        "id": "l069-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「食塩」（しょくえん）— table saltという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "課題理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l070",
+    "title": "ポイント理解 問題 70",
+    "type": "point",
+    "audioUrl": "/audio/listening/l070.mp3",
+    "transcript": "男：職人についてどう思いますか。女：「職人」（しょくにん）— artisanという意味の語と思います。",
+    "tags": [
+      "n2",
+      "point"
+    ],
+    "questions": [
+      {
+        "id": "l070-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「職人」（しょくにん）— artisanという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "ポイント理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l071",
+    "title": "概要理解 問題 71",
+    "type": "overview",
+    "audioUrl": "/audio/listening/l071.mp3",
+    "transcript": "男：職場についてどう思いますか。女：「職場」（しょくば）— workplaceという意味の語と思います。",
+    "tags": [
+      "n2",
+      "overview"
+    ],
+    "questions": [
+      {
+        "id": "l071-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「職場」（しょくば）— workplaceという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "概要理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l072",
+    "title": "即時応答 問題 72",
+    "type": "instant",
+    "audioUrl": "/audio/listening/l072.mp3",
+    "transcript": "男：初旬についてどう思いますか。女：そうですね。と思います。",
+    "tags": [
+      "n2",
+      "instant"
+    ],
+    "questions": [
+      {
+        "id": "l072-q1",
+        "question": "最も適切な応答は？",
+        "options": [
+          "そうですね。",
+          "わかりません。",
+          "お疲れ様です。",
+          "結構です。"
+        ],
+        "correctIndex": 0,
+        "explanation": "即時応答のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l073",
+    "title": "課題理解 問題 73",
+    "type": "task",
+    "audioUrl": "/audio/listening/l073.mp3",
+    "transcript": "男：書籍についてどう思いますか。女：「書籍」（しょせき）— bookという意味の語と思います。",
+    "tags": [
+      "n2",
+      "task"
+    ],
+    "questions": [
+      {
+        "id": "l073-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「書籍」（しょせき）— bookという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "課題理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l074",
+    "title": "ポイント理解 問題 74",
+    "type": "point",
+    "audioUrl": "/audio/listening/l074.mp3",
+    "transcript": "男：食器についてどう思いますか。女：「食器」（しょっき）— tablewareという意味の語と思います。",
+    "tags": [
+      "n2",
+      "point"
+    ],
+    "questions": [
+      {
+        "id": "l074-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「食器」（しょっき）— tablewareという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "ポイント理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l075",
+    "title": "概要理解 問題 75",
+    "type": "overview",
+    "audioUrl": "/audio/listening/l075.mp3",
+    "transcript": "男：ショップについてどう思いますか。女：「ショップ」（ショップ）— a shopという意味の語と思います。",
+    "tags": [
+      "n2",
+      "overview"
+    ],
+    "questions": [
+      {
+        "id": "l075-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「ショップ」（ショップ）— a shopという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "概要理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l076",
+    "title": "即時応答 問題 76",
+    "type": "instant",
+    "audioUrl": "/audio/listening/l076.mp3",
+    "transcript": "男：書店についてどう思いますか。女：そうですね。と思います。",
+    "tags": [
+      "n2",
+      "instant"
+    ],
+    "questions": [
+      {
+        "id": "l076-q1",
+        "question": "最も適切な応答は？",
+        "options": [
+          "そうですね。",
+          "わかりません。",
+          "お疲れ様です。",
+          "結構です。"
+        ],
+        "correctIndex": 0,
+        "explanation": "即時応答のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l077",
+    "title": "課題理解 問題 77",
+    "type": "task",
+    "audioUrl": "/audio/listening/l077.mp3",
+    "transcript": "男：書道についてどう思いますか。女：「書道」（しょどう）— calligraphyという意味の語と思います。",
+    "tags": [
+      "n2",
+      "task"
+    ],
+    "questions": [
+      {
+        "id": "l077-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「書道」（しょどう）— calligraphyという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "課題理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l078",
+    "title": "ポイント理解 問題 78",
+    "type": "point",
+    "audioUrl": "/audio/listening/l078.mp3",
+    "transcript": "男：初歩についてどう思いますか。女：「初歩」（しょほ）— elementsという意味の語と思います。",
+    "tags": [
+      "n2",
+      "point"
+    ],
+    "questions": [
+      {
+        "id": "l078-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「初歩」（しょほ）— elementsという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "ポイント理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l079",
+    "title": "概要理解 問題 79",
+    "type": "overview",
+    "audioUrl": "/audio/listening/l079.mp3",
+    "transcript": "男：白髪についてどう思いますか。女：「白髪」— white or grey hairと思います。",
+    "tags": [
+      "n2",
+      "overview"
+    ],
+    "questions": [
+      {
+        "id": "l079-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「白髪」— white or grey hair",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "概要理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l080",
+    "title": "即時応答 問題 80",
+    "type": "instant",
+    "audioUrl": "/audio/listening/l080.mp3",
+    "transcript": "男：シリーズについてどう思いますか。女：そうですね。と思います。",
+    "tags": [
+      "n2",
+      "instant"
+    ],
+    "questions": [
+      {
+        "id": "l080-q1",
+        "question": "最も適切な応答は？",
+        "options": [
+          "そうですね。",
+          "わかりません。",
+          "お疲れ様です。",
+          "結構です。"
+        ],
+        "correctIndex": 0,
+        "explanation": "即時応答のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l081",
+    "title": "課題理解 問題 81",
+    "type": "task",
+    "audioUrl": "/audio/listening/l081.mp3",
+    "transcript": "男：私立についてどう思いますか。女：「私立」— private establishmentと思います。",
+    "tags": [
+      "n2",
+      "task"
+    ],
+    "questions": [
+      {
+        "id": "l081-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「私立」— private establishment",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "課題理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l082",
+    "title": "ポイント理解 問題 82",
+    "type": "point",
+    "audioUrl": "/audio/listening/l082.mp3",
+    "transcript": "男：資料についてどう思いますか。女：「資料」（しりょう）— materialsという意味の語と思います。",
+    "tags": [
+      "n2",
+      "point"
+    ],
+    "questions": [
+      {
+        "id": "l082-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「資料」（しりょう）— materialsという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "ポイント理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l083",
+    "title": "概要理解 問題 83",
+    "type": "overview",
+    "audioUrl": "/audio/listening/l083.mp3",
+    "transcript": "男：汁についてどう思いますか。女：「汁」（しる）— juiceという意味の語と思います。",
+    "tags": [
+      "n2",
+      "overview"
+    ],
+    "questions": [
+      {
+        "id": "l083-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「汁」（しる）— juiceという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "概要理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l084",
+    "title": "即時応答 問題 84",
+    "type": "instant",
+    "audioUrl": "/audio/listening/l084.mp3",
+    "transcript": "男：素人についてどう思いますか。女：そうですね。と思います。",
+    "tags": [
+      "n2",
+      "instant"
+    ],
+    "questions": [
+      {
+        "id": "l084-q1",
+        "question": "最も適切な応答は？",
+        "options": [
+          "そうですね。",
+          "わかりません。",
+          "お疲れ様です。",
+          "結構です。"
+        ],
+        "correctIndex": 0,
+        "explanation": "即時応答のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l085",
+    "title": "課題理解 問題 85",
+    "type": "task",
+    "audioUrl": "/audio/listening/l085.mp3",
+    "transcript": "男：しわ (かおの～)についてどう思いますか。女：「しわ (かおの～)」（しわ (かおの～)）— wrinklesという意味の語と思います。",
+    "tags": [
+      "n2",
+      "task"
+    ],
+    "questions": [
+      {
+        "id": "l085-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「しわ (かおの～)」（しわ (かおの～)）— wrinklesという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "課題理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l086",
+    "title": "ポイント理解 問題 86",
+    "type": "point",
+    "audioUrl": "/audio/listening/l086.mp3",
+    "transcript": "男：芯についてどう思いますか。女：「芯」（しん）— coreという意味の語と思います。",
+    "tags": [
+      "n2",
+      "point"
+    ],
+    "questions": [
+      {
+        "id": "l086-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「芯」（しん）— coreという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "ポイント理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l087",
+    "title": "概要理解 問題 87",
+    "type": "overview",
+    "audioUrl": "/audio/listening/l087.mp3",
+    "transcript": "男：新幹線についてどう思いますか。女：「新幹線」（しんかんせん）— Shinkansenという意味の語と思います。",
+    "tags": [
+      "n2",
+      "overview"
+    ],
+    "questions": [
+      {
+        "id": "l087-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「新幹線」（しんかんせん）— Shinkansenという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "概要理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l088",
+    "title": "即時応答 問題 88",
+    "type": "instant",
+    "audioUrl": "/audio/listening/l088.mp3",
+    "transcript": "男：真空についてどう思いますか。女：そうですね。と思います。",
+    "tags": [
+      "n2",
+      "instant"
+    ],
+    "questions": [
+      {
+        "id": "l088-q1",
+        "question": "最も適切な応答は？",
+        "options": [
+          "そうですね。",
+          "わかりません。",
+          "お疲れ様です。",
+          "結構です。"
+        ],
+        "correctIndex": 0,
+        "explanation": "即時応答のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l089",
+    "title": "課題理解 問題 89",
+    "type": "task",
+    "audioUrl": "/audio/listening/l089.mp3",
+    "transcript": "男：人事についてどう思いますか。女：「人事」— human resourcesと思います。",
+    "tags": [
+      "n2",
+      "task"
+    ],
+    "questions": [
+      {
+        "id": "l089-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「人事」— human resources",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "課題理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l090",
+    "title": "ポイント理解 問題 90",
+    "type": "point",
+    "audioUrl": "/audio/listening/l090.mp3",
+    "transcript": "男：信ずるについてどう思いますか。女：「信ずる」（しんずる）— to believeという意味の語と思います。",
+    "tags": [
+      "n2",
+      "point"
+    ],
+    "questions": [
+      {
+        "id": "l090-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「信ずる」（しんずる）— to believeという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "ポイント理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l091",
+    "title": "概要理解 問題 91",
+    "type": "overview",
+    "audioUrl": "/audio/listening/l091.mp3",
+    "transcript": "男：心身についてどう思いますか。女：「心身」— mind and bodyと思います。",
+    "tags": [
+      "n2",
+      "overview"
+    ],
+    "questions": [
+      {
+        "id": "l091-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「心身」— mind and body",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "概要理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l092",
+    "title": "即時応答 問題 92",
+    "type": "instant",
+    "audioUrl": "/audio/listening/l092.mp3",
+    "transcript": "男：申請についてどう思いますか。女：そうですね。と思います。",
+    "tags": [
+      "n2",
+      "instant"
+    ],
+    "questions": [
+      {
+        "id": "l092-q1",
+        "question": "最も適切な応答は？",
+        "options": [
+          "そうですね。",
+          "わかりません。",
+          "お疲れ様です。",
+          "結構です。"
+        ],
+        "correctIndex": 0,
+        "explanation": "即時応答のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l093",
+    "title": "課題理解 問題 93",
+    "type": "task",
+    "audioUrl": "/audio/listening/l093.mp3",
+    "transcript": "男：人造についてどう思いますか。女：「人造」（じんぞう）— man-madeという意味の語と思います。",
+    "tags": [
+      "n2",
+      "task"
+    ],
+    "questions": [
+      {
+        "id": "l093-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「人造」（じんぞう）— man-madeという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "課題理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l094",
+    "title": "ポイント理解 問題 94",
+    "type": "point",
+    "audioUrl": "/audio/listening/l094.mp3",
+    "transcript": "男：寝台についてどう思いますか。女：「寝台」（しんだい）— bedという意味の語と思います。",
+    "tags": [
+      "n2",
+      "point"
+    ],
+    "questions": [
+      {
+        "id": "l094-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「寝台」（しんだい）— bedという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "ポイント理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l095",
+    "title": "概要理解 問題 95",
+    "type": "overview",
+    "audioUrl": "/audio/listening/l095.mp3",
+    "transcript": "男：診断についてどう思いますか。女：「診断」（しんだん）— diagnosisという意味の語と思います。",
+    "tags": [
+      "n2",
+      "overview"
+    ],
+    "questions": [
+      {
+        "id": "l095-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「診断」（しんだん）— diagnosisという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "概要理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l096",
+    "title": "即時応答 問題 96",
+    "type": "instant",
+    "audioUrl": "/audio/listening/l096.mp3",
+    "transcript": "男：侵入についてどう思いますか。女：そうですね。と思います。",
+    "tags": [
+      "n2",
+      "instant"
+    ],
+    "questions": [
+      {
+        "id": "l096-q1",
+        "question": "最も適切な応答は？",
+        "options": [
+          "そうですね。",
+          "わかりません。",
+          "お疲れ様です。",
+          "結構です。"
+        ],
+        "correctIndex": 0,
+        "explanation": "即時応答のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l097",
+    "title": "課題理解 問題 97",
+    "type": "task",
+    "audioUrl": "/audio/listening/l097.mp3",
+    "transcript": "男：人文科学についてどう思いますか。女：「人文科学」— social sciencesと思います。",
+    "tags": [
+      "n2",
+      "task"
+    ],
+    "questions": [
+      {
+        "id": "l097-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「人文科学」— social sciences",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "課題理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l098",
+    "title": "ポイント理解 問題 98",
+    "type": "point",
+    "audioUrl": "/audio/listening/l098.mp3",
+    "transcript": "男：人命についてどう思いますか。女：「人命」（じんめい）— human lifeという意味の語と思います。",
+    "tags": [
+      "n2",
+      "point"
+    ],
+    "questions": [
+      {
+        "id": "l098-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「人命」（じんめい）— human lifeという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "ポイント理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l099",
+    "title": "概要理解 問題 99",
+    "type": "overview",
+    "audioUrl": "/audio/listening/l099.mp3",
+    "transcript": "男：深夜についてどう思いますか。女：「深夜」— late at nightと思います。",
+    "tags": [
+      "n2",
+      "overview"
+    ],
+    "questions": [
+      {
+        "id": "l099-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「深夜」— late at night",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "概要理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l100",
+    "title": "即時応答 問題 100",
+    "type": "instant",
+    "audioUrl": "/audio/listening/l100.mp3",
+    "transcript": "男：森林についてどう思いますか。女：そうですね。と思います。",
+    "tags": [
+      "n2",
+      "instant"
+    ],
+    "questions": [
+      {
+        "id": "l100-q1",
+        "question": "最も適切な応答は？",
+        "options": [
+          "そうですね。",
+          "わかりません。",
+          "お疲れ様です。",
+          "結構です。"
+        ],
+        "correctIndex": 0,
+        "explanation": "即時応答のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l101",
+    "title": "課題理解 問題 101",
+    "type": "task",
+    "audioUrl": "/audio/listening/l101.mp3",
+    "transcript": "男：親類についてどう思いますか。女：relative(s) (same as 親戚 (しんせき))と思います。",
+    "tags": [
+      "n2",
+      "task"
+    ],
+    "questions": [
+      {
+        "id": "l101-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "relative(s) (same as 親戚 (しんせき))",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "課題理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l102",
+    "title": "ポイント理解 問題 102",
+    "type": "point",
+    "audioUrl": "/audio/listening/l102.mp3",
+    "transcript": "男：針路についてどう思いますか。女：「針路」（しんろ）— courseという意味の語と思います。",
+    "tags": [
+      "n2",
+      "point"
+    ],
+    "questions": [
+      {
+        "id": "l102-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「針路」（しんろ）— courseという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "ポイント理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l103",
+    "title": "概要理解 問題 103",
+    "type": "overview",
+    "audioUrl": "/audio/listening/l103.mp3",
+    "transcript": "男：神話についてどう思いますか。女：「神話」（しんわ）— mythという意味の語と思います。",
+    "tags": [
+      "n2",
+      "overview"
+    ],
+    "questions": [
+      {
+        "id": "l103-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「神話」（しんわ）— mythという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "概要理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l104",
+    "title": "即時応答 問題 104",
+    "type": "instant",
+    "audioUrl": "/audio/listening/l104.mp3",
+    "transcript": "男：水産についてどう思いますか。女：そうですね。と思います。",
+    "tags": [
+      "n2",
+      "instant"
+    ],
+    "questions": [
+      {
+        "id": "l104-q1",
+        "question": "最も適切な応答は？",
+        "options": [
+          "そうですね。",
+          "わかりません。",
+          "お疲れ様です。",
+          "結構です。"
+        ],
+        "correctIndex": 0,
+        "explanation": "即時応答のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l105",
+    "title": "課題理解 問題 105",
+    "type": "task",
+    "audioUrl": "/audio/listening/l105.mp3",
+    "transcript": "男：炊事についてどう思いますか。女：「炊事」（すいじ）— cookingという意味の語と思います。",
+    "tags": [
+      "n2",
+      "task"
+    ],
+    "questions": [
+      {
+        "id": "l105-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「炊事」（すいじ）— cookingという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "課題理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l106",
+    "title": "ポイント理解 問題 106",
+    "type": "point",
+    "audioUrl": "/audio/listening/l106.mp3",
+    "transcript": "男：水蒸気についてどう思いますか。女：「水蒸気」（すいじょうき）— water vaporという意味の語と思います。",
+    "tags": [
+      "n2",
+      "point"
+    ],
+    "questions": [
+      {
+        "id": "l106-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「水蒸気」（すいじょうき）— water vaporという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "ポイント理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l107",
+    "title": "概要理解 問題 107",
+    "type": "overview",
+    "audioUrl": "/audio/listening/l107.mp3",
+    "transcript": "男：水素についてどう思いますか。女：「水素」（すいそ）— hydrogenという意味の語と思います。",
+    "tags": [
+      "n2",
+      "overview"
+    ],
+    "questions": [
+      {
+        "id": "l107-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「水素」（すいそ）— hydrogenという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "概要理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l108",
+    "title": "即時応答 問題 108",
+    "type": "instant",
+    "audioUrl": "/audio/listening/l108.mp3",
+    "transcript": "男：垂直についてどう思いますか。女：そうですね。と思います。",
+    "tags": [
+      "n2",
+      "instant"
+    ],
+    "questions": [
+      {
+        "id": "l108-q1",
+        "question": "最も適切な応答は？",
+        "options": [
+          "そうですね。",
+          "わかりません。",
+          "お疲れ様です。",
+          "結構です。"
+        ],
+        "correctIndex": 0,
+        "explanation": "即時応答のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l109",
+    "title": "課題理解 問題 109",
+    "type": "task",
+    "audioUrl": "/audio/listening/l109.mp3",
+    "transcript": "男：推定についてどう思いますか。女：「推定」（すいてい）— presumptionという意味の語と思います。",
+    "tags": [
+      "n2",
+      "task"
+    ],
+    "questions": [
+      {
+        "id": "l109-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「推定」（すいてい）— presumptionという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "課題理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l110",
+    "title": "ポイント理解 問題 110",
+    "type": "point",
+    "audioUrl": "/audio/listening/l110.mp3",
+    "transcript": "男：水滴についてどう思いますか。女：「水滴」— drop of waterと思います。",
+    "tags": [
+      "n2",
+      "point"
+    ],
+    "questions": [
+      {
+        "id": "l110-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「水滴」— drop of water",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "ポイント理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l111",
+    "title": "概要理解 問題 111",
+    "type": "overview",
+    "audioUrl": "/audio/listening/l111.mp3",
+    "transcript": "男：水筒についてどう思いますか。女：「水筒」（すいとう）— canteenという意味の語と思います。",
+    "tags": [
+      "n2",
+      "overview"
+    ],
+    "questions": [
+      {
+        "id": "l111-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「水筒」（すいとう）— canteenという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "概要理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l112",
+    "title": "即時応答 問題 112",
+    "type": "instant",
+    "audioUrl": "/audio/listening/l112.mp3",
+    "transcript": "男：随筆についてどう思いますか。女：そうですね。と思います。",
+    "tags": [
+      "n2",
+      "instant"
+    ],
+    "questions": [
+      {
+        "id": "l112-q1",
+        "question": "最も適切な応答は？",
+        "options": [
+          "そうですね。",
+          "わかりません。",
+          "お疲れ様です。",
+          "結構です。"
+        ],
+        "correctIndex": 0,
+        "explanation": "即時応答のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l113",
+    "title": "課題理解 問題 113",
+    "type": "task",
+    "audioUrl": "/audio/listening/l113.mp3",
+    "transcript": "男：水分についてどう思いますか。女：「水分」（すいぶん）— moistureという意味の語と思います。",
+    "tags": [
+      "n2",
+      "task"
+    ],
+    "questions": [
+      {
+        "id": "l113-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「水分」（すいぶん）— moistureという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "課題理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l114",
+    "title": "ポイント理解 問題 114",
+    "type": "point",
+    "audioUrl": "/audio/listening/l114.mp3",
+    "transcript": "男：水平についてどう思いますか。女：「水平」（すいへい）— levelという意味の語と思います。",
+    "tags": [
+      "n2",
+      "point"
+    ],
+    "questions": [
+      {
+        "id": "l114-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「水平」（すいへい）— levelという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "ポイント理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l115",
+    "title": "概要理解 問題 115",
+    "type": "overview",
+    "audioUrl": "/audio/listening/l115.mp3",
+    "transcript": "男：水平線についてどう思いますか。女：「水平線」（すいへいせん）— horizonという意味の語と思います。",
+    "tags": [
+      "n2",
+      "overview"
+    ],
+    "questions": [
+      {
+        "id": "l115-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「水平線」（すいへいせん）— horizonという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "概要理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l116",
+    "title": "即時応答 問題 116",
+    "type": "instant",
+    "audioUrl": "/audio/listening/l116.mp3",
+    "transcript": "男：水面についてどう思いますか。女：そうですね。と思います。",
+    "tags": [
+      "n2",
+      "instant"
+    ],
+    "questions": [
+      {
+        "id": "l116-q1",
+        "question": "最も適切な応答は？",
+        "options": [
+          "そうですね。",
+          "わかりません。",
+          "お疲れ様です。",
+          "結構です。"
+        ],
+        "correctIndex": 0,
+        "explanation": "即時応答のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l117",
+    "title": "課題理解 問題 117",
+    "type": "task",
+    "audioUrl": "/audio/listening/l117.mp3",
+    "transcript": "男：図々しいについてどう思いますか。女：「図々しい」（ずうずうしい）— impudentという意味の語と思います。",
+    "tags": [
+      "n2",
+      "task"
+    ],
+    "questions": [
+      {
+        "id": "l117-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「図々しい」（ずうずうしい）— impudentという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "課題理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l118",
+    "title": "ポイント理解 問題 118",
+    "type": "point",
+    "audioUrl": "/audio/listening/l118.mp3",
+    "transcript": "男：ずうっとについてどう思いますか。女：「ずうっと」（ずうっと）— all the timeという意味の語と思います。",
+    "tags": [
+      "n2",
+      "point"
+    ],
+    "questions": [
+      {
+        "id": "l118-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「ずうっと」（ずうっと）— all the timeという意味の語",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "ポイント理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l119",
+    "title": "概要理解 問題 119",
+    "type": "overview",
+    "audioUrl": "/audio/listening/l119.mp3",
+    "transcript": "男：末っ子についてどう思いますか。女：「末っ子」— youngest childと思います。",
+    "tags": [
+      "n2",
+      "overview"
+    ],
+    "questions": [
+      {
+        "id": "l119-q1",
+        "question": "会話の内容として正しいのはどれか。",
+        "options": [
+          "「末っ子」— youngest child",
+          "内容B",
+          "内容C",
+          "内容D"
+        ],
+        "correctIndex": 0,
+        "explanation": "概要理解のポイントを確認しましょう。"
+      }
+    ]
+  },
+  {
+    "id": "l120",
+    "title": "即時応答 問題 120",
+    "type": "instant",
+    "audioUrl": "/audio/listening/l120.mp3",
+    "transcript": "男：スカーフについてどう思いますか。女：そうですね。と思います。",
+    "tags": [
+      "n2",
+      "instant"
+    ],
+    "questions": [
+      {
+        "id": "l120-q1",
+        "question": "最も適切な応答は？",
+        "options": [
+          "そうですね。",
+          "わかりません。",
+          "お疲れ様です。",
+          "結構です。"
+        ],
+        "correctIndex": 0,
+        "explanation": "即時応答のポイントを確認しましょう。"
+      }
+    ]
+  }
+]
