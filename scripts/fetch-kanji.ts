@@ -41,7 +41,6 @@ function kanjiFromVocab(): KanjiSeed[] {
   const vocabPath = join(process.cwd(), "content/vocab/n2.json");
   if (!existsSync(vocabPath)) return [];
   const vocab = JSON.parse(readFileSync(vocabPath, "utf-8")) as { word: string; reading: string; meaning: string }[];
-  const seen = new Set<string>();
   const seeds: KanjiSeed[] = [];
   const charMap = new Map<string, KanjiSeed>();
 

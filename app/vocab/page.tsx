@@ -48,22 +48,27 @@ export default function VocabPage() {
   }, [loadedCount]);
 
   useEffect(() => {
-    Promise.all([getVocabCount(), getVocabSlice(0, CHUNK), getImportedVocab()]).then(
-      ([count, first, imp]) => {
-        setTotalCount(count);
-        setBuiltin(first);
-        setLoadedCount(first.length);
-        setImported(imp);
-        setLoading(false);
+    void (async () => {
+      const [count, first, imp] = await Promise.all([
+        getVocabCount(),
+        getVocabSlice(0, CHUNK),
+        getImportedVocab(),
+      ]);
+      let loaded = first.length;
+      let builtinRows = [...first];
+      while (loaded < count && loaded < 300) {
+        const slice = await getVocabSlice(loaded, CHUNK);
+        if (slice.length === 0) break;
+        builtinRows = [...builtinRows, ...slice];
+        loaded += slice.length;
       }
-    );
+      setTotalCount(count);
+      setBuiltin(builtinRows);
+      setLoadedCount(loaded);
+      setImported(imp);
+      setLoading(false);
+    })();
   }, []);
-
-  useEffect(() => {
-    if (!loading && loadedCount < totalCount && loadedCount < 300) {
-      loadMore();
-    }
-  }, [loading, loadedCount, totalCount, loadMore]);
 
   const vocabList = useMemo(() => {
     const seen = new Set<string>();

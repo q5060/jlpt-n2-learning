@@ -38,12 +38,6 @@ export default function PlacementPage() {
     loadPlacement().then(setQuestions);
   }, []);
 
-  useEffect(() => {
-    if (finished || questions.length === 0) return;
-    const t = setInterval(() => setSeconds((s) => Math.max(0, s - 1)), 1000);
-    return () => clearInterval(t);
-  }, [finished, questions.length]);
-
   const finish = useCallback(async () => {
     const skillTotals: Record<SkillTag, { correct: number; total: number }> = {
       vocab: { correct: 0, total: 0 },
@@ -76,8 +70,22 @@ export default function PlacementPage() {
   }, [answers, questions, seconds]);
 
   useEffect(() => {
-    if (seconds === 0 && !finished) finish();
-  }, [seconds, finished, finish]);
+    if (finished || questions.length === 0) return;
+    const t = setInterval(() => {
+      setSeconds((s) => {
+        if (s <= 1) {
+          if (s === 1) {
+            queueMicrotask(() => {
+              void finish();
+            });
+          }
+          return 0;
+        }
+        return s - 1;
+      });
+    }, 1000);
+    return () => clearInterval(t);
+  }, [finished, questions.length, finish]);
 
   if (!q) {
     return (

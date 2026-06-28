@@ -19,7 +19,7 @@ export function WeaknessHeatmap() {
       const labeled = await Promise.all(
         raw.map(async (item) => ({
           ...item,
-          label: await getContentLabel(item.contentId, item.skill),
+          label: await getContentLabel(item.contentId),
         }))
       );
       setItems(labeled);

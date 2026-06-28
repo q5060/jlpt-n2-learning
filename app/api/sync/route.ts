@@ -15,6 +15,17 @@ import {
 } from "@/lib/db/remote/schema";
 import type { SyncPayload } from "@/lib/db/sync";
 
+function omitKeys<T extends Record<string, unknown>, K extends keyof T>(
+  obj: T,
+  ...keys: K[]
+): Omit<T, K> {
+  const copy = { ...obj };
+  for (const key of keys) {
+    delete copy[key];
+  }
+  return copy as Omit<T, K>;
+}
+
 const memoryStore = new Map<string, SyncPayload>();
 
 function emptyPayload(): SyncPayload {
@@ -51,32 +62,41 @@ export async function GET() {
       remoteDb.select().from(studySessionsRemote).where(eq(studySessionsRemote.userId, userId)),
     ]);
     return NextResponse.json({
-      srsCards: cards.map(({ userId: _, ...c }) => c),
-      examResults: exams.map(({ userId: _, ...e }) => ({ ...e, answers: JSON.stringify(e.answers) })),
-      settings: settings[0] ? { id: "main", data: settings[0].settings } : null,
-      wrongAnswerQueue: wrongQueue.map(({ userId: _, updatedAt: __, ...w }) => ({
-        id: w.id,
-        contentId: w.contentId,
-        contentType: w.contentType,
-        skill: w.skill,
-        dueAt: w.dueAt,
-        source: w.source,
-        attempts: w.attempts,
-        prompt: w.prompt ?? undefined,
-        exerciseId: w.exerciseId ?? undefined,
+      srsCards: cards.map((c) => omitKeys(c, "userId")),
+      examResults: exams.map((e) => ({
+        ...omitKeys(e, "userId"),
+        answers: JSON.stringify(e.answers),
       })),
-      customVocab: customVocab.map(({ userId: _, updatedAt: __, ...v }) => ({
-        ...v,
+      settings: settings[0] ? { id: "main", data: settings[0].settings } : null,
+      wrongAnswerQueue: wrongQueue.map((w) => {
+        const row = omitKeys(w, "userId", "updatedAt");
+        return {
+          id: row.id,
+          contentId: row.contentId,
+          contentType: row.contentType,
+          skill: row.skill,
+          dueAt: row.dueAt,
+          source: row.source,
+          attempts: row.attempts,
+          prompt: row.prompt ?? undefined,
+          exerciseId: row.exerciseId ?? undefined,
+        };
+      }),
+      customVocab: customVocab.map((v) => ({
+        ...omitKeys(v, "userId", "updatedAt"),
         tags: (v.tags as string[]) ?? [],
       })),
-      weaknessItems: weaknessItems.map(({ userId: _, updatedAt: __, ...w }) => w),
-      weakness: weakness.map(({ userId: _, updatedAt: __, ...w }) => w),
-      studySessions: studySessions.map(({ userId: _, updatedAt: __, ...s }) => ({
-        id: s.id,
-        date: s.date,
-        minutes: s.minutes,
-        cardsReviewed: s.cardsReviewed,
-      })),
+      weaknessItems: weaknessItems.map((w) => omitKeys(w, "userId", "updatedAt")),
+      weakness: weakness.map((w) => omitKeys(w, "userId", "updatedAt")),
+      studySessions: studySessions.map((s) => {
+        const row = omitKeys(s, "userId", "updatedAt");
+        return {
+          id: row.id,
+          date: row.date,
+          minutes: row.minutes,
+          cardsReviewed: row.cardsReviewed,
+        };
+      }),
       lastSyncAt: Date.now(),
     });
   }

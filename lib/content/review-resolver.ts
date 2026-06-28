@@ -63,10 +63,7 @@ export async function resolveReviewItem(
   return null;
 }
 
-export async function getContentLabel(
-  contentId: string,
-  _skill: string
-): Promise<string> {
+export async function getContentLabel(contentId: string): Promise<string> {
   if (contentId.startsWith("g")) {
     const g = await getGrammarById(contentId);
     return g?.title ?? contentId;

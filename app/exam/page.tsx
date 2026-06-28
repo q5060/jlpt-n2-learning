@@ -24,7 +24,7 @@ type ExamPhase = "intro" | "language" | "listening" | "result";
 export default function ExamPage() {
   const [phase, setPhase] = useState<ExamPhase>("intro");
   const [examQuestions, setExamQuestions] = useState<Awaited<ReturnType<typeof loadExam>>>([]);
-  const [passageText, setPassageText] = useState<string | null>(null);
+  const [passageCache, setPassageCache] = useState<{ id: string; text: string } | null>(null);
   const [answers, setAnswers] = useState<Record<string, number>>({});
   const [qIndex, setQIndex] = useState(0);
   const [seconds, setSeconds] = useState(105 * 60);
@@ -39,6 +39,8 @@ export default function ExamPage() {
   const listeningQs = examQuestions.filter((q) => q.section === "listening");
   const currentQs = phase === "listening" ? listeningQs : languageQs;
   const q = currentQs[qIndex];
+  const passageText =
+    q?.passageId && passageCache?.id === q.passageId ? passageCache.text : null;
 
   const [examLoaded, setExamLoaded] = useState(false);
 
@@ -50,11 +52,11 @@ export default function ExamPage() {
   }, []);
 
   useEffect(() => {
-    if (q?.passageId) {
-      getReadingById(q.passageId).then((p) => setPassageText(p?.content ?? null));
-    } else {
-      setPassageText(null);
-    }
+    if (!q?.passageId) return;
+    const passageId = q.passageId;
+    getReadingById(passageId).then((p) =>
+      setPassageCache({ id: passageId, text: p?.content ?? "" })
+    );
   }, [q?.passageId, q?.id]);
 
   const finishExam = useCallback(async () => {

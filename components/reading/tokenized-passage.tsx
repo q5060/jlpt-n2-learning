@@ -47,7 +47,7 @@ export function TokenizedPassage({ content }: { content: string }) {
     <div className="relative leading-loose">
       {tokens.map((tok, i) => {
         if (!tok.isWord) return <span key={i}>{tok.text}</span>;
-        const highlighted = grammarMatches.some((m) => content.indexOf(tok.text, i) >= 0);
+        const highlighted = grammarMatches.length > 0;
         return (
           <span
             key={i}

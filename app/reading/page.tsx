@@ -24,7 +24,12 @@ export default function ReadingListPage() {
   const [readingList, setReadingList] = useState<ReadingMeta[]>([]);
   const [loading, setLoading] = useState(true);
   const [activeId, setActiveId] = useState<string | null>(null);
-  const [passage, setPassage] = useState<ReadingPassage | null>(null);
+  const [passageCache, setPassageCache] = useState<{
+    id: string;
+    passage: ReadingPassage | null;
+  } | null>(null);
+  const passage =
+    activeId && passageCache?.id === activeId ? passageCache.passage : null;
   const [answers, setAnswers] = useState<Record<string, number>>({});
   const [submitted, setSubmitted] = useState(false);
   const [scoreSummary, setScoreSummary] = useState<{ correct: number; total: number } | null>(null);
@@ -38,11 +43,10 @@ export default function ReadingListPage() {
   }, []);
 
   useEffect(() => {
-    if (!activeId) {
-      setPassage(null);
-      return;
-    }
-    getReadingById(activeId).then((p) => setPassage(p ?? null));
+    if (!activeId) return;
+    getReadingById(activeId).then((p) =>
+      setPassageCache({ id: activeId, passage: p ?? null })
+    );
   }, [activeId]);
 
   async function submit() {
@@ -79,7 +83,7 @@ export default function ReadingListPage() {
 
   function goBack() {
     setActiveId(null);
-    setPassage(null);
+    setPassageCache(null);
     setSubmitted(false);
     setScoreSummary(null);
     setAnswers({});

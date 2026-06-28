@@ -18,6 +18,60 @@ import { getDueReviews, completeReview } from "@/lib/weakness/review-queue";
 import type { WrongAnswerQueueRecord } from "@/lib/db/local/schema";
 import type { ResolvedReviewItem } from "@/lib/content/review-resolver";
 
+function ReviewItemPanel({
+  current,
+  index,
+  total,
+  onNext,
+}: {
+  current: WrongAnswerQueueRecord;
+  index: number;
+  total: number;
+  onNext: () => void;
+}) {
+  const [resolved, setResolved] = useState<ResolvedReviewItem | null>(null);
+  const [answered, setAnswered] = useState(false);
+
+  useEffect(() => {
+    resolveReviewItem(
+      current.contentId,
+      current.contentType,
+      current.exerciseId
+    ).then(setResolved);
+  }, [current.contentId, current.contentType, current.exerciseId]);
+
+  async function handleAnswer(passed: boolean) {
+    if (answered) return;
+    setAnswered(true);
+    await completeReview(current.id, passed);
+  }
+
+  if (!resolved) {
+    return (
+      <ErrorState
+        title="コンテンツを読み込めませんでした"
+        description={`ID: ${current.contentId}`}
+        action={<Button onClick={onNext}>スキップ</Button>}
+        className="py-8"
+      />
+    );
+  }
+
+  return (
+    <div className="pb-safe">
+      <p className="mb-4 text-sm text-zinc-500">
+        {index + 1} / {total} · {current.skill} · {current.source}
+      </p>
+      <ReviewQuestionCard item={resolved} onAnswer={handleAnswer} skipEnqueue />
+      {answered && (
+        <Button className="mt-4" onClick={onNext}>
+          次の問題
+        </Button>
+      )}
+    </div>
+  );
+}
+
 function ReviewQueueContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
@@ -25,16 +79,13 @@ function ReviewQueueContent() {
   const contentIdFilter = searchParams.get("contentId");
   const [items, setItems] = useState<WrongAnswerQueueRecord[]>([]);
   const [index, setIndex] = useState(0);
-  const [resolved, setResolved] = useState<ResolvedReviewItem | null>(null);
   const [loading, setLoading] = useState(true);
-  const [answered, setAnswered] = useState(false);
 
   const current = items[index];
   const sessionDone = items.length > 0 && index >= items.length;
   const hasFilters = Boolean(skillFilter || contentIdFilter);
 
   useEffect(() => {
-    setIndex(0);
     getDueReviews().then((list) => {
       let filtered = list;
       if (skillFilter) {
@@ -44,32 +95,13 @@ function ReviewQueueContent() {
         filtered = filtered.filter((item) => item.contentId === contentIdFilter);
       }
       setItems(filtered);
+      setIndex(0);
       setLoading(false);
     });
   }, [skillFilter, contentIdFilter]);
 
-  useEffect(() => {
-    if (!current) {
-      setResolved(null);
-      return;
-    }
-    setAnswered(false);
-    resolveReviewItem(
-      current.contentId,
-      current.contentType,
-      current.exerciseId
-    ).then(setResolved);
-  }, [current]);
-
-  async function handleAnswer(passed: boolean) {
-    if (!current || answered) return;
-    setAnswered(true);
-    await completeReview(current.id, passed);
-  }
-
   function nextItem() {
     setIndex((i) => i + 1);
-    setAnswered(false);
   }
 
   function clearFilters() {
@@ -140,29 +172,14 @@ function ReviewQueueContent() {
             ) : undefined
           }
         />
-      ) : !resolved ? (
-        <ErrorState
-          title="コンテンツを読み込めませんでした"
-          description={`ID: ${current.contentId}`}
-          action={<Button onClick={nextItem}>スキップ</Button>}
-          className="py-8"
-        />
       ) : (
-        <div className="pb-safe">
-          <p className="mb-4 text-sm text-zinc-500">
-            {index + 1} / {items.length} · {current.skill} · {current.source}
-          </p>
-          <ReviewQuestionCard
-            item={resolved}
-            onAnswer={handleAnswer}
-            skipEnqueue
-          />
-          {answered && (
-            <Button className="mt-4" onClick={nextItem}>
-              次の問題
-            </Button>
-          )}
-        </div>
+        <ReviewItemPanel
+          key={current.id}
+          current={current}
+          index={index}
+          total={items.length}
+          onNext={nextItem}
+        />
       )}
     </MainLayout>
   );

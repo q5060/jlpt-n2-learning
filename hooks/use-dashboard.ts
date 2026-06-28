@@ -7,6 +7,54 @@ import { getSettings, db } from "@/lib/db/local/schema";
 import { getWeaknessScores } from "@/lib/weakness/engine";
 import type { DailyTask, WeaknessScore } from "@/lib/types";
 
+type DashboardData = {
+  tasks: DailyTask[];
+  dueCount: number;
+  streak: number;
+  weakness: WeaknessScore[];
+  week: number;
+};
+
+async function fetchDashboardData(): Promise<DashboardData> {
+  const [t, due, settings, w, sessions] = await Promise.all([
+    generateDailyTasks(),
+    getDueCount(),
+    getSettings(),
+    getWeaknessScores(),
+    db.studySessions.orderBy("date").reverse().limit(30).toArray(),
+  ]);
+
+  const week = Math.min(
+    26,
+    Math.max(
+      1,
+      Math.ceil(
+        (Date.now() - new Date(settings.startDate).getTime()) /
+          (7 * 24 * 60 * 60 * 1000)
+      )
+    )
+  );
+
+  const weakness = Object.entries(w).map(([skill, score]) => ({
+    skill: skill as WeaknessScore["skill"],
+    score,
+    totalAttempts: 0,
+    correctAttempts: 0,
+  }));
+
+  let streak = 0;
+  const today = new Date().toISOString().split("T")[0];
+  const dates = new Set(sessions.map((x) => x.date));
+  const d = new Date();
+  while (dates.has(d.toISOString().split("T")[0])) {
+    streak++;
+    d.setDate(d.getDate() - 1);
+  }
+  if (!dates.has(today) && streak === 0) streak = 0;
+
+  return { tasks: t, dueCount: due, streak, weakness, week };
+}
+
 export function useDashboard() {
   const [tasks, setTasks] = useState<DailyTask[]>([]);
   const [dueCount, setDueCount] = useState(0);
@@ -15,55 +63,28 @@ export function useDashboard() {
   const [week, setWeek] = useState(1);
   const [loading, setLoading] = useState(true);
 
-  const refresh = useCallback(async () => {
-    const [t, due, settings, w, sessions] = await Promise.all([
-      generateDailyTasks(),
-      getDueCount(),
-      getSettings(),
-      getWeaknessScores(),
-      db.studySessions.orderBy("date").reverse().limit(30).toArray(),
-    ]);
-
-    setTasks(t);
-    setDueCount(due);
-    setWeek(
-      Math.min(
-        26,
-        Math.max(
-          1,
-          Math.ceil(
-            (Date.now() - new Date(settings.startDate).getTime()) /
-              (7 * 24 * 60 * 60 * 1000)
-          )
-        )
-      )
-    );
-
-    const weaknessArr = Object.entries(w).map(([skill, score]) => ({
-      skill: skill as WeaknessScore["skill"],
-      score,
-      totalAttempts: 0,
-      correctAttempts: 0,
-    }));
-    setWeakness(weaknessArr);
-
-    let s = 0;
-    const today = new Date().toISOString().split("T")[0];
-    const dates = new Set(sessions.map((x) => x.date));
-    let d = new Date();
-    while (dates.has(d.toISOString().split("T")[0])) {
-      s++;
-      d.setDate(d.getDate() - 1);
-    }
-    if (!dates.has(today) && s === 0) setStreak(0);
-    else setStreak(s);
-
+  const applyData = useCallback((data: DashboardData) => {
+    setTasks(data.tasks);
+    setDueCount(data.dueCount);
+    setStreak(data.streak);
+    setWeakness(data.weakness);
+    setWeek(data.week);
     setLoading(false);
   }, []);
 
+  const refresh = useCallback(async () => {
+    applyData(await fetchDashboardData());
+  }, [applyData]);
+
   useEffect(() => {
-    refresh();
-  }, [refresh]);
+    let cancelled = false;
+    fetchDashboardData().then((data) => {
+      if (!cancelled) applyData(data);
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [applyData]);
 
   return { tasks, dueCount, streak, weakness, week, loading, refresh };
 }

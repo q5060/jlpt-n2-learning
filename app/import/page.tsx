@@ -28,7 +28,10 @@ export default function ImportPage() {
   }
 
   useEffect(() => {
-    loadImports();
+    void (async () => {
+      setImports(await db.imports.toArray());
+      setPendingSrs(await getImportedNotInSrsCount());
+    })();
   }, []);
 
   async function handleCsv(e: React.ChangeEvent<HTMLInputElement>) {

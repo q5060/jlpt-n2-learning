@@ -61,8 +61,13 @@ export function AudioPlayer({ src, examMode = false, transcript, onEnded }: Audi
 }
 
 export function ReadingTimer({ minutes, onTimeUp, running }: { minutes: number; onTimeUp: () => void; running: boolean }) {
+  return (
+    <ReadingTimerInner key={minutes} minutes={minutes} onTimeUp={onTimeUp} running={running} />
+  );
+}
+
+function ReadingTimerInner({ minutes, onTimeUp, running }: { minutes: number; onTimeUp: () => void; running: boolean }) {
   const [seconds, setSeconds] = useState(minutes * 60);
-  useEffect(() => { setSeconds(minutes * 60); }, [minutes]);
   useEffect(() => {
     if (!running || seconds <= 0) return;
     const t = setInterval(() => {

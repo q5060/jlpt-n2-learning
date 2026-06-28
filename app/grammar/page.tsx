@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { Suspense, useEffect, useMemo, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { MainLayout } from "@/components/layout/main-layout";
 import { Card, CardDescription } from "@/components/ui/card";
@@ -11,16 +12,15 @@ import { WeekFilter } from "@/components/ui/week-filter";
 import { VirtualList } from "@/components/ui/virtual-list";
 import { getGrammarListMeta, type GrammarMeta } from "@/lib/content/loader";
 
-export default function GrammarListPage() {
+function GrammarListContent() {
+  const searchParams = useSearchParams();
   const [grammarList, setGrammarList] = useState<GrammarMeta[]>([]);
   const [weekFilter, setWeekFilter] = useState<number | null>(null);
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    const w = params.get("week");
-    if (w) setWeekFilter(Number(w));
-  }, []);
+  const urlWeek = searchParams.get("week");
+  const effectiveWeekFilter =
+    weekFilter ?? (urlWeek ? Number(urlWeek) : null);
 
   useEffect(() => {
     getGrammarListMeta().then((g) => {
@@ -30,8 +30,11 @@ export default function GrammarListPage() {
   }, []);
 
   const filtered = useMemo(
-    () => (weekFilter ? grammarList.filter((g) => g.week === weekFilter) : grammarList),
-    [grammarList, weekFilter]
+    () =>
+      effectiveWeekFilter
+        ? grammarList.filter((g) => g.week === effectiveWeekFilter)
+        : grammarList,
+    [grammarList, effectiveWeekFilter]
   );
 
   if (loading) {
@@ -54,7 +57,7 @@ export default function GrammarListPage() {
           </Link>
         }
       />
-      <WeekFilter value={weekFilter} onChange={setWeekFilter} />
+      <WeekFilter value={effectiveWeekFilter} onChange={setWeekFilter} />
       <VirtualList
         items={filtered}
         estimateSize={80}
@@ -69,5 +72,20 @@ export default function GrammarListPage() {
         )}
       />
     </MainLayout>
+  );
+}
+
+export default function GrammarListPage() {
+  return (
+    <Suspense
+      fallback={
+        <MainLayout>
+          <PageHeader title="文法一覧" />
+          <LoadingState />
+        </MainLayout>
+      }
+    >
+      <GrammarListContent />
+    </Suspense>
   );
 }
