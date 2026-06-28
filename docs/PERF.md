@@ -3,7 +3,7 @@
 ## Content delivery (Wave 4)
 
 - Vocab/kanji/grammar served from `/public/content/*/shard-*.json`
-- IndexedDB cache: `contentShards` table (Dexie v3)
+- IndexedDB cache: `contentShards` table (Dexie v4)
 - Grammar list uses `/content/grammar/meta.json` (~15KB) instead of full 461KB JSON
 
 ## Targets

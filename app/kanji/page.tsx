@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
+import Link from "next/link";
 import { MainLayout } from "@/components/layout/main-layout";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -10,9 +11,9 @@ import { EmptyState } from "@/components/ui/empty-state";
 import { VirtualList } from "@/components/ui/virtual-list";
 import { Flashcard } from "@/components/srs/flashcard";
 import { getKanjiSlice, getKanjiCount, getKanjiByIds } from "@/lib/content/loader";
-import { getNewCards, createCardsForContent } from "@/lib/srs/fsrs";
+import { getNewCards, getDueCards, createCardsForContent } from "@/lib/srs/fsrs";
 import { getSettings } from "@/lib/db/local/schema";
-import { REVIEW_MODE_LABELS } from "@/lib/ui/labels";
+import { REVIEW_MODE_LABELS, NAV_LABELS } from "@/lib/ui/labels";
 import type { KanjiEntry, ReviewMode } from "@/lib/types";
 
 const CHUNK = 50;
@@ -27,6 +28,7 @@ export default function KanjiPage() {
   const [studying, setStudying] = useState(false);
   const [items, setItems] = useState<{ item: KanjiEntry; cardId: string; mode: ReviewMode }[]>([]);
   const [index, setIndex] = useState(0);
+  const [actionMessage, setActionMessage] = useState<string | null>(null);
 
   const loadMore = useCallback(async () => {
     const slice = await getKanjiSlice(loadedCount, CHUNK);
@@ -45,6 +47,7 @@ export default function KanjiPage() {
   }, []);
 
   async function startStudy() {
+    setActionMessage(null);
     const settings = await getSettings();
     const newIds = await getNewCards(
       "kanji",
@@ -52,13 +55,38 @@ export default function KanjiPage() {
       Math.min(10, settings.newCardsPerDay)
     );
     const entries = await getKanjiByIds(newIds);
-    if (entries.length === 0) return;
+    if (entries.length === 0) {
+      setActionMessage("今日の新規漢字はありません。");
+      return;
+    }
     const loaded = await Promise.all(
       entries.map(async (item) => {
         const cards = await createCardsForContent(item.id, "kanji", [reviewMode]);
         return { item, cardId: cards[0].id, mode: reviewMode };
       })
     );
+    setItems(loaded);
+    setIndex(0);
+    setStudying(true);
+  }
+
+  async function startReview() {
+    setActionMessage(null);
+    const due = await getDueCards();
+    const kanjiDue = due.filter((c) => c.cardType === "kanji");
+    const entries = await getKanjiByIds(kanjiDue.map((c) => c.contentId));
+    const loaded = kanjiDue
+      .map((card) => {
+        const item = entries.find((k) => k.id === card.contentId);
+        return item
+          ? { item, cardId: card.id, mode: card.reviewMode as ReviewMode }
+          : null;
+      })
+      .filter(Boolean) as typeof items;
+    if (loaded.length === 0) {
+      setActionMessage("復習待ちの漢字がありません。");
+      return;
+    }
     setItems(loaded);
     setIndex(0);
     setStudying(true);
@@ -94,8 +122,27 @@ export default function KanjiPage() {
             ))}
           </>
         }
-        actions={<Button onClick={startStudy}>学習開始</Button>}
+        actions={
+          <>
+            <Button onClick={startStudy}>学習開始</Button>
+            <Button variant="outline" onClick={startReview}>
+              復習
+            </Button>
+            <Link
+              href="/vocab/review"
+              className="inline-flex items-center justify-center rounded-xl px-3 py-1.5 text-sm font-medium text-zinc-600 hover:bg-brand-muted dark:text-zinc-400"
+            >
+              {NAV_LABELS.vocabReview}
+            </Link>
+          </>
+        }
       />
+
+      {actionMessage && (
+        <Card variant="warning" className="mb-4">
+          <p className="text-sm">{actionMessage}</p>
+        </Card>
+      )}
 
       {studying && current ? (
         <div className="pb-safe">

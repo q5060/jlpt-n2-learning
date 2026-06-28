@@ -10,7 +10,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:e2e": "playwright test",
-    "content:generate": "tsx scripts/generate-vocab-seed.ts && tsx scripts/fetch-vocab.ts && tsx scripts/fetch-kanji.ts && tsx scripts/generate-grammar-seeds.ts && tsx scripts/generate-content.ts && tsx scripts/build-jmdict-subset.ts && AUDIO_COUNT=120 tsx scripts/generate-listening-audio.ts && tsx scripts/shard-content.ts",
+    "content:generate": "tsx scripts/generate-vocab-seed.ts && tsx scripts/fetch-vocab.ts && tsx scripts/fetch-kanji.ts && tsx scripts/generate-grammar-seeds.ts && tsx scripts/generate-content.ts && tsx scripts/build-jmdict-subset.ts && AUDIO_COUNT=120 tsx scripts/generate-listening-audio.ts && tsx scripts/shard-content.ts && tsx scripts/generate-icons.ts",
     "content:shard": "tsx scripts/shard-content.ts",
     "content:fetch": "tsx scripts/fetch-vocab.ts",
     "content:audio": "tsx scripts/generate-listening-audio.ts",

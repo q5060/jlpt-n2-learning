@@ -4,7 +4,7 @@
     "title": "課題理解 問題 1",
     "type": "task",
     "audioUrl": "/audio/listening/l001.mp3",
-    "transcript": "男：就任についてどう思いますか。女：「就任」（しゅうにん）— inaugurationという意味の語と思います。",
+    "transcript": "男：就任についてどう思いますか。女：（名・自サ）職務や地位につくことと思います。",
     "tags": [
       "n2",
       "task"
@@ -14,7 +14,7 @@
         "id": "l001-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「就任」（しゅうにん）— inaugurationという意味の語",
+          "（名・自サ）職務や地位につくこと",
           "内容B",
           "内容C",
           "内容D"
@@ -29,7 +29,7 @@
     "title": "ポイント理解 問題 2",
     "type": "point",
     "audioUrl": "/audio/listening/l002.mp3",
-    "transcript": "男：周辺についてどう思いますか。女：「周辺」— circumferenceと思います。",
+    "transcript": "男：周辺についてどう思いますか。女：（名）まわり。近くと思います。",
     "tags": [
       "n2",
       "point"
@@ -39,7 +39,7 @@
         "id": "l002-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「周辺」— circumference",
+          "（名）まわり。近く",
           "内容B",
           "内容C",
           "内容D"
@@ -54,7 +54,7 @@
     "title": "概要理解 問題 3",
     "type": "overview",
     "audioUrl": "/audio/listening/l003.mp3",
-    "transcript": "男：重役についてどう思いますか。女：「重役」（じゅうやく）— directorという意味の語と思います。",
+    "transcript": "男：重役についてどう思いますか。女：（名）会社などの重要な役職にある人と思います。",
     "tags": [
       "n2",
       "overview"
@@ -64,7 +64,7 @@
         "id": "l003-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「重役」（じゅうやく）— directorという意味の語",
+          "（名）会社などの重要な役職にある人",
           "内容B",
           "内容C",
           "内容D"
@@ -104,7 +104,7 @@
     "title": "課題理解 問題 5",
     "type": "task",
     "audioUrl": "/audio/listening/l005.mp3",
-    "transcript": "男：重量についてどう思いますか。女：「重量」（じゅうりょう）— heavyweightという意味の語と思います。",
+    "transcript": "男：重量についてどう思いますか。女：（名）物の重さと思います。",
     "tags": [
       "n2",
       "task"
@@ -114,7 +114,7 @@
         "id": "l005-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「重量」（じゅうりょう）— heavyweightという意味の語",
+          "（名）物の重さ",
           "内容B",
           "内容C",
           "内容D"
@@ -129,7 +129,7 @@
     "title": "ポイント理解 問題 6",
     "type": "point",
     "audioUrl": "/audio/listening/l006.mp3",
-    "transcript": "男：重力についてどう思いますか。女：「重力」（じゅうりょく）— gravityという意味の語と思います。",
+    "transcript": "男：重力についてどう思いますか。女：（名）地心引力と思います。",
     "tags": [
       "n2",
       "point"
@@ -139,7 +139,7 @@
         "id": "l006-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「重力」（じゅうりょく）— gravityという意味の語",
+          "（名）地心引力",
           "内容B",
           "内容C",
           "内容D"
@@ -154,7 +154,7 @@
     "title": "概要理解 問題 7",
     "type": "overview",
     "audioUrl": "/audio/listening/l007.mp3",
-    "transcript": "男：熟語についてどう思いますか。女：「熟語」（じゅくご）— idiomという意味の語と思います。",
+    "transcript": "男：熟語についてどう思いますか。女：（名）二つ以上の漢字からなる語と思います。",
     "tags": [
       "n2",
       "overview"
@@ -164,7 +164,7 @@
         "id": "l007-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「熟語」（じゅくご）— idiomという意味の語",
+          "（名）二つ以上の漢字からなる語",
           "内容B",
           "内容C",
           "内容D"
@@ -204,7 +204,7 @@
     "title": "課題理解 問題 9",
     "type": "task",
     "audioUrl": "/audio/listening/l009.mp3",
-    "transcript": "男：縮小についてどう思いますか。女：「縮小」（しゅくしょう）— reductionという意味の語と思います。",
+    "transcript": "男：縮小についてどう思いますか。女：（名・自他サ）小さくすることと思います。",
     "tags": [
       "n2",
       "task"
@@ -214,7 +214,7 @@
         "id": "l009-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「縮小」（しゅくしょう）— reductionという意味の語",
+          "（名・自他サ）小さくすること",
           "内容B",
           "内容C",
           "内容D"
@@ -229,7 +229,7 @@
     "title": "ポイント理解 問題 10",
     "type": "point",
     "audioUrl": "/audio/listening/l010.mp3",
-    "transcript": "男：受験についてどう思いますか。女：「受験」— taking an examinationと思います。",
+    "transcript": "男：受験についてどう思いますか。女：（名）受験。じゅけんと読む語と思います。",
     "tags": [
       "n2",
       "point"
@@ -239,7 +239,7 @@
         "id": "l010-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「受験」— taking an examination",
+          "（名）受験。じゅけんと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -254,7 +254,7 @@
     "title": "概要理解 問題 11",
     "type": "overview",
     "audioUrl": "/audio/listening/l011.mp3",
-    "transcript": "男：主語についてどう思いますか。女：「主語」（しゅご）— gram subjectという意味の語と思います。",
+    "transcript": "男：主語についてどう思いますか。女：（名）主語。しゅごと読む語と思います。",
     "tags": [
       "n2",
       "overview"
@@ -264,7 +264,7 @@
         "id": "l011-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「主語」（しゅご）— gram subjectという意味の語",
+          "（名）主語。しゅごと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -304,7 +304,7 @@
     "title": "課題理解 問題 13",
     "type": "task",
     "audioUrl": "/audio/listening/l013.mp3",
-    "transcript": "男：出勤についてどう思いますか。女：「出勤」— going to workと思います。",
+    "transcript": "男：出勤についてどう思いますか。女：（名）出勤。しゅっきんと読む語と思います。",
     "tags": [
       "n2",
       "task"
@@ -314,7 +314,7 @@
         "id": "l013-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「出勤」— going to work",
+          "（名）出勤。しゅっきんと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -329,7 +329,7 @@
     "title": "ポイント理解 問題 14",
     "type": "point",
     "audioUrl": "/audio/listening/l014.mp3",
-    "transcript": "男：述語についてどう思いますか。女：「述語」（じゅつご）— predicateという意味の語と思います。",
+    "transcript": "男：述語についてどう思いますか。女：（名）述語。じゅつごと読む語と思います。",
     "tags": [
       "n2",
       "point"
@@ -339,7 +339,7 @@
         "id": "l014-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「述語」（じゅつご）— predicateという意味の語",
+          "（名）述語。じゅつごと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -354,7 +354,7 @@
     "title": "概要理解 問題 15",
     "type": "overview",
     "audioUrl": "/audio/listening/l015.mp3",
-    "transcript": "男：出張についてどう思いますか。女：「出張」— official tourと思います。",
+    "transcript": "男：出張についてどう思いますか。女：（名）出張。しゅっちょうと読む語と思います。",
     "tags": [
       "n2",
       "overview"
@@ -364,7 +364,7 @@
         "id": "l015-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「出張」— official tour",
+          "（名）出張。しゅっちょうと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -404,7 +404,7 @@
     "title": "課題理解 問題 17",
     "type": "task",
     "audioUrl": "/audio/listening/l017.mp3",
-    "transcript": "男：主役についてどう思いますか。女：「主役」（しゅやく）— leading partという意味の語と思います。",
+    "transcript": "男：主役についてどう思いますか。女：（名）主役。しゅやくと読む語と思います。",
     "tags": [
       "n2",
       "task"
@@ -414,7 +414,7 @@
         "id": "l017-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「主役」（しゅやく）— leading partという意味の語",
+          "（名）主役。しゅやくと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -429,7 +429,7 @@
     "title": "ポイント理解 問題 18",
     "type": "point",
     "audioUrl": "/audio/listening/l018.mp3",
-    "transcript": "男：受話器についてどう思いますか。女：「受話器」— telephone receiverと思います。",
+    "transcript": "男：受話器についてどう思いますか。女：（名）受話器。じゅわきと読む語と思います。",
     "tags": [
       "n2",
       "point"
@@ -439,7 +439,7 @@
         "id": "l018-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「受話器」— telephone receiver",
+          "（名）受話器。じゅわきと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -454,7 +454,7 @@
     "title": "概要理解 問題 19",
     "type": "overview",
     "audioUrl": "/audio/listening/l019.mp3",
-    "transcript": "男：循環についてどう思いますか。女：「循環」（じゅんかん）— circulationという意味の語と思います。",
+    "transcript": "男：循環についてどう思いますか。女：（名）循環。じゅんかんと読む語と思います。",
     "tags": [
       "n2",
       "overview"
@@ -464,7 +464,7 @@
         "id": "l019-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「循環」（じゅんかん）— circulationという意味の語",
+          "（名）循環。じゅんかんと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -504,7 +504,7 @@
     "title": "課題理解 問題 21",
     "type": "task",
     "audioUrl": "/audio/listening/l021.mp3",
-    "transcript": "男：順々についてどう思いますか。女：「順々」（じゅんじゅん）— in orderという意味の語と思います。",
+    "transcript": "男：順々についてどう思いますか。女：（名）順々。じゅんじゅんと読む語と思います。",
     "tags": [
       "n2",
       "task"
@@ -514,7 +514,7 @@
         "id": "l021-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「順々」（じゅんじゅん）— in orderという意味の語",
+          "（名）順々。じゅんじゅんと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -529,7 +529,7 @@
     "title": "ポイント理解 問題 22",
     "type": "point",
     "audioUrl": "/audio/listening/l022.mp3",
-    "transcript": "男：順序についてどう思いますか。女：「順序」（じゅんじょ）— orderという意味の語と思います。",
+    "transcript": "男：順序についてどう思いますか。女：（名）順序。じゅんじょと読む語と思います。",
     "tags": [
       "n2",
       "point"
@@ -539,7 +539,7 @@
         "id": "l022-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「順序」（じゅんじょ）— orderという意味の語",
+          "（名）順序。じゅんじょと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -554,7 +554,7 @@
     "title": "概要理解 問題 23",
     "type": "overview",
     "audioUrl": "/audio/listening/l023.mp3",
-    "transcript": "男：純情についてどう思いますか。女：「純情」（じゅんじょう）— pure heartという意味の語と思います。",
+    "transcript": "男：純情についてどう思いますか。女：（名）純情。じゅんじょうと読む語と思います。",
     "tags": [
       "n2",
       "overview"
@@ -564,7 +564,7 @@
         "id": "l023-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「純情」（じゅんじょう）— pure heartという意味の語",
+          "（名）純情。じゅんじょうと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -604,7 +604,7 @@
     "title": "課題理解 問題 25",
     "type": "task",
     "audioUrl": "/audio/listening/l025.mp3",
-    "transcript": "男：初～についてどう思いますか。女：「初～」（しょ～）— first ~という意味の語と思います。",
+    "transcript": "男：初～についてどう思いますか。女：（名）初～。しょ～と読む語と思います。",
     "tags": [
       "n2",
       "task"
@@ -614,7 +614,7 @@
         "id": "l025-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「初～」（しょ～）— first ~という意味の語",
+          "（名）初～。しょ～と読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -629,7 +629,7 @@
     "title": "ポイント理解 問題 26",
     "type": "point",
     "audioUrl": "/audio/listening/l026.mp3",
-    "transcript": "男：諸～についてどう思いますか。女：「諸～」（しょ～）— various ~という意味の語と思います。",
+    "transcript": "男：諸～についてどう思いますか。女：（名）諸～。しょ～と読む語と思います。",
     "tags": [
       "n2",
       "point"
@@ -639,7 +639,7 @@
         "id": "l026-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「諸～」（しょ～）— various ~という意味の語",
+          "（名）諸～。しょ～と読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -654,7 +654,7 @@
     "title": "概要理解 問題 27",
     "type": "overview",
     "audioUrl": "/audio/listening/l027.mp3",
-    "transcript": "男：～所についてどう思いますか。女：「～所」（～しょ）— placeという意味の語と思います。",
+    "transcript": "男：～所についてどう思いますか。女：（名）～所。～しょと読む語と思います。",
     "tags": [
       "n2",
       "overview"
@@ -664,7 +664,7 @@
         "id": "l027-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「～所」（～しょ）— placeという意味の語",
+          "（名）～所。～しょと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -704,7 +704,7 @@
     "title": "課題理解 問題 29",
     "type": "task",
     "audioUrl": "/audio/listening/l029.mp3",
-    "transcript": "男：～女についてどう思いますか。女：「～女」— count for sistersと思います。",
+    "transcript": "男：～女についてどう思いますか。女：（名）～女。～じょと読む語と思います。",
     "tags": [
       "n2",
       "task"
@@ -714,7 +714,7 @@
         "id": "l029-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「～女」— count for sisters",
+          "（名）～女。～じょと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -729,7 +729,7 @@
     "title": "ポイント理解 問題 30",
     "type": "point",
     "audioUrl": "/audio/listening/l030.mp3",
-    "transcript": "男：省～についてどう思いますか。女：「省～」— economizing ~と思います。",
+    "transcript": "男：省～についてどう思いますか。女：（名）省～。しょう～と読む語と思います。",
     "tags": [
       "n2",
       "point"
@@ -739,7 +739,7 @@
         "id": "l030-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「省～」— economizing ~",
+          "（名）省～。しょう～と読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -754,7 +754,7 @@
     "title": "概要理解 問題 31",
     "type": "overview",
     "audioUrl": "/audio/listening/l031.mp3",
-    "transcript": "男：～省についてどう思いますか。女：「～省」— kind of ministryと思います。",
+    "transcript": "男：～省についてどう思いますか。女：（名）親切と思います。",
     "tags": [
       "n2",
       "overview"
@@ -764,7 +764,7 @@
         "id": "l031-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「～省」— kind of ministry",
+          "（名）親切",
           "内容B",
           "内容C",
           "内容D"
@@ -804,7 +804,7 @@
     "title": "課題理解 問題 33",
     "type": "task",
     "audioUrl": "/audio/listening/l033.mp3",
-    "transcript": "男：～勝についてどう思いますか。女：「～勝」— count for victoryと思います。",
+    "transcript": "男：～勝についてどう思いますか。女：（名）～勝。～しょうと読む語と思います。",
     "tags": [
       "n2",
       "task"
@@ -814,7 +814,7 @@
         "id": "l033-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「～勝」— count for victory",
+          "（名）～勝。～しょうと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -829,7 +829,7 @@
     "title": "ポイント理解 問題 34",
     "type": "point",
     "audioUrl": "/audio/listening/l034.mp3",
-    "transcript": "男：～条についてどう思いますか。女：「～条」— counter for articleと思います。",
+    "transcript": "男：～条についてどう思いますか。女：（名）～条。～じょうと読む語と思います。",
     "tags": [
       "n2",
       "point"
@@ -839,7 +839,7 @@
         "id": "l034-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「～条」— counter for article",
+          "（名）～条。～じょうと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -854,7 +854,7 @@
     "title": "概要理解 問題 35",
     "type": "overview",
     "audioUrl": "/audio/listening/l035.mp3",
-    "transcript": "男：～場についてどう思いますか。女：「～場」— kind of fieldと思います。",
+    "transcript": "男：～場についてどう思いますか。女：（名）親切と思います。",
     "tags": [
       "n2",
       "overview"
@@ -864,7 +864,7 @@
         "id": "l035-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「～場」— kind of field",
+          "（名）親切",
           "内容B",
           "内容C",
           "内容D"
@@ -904,7 +904,7 @@
     "title": "課題理解 問題 37",
     "type": "task",
     "audioUrl": "/audio/listening/l037.mp3",
-    "transcript": "男：消化についてどう思いますか。女：「消化」（しょうか）— digestionという意味の語と思います。",
+    "transcript": "男：消化についてどう思いますか。女：（名）消化。しょうかと読む語と思います。",
     "tags": [
       "n2",
       "task"
@@ -914,7 +914,7 @@
         "id": "l037-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「消化」（しょうか）— digestionという意味の語",
+          "（名）消化。しょうかと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -929,7 +929,7 @@
     "title": "ポイント理解 問題 38",
     "type": "point",
     "audioUrl": "/audio/listening/l038.mp3",
-    "transcript": "男：小学生についてどう思いますか。女：「小学生」— elementary school pupilと思います。",
+    "transcript": "男：小学生についてどう思いますか。女：（名）小学生。しょうがくせいと読む語と思います。",
     "tags": [
       "n2",
       "point"
@@ -939,7 +939,7 @@
         "id": "l038-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「小学生」— elementary school pupil",
+          "（名）小学生。しょうがくせいと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -954,7 +954,7 @@
     "title": "概要理解 問題 39",
     "type": "overview",
     "audioUrl": "/audio/listening/l039.mp3",
-    "transcript": "男：しょうがないについてどう思いますか。女：「しょうがない」— It is not worth ~と思います。",
+    "transcript": "男：しょうがないについてどう思いますか。女：（名）しょうがない。しょうがないと読む語と思います。",
     "tags": [
       "n2",
       "overview"
@@ -964,7 +964,7 @@
         "id": "l039-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「しょうがない」— It is not worth ~",
+          "（名）しょうがない。しょうがないと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -1004,7 +1004,7 @@
     "title": "課題理解 問題 41",
     "type": "task",
     "audioUrl": "/audio/listening/l041.mp3",
-    "transcript": "男：蒸気についてどう思いますか。女：「蒸気」（じょうき）— steamという意味の語と思います。",
+    "transcript": "男：蒸気についてどう思いますか。女：（名）蒸気。じょうきと読む語と思います。",
     "tags": [
       "n2",
       "task"
@@ -1014,7 +1014,7 @@
         "id": "l041-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「蒸気」（じょうき）— steamという意味の語",
+          "（名）蒸気。じょうきと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -1029,7 +1029,7 @@
     "title": "ポイント理解 問題 42",
     "type": "point",
     "audioUrl": "/audio/listening/l042.mp3",
-    "transcript": "男：定規についてどう思いますか。女：「定規」— measuring rulerと思います。",
+    "transcript": "男：定規についてどう思いますか。女：（名）定規。じょうぎと読む語と思います。",
     "tags": [
       "n2",
       "point"
@@ -1039,7 +1039,7 @@
         "id": "l042-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「定規」— measuring ruler",
+          "（名）定規。じょうぎと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -1054,7 +1054,7 @@
     "title": "概要理解 問題 43",
     "type": "overview",
     "audioUrl": "/audio/listening/l043.mp3",
-    "transcript": "男：上級についてどう思いますか。女：「上級」— advanced levelと思います。",
+    "transcript": "男：上級についてどう思いますか。女：（名）上級。じょうきゅうと読む語と思います。",
     "tags": [
       "n2",
       "overview"
@@ -1064,7 +1064,7 @@
         "id": "l043-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「上級」— advanced level",
+          "（名）上級。じょうきゅうと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -1104,7 +1104,7 @@
     "title": "課題理解 問題 45",
     "type": "task",
     "audioUrl": "/audio/listening/l045.mp3",
-    "transcript": "男：消極的についてどう思いますか。女：「消極的」（しょうきょくてき）— passiveという意味の語と思います。",
+    "transcript": "男：消極的についてどう思いますか。女：（形動）進んで行動しないと思います。",
     "tags": [
       "n2",
       "task"
@@ -1114,7 +1114,7 @@
         "id": "l045-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「消極的」（しょうきょくてき）— passiveという意味の語",
+          "（形動）進んで行動しない",
           "内容B",
           "内容C",
           "内容D"
@@ -1129,7 +1129,7 @@
     "title": "ポイント理解 問題 46",
     "type": "point",
     "audioUrl": "/audio/listening/l046.mp3",
-    "transcript": "男：賞金についてどう思いますか。女：「賞金」（しょうきん）— prizeという意味の語と思います。",
+    "transcript": "男：賞金についてどう思いますか。女：（名）賞金。しょうきんと読む語と思います。",
     "tags": [
       "n2",
       "point"
@@ -1139,7 +1139,7 @@
         "id": "l046-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「賞金」（しょうきん）— prizeという意味の語",
+          "（名）賞金。しょうきんと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -1154,7 +1154,7 @@
     "title": "概要理解 問題 47",
     "type": "overview",
     "audioUrl": "/audio/listening/l047.mp3",
-    "transcript": "男：上下についてどう思いますか。女：「上下」（じょうげ）— high and lowという意味の語と思います。",
+    "transcript": "男：上下についてどう思いますか。女：（名）上下。じょうげと読む語と思います。",
     "tags": [
       "n2",
       "overview"
@@ -1164,7 +1164,7 @@
         "id": "l047-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「上下」（じょうげ）— high and lowという意味の語",
+          "（名）上下。じょうげと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -1204,7 +1204,7 @@
     "title": "課題理解 問題 49",
     "type": "task",
     "audioUrl": "/audio/listening/l049.mp3",
-    "transcript": "男：商社についてどう思いますか。女：「商社」— trading companyと思います。",
+    "transcript": "男：商社についてどう思いますか。女：（名）商社。しょうしゃと読む語と思います。",
     "tags": [
       "n2",
       "task"
@@ -1214,7 +1214,7 @@
         "id": "l049-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「商社」— trading company",
+          "（名）商社。しょうしゃと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -1229,7 +1229,7 @@
     "title": "ポイント理解 問題 50",
     "type": "point",
     "audioUrl": "/audio/listening/l050.mp3",
-    "transcript": "男：乗車についてどう思いますか。女：「乗車」— taking a trainと思います。",
+    "transcript": "男：乗車についてどう思いますか。女：（名）乗車。じょうしゃと読む語と思います。",
     "tags": [
       "n2",
       "point"
@@ -1239,7 +1239,7 @@
         "id": "l050-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「乗車」— taking a train",
+          "（名）乗車。じょうしゃと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -1254,7 +1254,7 @@
     "title": "概要理解 問題 51",
     "type": "overview",
     "audioUrl": "/audio/listening/l051.mp3",
-    "transcript": "男：上旬についてどう思いますか。女：「上旬」— first 10 days of monthと思います。",
+    "transcript": "男：上旬についてどう思いますか。女：（名）上旬。じょうじゅんと読む語と思います。",
     "tags": [
       "n2",
       "overview"
@@ -1264,7 +1264,7 @@
         "id": "l051-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「上旬」— first 10 days of month",
+          "（名）上旬。じょうじゅんと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -1304,7 +1304,7 @@
     "title": "課題理解 問題 53",
     "type": "task",
     "audioUrl": "/audio/listening/l053.mp3",
-    "transcript": "男：小数についてどう思いますか。女：「小数」— fraction part ofと思います。",
+    "transcript": "男：小数についてどう思いますか。女：（名）小数。しょうすうと読む語と思います。",
     "tags": [
       "n2",
       "task"
@@ -1314,7 +1314,7 @@
         "id": "l053-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「小数」— fraction part of",
+          "（名）小数。しょうすうと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -1329,7 +1329,7 @@
     "title": "ポイント理解 問題 54",
     "type": "point",
     "audioUrl": "/audio/listening/l054.mp3",
-    "transcript": "男：商店についてどう思いますか。女：「商店」（しょうてん）— shopという意味の語と思います。",
+    "transcript": "男：商店についてどう思いますか。女：（名）商店。しょうてんと読む語と思います。",
     "tags": [
       "n2",
       "point"
@@ -1339,7 +1339,7 @@
         "id": "l054-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「商店」（しょうてん）— shopという意味の語",
+          "（名）商店。しょうてんと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -1354,7 +1354,7 @@
     "title": "概要理解 問題 55",
     "type": "overview",
     "audioUrl": "/audio/listening/l055.mp3",
-    "transcript": "男：焦点についてどう思いますか。女：「焦点」（しょうてん）— focusという意味の語と思います。",
+    "transcript": "男：焦点についてどう思いますか。女：（名）注目の中心と思います。",
     "tags": [
       "n2",
       "overview"
@@ -1364,7 +1364,7 @@
         "id": "l055-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「焦点」（しょうてん）— focusという意味の語",
+          "（名）注目の中心",
           "内容B",
           "内容C",
           "内容D"
@@ -1404,7 +1404,7 @@
     "title": "課題理解 問題 57",
     "type": "task",
     "audioUrl": "/audio/listening/l057.mp3",
-    "transcript": "男：勝敗についてどう思いますか。女：「勝敗」— victory or defeatと思います。",
+    "transcript": "男：勝敗についてどう思いますか。女：（名）勝敗。しょうはいと読む語と思います。",
     "tags": [
       "n2",
       "task"
@@ -1414,7 +1414,7 @@
         "id": "l057-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「勝敗」— victory or defeat",
+          "（名）勝敗。しょうはいと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -1429,7 +1429,7 @@
     "title": "ポイント理解 問題 58",
     "type": "point",
     "audioUrl": "/audio/listening/l058.mp3",
-    "transcript": "男：蒸発についてどう思いますか。女：「蒸発」（じょうはつ）— evaporationという意味の語と思います。",
+    "transcript": "男：蒸発についてどう思いますか。女：（名）蒸発。じょうはつと読む語と思います。",
     "tags": [
       "n2",
       "point"
@@ -1439,7 +1439,7 @@
         "id": "l058-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「蒸発」（じょうはつ）— evaporationという意味の語",
+          "（名）蒸発。じょうはつと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -1454,7 +1454,7 @@
     "title": "概要理解 問題 59",
     "type": "overview",
     "audioUrl": "/audio/listening/l059.mp3",
-    "transcript": "男：上品についてどう思いますか。女：「上品」（じょうひん）— refinedという意味の語と思います。",
+    "transcript": "男：上品についてどう思いますか。女：（名）上品。じょうひんと読む語と思います。",
     "tags": [
       "n2",
       "overview"
@@ -1464,7 +1464,7 @@
         "id": "l059-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「上品」（じょうひん）— refinedという意味の語",
+          "（名）上品。じょうひんと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -1504,7 +1504,7 @@
     "title": "課題理解 問題 61",
     "type": "task",
     "audioUrl": "/audio/listening/l061.mp3",
-    "transcript": "男：小便についてどう思いますか。女：「小便」（しょうべん）— col urineという意味の語と思います。",
+    "transcript": "男：小便についてどう思いますか。女：（名）小便。しょうべんと読む語と思います。",
     "tags": [
       "n2",
       "task"
@@ -1514,7 +1514,7 @@
         "id": "l061-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「小便」（しょうべん）— col urineという意味の語",
+          "（名）小便。しょうべんと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -1529,7 +1529,7 @@
     "title": "ポイント理解 問題 62",
     "type": "point",
     "audioUrl": "/audio/listening/l062.mp3",
-    "transcript": "男：消防署についてどう思いますか。女：「消防署」（しょうぼうしょ）— fire stationという意味の語と思います。",
+    "transcript": "男：消防署についてどう思いますか。女：（名）消防署。しょうぼうしょと読む語と思います。",
     "tags": [
       "n2",
       "point"
@@ -1539,7 +1539,7 @@
         "id": "l062-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「消防署」（しょうぼうしょ）— fire stationという意味の語",
+          "（名）消防署。しょうぼうしょと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -1554,7 +1554,7 @@
     "title": "概要理解 問題 63",
     "type": "overview",
     "audioUrl": "/audio/listening/l063.mp3",
-    "transcript": "男：正味についてどう思いますか。女：「正味」（しょうみ）— net weightという意味の語と思います。",
+    "transcript": "男：正味についてどう思いますか。女：（名）正味。しょうみと読む語と思います。",
     "tags": [
       "n2",
       "overview"
@@ -1564,7 +1564,7 @@
         "id": "l063-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「正味」（しょうみ）— net weightという意味の語",
+          "（名）正味。しょうみと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -1604,7 +1604,7 @@
     "title": "課題理解 問題 65",
     "type": "task",
     "audioUrl": "/audio/listening/l065.mp3",
-    "transcript": "男：消耗についてどう思いますか。女：「消耗」（しょうもう）— exhaustionという意味の語と思います。",
+    "transcript": "男：消耗についてどう思いますか。女：（名・自他サ）使って減らすことと思います。",
     "tags": [
       "n2",
       "task"
@@ -1614,7 +1614,7 @@
         "id": "l065-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「消耗」（しょうもう）— exhaustionという意味の語",
+          "（名・自他サ）使って減らすこと",
           "内容B",
           "内容C",
           "内容D"
@@ -1629,7 +1629,7 @@
     "title": "ポイント理解 問題 66",
     "type": "point",
     "audioUrl": "/audio/listening/l066.mp3",
-    "transcript": "男：初級についてどう思いますか。女：「初級」— elementary levelと思います。",
+    "transcript": "男：初級についてどう思いますか。女：（名）初級。しょきゅうと読む語と思います。",
     "tags": [
       "n2",
       "point"
@@ -1639,7 +1639,7 @@
         "id": "l066-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「初級」— elementary level",
+          "（名）初級。しょきゅうと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -1654,7 +1654,7 @@
     "title": "概要理解 問題 67",
     "type": "overview",
     "audioUrl": "/audio/listening/l067.mp3",
-    "transcript": "男：助教授についてどう思いますか。女：「助教授」— assistant professorと思います。",
+    "transcript": "男：助教授についてどう思いますか。女：（名）助教授。じょきょうじゅと読む語と思います。",
     "tags": [
       "n2",
       "overview"
@@ -1664,7 +1664,7 @@
         "id": "l067-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「助教授」— assistant professor",
+          "（名）助教授。じょきょうじゅと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -1704,7 +1704,7 @@
     "title": "課題理解 問題 69",
     "type": "task",
     "audioUrl": "/audio/listening/l069.mp3",
-    "transcript": "男：食塩についてどう思いますか。女：「食塩」（しょくえん）— table saltという意味の語と思います。",
+    "transcript": "男：食塩についてどう思いますか。女：（名）食塩。しょくえんと読む語と思います。",
     "tags": [
       "n2",
       "task"
@@ -1714,7 +1714,7 @@
         "id": "l069-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「食塩」（しょくえん）— table saltという意味の語",
+          "（名）食塩。しょくえんと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -1729,7 +1729,7 @@
     "title": "ポイント理解 問題 70",
     "type": "point",
     "audioUrl": "/audio/listening/l070.mp3",
-    "transcript": "男：職人についてどう思いますか。女：「職人」（しょくにん）— artisanという意味の語と思います。",
+    "transcript": "男：職人についてどう思いますか。女：（名）職人。しょくにんと読む語と思います。",
     "tags": [
       "n2",
       "point"
@@ -1739,7 +1739,7 @@
         "id": "l070-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「職人」（しょくにん）— artisanという意味の語",
+          "（名）職人。しょくにんと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -1754,7 +1754,7 @@
     "title": "概要理解 問題 71",
     "type": "overview",
     "audioUrl": "/audio/listening/l071.mp3",
-    "transcript": "男：職場についてどう思いますか。女：「職場」（しょくば）— workplaceという意味の語と思います。",
+    "transcript": "男：職場についてどう思いますか。女：（名）職場。しょくばと読む語と思います。",
     "tags": [
       "n2",
       "overview"
@@ -1764,7 +1764,7 @@
         "id": "l071-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「職場」（しょくば）— workplaceという意味の語",
+          "（名）職場。しょくばと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -1804,7 +1804,7 @@
     "title": "課題理解 問題 73",
     "type": "task",
     "audioUrl": "/audio/listening/l073.mp3",
-    "transcript": "男：書籍についてどう思いますか。女：「書籍」（しょせき）— bookという意味の語と思います。",
+    "transcript": "男：書籍についてどう思いますか。女：（名）本。図書と思います。",
     "tags": [
       "n2",
       "task"
@@ -1814,7 +1814,7 @@
         "id": "l073-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「書籍」（しょせき）— bookという意味の語",
+          "（名）本。図書",
           "内容B",
           "内容C",
           "内容D"
@@ -1829,7 +1829,7 @@
     "title": "ポイント理解 問題 74",
     "type": "point",
     "audioUrl": "/audio/listening/l074.mp3",
-    "transcript": "男：食器についてどう思いますか。女：「食器」（しょっき）— tablewareという意味の語と思います。",
+    "transcript": "男：食器についてどう思いますか。女：（名）食事に使う道具と思います。",
     "tags": [
       "n2",
       "point"
@@ -1839,7 +1839,7 @@
         "id": "l074-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「食器」（しょっき）— tablewareという意味の語",
+          "（名）食事に使う道具",
           "内容B",
           "内容C",
           "内容D"
@@ -1854,7 +1854,7 @@
     "title": "概要理解 問題 75",
     "type": "overview",
     "audioUrl": "/audio/listening/l075.mp3",
-    "transcript": "男：ショップについてどう思いますか。女：「ショップ」（ショップ）— a shopという意味の語と思います。",
+    "transcript": "男：ショップについてどう思いますか。女：（名）ショップ。ショップと読む語と思います。",
     "tags": [
       "n2",
       "overview"
@@ -1864,7 +1864,7 @@
         "id": "l075-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「ショップ」（ショップ）— a shopという意味の語",
+          "（名）ショップ。ショップと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -1904,7 +1904,7 @@
     "title": "課題理解 問題 77",
     "type": "task",
     "audioUrl": "/audio/listening/l077.mp3",
-    "transcript": "男：書道についてどう思いますか。女：「書道」（しょどう）— calligraphyという意味の語と思います。",
+    "transcript": "男：書道についてどう思いますか。女：（名）書道。しょどうと読む語と思います。",
     "tags": [
       "n2",
       "task"
@@ -1914,7 +1914,7 @@
         "id": "l077-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「書道」（しょどう）— calligraphyという意味の語",
+          "（名）書道。しょどうと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -1929,7 +1929,7 @@
     "title": "ポイント理解 問題 78",
     "type": "point",
     "audioUrl": "/audio/listening/l078.mp3",
-    "transcript": "男：初歩についてどう思いますか。女：「初歩」（しょほ）— elementsという意味の語と思います。",
+    "transcript": "男：初歩についてどう思いますか。女：（名）物事の始めの段階と思います。",
     "tags": [
       "n2",
       "point"
@@ -1939,7 +1939,7 @@
         "id": "l078-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「初歩」（しょほ）— elementsという意味の語",
+          "（名）物事の始めの段階",
           "内容B",
           "内容C",
           "内容D"
@@ -1954,7 +1954,7 @@
     "title": "概要理解 問題 79",
     "type": "overview",
     "audioUrl": "/audio/listening/l079.mp3",
-    "transcript": "男：白髪についてどう思いますか。女：「白髪」— white or grey hairと思います。",
+    "transcript": "男：白髪についてどう思いますか。女：（名）白髪。しらがと読む語と思います。",
     "tags": [
       "n2",
       "overview"
@@ -1964,7 +1964,7 @@
         "id": "l079-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「白髪」— white or grey hair",
+          "（名）白髪。しらがと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -2004,7 +2004,7 @@
     "title": "課題理解 問題 81",
     "type": "task",
     "audioUrl": "/audio/listening/l081.mp3",
-    "transcript": "男：私立についてどう思いますか。女：「私立」— private establishmentと思います。",
+    "transcript": "男：私立についてどう思いますか。女：（名）私立。しりつと読む語と思います。",
     "tags": [
       "n2",
       "task"
@@ -2014,7 +2014,7 @@
         "id": "l081-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「私立」— private establishment",
+          "（名）私立。しりつと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -2029,7 +2029,7 @@
     "title": "ポイント理解 問題 82",
     "type": "point",
     "audioUrl": "/audio/listening/l082.mp3",
-    "transcript": "男：資料についてどう思いますか。女：「資料」（しりょう）— materialsという意味の語と思います。",
+    "transcript": "男：資料についてどう思いますか。女：（名）資料。しりょうと読む語と思います。",
     "tags": [
       "n2",
       "point"
@@ -2039,7 +2039,7 @@
         "id": "l082-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「資料」（しりょう）— materialsという意味の語",
+          "（名）資料。しりょうと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -2054,7 +2054,7 @@
     "title": "概要理解 問題 83",
     "type": "overview",
     "audioUrl": "/audio/listening/l083.mp3",
-    "transcript": "男：汁についてどう思いますか。女：「汁」（しる）— juiceという意味の語と思います。",
+    "transcript": "男：汁についてどう思いますか。女：（名）汁。しると読む語と思います。",
     "tags": [
       "n2",
       "overview"
@@ -2064,7 +2064,7 @@
         "id": "l083-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「汁」（しる）— juiceという意味の語",
+          "（名）汁。しると読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -2104,7 +2104,7 @@
     "title": "課題理解 問題 85",
     "type": "task",
     "audioUrl": "/audio/listening/l085.mp3",
-    "transcript": "男：しわ (かおの～)についてどう思いますか。女：「しわ (かおの～)」（しわ (かおの～)）— wrinklesという意味の語と思います。",
+    "transcript": "男：しわ (かおの～)についてどう思いますか。女：（名）しわ (かおの～)。しわ (かおの～)と読む語と思います。",
     "tags": [
       "n2",
       "task"
@@ -2114,7 +2114,7 @@
         "id": "l085-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「しわ (かおの～)」（しわ (かおの～)）— wrinklesという意味の語",
+          "（名）しわ (かおの～)。しわ (かおの～)と読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -2129,7 +2129,7 @@
     "title": "ポイント理解 問題 86",
     "type": "point",
     "audioUrl": "/audio/listening/l086.mp3",
-    "transcript": "男：芯についてどう思いますか。女：「芯」（しん）— coreという意味の語と思います。",
+    "transcript": "男：芯についてどう思いますか。女：（名）芯。しんと読む語と思います。",
     "tags": [
       "n2",
       "point"
@@ -2139,7 +2139,7 @@
         "id": "l086-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「芯」（しん）— coreという意味の語",
+          "（名）芯。しんと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -2154,7 +2154,7 @@
     "title": "概要理解 問題 87",
     "type": "overview",
     "audioUrl": "/audio/listening/l087.mp3",
-    "transcript": "男：新幹線についてどう思いますか。女：「新幹線」（しんかんせん）— Shinkansenという意味の語と思います。",
+    "transcript": "男：新幹線についてどう思いますか。女：（名）新幹線。しんかんせんと読む語と思います。",
     "tags": [
       "n2",
       "overview"
@@ -2164,7 +2164,7 @@
         "id": "l087-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「新幹線」（しんかんせん）— Shinkansenという意味の語",
+          "（名）新幹線。しんかんせんと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -2204,7 +2204,7 @@
     "title": "課題理解 問題 89",
     "type": "task",
     "audioUrl": "/audio/listening/l089.mp3",
-    "transcript": "男：人事についてどう思いますか。女：「人事」— human resourcesと思います。",
+    "transcript": "男：人事についてどう思いますか。女：（名）人の採用・配置などと思います。",
     "tags": [
       "n2",
       "task"
@@ -2214,7 +2214,7 @@
         "id": "l089-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「人事」— human resources",
+          "（名）人の採用・配置など",
           "内容B",
           "内容C",
           "内容D"
@@ -2229,7 +2229,7 @@
     "title": "ポイント理解 問題 90",
     "type": "point",
     "audioUrl": "/audio/listening/l090.mp3",
-    "transcript": "男：信ずるについてどう思いますか。女：「信ずる」（しんずる）— to believeという意味の語と思います。",
+    "transcript": "男：信ずるについてどう思いますか。女：（名）信ずる。しんずると読む語と思います。",
     "tags": [
       "n2",
       "point"
@@ -2239,7 +2239,7 @@
         "id": "l090-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「信ずる」（しんずる）— to believeという意味の語",
+          "（名）信ずる。しんずると読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -2254,7 +2254,7 @@
     "title": "概要理解 問題 91",
     "type": "overview",
     "audioUrl": "/audio/listening/l091.mp3",
-    "transcript": "男：心身についてどう思いますか。女：「心身」— mind and bodyと思います。",
+    "transcript": "男：心身についてどう思いますか。女：（名）心身。しんしんと読む語と思います。",
     "tags": [
       "n2",
       "overview"
@@ -2264,7 +2264,7 @@
         "id": "l091-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「心身」— mind and body",
+          "（名）心身。しんしんと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -2304,7 +2304,7 @@
     "title": "課題理解 問題 93",
     "type": "task",
     "audioUrl": "/audio/listening/l093.mp3",
-    "transcript": "男：人造についてどう思いますか。女：「人造」（じんぞう）— man-madeという意味の語と思います。",
+    "transcript": "男：人造についてどう思いますか。女：（名）人造。じんぞうと読む語と思います。",
     "tags": [
       "n2",
       "task"
@@ -2314,7 +2314,7 @@
         "id": "l093-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「人造」（じんぞう）— man-madeという意味の語",
+          "（名）人造。じんぞうと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -2329,7 +2329,7 @@
     "title": "ポイント理解 問題 94",
     "type": "point",
     "audioUrl": "/audio/listening/l094.mp3",
-    "transcript": "男：寝台についてどう思いますか。女：「寝台」（しんだい）— bedという意味の語と思います。",
+    "transcript": "男：寝台についてどう思いますか。女：（名）寝台。しんだいと読む語と思います。",
     "tags": [
       "n2",
       "point"
@@ -2339,7 +2339,7 @@
         "id": "l094-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「寝台」（しんだい）— bedという意味の語",
+          "（名）寝台。しんだいと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -2354,7 +2354,7 @@
     "title": "概要理解 問題 95",
     "type": "overview",
     "audioUrl": "/audio/listening/l095.mp3",
-    "transcript": "男：診断についてどう思いますか。女：「診断」（しんだん）— diagnosisという意味の語と思います。",
+    "transcript": "男：診断についてどう思いますか。女：（名・他サ）病状を調べることと思います。",
     "tags": [
       "n2",
       "overview"
@@ -2364,7 +2364,7 @@
         "id": "l095-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「診断」（しんだん）— diagnosisという意味の語",
+          "（名・他サ）病状を調べること",
           "内容B",
           "内容C",
           "内容D"
@@ -2404,7 +2404,7 @@
     "title": "課題理解 問題 97",
     "type": "task",
     "audioUrl": "/audio/listening/l097.mp3",
-    "transcript": "男：人文科学についてどう思いますか。女：「人文科学」— social sciencesと思います。",
+    "transcript": "男：人文科学についてどう思いますか。女：（名）人文科学。じんぶんかがくと読む語と思います。",
     "tags": [
       "n2",
       "task"
@@ -2414,7 +2414,7 @@
         "id": "l097-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「人文科学」— social sciences",
+          "（名）人文科学。じんぶんかがくと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -2429,7 +2429,7 @@
     "title": "ポイント理解 問題 98",
     "type": "point",
     "audioUrl": "/audio/listening/l098.mp3",
-    "transcript": "男：人命についてどう思いますか。女：「人命」（じんめい）— human lifeという意味の語と思います。",
+    "transcript": "男：人命についてどう思いますか。女：（名）人間と思います。",
     "tags": [
       "n2",
       "point"
@@ -2439,7 +2439,7 @@
         "id": "l098-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「人命」（じんめい）— human lifeという意味の語",
+          "（名）人間",
           "内容B",
           "内容C",
           "内容D"
@@ -2454,7 +2454,7 @@
     "title": "概要理解 問題 99",
     "type": "overview",
     "audioUrl": "/audio/listening/l099.mp3",
-    "transcript": "男：深夜についてどう思いますか。女：「深夜」— late at nightと思います。",
+    "transcript": "男：深夜についてどう思いますか。女：（名）深夜。しんやと読む語と思います。",
     "tags": [
       "n2",
       "overview"
@@ -2464,7 +2464,7 @@
         "id": "l099-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「深夜」— late at night",
+          "（名）深夜。しんやと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -2504,7 +2504,7 @@
     "title": "課題理解 問題 101",
     "type": "task",
     "audioUrl": "/audio/listening/l101.mp3",
-    "transcript": "男：親類についてどう思いますか。女：relative(s) (same as 親戚 (しんせき))と思います。",
+    "transcript": "男：親類についてどう思いますか。女：（名）親類。しんるいと読む語と思います。",
     "tags": [
       "n2",
       "task"
@@ -2514,7 +2514,7 @@
         "id": "l101-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "relative(s) (same as 親戚 (しんせき))",
+          "（名）親類。しんるいと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -2529,7 +2529,7 @@
     "title": "ポイント理解 問題 102",
     "type": "point",
     "audioUrl": "/audio/listening/l102.mp3",
-    "transcript": "男：針路についてどう思いますか。女：「針路」（しんろ）— courseという意味の語と思います。",
+    "transcript": "男：針路についてどう思いますか。女：（名）針路。しんろと読む語と思います。",
     "tags": [
       "n2",
       "point"
@@ -2539,7 +2539,7 @@
         "id": "l102-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「針路」（しんろ）— courseという意味の語",
+          "（名）針路。しんろと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -2554,7 +2554,7 @@
     "title": "概要理解 問題 103",
     "type": "overview",
     "audioUrl": "/audio/listening/l103.mp3",
-    "transcript": "男：神話についてどう思いますか。女：「神話」（しんわ）— mythという意味の語と思います。",
+    "transcript": "男：神話についてどう思いますか。女：（名）神話。しんわと読む語と思います。",
     "tags": [
       "n2",
       "overview"
@@ -2564,7 +2564,7 @@
         "id": "l103-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「神話」（しんわ）— mythという意味の語",
+          "（名）神話。しんわと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -2604,7 +2604,7 @@
     "title": "課題理解 問題 105",
     "type": "task",
     "audioUrl": "/audio/listening/l105.mp3",
-    "transcript": "男：炊事についてどう思いますか。女：「炊事」（すいじ）— cookingという意味の語と思います。",
+    "transcript": "男：炊事についてどう思いますか。女：（名）炊事。すいじと読む語と思います。",
     "tags": [
       "n2",
       "task"
@@ -2614,7 +2614,7 @@
         "id": "l105-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「炊事」（すいじ）— cookingという意味の語",
+          "（名）炊事。すいじと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -2629,7 +2629,7 @@
     "title": "ポイント理解 問題 106",
     "type": "point",
     "audioUrl": "/audio/listening/l106.mp3",
-    "transcript": "男：水蒸気についてどう思いますか。女：「水蒸気」（すいじょうき）— water vaporという意味の語と思います。",
+    "transcript": "男：水蒸気についてどう思いますか。女：（名）水蒸気。すいじょうきと読む語と思います。",
     "tags": [
       "n2",
       "point"
@@ -2639,7 +2639,7 @@
         "id": "l106-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「水蒸気」（すいじょうき）— water vaporという意味の語",
+          "（名）水蒸気。すいじょうきと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -2654,7 +2654,7 @@
     "title": "概要理解 問題 107",
     "type": "overview",
     "audioUrl": "/audio/listening/l107.mp3",
-    "transcript": "男：水素についてどう思いますか。女：「水素」（すいそ）— hydrogenという意味の語と思います。",
+    "transcript": "男：水素についてどう思いますか。女：（名）水素。すいそと読む語と思います。",
     "tags": [
       "n2",
       "overview"
@@ -2664,7 +2664,7 @@
         "id": "l107-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「水素」（すいそ）— hydrogenという意味の語",
+          "（名）水素。すいそと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -2704,7 +2704,7 @@
     "title": "課題理解 問題 109",
     "type": "task",
     "audioUrl": "/audio/listening/l109.mp3",
-    "transcript": "男：推定についてどう思いますか。女：「推定」（すいてい）— presumptionという意味の語と思います。",
+    "transcript": "男：推定についてどう思いますか。女：（名）推定。すいていと読む語と思います。",
     "tags": [
       "n2",
       "task"
@@ -2714,7 +2714,7 @@
         "id": "l109-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「推定」（すいてい）— presumptionという意味の語",
+          "（名）推定。すいていと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -2729,7 +2729,7 @@
     "title": "ポイント理解 問題 110",
     "type": "point",
     "audioUrl": "/audio/listening/l110.mp3",
-    "transcript": "男：水滴についてどう思いますか。女：「水滴」— drop of waterと思います。",
+    "transcript": "男：水滴についてどう思いますか。女：（名）水滴。すいてきと読む語と思います。",
     "tags": [
       "n2",
       "point"
@@ -2739,7 +2739,7 @@
         "id": "l110-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「水滴」— drop of water",
+          "（名）水滴。すいてきと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -2754,7 +2754,7 @@
     "title": "概要理解 問題 111",
     "type": "overview",
     "audioUrl": "/audio/listening/l111.mp3",
-    "transcript": "男：水筒についてどう思いますか。女：「水筒」（すいとう）— canteenという意味の語と思います。",
+    "transcript": "男：水筒についてどう思いますか。女：（名）水筒。すいとうと読む語と思います。",
     "tags": [
       "n2",
       "overview"
@@ -2764,7 +2764,7 @@
         "id": "l111-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「水筒」（すいとう）— canteenという意味の語",
+          "（名）水筒。すいとうと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -2804,7 +2804,7 @@
     "title": "課題理解 問題 113",
     "type": "task",
     "audioUrl": "/audio/listening/l113.mp3",
-    "transcript": "男：水分についてどう思いますか。女：「水分」（すいぶん）— moistureという意味の語と思います。",
+    "transcript": "男：水分についてどう思いますか。女：（名）水分。すいぶんと読む語と思います。",
     "tags": [
       "n2",
       "task"
@@ -2814,7 +2814,7 @@
         "id": "l113-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「水分」（すいぶん）— moistureという意味の語",
+          "（名）水分。すいぶんと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -2829,7 +2829,7 @@
     "title": "ポイント理解 問題 114",
     "type": "point",
     "audioUrl": "/audio/listening/l114.mp3",
-    "transcript": "男：水平についてどう思いますか。女：「水平」（すいへい）— levelという意味の語と思います。",
+    "transcript": "男：水平についてどう思いますか。女：（名）水準と思います。",
     "tags": [
       "n2",
       "point"
@@ -2839,7 +2839,7 @@
         "id": "l114-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「水平」（すいへい）— levelという意味の語",
+          "（名）水準",
           "内容B",
           "内容C",
           "内容D"
@@ -2854,7 +2854,7 @@
     "title": "概要理解 問題 115",
     "type": "overview",
     "audioUrl": "/audio/listening/l115.mp3",
-    "transcript": "男：水平線についてどう思いますか。女：「水平線」（すいへいせん）— horizonという意味の語と思います。",
+    "transcript": "男：水平線についてどう思いますか。女：（名）水平線。すいへいせんと読む語と思います。",
     "tags": [
       "n2",
       "overview"
@@ -2864,7 +2864,7 @@
         "id": "l115-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「水平線」（すいへいせん）— horizonという意味の語",
+          "（名）水平線。すいへいせんと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -2904,7 +2904,7 @@
     "title": "課題理解 問題 117",
     "type": "task",
     "audioUrl": "/audio/listening/l117.mp3",
-    "transcript": "男：図々しいについてどう思いますか。女：「図々しい」（ずうずうしい）— impudentという意味の語と思います。",
+    "transcript": "男：図々しいについてどう思いますか。女：（名）図々しい。ずうずうしいと読む語と思います。",
     "tags": [
       "n2",
       "task"
@@ -2914,7 +2914,7 @@
         "id": "l117-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「図々しい」（ずうずうしい）— impudentという意味の語",
+          "（名）図々しい。ずうずうしいと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -2929,7 +2929,7 @@
     "title": "ポイント理解 問題 118",
     "type": "point",
     "audioUrl": "/audio/listening/l118.mp3",
-    "transcript": "男：ずうっとについてどう思いますか。女：「ずうっと」（ずうっと）— all the timeという意味の語と思います。",
+    "transcript": "男：ずうっとについてどう思いますか。女：（名）ずうっと。ずうっとと読む語と思います。",
     "tags": [
       "n2",
       "point"
@@ -2939,7 +2939,7 @@
         "id": "l118-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「ずうっと」（ずうっと）— all the timeという意味の語",
+          "（名）ずうっと。ずうっとと読む語",
           "内容B",
           "内容C",
           "内容D"
@@ -2954,7 +2954,7 @@
     "title": "概要理解 問題 119",
     "type": "overview",
     "audioUrl": "/audio/listening/l119.mp3",
-    "transcript": "男：末っ子についてどう思いますか。女：「末っ子」— youngest childと思います。",
+    "transcript": "男：末っ子についてどう思いますか。女：（名）末っ子。すえっこと読む語と思います。",
     "tags": [
       "n2",
       "overview"
@@ -2964,7 +2964,7 @@
         "id": "l119-q1",
         "question": "会話の内容として正しいのはどれか。",
         "options": [
-          "「末っ子」— youngest child",
+          "（名）末っ子。すえっこと読む語",
           "内容B",
           "内容C",
           "内容D"

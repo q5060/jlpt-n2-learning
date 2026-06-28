@@ -10,6 +10,7 @@ import { loadPlacement } from "@/lib/content/loader";
 import { recordAttempt } from "@/lib/weakness/engine";
 import { SKILL_LABELS } from "@/lib/weakness/engine";
 import { getSettings, saveSettings } from "@/lib/db/local/schema";
+import { logStudyMinutes } from "@/lib/study/session-log";
 import { PageHeader } from "@/components/ui/page-header";
 import { LoadingState } from "@/components/ui/loading-state";
 import { AudioPlayer } from "@/components/listening/audio-player";
@@ -71,7 +72,8 @@ export default function PlacementPage() {
 
     const settings = await getSettings();
     await saveSettings({ ...settings, placementCompleted: true, placementScores: computed });
-  }, [answers, questions]);
+    await logStudyMinutes(Math.ceil((45 * 60 - seconds) / 60));
+  }, [answers, questions, seconds]);
 
   useEffect(() => {
     if (seconds === 0 && !finished) finish();

@@ -203,13 +203,15 @@ function expandPlacement(vocab: VocabItem[], kanji: ReturnType<typeof expandKanj
     const opts = shuffle([g.meaning, "〜するために", "〜した結果", "〜するなら"], i);
     questions.push({ id: `p${String(++qIdx).padStart(3, "0")}`, skill: "grammar", level: "N2", prompt: `「${g.pattern}」の意味は？`, options: opts, correctIndex: opts.indexOf(g.meaning), contentId: g.id });
   }
-  for (let i = 0; i < 2; i++) {
-    const r = reading[i];
-    questions.push({ id: `p${String(++qIdx).padStart(3, "0")}`, skill: "reading", level: "N2", prompt: r.questions[0].question, options: r.questions[0].options, correctIndex: r.questions[0].correctIndex, contentId: r.id });
+  for (let ri = 0; ri < 8; ri++) {
+    const r = reading[ri % reading.length];
+    const q = r.questions[ri % r.questions.length];
+    questions.push({ id: `p${String(++qIdx).padStart(3, "0")}`, skill: "reading", level: "N2", prompt: q.question, options: q.options, correctIndex: q.correctIndex, contentId: r.id });
   }
-  for (let i = 0; i < 2; i++) {
-    const l = listening[i];
-    questions.push({ id: `p${String(++qIdx).padStart(3, "0")}`, skill: "listening", level: "N2", prompt: l.questions[0].question, options: l.questions[0].options, correctIndex: l.questions[0].correctIndex, contentId: l.id });
+  for (let li = 0; li < 8; li++) {
+    const l = listening[li % listening.length];
+    const q = l.questions[li % l.questions.length];
+    questions.push({ id: `p${String(++qIdx).padStart(3, "0")}`, skill: "listening", level: "N2", prompt: q.question, options: q.options, correctIndex: q.correctIndex, contentId: l.id });
   }
   return questions;
 }

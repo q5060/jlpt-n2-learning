@@ -1,6 +1,20 @@
-import { db, type SRSCardRecord, type ExamResultRecord, type WrongAnswerQueueRecord, type CustomVocabRecord, type WeaknessItemRecord } from "@/lib/db/local/schema";
+import {
+  db,
+  type SRSCardRecord,
+  type ExamResultRecord,
+  type WrongAnswerQueueRecord,
+  type CustomVocabRecord,
+  type WeaknessItemRecord,
+  type WeaknessRecord,
+} from "@/lib/db/local/schema";
 import { mergeSrsRecords } from "@/lib/srs/fsrs";
 import { mergeWeaknessItems } from "@/lib/weakness/items";
+import {
+  mergeStudySession,
+  mergeWeaknessRecord,
+  mergeWrongAnswerQueue,
+  type StudySessionRecord,
+} from "@/lib/db/sync-merge";
 
 export interface SyncPayload {
   srsCards: SRSCardRecord[];
@@ -9,17 +23,30 @@ export interface SyncPayload {
   wrongAnswerQueue?: WrongAnswerQueueRecord[];
   customVocab?: CustomVocabRecord[];
   weaknessItems?: WeaknessItemRecord[];
+  weakness?: WeaknessRecord[];
+  studySessions?: StudySessionRecord[];
   lastSyncAt: number;
 }
 
 export async function exportLocalData(): Promise<SyncPayload> {
-  const [srsCards, examResults, settings, wrongAnswerQueue, customVocab, weaknessItems] = await Promise.all([
+  const [
+    srsCards,
+    examResults,
+    settings,
+    wrongAnswerQueue,
+    customVocab,
+    weaknessItems,
+    weakness,
+    studySessions,
+  ] = await Promise.all([
     db.srsCards.toArray(),
     db.examResults.toArray(),
     db.settings.get("main"),
     db.wrongAnswerQueue.toArray(),
     db.customVocab.toArray(),
     db.weaknessItems.toArray(),
+    db.weakness.toArray(),
+    db.studySessions.toArray(),
   ]);
 
   return {
@@ -29,6 +56,8 @@ export async function exportLocalData(): Promise<SyncPayload> {
     wrongAnswerQueue,
     customVocab,
     weaknessItems,
+    weakness,
+    studySessions,
     lastSyncAt: Date.now(),
   };
 }
@@ -56,7 +85,8 @@ export async function importRemoteData(remote: SyncPayload): Promise<void> {
 
   if (remote.wrongAnswerQueue) {
     for (const item of remote.wrongAnswerQueue) {
-      await db.wrongAnswerQueue.put(item);
+      const local = await db.wrongAnswerQueue.get(item.id);
+      await db.wrongAnswerQueue.put(mergeWrongAnswerQueue(local, item));
     }
   }
   if (remote.customVocab) {
@@ -68,6 +98,18 @@ export async function importRemoteData(remote: SyncPayload): Promise<void> {
     for (const w of remote.weaknessItems) {
       const local = await db.weaknessItems.get(w.contentId);
       await db.weaknessItems.put(mergeWeaknessItems(local, w));
+    }
+  }
+  if (remote.weakness) {
+    for (const w of remote.weakness) {
+      const local = await db.weakness.get(w.skill);
+      await db.weakness.put(mergeWeaknessRecord(local, w));
+    }
+  }
+  if (remote.studySessions) {
+    for (const s of remote.studySessions) {
+      const local = await db.studySessions.get(s.id);
+      await db.studySessions.put(mergeStudySession(local, s));
     }
   }
 

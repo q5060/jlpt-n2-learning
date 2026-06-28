@@ -6,6 +6,7 @@ import { Card, CardTitle } from "@/components/ui/card";
 import type { GrammarExercise } from "@/lib/types";
 import { enqueueWrongAnswer } from "@/lib/weakness/review-queue";
 import { recordAttempt } from "@/lib/weakness/engine";
+import { logStudyMinutes } from "@/lib/study/session-log";
 
 export function GrammarExerciseCard({
   exercise,
@@ -50,6 +51,7 @@ export function GrammarExerciseCard({
       );
     }
     await recordAttempt("grammar", isCorrect, grammarId);
+    await logStudyMinutes(2);
     onComplete?.(isCorrect);
   }
 

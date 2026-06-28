@@ -1,7 +1,7 @@
 "use client";
 
 import { Suspense, useEffect, useState } from "react";
-import { useSearchParams } from "next/navigation";
+import { useSearchParams, useRouter } from "next/navigation";
 import Link from "next/link";
 import { MainLayout } from "@/components/layout/main-layout";
 import { Button } from "@/components/ui/button";
@@ -20,7 +20,9 @@ import type { ResolvedReviewItem } from "@/lib/content/review-resolver";
 
 function ReviewQueueContent() {
   const searchParams = useSearchParams();
+  const router = useRouter();
   const skillFilter = searchParams.get("skill");
+  const contentIdFilter = searchParams.get("contentId");
   const [items, setItems] = useState<WrongAnswerQueueRecord[]>([]);
   const [index, setIndex] = useState(0);
   const [resolved, setResolved] = useState<ResolvedReviewItem | null>(null);
@@ -29,16 +31,22 @@ function ReviewQueueContent() {
 
   const current = items[index];
   const sessionDone = items.length > 0 && index >= items.length;
+  const hasFilters = Boolean(skillFilter || contentIdFilter);
 
   useEffect(() => {
+    setIndex(0);
     getDueReviews().then((list) => {
-      const filtered = skillFilter
-        ? list.filter((item) => item.skill === skillFilter)
-        : list;
+      let filtered = list;
+      if (skillFilter) {
+        filtered = filtered.filter((item) => item.skill === skillFilter);
+      }
+      if (contentIdFilter) {
+        filtered = filtered.filter((item) => item.contentId === contentIdFilter);
+      }
       setItems(filtered);
       setLoading(false);
     });
-  }, [skillFilter]);
+  }, [skillFilter, contentIdFilter]);
 
   useEffect(() => {
     if (!current) {
@@ -64,6 +72,10 @@ function ReviewQueueContent() {
     setAnswered(false);
   }
 
+  function clearFilters() {
+    router.push("/review");
+  }
+
   if (loading) {
     return (
       <MainLayout>
@@ -73,14 +85,29 @@ function ReviewQueueContent() {
     );
   }
 
+  const descriptionParts: string[] = [];
+  if (skillFilter && skillFilter in SKILL_LABELS) {
+    descriptionParts.push(`${SKILL_LABELS[skillFilter as keyof typeof SKILL_LABELS]} の間違い`);
+  }
+  if (contentIdFilter) {
+    descriptionParts.push(`ID: ${contentIdFilter}`);
+  }
+
   return (
     <MainLayout>
       <PageHeader
         title={NAV_LABELS.reviewQueue}
         description={
-          skillFilter && skillFilter in SKILL_LABELS
-            ? `${SKILL_LABELS[skillFilter as keyof typeof SKILL_LABELS]} の間違いを復習`
+          descriptionParts.length > 0
+            ? descriptionParts.join(" · ")
             : "間違えた問題を復習します"
+        }
+        actions={
+          hasFilters ? (
+            <Button variant="outline" size="sm" onClick={clearFilters}>
+              フィルタ解除
+            </Button>
+          ) : undefined
         }
       />
       {sessionDone ? (
@@ -95,8 +122,23 @@ function ReviewQueueContent() {
         />
       ) : !current ? (
         <EmptyState
-          title="復習する問題がありません"
-          description="模擬試験や練習の間違いは後日ここに表示されます。"
+          title={
+            hasFilters
+              ? "該当する復習問題がありません"
+              : "復習する問題がありません"
+          }
+          description={
+            hasFilters
+              ? "期限が来ていないか、既に復習済みの可能性があります。"
+              : "模擬試験や練習の間違いは後日ここに表示されます。"
+          }
+          action={
+            hasFilters ? (
+              <Button variant="outline" onClick={clearFilters}>
+                フィルタ解除
+              </Button>
+            ) : undefined
+          }
         />
       ) : !resolved ? (
         <ErrorState

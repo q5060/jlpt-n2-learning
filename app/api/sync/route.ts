@@ -10,6 +10,8 @@ import {
   wrongAnswerQueueRemote,
   customVocabRemote,
   weaknessItemsRemote,
+  weaknessScoresRemote,
+  studySessionsRemote,
 } from "@/lib/db/remote/schema";
 import type { SyncPayload } from "@/lib/db/sync";
 
@@ -23,6 +25,8 @@ function emptyPayload(): SyncPayload {
     wrongAnswerQueue: [],
     customVocab: [],
     weaknessItems: [],
+    weakness: [],
+    studySessions: [],
     lastSyncAt: 0,
   };
 }
@@ -36,13 +40,15 @@ export async function GET() {
   const remoteDb = getRemoteDb();
 
   if (remoteDb) {
-    const [cards, exams, settings, wrongQueue, customVocab, weaknessItems] = await Promise.all([
+    const [cards, exams, settings, wrongQueue, customVocab, weaknessItems, weakness, studySessions] = await Promise.all([
       remoteDb.select().from(srsCardsRemote).where(eq(srsCardsRemote.userId, userId)),
       remoteDb.select().from(examResultsRemote).where(eq(examResultsRemote.userId, userId)),
       remoteDb.select().from(userSettingsRemote).where(eq(userSettingsRemote.userId, userId)),
       remoteDb.select().from(wrongAnswerQueueRemote).where(eq(wrongAnswerQueueRemote.userId, userId)),
       remoteDb.select().from(customVocabRemote).where(eq(customVocabRemote.userId, userId)),
       remoteDb.select().from(weaknessItemsRemote).where(eq(weaknessItemsRemote.userId, userId)),
+      remoteDb.select().from(weaknessScoresRemote).where(eq(weaknessScoresRemote.userId, userId)),
+      remoteDb.select().from(studySessionsRemote).where(eq(studySessionsRemote.userId, userId)),
     ]);
     return NextResponse.json({
       srsCards: cards.map(({ userId: _, ...c }) => c),
@@ -64,6 +70,13 @@ export async function GET() {
         tags: (v.tags as string[]) ?? [],
       })),
       weaknessItems: weaknessItems.map(({ userId: _, updatedAt: __, ...w }) => w),
+      weakness: weakness.map(({ userId: _, updatedAt: __, ...w }) => w),
+      studySessions: studySessions.map(({ userId: _, updatedAt: __, ...s }) => ({
+        id: s.id,
+        date: s.date,
+        minutes: s.minutes,
+        cardsReviewed: s.cardsReviewed,
+      })),
       lastSyncAt: Date.now(),
     });
   }
@@ -138,6 +151,24 @@ export async function POST(req: Request) {
       }).onConflictDoUpdate({
         target: [weaknessItemsRemote.userId, weaknessItemsRemote.contentId],
         set: { ...w, userId, updatedAt: new Date() },
+      });
+    }
+    for (const w of data.weakness ?? []) {
+      await remoteDb.insert(weaknessScoresRemote).values({
+        ...w,
+        userId,
+      }).onConflictDoUpdate({
+        target: [weaknessScoresRemote.userId, weaknessScoresRemote.skill],
+        set: { ...w, userId },
+      });
+    }
+    for (const s of data.studySessions ?? []) {
+      await remoteDb.insert(studySessionsRemote).values({
+        ...s,
+        userId,
+      }).onConflictDoUpdate({
+        target: [studySessionsRemote.userId, studySessionsRemote.id],
+        set: { ...s, userId, updatedAt: new Date() },
       });
     }
     return NextResponse.json({ ok: true, backend: "postgres" });

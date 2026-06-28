@@ -2,10 +2,13 @@ import { db, type WrongAnswerQueueRecord } from "@/lib/db/local/schema";
 import { incrementWeaknessItem } from "@/lib/weakness/items";
 import type { SkillTag } from "@/lib/types";
 
-const SEVEN_DAYS_MS = 7 * 24 * 60 * 60 * 1000;
 const ONE_DAY_MS = 24 * 60 * 60 * 1000;
 const THREE_DAYS_MS = 3 * ONE_DAY_MS;
 const FOURTEEN_DAYS_MS = 14 * ONE_DAY_MS;
+
+export function getInitialDueDelayMs(source: "exam" | "drill"): number {
+  return source === "drill" ? ONE_DAY_MS : THREE_DAYS_MS;
+}
 
 export async function enqueueWrongAnswer(
   contentId: string,
@@ -22,7 +25,7 @@ export async function enqueueWrongAnswer(
     contentId,
     contentType,
     skill,
-    dueAt: Date.now() + SEVEN_DAYS_MS,
+    dueAt: Date.now() + getInitialDueDelayMs(source),
     source,
     attempts: (existing?.attempts ?? 0) + 1,
     prompt,

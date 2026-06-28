@@ -8,7 +8,7 @@ import { Input } from "@/components/ui/input";
 import { reviewCard, ratingFromButton } from "@/lib/srs/fsrs";
 import { recordAttempt } from "@/lib/weakness/engine";
 import { REVIEW_MODE_LABELS } from "@/lib/ui/labels";
-import { db } from "@/lib/db/local/schema";
+import { logStudyMinutes } from "@/lib/study/session-log";
 import type { VocabEntry, KanjiEntry, ReviewMode } from "@/lib/types";
 
 interface FlashcardProps {
@@ -48,23 +48,7 @@ export function Flashcard({
     await reviewCard(cardId, fsrsRating, skill);
     const correct = fsrsRating >= Rating.Good;
     await recordAttempt(skill, correct, item.id);
-
-    const today = new Date().toISOString().split("T")[0];
-    const session = await db.studySessions.get(today);
-    if (session) {
-      await db.studySessions.put({
-        ...session,
-        cardsReviewed: session.cardsReviewed + 1,
-        minutes: session.minutes + 1,
-      });
-    } else {
-      await db.studySessions.put({
-        id: today,
-        date: today,
-        minutes: 1,
-        cardsReviewed: 1,
-      });
-    }
+    await logStudyMinutes(1, 1);
     onComplete();
   }
 

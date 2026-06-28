@@ -13,6 +13,8 @@ import { ReadingTimer } from "@/components/listening/audio-player";
 import { TokenizedPassage } from "@/components/reading/tokenized-passage";
 import { getReadingMeta, getReadingById } from "@/lib/content/loader";
 import { recordAttempt } from "@/lib/weakness/engine";
+import { enqueueWrongAnswer } from "@/lib/weakness/review-queue";
+import { logStudyMinutes } from "@/lib/study/session-log";
 import { db } from "@/lib/db/local/schema";
 import type { ReadingPassage } from "@/lib/types";
 
@@ -50,6 +52,16 @@ export default function ReadingListPage() {
       const isCorrect = answers[q.id] === q.correctIndex;
       if (isCorrect) correct++;
       await recordAttempt("reading", isCorrect, q.id);
+      if (!isCorrect) {
+        await enqueueWrongAnswer(
+          passage.id,
+          "reading",
+          "reading",
+          "drill",
+          q.question,
+          q.id
+        );
+      }
     }
     await db.progress.put({
       id: `reading-${passage.id}`,
@@ -62,6 +74,7 @@ export default function ReadingListPage() {
     setSubmitted(true);
     setScoreSummary({ correct, total: passage.questions.length });
     setTimerRunning(false);
+    await logStudyMinutes(passage.timeLimitMinutes);
   }
 
   function goBack() {

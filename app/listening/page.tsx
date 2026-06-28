@@ -11,6 +11,8 @@ import { EmptyState } from "@/components/ui/empty-state";
 import { AudioPlayer } from "@/components/listening/audio-player";
 import { loadListening } from "@/lib/content/loader";
 import { recordAttempt } from "@/lib/weakness/engine";
+import { enqueueWrongAnswer } from "@/lib/weakness/review-queue";
+import { logStudyMinutes } from "@/lib/study/session-log";
 import type { ListeningItem } from "@/lib/types";
 
 const typeLabels = {
@@ -50,9 +52,20 @@ export default function ListeningPage() {
       const isCorrect = answers[q.id] === q.correctIndex;
       if (isCorrect) correct++;
       await recordAttempt("listening", isCorrect, q.id);
+      if (!isCorrect) {
+        await enqueueWrongAnswer(
+          item.id,
+          "listening",
+          "listening",
+          "drill",
+          q.question,
+          q.id
+        );
+      }
     }
     setScoreSummary({ correct, total: item.questions.length });
     setSubmitted(true);
+    await logStudyMinutes(5);
   }
 
   function goBack() {

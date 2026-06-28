@@ -4,11 +4,10 @@
 
 - Node.js 20+
 - PostgreSQL (optional, for cloud sync)
-- macOS `say` + `afconvert` (optional, for listening audio generation)
 
 ## Environment variables
 
-Create `.env.local`:
+Copy `.env.example` to `.env.local`:
 
 ```env
 DATABASE_URL=postgresql://user:pass@host:5432/n2study
@@ -20,12 +19,13 @@ NEXTAUTH_SECRET=generate-a-random-secret
 
 ```bash
 npm install
-npm run content:generate   # vocab + kanji + grammar + shards + audio
+npm run content:generate   # vocab + content + shards + audio (120) + icons
 npm run build
 npm run test
 npm run test:e2e
-npx tsx scripts/check-bundle-budget.ts
-npm run content:check-audio  # expects 60 files by default
+npm run content:check-quality
+npm run content:check-audio   # expects 120 files
+npm run content:check-bundle
 ```
 
 ## Content sharding
@@ -42,22 +42,20 @@ npm run content:shard
 
 ```bash
 npx drizzle-kit push
-# or apply SQL manually:
+# Extended tables (manual if needed):
 psql $DATABASE_URL -f drizzle/0001_sync_extended.sql
+psql $DATABASE_URL -f drizzle/0002_weakness_sessions.sql
 ```
 
 ## Hosting (Vercel)
 
-1. Set env vars in project settings
-2. Build command: `npm run content:generate && npm run build`
-3. Ensure `public/content/**` and `public/audio/**` are deployed as static assets
+1. Connect repository; CI runs on push to `main`
+2. Set environment variables in project settings
+3. Build command: `npm run content:generate && npm run build`
+4. `public/content/` and `public/icons/` must be present in deployment artifact
 
 ## PWA
 
-Service worker: `public/sw.js` (shell cache + content stale-while-revalidate)
-
-Icons: `public/icons/icon-192.png`, `icon-512.png`
-
-## Performance
-
-See [docs/PERF.md](docs/PERF.md)
+- Icons: `public/icons/icon-192.png`, `icon-512.png` (from `scripts/generate-icons.ts`)
+- Service worker: `public/sw.js`
+- Audio packs downloaded client-side via Settings

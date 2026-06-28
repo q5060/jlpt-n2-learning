@@ -47,7 +47,7 @@ export function WeaknessHeatmap() {
           return (
             <Link
               key={item.contentId}
-              href={`/review?skill=${item.skill}`}
+              href={`/review?skill=${item.skill}&contentId=${item.contentId}`}
               title={`${item.label}: ${item.wrongCount}回`}
               className="flex h-8 items-center justify-center rounded text-[10px] text-white transition-opacity hover:opacity-80"
               style={{
@@ -62,7 +62,7 @@ export function WeaknessHeatmap() {
       <ul className="max-h-32 space-y-1 overflow-y-auto text-xs text-zinc-500">
         {items.slice(0, 8).map((item) => (
           <li key={item.contentId}>
-            <Link href={`/review?skill=${item.skill}`} className="hover:text-brand">
+            <Link href={`/review?skill=${item.skill}&contentId=${item.contentId}`} className="hover:text-brand">
               [{SKILL_LABELS[item.skill]}] {item.label.slice(0, 20)} — {item.wrongCount}回
             </Link>
           </li>

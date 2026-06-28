@@ -83,3 +83,29 @@ export const weaknessItemsRemote = pgTable(
   },
   (t) => [primaryKey({ columns: [t.userId, t.contentId] })]
 );
+
+export const weaknessScoresRemote = pgTable(
+  "weakness_scores_remote",
+  {
+    userId: text("user_id").notNull(),
+    skill: text("skill").notNull(),
+    score: real("score").notNull(),
+    totalAttempts: integer("total_attempts").notNull(),
+    correctAttempts: integer("correct_attempts").notNull(),
+    updatedAt: integer("updated_at").notNull(),
+  },
+  (t) => [primaryKey({ columns: [t.userId, t.skill] })]
+);
+
+export const studySessionsRemote = pgTable(
+  "study_sessions_remote",
+  {
+    userId: text("user_id").notNull(),
+    id: text("id").notNull(),
+    date: text("date").notNull(),
+    minutes: integer("minutes").notNull(),
+    cardsReviewed: integer("cards_reviewed").notNull(),
+    updatedAt: timestamp("updated_at").defaultNow(),
+  },
+  (t) => [primaryKey({ columns: [t.userId, t.id] })]
+);

@@ -49,7 +49,8 @@ function main() {
 
   const largest = top[0].gzipKb;
   if (largest > MAX_GZIP_KB) {
-    console.warn(`Warning: largest chunk ${largest.toFixed(1)}KB exceeds ${MAX_GZIP_KB}KB budget`);
+    console.error(`Largest chunk ${largest.toFixed(1)}KB exceeds ${MAX_GZIP_KB}KB budget`);
+    process.exit(1);
   } else {
     console.log(`Bundle budget OK (largest ${largest.toFixed(1)}KB < ${MAX_GZIP_KB}KB)`);
   }

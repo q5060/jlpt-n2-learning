@@ -1,12 +1,16 @@
-import { describe, it, expect, vi, beforeEach } from "vitest";
+import { describe, it, expect } from "vitest";
+import { getInitialDueDelayMs } from "@/lib/weakness/review-queue";
 
-const SEVEN_DAYS_MS = 7 * 24 * 60 * 60 * 1000;
+const ONE_DAY_MS = 24 * 60 * 60 * 1000;
+const THREE_DAYS_MS = 3 * ONE_DAY_MS;
 
-describe("review queue 7-day logic", () => {
-  it("dueAt is 7 days from enqueue", () => {
-    const now = Date.now();
-    const dueAt = now + SEVEN_DAYS_MS;
-    expect(dueAt - now).toBe(SEVEN_DAYS_MS);
+describe("review queue initial delay", () => {
+  it("drill dueAt is 1 day from enqueue", () => {
+    expect(getInitialDueDelayMs("drill")).toBe(ONE_DAY_MS);
+  });
+
+  it("exam dueAt is 3 days from enqueue", () => {
+    expect(getInitialDueDelayMs("exam")).toBe(THREE_DAYS_MS);
   });
 });
 

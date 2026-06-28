@@ -10,6 +10,8 @@ import { ProgressBar } from "@/components/ui/progress";
 import { WeaknessRadar } from "@/components/dashboard/weakness-radar";
 import { loadExam, getReadingById } from "@/lib/content/loader";
 import { enqueueWrongAnswer } from "@/lib/weakness/review-queue";
+import { recordAttempt } from "@/lib/weakness/engine";
+import { logStudyMinutes } from "@/lib/study/session-log";
 import { scoreExam, formatTime, PASS_LINE } from "@/lib/exam/scoring";
 import { estimatePassProbability } from "@/lib/weakness/engine";
 import { db } from "@/lib/db/local/schema";
@@ -81,7 +83,9 @@ export default function ExamPage() {
     });
 
     for (const eq of examQuestions) {
-      if (answers[eq.id] !== eq.correctIndex) {
+      const isCorrect = answers[eq.id] === eq.correctIndex;
+      await recordAttempt(eq.skill, isCorrect, eq.id);
+      if (!isCorrect) {
         await enqueueWrongAnswer(
           eq.id,
           eq.skill,
@@ -91,6 +95,8 @@ export default function ExamPage() {
         );
       }
     }
+
+    await logStudyMinutes(155);
 
     setPhase("result");
   }, [answers, examQuestions]);
