@@ -86,9 +86,13 @@ export default function PlacementPage() {
   }
 
   if (finished) {
+    const weakest = (Object.entries(scores) as [SkillTag, number][])
+      .sort((a, b) => a[1] - b[1])
+      .slice(0, 2);
+
     return (
       <MainLayout>
-        <PageHeader title="診断結果" />
+        <PageHeader title="診断結果" description="個人別の学習計画が作成されました" />
         <Card className="mb-6">
           <CardTitle className="mb-4">能力スコア</CardTitle>
           <div className="space-y-3">
@@ -103,11 +107,14 @@ export default function PlacementPage() {
             ))}
           </div>
         </Card>
-        <p className="mb-4 text-zinc-600">
-          26週間の個人別学習計画が作成されました。ダッシュボードで今日のタスクを確認してください。
-        </p>
-        <Button onClick={() => router.push("/dashboard")}>
-          ダッシュボードへ
+        <Card variant="warning" className="mb-6">
+          <CardTitle className="mb-2">重点強化スキル</CardTitle>
+          <p className="text-sm text-orange-800 dark:text-orange-200">
+            {weakest.map(([s]) => SKILL_LABELS[s]).join("・")}を優先して学習しましょう。
+          </p>
+        </Card>
+        <Button size="lg" onClick={() => router.push("/dashboard")}>
+          ダッシュボードで今日のタスクを見る
         </Button>
       </MainLayout>
     );

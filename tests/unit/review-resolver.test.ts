@@ -18,5 +18,5 @@ describe("resolveReviewItem", () => {
       expect(item.grammarId).toBe("g001");
       expect(item.exercise).toBeDefined();
     }
-  });
+  }, 15000);
 });

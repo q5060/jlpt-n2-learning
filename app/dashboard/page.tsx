@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { MainLayout } from "@/components/layout/main-layout";
+import { Button } from "@/components/ui/button";
 import { Card, CardDescription, CardTitle } from "@/components/ui/card";
 import { PageHeader } from "@/components/ui/page-header";
 import { LoadingState } from "@/components/ui/loading-state";
@@ -14,7 +15,7 @@ import { WeaknessHeatmap } from "@/components/dashboard/weakness-heatmap";
 import { StudyTimeChart } from "@/components/dashboard/study-time-chart";
 import { useDashboard } from "@/hooks/use-dashboard";
 import { getWeekPlan } from "@/lib/curriculum/schedule";
-import { getWeaknessScores } from "@/lib/weakness/engine";
+import { getWeaknessScores, SKILL_LABELS } from "@/lib/weakness/engine";
 import { getDueReviewCount } from "@/lib/weakness/review-queue";
 import { getLeechCards } from "@/lib/srs/fsrs";
 import { db, getSettings } from "@/lib/db/local/schema";
@@ -29,6 +30,7 @@ export default function DashboardPage() {
   const [examHistory, setExamHistory] = useState<{ date: string; probability: number }[]>([]);
   const [reviewQueue, setReviewQueue] = useState(0);
   const [placementNote, setPlacementNote] = useState("");
+  const [placementDone, setPlacementDone] = useState(true);
   const [leechCount, setLeechCount] = useState(0);
   const plan = getWeekPlan(week);
 
@@ -43,11 +45,12 @@ export default function DashboardPage() {
       }
     });
     getSettings().then((s) => {
+      setPlacementDone(s.placementCompleted);
       if (s.placementScores) {
-        const weak = Object.entries(s.placementScores)
+        const weak = (Object.entries(s.placementScores) as [SkillTag, number][])
           .sort((a, b) => a[1] - b[1])
           .slice(0, 2)
-          .map(([k]) => k);
+          .map(([k]) => SKILL_LABELS[k]);
         setPlacementNote(`弱点強化: ${weak.join("・")}を優先`);
       }
     });
@@ -76,6 +79,17 @@ export default function DashboardPage() {
       />
       {placementNote && (
         <p className="-mt-4 mb-4 text-sm text-brand-foreground">個人化された学習計画 — {placementNote}</p>
+      )}
+
+      {!placementDone && (
+        <Card variant="warning" className="mb-4">
+          <p className="mb-3 text-sm text-orange-800 dark:text-orange-200">
+            初回診断テストを受けると、26週間の個人別学習計画が作成されます。
+          </p>
+          <Link href="/placement">
+            <Button size="sm">診断テストを受ける</Button>
+          </Link>
+        </Card>
       )}
 
       {inPassZone && (

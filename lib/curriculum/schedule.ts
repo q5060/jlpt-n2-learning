@@ -1,7 +1,7 @@
 import { addDays, differenceInCalendarDays, parseISO } from "date-fns";
 import { getSettings, db } from "@/lib/db/local/schema";
 import { getDueCount } from "@/lib/srs/fsrs";
-import { computePriority, getWeaknessScores } from "@/lib/weakness/engine";
+import { computePriority, getWeaknessScores, SKILL_LABELS } from "@/lib/weakness/engine";
 import { getDueReviewCount } from "@/lib/weakness/review-queue";
 import type { DailyTask, SkillTag } from "@/lib/types";
 
@@ -135,8 +135,8 @@ export async function generateDailyTasks(): Promise<DailyTask[]> {
     id: "grammar-lesson",
     type: "grammar",
     title: "文法レッスン",
-    description: `文法 #${grammarStart}〜#${plan.grammarRange[1]}（${plan.phase}）`,
-    href: `/grammar/g${String(grammarStart).padStart(3, "0")}`,
+    description: `第${week}週 · 文法 #${grammarStart}〜#${plan.grammarRange[1]}（${plan.phase}）`,
+    href: `/grammar?week=${week}`,
     priority: 70,
     estimatedMinutes: 20,
   });
@@ -159,7 +159,7 @@ export async function generateDailyTasks(): Promise<DailyTask[]> {
   tasks.push({
     id: `weakness-${targetWeak}`,
     type: "weakness",
-    title: `弱点練習: ${targetWeak}`,
+    title: `弱点練習: ${SKILL_LABELS[targetWeak]}`,
     description: placementBoost.length > 0 ? "診断結果に基づく優先練習" : "診断結果に基づく推奨練習",
     href: weaknessRoutes[targetWeak],
     priority: weaknessPriority,

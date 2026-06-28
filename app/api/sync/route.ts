@@ -3,10 +3,29 @@ import { NextResponse } from "next/server";
 import { eq } from "drizzle-orm";
 import { authOptions } from "@/lib/auth";
 import { getRemoteDb } from "@/lib/db/remote/client";
-import { srsCardsRemote, examResultsRemote, userSettingsRemote } from "@/lib/db/remote/schema";
+import {
+  srsCardsRemote,
+  examResultsRemote,
+  userSettingsRemote,
+  wrongAnswerQueueRemote,
+  customVocabRemote,
+  weaknessItemsRemote,
+} from "@/lib/db/remote/schema";
 import type { SyncPayload } from "@/lib/db/sync";
 
 const memoryStore = new Map<string, SyncPayload>();
+
+function emptyPayload(): SyncPayload {
+  return {
+    srsCards: [],
+    examResults: [],
+    settings: null,
+    wrongAnswerQueue: [],
+    customVocab: [],
+    weaknessItems: [],
+    lastSyncAt: 0,
+  };
+}
 
 export async function GET() {
   const session = await getServerSession(authOptions);
@@ -17,20 +36,39 @@ export async function GET() {
   const remoteDb = getRemoteDb();
 
   if (remoteDb) {
-    const [cards, exams, settings] = await Promise.all([
+    const [cards, exams, settings, wrongQueue, customVocab, weaknessItems] = await Promise.all([
       remoteDb.select().from(srsCardsRemote).where(eq(srsCardsRemote.userId, userId)),
       remoteDb.select().from(examResultsRemote).where(eq(examResultsRemote.userId, userId)),
       remoteDb.select().from(userSettingsRemote).where(eq(userSettingsRemote.userId, userId)),
+      remoteDb.select().from(wrongAnswerQueueRemote).where(eq(wrongAnswerQueueRemote.userId, userId)),
+      remoteDb.select().from(customVocabRemote).where(eq(customVocabRemote.userId, userId)),
+      remoteDb.select().from(weaknessItemsRemote).where(eq(weaknessItemsRemote.userId, userId)),
     ]);
     return NextResponse.json({
       srsCards: cards.map(({ userId: _, ...c }) => c),
       examResults: exams.map(({ userId: _, ...e }) => ({ ...e, answers: JSON.stringify(e.answers) })),
       settings: settings[0] ? { id: "main", data: settings[0].settings } : null,
+      wrongAnswerQueue: wrongQueue.map(({ userId: _, updatedAt: __, ...w }) => ({
+        id: w.id,
+        contentId: w.contentId,
+        contentType: w.contentType,
+        skill: w.skill,
+        dueAt: w.dueAt,
+        source: w.source,
+        attempts: w.attempts,
+        prompt: w.prompt ?? undefined,
+        exerciseId: w.exerciseId ?? undefined,
+      })),
+      customVocab: customVocab.map(({ userId: _, updatedAt: __, ...v }) => ({
+        ...v,
+        tags: (v.tags as string[]) ?? [],
+      })),
+      weaknessItems: weaknessItems.map(({ userId: _, updatedAt: __, ...w }) => w),
       lastSyncAt: Date.now(),
     });
   }
 
-  return NextResponse.json(memoryStore.get(userId) ?? { srsCards: [], examResults: [], settings: null, lastSyncAt: 0 });
+  return NextResponse.json(memoryStore.get(userId) ?? emptyPayload());
 }
 
 export async function POST(req: Request) {
@@ -65,9 +103,46 @@ export async function POST(req: Request) {
         set: { settings: data.settings.data, updatedAt: new Date() },
       });
     }
+    for (const item of data.wrongAnswerQueue ?? []) {
+      await remoteDb.insert(wrongAnswerQueueRemote).values({
+        ...item,
+        userId,
+        contentType: item.contentType,
+        prompt: item.prompt ?? null,
+        exerciseId: item.exerciseId ?? null,
+      }).onConflictDoUpdate({
+        target: wrongAnswerQueueRemote.id,
+        set: {
+          ...item,
+          userId,
+          prompt: item.prompt ?? null,
+          exerciseId: item.exerciseId ?? null,
+          updatedAt: new Date(),
+        },
+      });
+    }
+    for (const vocab of data.customVocab ?? []) {
+      await remoteDb.insert(customVocabRemote).values({
+        ...vocab,
+        userId,
+        tags: vocab.tags,
+      }).onConflictDoUpdate({
+        target: customVocabRemote.id,
+        set: { ...vocab, userId, tags: vocab.tags, updatedAt: new Date() },
+      });
+    }
+    for (const w of data.weaknessItems ?? []) {
+      await remoteDb.insert(weaknessItemsRemote).values({
+        ...w,
+        userId,
+      }).onConflictDoUpdate({
+        target: [weaknessItemsRemote.userId, weaknessItemsRemote.contentId],
+        set: { ...w, userId, updatedAt: new Date() },
+      });
+    }
     return NextResponse.json({ ok: true, backend: "postgres" });
   }
 
-  memoryStore.set(userId, data);
+  memoryStore.set(userId, { ...data, lastSyncAt: Date.now() });
   return NextResponse.json({ ok: true, backend: "memory" });
 }

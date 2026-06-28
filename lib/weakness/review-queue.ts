@@ -1,4 +1,5 @@
 import { db, type WrongAnswerQueueRecord } from "@/lib/db/local/schema";
+import { incrementWeaknessItem } from "@/lib/weakness/items";
 import type { SkillTag } from "@/lib/types";
 
 const SEVEN_DAYS_MS = 7 * 24 * 60 * 60 * 1000;
@@ -28,13 +29,7 @@ export async function enqueueWrongAnswer(
     exerciseId,
   });
 
-  const wk = await db.weaknessItems.get(contentId);
-  await db.weaknessItems.put({
-    contentId,
-    skill,
-    wrongCount: (wk?.wrongCount ?? 0) + 1,
-    lastWrongAt: Date.now(),
-  });
+  await incrementWeaknessItem(contentId, skill);
 }
 
 export async function getDueReviews(): Promise<WrongAnswerQueueRecord[]> {

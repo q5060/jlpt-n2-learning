@@ -2,7 +2,7 @@
 import { existsSync, readFileSync } from "fs";
 import { join } from "path";
 
-const COUNT = Number(process.env.AUDIO_COUNT ?? process.argv[2] ?? 60);
+const COUNT = Number(process.env.AUDIO_COUNT ?? process.argv[2] ?? 120);
 
 const listening = JSON.parse(
   readFileSync(join(process.cwd(), "content/listening/n2.json"), "utf-8")

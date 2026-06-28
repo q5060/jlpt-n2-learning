@@ -176,6 +176,21 @@ class N2Database extends Dexie {
       studySessions: "id, date",
       contentShards: "id, type, file, fetchedAt",
     });
+    this.version(4).stores({
+      srsCards: "id, contentId, cardType, due, state",
+      reviewLogs: "id, cardId, reviewedAt, skill",
+      progress: "id, contentType, contentId, completed",
+      weakness: "skill, updatedAt",
+      weaknessItems: "contentId, skill, wrongCount, lastWrongAt",
+      wrongAnswerQueue: "id, contentId, skill, dueAt, source",
+      examResults: "id, date",
+      imports: "id, importedAt",
+      syncMeta: "key, updatedAt",
+      customVocab: "id, word, source",
+      settings: "id",
+      studySessions: "id, date",
+      contentShards: "id, type, file, fetchedAt",
+    });
   }
 }
 

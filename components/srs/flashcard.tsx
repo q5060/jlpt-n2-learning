@@ -74,11 +74,16 @@ export function Flashcard({
   }
 
   function playAudio() {
-    if (vocab && "speechSynthesis" in window) {
-      const u = new SpeechSynthesisUtterance(vocab.word);
-      u.lang = "ja-JP";
-      speechSynthesis.speak(u);
-    }
+    if (!vocab) return;
+    const src = vocab.audioUrl ?? `/audio/vocab/${vocab.id}.mp3`;
+    const audio = new Audio(src);
+    audio.play().catch(() => {
+      if ("speechSynthesis" in window) {
+        const u = new SpeechSynthesisUtterance(vocab.word);
+        u.lang = "ja-JP";
+        speechSynthesis.speak(u);
+      }
+    });
   }
 
   if (done) return null;

@@ -30,7 +30,7 @@ function main() {
     readFileSync(join(process.cwd(), "content/listening/n2.json"), "utf-8")
   ) as ListeningItem[];
 
-const COUNT = Number(process.env.AUDIO_COUNT ?? 60);
+const COUNT = Number(process.env.AUDIO_COUNT ?? process.argv[2] ?? 120);
 
   let ok = 0;
   for (const item of items.slice(0, COUNT)) {

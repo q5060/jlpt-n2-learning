@@ -1,4 +1,5 @@
 import { db } from "@/lib/db/local/schema";
+import { incrementWeaknessItem } from "@/lib/weakness/items";
 import type { SkillTag } from "@/lib/types";
 
 const EXAM_WEIGHTS: Record<SkillTag, number> = {
@@ -37,6 +38,7 @@ export async function recordAttempt(
   });
 
   if (!correct && contentId) {
+    await incrementWeaknessItem(contentId, skill);
     await db.progress.put({
       id: `weakness-${skill}-${contentId}`,
       contentType:

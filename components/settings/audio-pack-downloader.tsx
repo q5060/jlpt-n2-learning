@@ -11,9 +11,11 @@ export function AudioPackDownloader({ onDone }: { onDone: () => void }) {
   const [downloading, setDownloading] = useState(false);
 
   async function download(packId: "core" | "full") {
+    const pack = AUDIO_PACKS.find((p) => p.id === packId);
+    if (!pack) return;
     setDownloading(true);
     setResult(null);
-    setProgress({ done: 0, total: packId === "core" ? 30 : 120 });
+    setProgress({ done: 0, total: pack.count });
     const res = await downloadAudioPack(packId, (done, total) => {
       setProgress({ done, total });
     });

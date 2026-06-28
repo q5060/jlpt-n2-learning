@@ -1,5 +1,6 @@
 import { db, type SRSCardRecord, type ExamResultRecord, type WrongAnswerQueueRecord, type CustomVocabRecord, type WeaknessItemRecord } from "@/lib/db/local/schema";
 import { mergeSrsRecords } from "@/lib/srs/fsrs";
+import { mergeWeaknessItems } from "@/lib/weakness/items";
 
 export interface SyncPayload {
   srsCards: SRSCardRecord[];
@@ -65,7 +66,8 @@ export async function importRemoteData(remote: SyncPayload): Promise<void> {
   }
   if (remote.weaknessItems) {
     for (const w of remote.weaknessItems) {
-      await db.weaknessItems.put(w);
+      const local = await db.weaknessItems.get(w.contentId);
+      await db.weaknessItems.put(mergeWeaknessItems(local, w));
     }
   }
 
