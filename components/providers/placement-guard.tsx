@@ -13,6 +13,15 @@ function isAllowedPath(pathname: string): boolean {
   );
 }
 
+function GuardShell({ message }: { message?: string }) {
+  return (
+    <div className="flex min-h-screen flex-col items-center justify-center bg-surface px-6">
+      <p className="mb-6 text-xl font-bold text-brand">N2 学習</p>
+      <LoadingState message={message} className="py-8" />
+    </div>
+  );
+}
+
 export function PlacementGuard({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const router = useRouter();
@@ -34,11 +43,11 @@ export function PlacementGuard({ children }: { children: React.ReactNode }) {
   }, [ready, placementDone, pathname, router]);
 
   if (!ready) {
-    return <LoadingState className="py-24" />;
+    return <GuardShell />;
   }
 
   if (!placementDone && !isAllowedPath(pathname)) {
-    return <LoadingState message="診断テストへ移動中..." className="py-24" />;
+    return <GuardShell message="診断テストへ移動中..." />;
   }
 
   return <>{children}</>;

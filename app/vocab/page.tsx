@@ -19,7 +19,8 @@ import {
 } from "@/lib/content/loader";
 import { getDueCards, getNewCards, createCardsForContent } from "@/lib/srs/fsrs";
 import { getSettings } from "@/lib/db/local/schema";
-import { REVIEW_MODE_LABELS } from "@/lib/ui/labels";
+import { SessionComplete } from "@/components/ui/session-complete";
+import { REVIEW_MODE_LABELS, NAV_LABELS } from "@/lib/ui/labels";
 import type { VocabEntry, ReviewMode } from "@/lib/types";
 
 const MODES: ReviewMode[] = ["recognition", "recall", "cloze", "listening"];
@@ -36,6 +37,8 @@ export default function VocabPage() {
   const [search, setSearch] = useState("");
   const [index, setIndex] = useState(0);
   const [loading, setLoading] = useState(true);
+  const [actionMessage, setActionMessage] = useState<string | null>(null);
+  const [sessionDone, setSessionDone] = useState(false);
 
   const loadMore = useCallback(async () => {
     const slice = await getVocabSlice(loadedCount, CHUNK);
@@ -82,11 +85,16 @@ export default function VocabPage() {
   }, [vocabList, search]);
 
   async function startNewStudy() {
+    setActionMessage(null);
+    setSessionDone(false);
     const settings = await getSettings();
     const ids = vocabList.map((v) => v.id);
     const newIds = await getNewCards("vocab", ids, settings.newCardsPerDay);
     const items = await getVocabByIds(newIds);
-    if (items.length === 0) return;
+    if (items.length === 0) {
+      setActionMessage("今日の新規単語はありません。明日またお試しください。");
+      return;
+    }
     const study = await Promise.all(
       items.map(async (item) => {
         const cards = await createCardsForContent(item.id, "vocab", [reviewMode]);
@@ -99,6 +107,8 @@ export default function VocabPage() {
   }
 
   async function startReview() {
+    setActionMessage(null);
+    setSessionDone(false);
     const due = await getDueCards();
     const vocabDue = due.filter((c) => c.cardType === "vocab");
     const items = await getVocabByIds(vocabDue.map((c) => c.contentId));
@@ -108,7 +118,10 @@ export default function VocabPage() {
         return item ? { item, cardId: card.id, mode: card.reviewMode as ReviewMode } : null;
       })
       .filter(Boolean) as typeof studyItems;
-    if (study.length === 0) return;
+    if (study.length === 0) {
+      setActionMessage("復習待ちの単語がありません。");
+      return;
+    }
     setStudyItems(study);
     setIndex(0);
     setMode("review");
@@ -130,8 +143,8 @@ export default function VocabPage() {
       <PageHeader
         title="単語学習"
         description={`N2 語彙 ${totalCount + imported.length}語（${loadedCount}語読込済）`}
-        actions={
-          <div className="flex flex-wrap gap-2">
+        toolbar={
+          <>
             {MODES.map((m) => (
               <Button
                 key={m}
@@ -142,19 +155,44 @@ export default function VocabPage() {
                 {REVIEW_MODE_LABELS[m]}
               </Button>
             ))}
+          </>
+        }
+        actions={
+          <>
             <Button onClick={startNewStudy}>新しい単語</Button>
             <Button variant="outline" onClick={startReview}>復習</Button>
             <Link
               href="/vocab/review"
               className="inline-flex items-center justify-center rounded-xl px-3 py-1.5 text-sm font-medium text-zinc-600 hover:bg-brand-muted dark:text-zinc-400"
             >
-              復習ページ
+              {NAV_LABELS.vocabReview}
             </Link>
-          </div>
+          </>
         }
       />
 
-      {(mode === "study" || mode === "review") && current ? (
+      {actionMessage && (
+        <Card variant="warning" className="mb-4">
+          <p className="text-sm">{actionMessage}</p>
+        </Card>
+      )}
+
+      {sessionDone ? (
+        <SessionComplete
+          title="学習完了"
+          stats={`${studyItems.length}枚`}
+          primaryAction={
+            <Link href="/dashboard">
+              <Button>ダッシュボードへ</Button>
+            </Link>
+          }
+          secondaryAction={
+            <Button variant="outline" onClick={() => { setSessionDone(false); setMode("list"); }}>
+              一覧に戻る
+            </Button>
+          }
+        />
+      ) : (mode === "study" || mode === "review") && current ? (
         <div className="pb-safe">
           <p className="mb-4 text-center text-sm text-zinc-500">{index + 1} / {studyItems.length}</p>
           <Flashcard
@@ -165,7 +203,10 @@ export default function VocabPage() {
             mode={mode === "review" ? (current.mode ?? "recognition") : reviewMode}
             onComplete={() => {
               if (index + 1 < studyItems.length) setIndex(index + 1);
-              else setMode("list");
+              else {
+                setSessionDone(true);
+                setMode("list");
+              }
             }}
           />
         </div>

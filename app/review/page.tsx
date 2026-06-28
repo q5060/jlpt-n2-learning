@@ -1,19 +1,26 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { Suspense, useEffect, useState } from "react";
+import { useSearchParams } from "next/navigation";
+import Link from "next/link";
 import { MainLayout } from "@/components/layout/main-layout";
-import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { PageHeader } from "@/components/ui/page-header";
 import { LoadingState } from "@/components/ui/loading-state";
 import { EmptyState } from "@/components/ui/empty-state";
+import { ErrorState } from "@/components/ui/error-state";
+import { SessionComplete } from "@/components/ui/session-complete";
+import { NAV_LABELS } from "@/lib/ui/labels";
+import { SKILL_LABELS } from "@/lib/weakness/engine";
 import { ReviewQuestionCard } from "@/components/review/review-question-card";
 import { resolveReviewItem } from "@/lib/content/review-resolver";
 import { getDueReviews, completeReview } from "@/lib/weakness/review-queue";
 import type { WrongAnswerQueueRecord } from "@/lib/db/local/schema";
 import type { ResolvedReviewItem } from "@/lib/content/review-resolver";
 
-export default function ReviewQueuePage() {
+function ReviewQueueContent() {
+  const searchParams = useSearchParams();
+  const skillFilter = searchParams.get("skill");
   const [items, setItems] = useState<WrongAnswerQueueRecord[]>([]);
   const [index, setIndex] = useState(0);
   const [resolved, setResolved] = useState<ResolvedReviewItem | null>(null);
@@ -21,13 +28,17 @@ export default function ReviewQueuePage() {
   const [answered, setAnswered] = useState(false);
 
   const current = items[index];
+  const sessionDone = items.length > 0 && index >= items.length;
 
   useEffect(() => {
     getDueReviews().then((list) => {
-      setItems(list);
+      const filtered = skillFilter
+        ? list.filter((item) => item.skill === skillFilter)
+        : list;
+      setItems(filtered);
       setLoading(false);
     });
-  }, []);
+  }, [skillFilter]);
 
   useEffect(() => {
     if (!current) {
@@ -56,7 +67,7 @@ export default function ReviewQueuePage() {
   if (loading) {
     return (
       <MainLayout>
-        <PageHeader title="復習キュー" />
+        <PageHeader title={NAV_LABELS.reviewQueue} />
         <LoadingState />
       </MainLayout>
     );
@@ -64,22 +75,36 @@ export default function ReviewQueuePage() {
 
   return (
     <MainLayout>
-      <PageHeader title="復習キュー" description="間違えた問題を復習します" />
-      {!current ? (
+      <PageHeader
+        title={NAV_LABELS.reviewQueue}
+        description={
+          skillFilter && skillFilter in SKILL_LABELS
+            ? `${SKILL_LABELS[skillFilter as keyof typeof SKILL_LABELS]} の間違いを復習`
+            : "間違えた問題を復習します"
+        }
+      />
+      {sessionDone ? (
+        <SessionComplete
+          title="復習完了"
+          stats={`${items.length}問`}
+          primaryAction={
+            <Link href="/dashboard">
+              <Button>ダッシュボードへ</Button>
+            </Link>
+          }
+        />
+      ) : !current ? (
         <EmptyState
           title="復習する問題がありません"
           description="模擬試験や練習の間違いは後日ここに表示されます。"
         />
       ) : !resolved ? (
-        <Card>
-          <p className="mb-2 text-sm text-zinc-500">
-            {index + 1} / {items.length} · {current.skill}
-          </p>
-          <p className="text-zinc-500">コンテンツを読み込めませんでした: {current.contentId}</p>
-          <Button className="mt-4" onClick={nextItem}>
-            スキップ
-          </Button>
-        </Card>
+        <ErrorState
+          title="コンテンツを読み込めませんでした"
+          description={`ID: ${current.contentId}`}
+          action={<Button onClick={nextItem}>スキップ</Button>}
+          className="py-8"
+        />
       ) : (
         <div className="pb-safe">
           <p className="mb-4 text-sm text-zinc-500">
@@ -98,5 +123,20 @@ export default function ReviewQueuePage() {
         </div>
       )}
     </MainLayout>
+  );
+}
+
+export default function ReviewQueuePage() {
+  return (
+    <Suspense
+      fallback={
+        <MainLayout>
+          <PageHeader title={NAV_LABELS.reviewQueue} />
+          <LoadingState />
+        </MainLayout>
+      }
+    >
+      <ReviewQueueContent />
+    </Suspense>
   );
 }

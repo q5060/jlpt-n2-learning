@@ -80,8 +80,8 @@ export default function KanjiPage() {
       <PageHeader
         title="漢字学習"
         description={`N2 漢字 ${totalCount}字`}
-        actions={
-          <div className="flex gap-2">
+        toolbar={
+          <>
             {MODES.map((m) => (
               <Button
                 key={m}
@@ -92,9 +92,9 @@ export default function KanjiPage() {
                 {REVIEW_MODE_LABELS[m]}
               </Button>
             ))}
-            <Button onClick={startStudy}>学習開始</Button>
-          </div>
+          </>
         }
+        actions={<Button onClick={startStudy}>学習開始</Button>}
       />
 
       {studying && current ? (

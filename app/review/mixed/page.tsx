@@ -6,6 +6,9 @@ import { Button } from "@/components/ui/button";
 import { PageHeader } from "@/components/ui/page-header";
 import { LoadingState } from "@/components/ui/loading-state";
 import { EmptyState } from "@/components/ui/empty-state";
+import { SessionComplete } from "@/components/ui/session-complete";
+import Link from "next/link";
+import { NAV_LABELS } from "@/lib/ui/labels";
 import { Flashcard } from "@/components/srs/flashcard";
 import { ReviewQuestionCard } from "@/components/review/review-question-card";
 import { resolveReviewItem } from "@/lib/content/review-resolver";
@@ -68,6 +71,7 @@ export default function MixedReviewPage() {
   }, []);
 
   const current = items[index];
+  const sessionDone = items.length > 0 && index >= items.length;
 
   async function handleWrongAnswer(passed: boolean) {
     if (current?.kind !== "wrong" || answered) return;
@@ -83,7 +87,7 @@ export default function MixedReviewPage() {
   if (loading) {
     return (
       <MainLayout>
-        <PageHeader title="混合復習" />
+        <PageHeader title={NAV_LABELS.mixedReview} />
         <LoadingState />
       </MainLayout>
     );
@@ -91,8 +95,18 @@ export default function MixedReviewPage() {
 
   return (
     <MainLayout>
-      <PageHeader title="混合復習" description="SRS と錯題を交互に復習" />
-      {!current ? (
+      <PageHeader title={NAV_LABELS.mixedReview} description="SRS と錯題を交互に復習" />
+      {sessionDone ? (
+        <SessionComplete
+          title="混合復習完了"
+          stats={`${items.length}項目`}
+          primaryAction={
+            <Link href="/dashboard">
+              <Button>ダッシュボードへ</Button>
+            </Link>
+          }
+        />
+      ) : !current ? (
         <EmptyState title="復習項目がありません" description="単語や文法を学習すると、ここに復習項目が表示されます。" />
       ) : (
         <div className="pb-safe">

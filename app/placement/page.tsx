@@ -12,6 +12,7 @@ import { SKILL_LABELS } from "@/lib/weakness/engine";
 import { getSettings, saveSettings } from "@/lib/db/local/schema";
 import { PageHeader } from "@/components/ui/page-header";
 import { LoadingState } from "@/components/ui/loading-state";
+import { AudioPlayer } from "@/components/listening/audio-player";
 import { formatTime } from "@/lib/exam/scoring";
 import type { PlacementQuestion, SkillTag } from "@/lib/types";
 
@@ -37,10 +38,10 @@ export default function PlacementPage() {
   }, []);
 
   useEffect(() => {
-    if (finished) return;
+    if (finished || questions.length === 0) return;
     const t = setInterval(() => setSeconds((s) => Math.max(0, s - 1)), 1000);
     return () => clearInterval(t);
-  }, [finished]);
+  }, [finished, questions.length]);
 
   const finish = useCallback(async () => {
     const skillTotals: Record<SkillTag, { correct: number; total: number }> = {
@@ -132,12 +133,22 @@ export default function PlacementPage() {
           問題 {index + 1} / {questions.length} · {SKILL_LABELS[q.skill]}
         </p>
         <p className="mb-6 text-lg">{q.prompt}</p>
-        <div className="grid gap-2">
+        {q.skill === "listening" && (
+          <div className="mb-6">
+            <AudioPlayer
+              src={`/audio/listening/${q.contentId ?? q.id}.mp3`}
+              examMode={false}
+            />
+          </div>
+        )}
+        <div className="grid gap-2" role="radiogroup" aria-label="回答を選択">
           {q.options.map((opt, i) => (
             <Button
               key={i}
               variant={answers[q.id] === i ? "primary" : "outline"}
               className="justify-start"
+              role="radio"
+              aria-checked={answers[q.id] === i}
               onClick={() => setAnswers({ ...answers, [q.id]: i })}
             >
               {opt}

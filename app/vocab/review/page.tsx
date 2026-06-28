@@ -1,13 +1,17 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
 import { MainLayout } from "@/components/layout/main-layout";
 import { PageHeader } from "@/components/ui/page-header";
 import { LoadingState } from "@/components/ui/loading-state";
 import { EmptyState } from "@/components/ui/empty-state";
+import { SessionComplete } from "@/components/ui/session-complete";
+import { Button } from "@/components/ui/button";
 import { Flashcard } from "@/components/srs/flashcard";
 import { getVocabByIds, getKanjiByIds } from "@/lib/content/loader";
 import { getDueCards } from "@/lib/srs/fsrs";
+import { NAV_LABELS } from "@/lib/ui/labels";
 import type { KanjiEntry, VocabEntry, ReviewMode } from "@/lib/types";
 
 export default function VocabReviewPage() {
@@ -45,11 +49,12 @@ export default function VocabReviewPage() {
   }, []);
 
   const current = items[index];
+  const sessionDone = items.length > 0 && index >= items.length;
 
   if (loading) {
     return (
       <MainLayout>
-        <PageHeader title="SRS 復習" />
+        <PageHeader title={NAV_LABELS.vocabReview} />
         <LoadingState />
       </MainLayout>
     );
@@ -57,8 +62,24 @@ export default function VocabReviewPage() {
 
   return (
     <MainLayout>
-      <PageHeader title="SRS 復習" description="期限が来たカードを復習します" />
-      {!current ? (
+      <PageHeader title={NAV_LABELS.vocabReview} description="期限が来たカードを復習します" />
+      {sessionDone ? (
+        <SessionComplete
+          title="復習完了"
+          stats={`${items.length}枚`}
+          description="お疲れさまでした。ダッシュボードで進捗を確認できます。"
+          primaryAction={
+            <Link href="/dashboard">
+              <Button>ダッシュボードへ</Button>
+            </Link>
+          }
+          secondaryAction={
+            <Link href="/vocab">
+              <Button variant="outline">単語一覧へ</Button>
+            </Link>
+          }
+        />
+      ) : !current ? (
         <EmptyState title="復習するカードがありません" description="新しい単語を学習すると、ここに表示されます。" />
       ) : (
         <div className="pb-safe">

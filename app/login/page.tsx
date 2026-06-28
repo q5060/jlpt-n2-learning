@@ -3,6 +3,7 @@
 import { signIn } from "next-auth/react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 import { Card, CardTitle } from "@/components/ui/card";
 
 export default function LoginPage() {
@@ -19,17 +20,15 @@ export default function LoginPage() {
           ログインしなくても本機で学習できます。
         </p>
         <div className="space-y-3">
-          <input
+          <Input
             type="email"
             placeholder="メールアドレス"
-            className="w-full rounded border p-2 dark:bg-zinc-900"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
-          <input
+          <Input
             type="password"
             placeholder="パスワード"
-            className="w-full rounded border p-2 dark:bg-zinc-900"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />

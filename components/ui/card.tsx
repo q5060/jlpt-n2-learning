@@ -13,9 +13,9 @@ const variantStyles: Record<CardVariant, string> = {
   interactive:
     "cursor-pointer transition-shadow hover:shadow-md dark:hover:shadow-zinc-900/50",
   success:
-    "border-green-200/80 bg-green-50/80 dark:border-green-800 dark:bg-green-950/50",
+    "border-success/30 bg-success-muted dark:border-success/40 dark:bg-success-muted",
   warning:
-    "border-orange-200/80 bg-orange-50/80 dark:border-orange-800 dark:bg-orange-950/50",
+    "border-warning/30 bg-warning-muted dark:border-warning/40 dark:bg-warning-muted",
 };
 
 export function Card({ children, className, variant = "default", ...props }: CardProps) {

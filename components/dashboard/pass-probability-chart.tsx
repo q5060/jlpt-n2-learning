@@ -1,4 +1,4 @@
-"use client";
+import { EmptyState } from "@/components/ui/empty-state";
 
 export function PassProbabilityChart({
   data,
@@ -6,7 +6,13 @@ export function PassProbabilityChart({
   data: { date: string; probability: number }[];
 }) {
   if (data.length === 0) {
-    return <p className="text-sm text-zinc-500">模擬試験を受けると曲線が表示されます</p>;
+    return (
+      <EmptyState
+        title="合格予測データがありません"
+        description="模擬試験を受けると曲線が表示されます"
+        className="py-6"
+      />
+    );
   }
 
   const w = 320;
@@ -19,7 +25,12 @@ export function PassProbabilityChart({
   });
 
   return (
-    <svg viewBox={`0 0 ${w} ${h}`} className="w-full max-w-md">
+    <svg
+      viewBox={`0 0 ${w} ${h}`}
+      className="w-full max-w-md"
+      role="img"
+      aria-label="模擬試験の合格予測曲線"
+    >
       <polyline
         fill="none"
         stroke="var(--color-brand)"

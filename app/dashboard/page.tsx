@@ -13,12 +13,14 @@ import { WeaknessRadar } from "@/components/dashboard/weakness-radar";
 import { PassProbabilityChart } from "@/components/dashboard/pass-probability-chart";
 import { WeaknessHeatmap } from "@/components/dashboard/weakness-heatmap";
 import { StudyTimeChart } from "@/components/dashboard/study-time-chart";
+import { AnalyticsSection } from "@/components/dashboard/analytics-section";
 import { useDashboard } from "@/hooks/use-dashboard";
 import { getWeekPlan } from "@/lib/curriculum/schedule";
 import { getWeaknessScores, SKILL_LABELS } from "@/lib/weakness/engine";
 import { getDueReviewCount } from "@/lib/weakness/review-queue";
 import { getLeechCards } from "@/lib/srs/fsrs";
 import { db, getSettings } from "@/lib/db/local/schema";
+import { NAV_LABELS } from "@/lib/ui/labels";
 import type { SkillTag } from "@/lib/types";
 
 export default function DashboardPage() {
@@ -100,9 +102,14 @@ export default function DashboardPage() {
 
       {leechCount > 0 && (
         <Card variant="warning" className="mb-4">
-          <p className="text-sm text-orange-800 dark:text-orange-200">
+          <p className="mb-3 text-sm">
             難問カード（リーチ）: {leechCount}枚 — SRSで重点復習を
           </p>
+          <Link href="/vocab/review">
+            <Button size="sm" variant="outline">
+              {NAV_LABELS.vocabReview}へ
+            </Button>
+          </Link>
         </Card>
       )}
 
@@ -113,10 +120,12 @@ export default function DashboardPage() {
         </Card>
         <Card>
           <p className="text-sm text-zinc-500">復習待ち</p>
+          <p className="text-xs text-zinc-400">SRS期限カード</p>
           <p className="text-3xl font-bold">{dueCount}枚</p>
         </Card>
         <Card>
           <p className="text-sm text-zinc-500">復習キュー</p>
+          <p className="text-xs text-zinc-400">間違えた問題</p>
           <p className="text-3xl font-bold">{reviewQueue}問</p>
         </Card>
         <Card>
@@ -136,14 +145,14 @@ export default function DashboardPage() {
           <div className="space-y-3">
             <Link href="/review/mixed">
               <Card variant="interactive" className="border-brand/30 bg-brand-muted/50 dark:bg-brand-muted/30">
-                <p className="font-medium">混合復習</p>
+                <p className="font-medium">{NAV_LABELS.mixedReview}</p>
                 <CardDescription>SRS + 錯題を交互に</CardDescription>
               </Card>
             </Link>
             {reviewQueue > 0 && (
               <Link href="/review">
-                <Card variant="interactive" className="border-orange-200/80">
-                  <p className="font-medium">復習キュー（{reviewQueue}問）</p>
+                <Card variant="interactive" className="border-warning/30">
+                  <p className="font-medium">{NAV_LABELS.reviewQueue}（{reviewQueue}問）</p>
                   <CardDescription>間違えた問題を復習</CardDescription>
                 </Card>
               </Link>
@@ -169,24 +178,24 @@ export default function DashboardPage() {
             )}
           </div>
         </Card>
-        <div className="space-y-6">
-          <Card>
-            <CardTitle className="mb-4">弱点分析</CardTitle>
+        <AnalyticsSection title="学習分析" className="space-y-6">
+          <div>
+            <h3 className="mb-3 text-sm font-medium text-zinc-700 dark:text-zinc-300">弱点分析</h3>
             <WeaknessRadar scores={weakness} />
-          </Card>
-          <Card>
-            <CardTitle className="mb-4">合格予測曲線</CardTitle>
+          </div>
+          <div>
+            <h3 className="mb-3 text-sm font-medium text-zinc-700 dark:text-zinc-300">合格予測曲線</h3>
             <PassProbabilityChart data={examHistory} />
-          </Card>
-          <Card>
-            <CardTitle className="mb-4">累計学習時間</CardTitle>
+          </div>
+          <div>
+            <h3 className="mb-3 text-sm font-medium text-zinc-700 dark:text-zinc-300">累計学習時間</h3>
             <StudyTimeChart />
-          </Card>
-          <Card>
-            <CardTitle className="mb-4">弱点ヒートマップ</CardTitle>
+          </div>
+          <div>
+            <h3 className="mb-3 text-sm font-medium text-zinc-700 dark:text-zinc-300">弱点ヒートマップ</h3>
             <WeaknessHeatmap />
-          </Card>
-        </div>
+          </div>
+        </AnalyticsSection>
       </div>
     </MainLayout>
   );

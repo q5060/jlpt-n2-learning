@@ -27,7 +27,7 @@ export function Flashcard({
   onComplete,
 }: FlashcardProps) {
   const [flipped, setFlipped] = useState(false);
-  const [done, setDone] = useState(false);
+  const [rating, setRating] = useState(false);
   const [recallInput, setRecallInput] = useState("");
 
   const vocab = type === "vocab" ? (item as VocabEntry) : null;
@@ -41,10 +41,12 @@ export function Flashcard({
         : vocab?.word ?? kanji?.character ?? "";
 
   async function handleRating(button: 1 | 2 | 3 | 4) {
-    const rating = ratingFromButton(button);
+    if (rating) return;
+    setRating(true);
+    const fsrsRating = ratingFromButton(button);
     const skill = type === "vocab" ? "vocab" : "kanji";
-    await reviewCard(cardId, rating, skill);
-    const correct = rating >= Rating.Good;
+    await reviewCard(cardId, fsrsRating, skill);
+    const correct = fsrsRating >= Rating.Good;
     await recordAttempt(skill, correct, item.id);
 
     const today = new Date().toISOString().split("T")[0];
@@ -63,7 +65,6 @@ export function Flashcard({
         cardsReviewed: 1,
       });
     }
-    setDone(true);
     onComplete();
   }
 
@@ -86,7 +87,17 @@ export function Flashcard({
     });
   }
 
-  if (done) return null;
+  function toggleFlip() {
+    if (mode === "recall" && flipped) return;
+    setFlipped((f) => !f);
+  }
+
+  function handleFlipKey(e: React.KeyboardEvent) {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      toggleFlip();
+    }
+  }
 
   const back =
     type === "vocab" ? (
@@ -119,13 +130,20 @@ export function Flashcard({
             value={recallInput}
             onChange={(e) => setRecallInput(e.target.value)}
             placeholder="答えを入力"
+            onKeyDown={(e) => e.key === "Enter" && checkRecall()}
           />
-          <Button onClick={checkRecall}>確認</Button>
+          <Button onClick={checkRecall} disabled={rating}>
+            確認
+          </Button>
         </div>
       ) : (
-        <div
-          className="flex min-h-48 cursor-pointer flex-col items-center justify-center p-8"
-          onClick={() => setFlipped(!flipped)}
+        <button
+          type="button"
+          className="flashcard-face flex min-h-48 w-full cursor-pointer flex-col items-center justify-center rounded-xl p-8 text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand"
+          onClick={toggleFlip}
+          onKeyDown={handleFlipKey}
+          aria-pressed={flipped}
+          aria-label={flipped ? "答えを表示中。タップで表に戻る" : "タップで答えを見る"}
         >
           {!flipped ? (
             <p className="text-4xl font-bold">{front}</p>
@@ -135,20 +153,20 @@ export function Flashcard({
           <p className="mt-4 text-xs text-zinc-400">
             {flipped ? "タップで表に戻る" : "タップで答えを見る"}
           </p>
-        </div>
+        </button>
       )}
       {flipped && mode !== "recall" && (
-        <div className="grid grid-cols-4 gap-2 border-t border-border pt-4 pb-safe">
-          <Button variant="danger" size="sm" onClick={() => handleRating(1)}>
+        <div className="grid grid-cols-2 gap-2 border-t border-border pt-4 pb-safe sm:grid-cols-4">
+          <Button variant="danger" size="sm" disabled={rating} onClick={() => handleRating(1)}>
             忘れた
           </Button>
-          <Button variant="outline" size="sm" onClick={() => handleRating(2)}>
+          <Button variant="outline" size="sm" disabled={rating} onClick={() => handleRating(2)}>
             難しい
           </Button>
-          <Button variant="secondary" size="sm" onClick={() => handleRating(3)}>
+          <Button variant="secondary" size="sm" disabled={rating} onClick={() => handleRating(3)}>
             普通
           </Button>
-          <Button variant="primary" size="sm" onClick={() => handleRating(4)}>
+          <Button variant="primary" size="sm" disabled={rating} onClick={() => handleRating(4)}>
             簡単
           </Button>
         </div>

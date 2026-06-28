@@ -2,7 +2,9 @@
 
 import { useEffect, useState } from "react";
 import { MainLayout } from "@/components/layout/main-layout";
+import { BackLink } from "@/components/ui/back-link";
 import { Card } from "@/components/ui/card";
+import { CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { PageHeader } from "@/components/ui/page-header";
 import { LoadingState } from "@/components/ui/loading-state";
@@ -23,6 +25,7 @@ export default function ReadingListPage() {
   const [passage, setPassage] = useState<ReadingPassage | null>(null);
   const [answers, setAnswers] = useState<Record<string, number>>({});
   const [submitted, setSubmitted] = useState(false);
+  const [scoreSummary, setScoreSummary] = useState<{ correct: number; total: number } | null>(null);
   const [timerRunning, setTimerRunning] = useState(false);
 
   useEffect(() => {
@@ -57,6 +60,7 @@ export default function ReadingListPage() {
       completedAt: Date.now(),
     });
     setSubmitted(true);
+    setScoreSummary({ correct, total: passage.questions.length });
     setTimerRunning(false);
   }
 
@@ -64,6 +68,7 @@ export default function ReadingListPage() {
     setActiveId(null);
     setPassage(null);
     setSubmitted(false);
+    setScoreSummary(null);
     setAnswers({});
     setTimerRunning(false);
   }
@@ -71,7 +76,7 @@ export default function ReadingListPage() {
   if (passage) {
     return (
       <MainLayout>
-        <Button variant="ghost" className="mb-4" onClick={goBack}>← 一覧に戻る</Button>
+        <BackLink onClick={goBack} label="一覧に戻る" />
         <PageHeader
           title={passage.title}
           actions={
@@ -79,7 +84,9 @@ export default function ReadingListPage() {
           }
         />
         {!timerRunning && !submitted && (
-          <Button className="mb-4" onClick={() => setTimerRunning(true)}>計時開始</Button>
+          <Button className="mb-4" variant="outline" onClick={() => setTimerRunning(true)}>
+            計時開始（任意）
+          </Button>
         )}
         <Card className="mb-6">
           <TokenizedPassage content={passage.content} />
@@ -110,7 +117,19 @@ export default function ReadingListPage() {
             </Card>
           ))}
         </div>
-        {!submitted && timerRunning && <Button className="mt-6" onClick={submit}>提出</Button>}
+        {!submitted && (
+          <Button className="mt-6" onClick={submit}>
+            提出
+          </Button>
+        )}
+        {submitted && scoreSummary && (
+          <Card variant="success" className="mt-6">
+            <CardTitle className="mb-1">結果</CardTitle>
+            <p className="text-lg font-semibold">
+              正解 {scoreSummary.correct} / {scoreSummary.total}
+            </p>
+          </Card>
+        )}
       </MainLayout>
     );
   }

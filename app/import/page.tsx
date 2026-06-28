@@ -6,6 +6,8 @@ import { PageHeader } from "@/components/ui/page-header";
 import { EmptyState } from "@/components/ui/empty-state";
 import { Card, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
+import { FilePicker } from "@/components/ui/file-picker";
+import { ErrorState } from "@/components/ui/error-state";
 import { importCsvVocab, parseAnkiApkg } from "@/lib/import/parsers";
 import {
   addImportedToSrs,
@@ -15,6 +17,7 @@ import { db, type ImportRecord } from "@/lib/db/local/schema";
 
 export default function ImportPage() {
   const [message, setMessage] = useState("");
+  const [messageIsError, setMessageIsError] = useState(false);
   const [imports, setImports] = useState<ImportRecord[]>([]);
   const [pendingSrs, setPendingSrs] = useState(0);
   const [adding, setAdding] = useState(false);
@@ -34,9 +37,11 @@ export default function ImportPage() {
     try {
       const count = await importCsvVocab(file, file.name);
       setMessage(`${count}語をインポートしました`);
+      setMessageIsError(false);
       await loadImports();
     } catch (err) {
       setMessage(`エラー: ${err instanceof Error ? err.message : "不明"}`);
+      setMessageIsError(true);
     }
   }
 
@@ -46,9 +51,11 @@ export default function ImportPage() {
     try {
       const count = await parseAnkiApkg(file);
       setMessage(`${count}枚のカードをインポートしました`);
+      setMessageIsError(false);
       await loadImports();
     } catch (err) {
       setMessage(`エラー: ${err instanceof Error ? err.message : "不明"}`);
+      setMessageIsError(true);
     }
   }
 
@@ -57,9 +64,11 @@ export default function ImportPage() {
     try {
       const count = await addImportedToSrs();
       setMessage(`${count}語をSRSに追加しました`);
+      setMessageIsError(false);
       await loadImports();
     } catch (err) {
       setMessage(`エラー: ${err instanceof Error ? err.message : "不明"}`);
+      setMessageIsError(true);
     } finally {
       setAdding(false);
     }
@@ -75,7 +84,7 @@ export default function ImportPage() {
           <p className="mb-4 text-sm text-zinc-500">
             形式: word,reading,meaning,example,tags
           </p>
-          <input type="file" accept=".csv" onChange={handleCsv} />
+          <FilePicker accept=".csv" label="CSVファイルを選択" hint="word,reading,meaning,example,tags" onChange={handleCsv} />
         </Card>
 
         <Card>
@@ -83,14 +92,18 @@ export default function ImportPage() {
           <p className="mb-4 text-sm text-zinc-500">
             Ankiデッキを単語カードに変換します
           </p>
-          <input type="file" accept=".apkg" onChange={handleAnki} />
+          <FilePicker accept=".apkg" label="Ankiデッキを選択" hint=".apkg形式" onChange={handleAnki} />
         </Card>
       </div>
 
       {message && (
-        <Card className="mt-4">
-          <p>{message}</p>
-        </Card>
+        messageIsError ? (
+          <ErrorState title="インポートエラー" description={message} className="mt-4 py-8" />
+        ) : (
+          <Card variant="success" className="mt-4">
+            <p>{message}</p>
+          </Card>
+        )
       )}
 
       {pendingSrs > 0 && (

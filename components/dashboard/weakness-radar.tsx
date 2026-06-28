@@ -24,9 +24,16 @@ export function WeaknessRadar({
               弱点 {Math.round(scores[skill] * 100)}%
             </span>
           </div>
-          <div className="h-2 overflow-hidden rounded-full bg-zinc-200 dark:bg-zinc-800">
+          <div
+            className="h-2 overflow-hidden rounded-full bg-zinc-200 dark:bg-zinc-800"
+            role="progressbar"
+            aria-valuenow={Math.round(scores[skill] * 100)}
+            aria-valuemin={0}
+            aria-valuemax={100}
+            aria-label={`${SKILL_LABELS[skill]}の弱点度`}
+          >
             <div
-              className="h-full rounded-full bg-orange-500"
+              className="h-full rounded-full bg-warning"
               style={{ width: `${scores[skill] * 100}%` }}
             />
           </div>

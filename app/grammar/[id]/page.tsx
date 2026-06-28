@@ -3,6 +3,9 @@ import { MainLayout } from "@/components/layout/main-layout";
 import { Card, CardTitle } from "@/components/ui/card";
 import { BackLink } from "@/components/ui/back-link";
 import { PageHeader } from "@/components/ui/page-header";
+import { ErrorState } from "@/components/ui/error-state";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 import { GrammarExerciseCard } from "@/components/grammar/exercise-card";
 
 export default async function GrammarDetailPage({
@@ -16,7 +19,15 @@ export default async function GrammarDetailPage({
     return (
       <MainLayout>
         <BackLink href="/grammar" label="文法一覧" />
-        <p className="text-zinc-500">文法が見つかりません</p>
+        <ErrorState
+          title="文法が見つかりません"
+          description="IDが正しいか確認してください。"
+          action={
+            <Link href="/grammar">
+              <Button variant="outline">文法一覧へ</Button>
+            </Link>
+          }
+        />
       </MainLayout>
     );
   }

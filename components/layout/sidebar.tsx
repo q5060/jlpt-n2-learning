@@ -16,11 +16,13 @@ import {
   Shuffle,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { NAV_LABELS } from "@/lib/ui/labels";
 
 const navGroups = [
   {
     label: "学習",
     items: [
+      { href: "/study", label: NAV_LABELS.studyHub, icon: BookOpen },
       { href: "/vocab", label: "単語", icon: BookOpen },
       { href: "/kanji", label: "漢字", icon: Languages },
       { href: "/grammar", label: "文法", icon: PenLine },
@@ -31,8 +33,8 @@ const navGroups = [
   {
     label: "復習",
     items: [
-      { href: "/review", label: "復習キュー", icon: RotateCcw },
-      { href: "/review/mixed", label: "混合復習", icon: Shuffle },
+      { href: "/review", label: NAV_LABELS.reviewQueue, icon: RotateCcw },
+      { href: "/review/mixed", label: NAV_LABELS.mixedReview, icon: Shuffle },
     ],
   },
   {
@@ -48,6 +50,11 @@ const navGroups = [
 const homeItem = { href: "/dashboard", label: "ホーム", icon: Home };
 
 function isActive(pathname: string, href: string) {
+  if (href === "/study") {
+    return ["/study", "/vocab", "/kanji", "/grammar", "/reading", "/listening"].some(
+      (p) => pathname === p || pathname.startsWith(p + "/")
+    );
+  }
   return pathname === href || pathname.startsWith(href + "/");
 }
 

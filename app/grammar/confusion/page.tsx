@@ -6,6 +6,7 @@ import { Card, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { PageHeader } from "@/components/ui/page-header";
 import { LoadingState } from "@/components/ui/loading-state";
+import { EmptyState } from "@/components/ui/empty-state";
 import { GrammarExerciseCard } from "@/components/grammar/exercise-card";
 import { loadConfusionPairs, loadGrammar } from "@/lib/content/loader";
 
@@ -41,7 +42,7 @@ export default function ConfusionPage() {
     return (
       <MainLayout>
         <PageHeader title="類似文法の比較練習" />
-        <p className="text-zinc-500">データがありません</p>
+        <EmptyState title="データがありません" description="類似文法の比較データを読み込めませんでした。" />
       </MainLayout>
     );
   }

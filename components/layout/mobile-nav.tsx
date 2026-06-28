@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState, useCallback } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
@@ -19,25 +19,27 @@ import {
   Upload,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { NAV_LABELS } from "@/lib/ui/labels";
 
 const mobileNav = [
   { href: "/dashboard", label: "ホーム", icon: Home },
-  { href: "/study", label: "学習", icon: BookOpen },
-  { href: "/review/mixed", label: "復習", icon: Shuffle },
+  { href: "/study", label: NAV_LABELS.studyHub, icon: BookOpen },
+  { href: "/review/mixed", label: NAV_LABELS.mixedReview, icon: Shuffle },
   { href: "/exam", label: "試験", icon: GraduationCap },
   { href: "/settings", label: "設定", icon: Settings },
 ];
 
 const drawerNav = [
   { href: "/dashboard", label: "ホーム", icon: Home },
+  { href: "/study", label: NAV_LABELS.studyHub, icon: BookOpen },
   { href: "/vocab", label: "単語", icon: BookOpen },
   { href: "/kanji", label: "漢字", icon: Languages },
   { href: "/grammar", label: "文法", icon: PenLine },
   { href: "/grammar/confusion", label: "類似文法練習", icon: PenLine },
   { href: "/reading", label: "読解", icon: FileText },
   { href: "/listening", label: "聴解", icon: Headphones },
-  { href: "/review", label: "復習キュー", icon: RotateCcw },
-  { href: "/review/mixed", label: "混合復習", icon: Shuffle },
+  { href: "/review", label: NAV_LABELS.reviewQueue, icon: RotateCcw },
+  { href: "/review/mixed", label: NAV_LABELS.mixedReview, icon: Shuffle },
   { href: "/exam", label: "模擬試験", icon: GraduationCap },
   { href: "/import", label: "インポート", icon: Upload },
   { href: "/settings", label: "設定", icon: Settings },
@@ -55,15 +57,48 @@ function isActive(pathname: string, href: string) {
 export function MobileNav() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
+  const drawerRef = useRef<HTMLElement>(null);
+  const menuButtonRef = useRef<HTMLButtonElement>(null);
+
+  const closeDrawer = useCallback(() => setOpen(false), []);
+
+  useEffect(() => {
+    if (!open) return;
+    const firstLink = drawerRef.current?.querySelector("a");
+    firstLink?.focus();
+
+    function onKeyDown(e: KeyboardEvent) {
+      if (e.key === "Escape") {
+        closeDrawer();
+        menuButtonRef.current?.focus();
+      }
+      if (e.key === "Tab" && drawerRef.current) {
+        const focusable = drawerRef.current.querySelectorAll<HTMLElement>("a, button");
+        const first = focusable[0];
+        const last = focusable[focusable.length - 1];
+        if (e.shiftKey && document.activeElement === first) {
+          e.preventDefault();
+          last?.focus();
+        } else if (!e.shiftKey && document.activeElement === last) {
+          e.preventDefault();
+          first?.focus();
+        }
+      }
+    }
+    document.addEventListener("keydown", onKeyDown);
+    return () => document.removeEventListener("keydown", onKeyDown);
+  }, [open, closeDrawer]);
 
   return (
     <>
       <header className="flex items-center justify-between border-b border-border bg-surface-elevated/90 p-4 backdrop-blur-md md:hidden dark:border-zinc-800">
-        <h1 className="text-lg font-bold text-brand">N2 学習</h1>
+        <p className="text-lg font-bold text-brand">N2 学習</p>
         <button
+          ref={menuButtonRef}
           type="button"
           onClick={() => setOpen(!open)}
           aria-label="メニュー"
+          aria-expanded={open}
           className="rounded-xl p-1.5 hover:bg-zinc-100 dark:hover:bg-zinc-800"
         >
           {open ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
@@ -72,16 +107,19 @@ export function MobileNav() {
       {open && (
         <>
           <div
-            className="fixed inset-0 z-40 bg-black/30 md:hidden"
-            onClick={() => setOpen(false)}
+            className="fixed inset-0 z-40 bg-black/30 transition-opacity duration-200 motion-reduce:transition-none md:hidden"
+            onClick={closeDrawer}
             aria-hidden
           />
-          <nav className="fixed inset-y-0 right-0 z-50 w-72 overflow-y-auto border-l border-border bg-surface-elevated p-4 shadow-xl md:hidden dark:border-zinc-800">
+          <nav
+            ref={drawerRef}
+            className="fixed inset-y-0 right-0 z-50 w-72 overflow-y-auto border-l border-border bg-surface-elevated p-4 shadow-xl transition-transform duration-200 motion-reduce:transition-none md:hidden dark:border-zinc-800"
+          >
             <div className="mb-4 flex items-center justify-between">
               <p className="font-semibold text-zinc-900 dark:text-zinc-100">メニュー</p>
               <button
                 type="button"
-                onClick={() => setOpen(false)}
+                onClick={closeDrawer}
                 aria-label="閉じる"
                 className="rounded-xl p-1.5 hover:bg-zinc-100 dark:hover:bg-zinc-800"
               >
@@ -93,7 +131,7 @@ export function MobileNav() {
                 <Link
                   key={href}
                   href={href}
-                  onClick={() => setOpen(false)}
+                  onClick={closeDrawer}
                   className={cn(
                     "flex items-center gap-2 rounded-xl px-3 py-2.5 text-sm transition-colors",
                     isActive(pathname, href)
@@ -122,7 +160,7 @@ export function MobileNav() {
             )}
           >
             <Icon className="h-5 w-5" />
-            {label}
+            <span className="max-w-[4.5rem] truncate">{label}</span>
           </Link>
         ))}
       </nav>
